@@ -22,10 +22,7 @@ Note that Xbox modding is not required for the controller to work, but you will 
 
 # Hardware
 
-## Adapter Board
-Before building the controller proper we need hardware that emulates the original controller's signals.
-For the sake of ease, we will call this an Adapter Board.
-
+## Interface Cable
 To furst connect the adapter board to the Xbox, you will need a cable that allows you to connect USB devices to the Xbox.  If you have done softmodding or hard modding before, you will likely have some experience with this.
 
 **Xbox USB Bridge Cable**
@@ -37,11 +34,17 @@ To furst connect the adapter board to the Xbox, you will need a cable that allow
 - In the next section you will choose hardware for the adapter board
   - If the hardware uses USB-C you can use an Xbox to USB-C Cable.
   - If the hardware uses Micro USB you can use an Xbox to Micro USB Cable.
+## USB Hub
+A powered USB hub will be needed if you want to connect more than one device to the adapter board
+|Hardware|Usage|Where to Buy|Price|
+|---|---|---|---|
+|USB Hub|Allows interfacing with the Original Xbox, also used for softmodding| [Ebay](https://www.ebay.com/itm/127869049454) among other places, you can also build one if you have a spare Xbox breakaway cable and a female USB port| Around 11 USD|
 
+## Adapter Board
+Before building the controller proper we need hardware that emulates the original controller's signals.
+For the sake of ease, we will call this an Adapter Board.
 
-
-
-**Adapter Boards Hardwatre**
+**Adapter Boards Hardware**
 
 |Hardware|Relevant Software|Where to Buy|Price|Notes|
 |---|---|---|---|---|
@@ -57,14 +60,14 @@ The RP2040 boards are cheaper, but use more complex libraries and so might be ov
 
 Here is where the soldering comes in.
 
-### Soldering the Host Cable###
+### Soldering the Host Cable
 
-### Teensy 4.1 ### 
+### Teensy 4.1  
 <img width="805" height="737" alt="usb copy" src="https://github.com/user-attachments/assets/89d8b624-9c0c-4c28-8122-38923cfed306" />
 
 The wiring on the teensy is pretty straight forward. Solder 5 pins to the USB header on the board and attach the cable, **MAKE ABSOLUTELY SURE YOUR ORIENATION IS CORRECT** 
 
-### RP2400  ### 
+### RP2400  
 This is slightly trickier because the pins are not in a row. See the [OGX-Mini-2026 for wiring diagrams](https://github.com/MegaCadeDev/OGX-Mini-2026/tree/master/hardware).
 
 https://www.pjrc.com/store/cable_usb_host_t36.html
