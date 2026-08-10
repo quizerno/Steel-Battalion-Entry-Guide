@@ -146,7 +146,7 @@ Three analog pedals.
 
 
 
-## Overall Inputs
+# Overall Inputs
 
 This will come into play later in the Choosing Parts section
 When considering your remapped controller or custom controller, here is a simplified way of looking at all the necessary inputs.
