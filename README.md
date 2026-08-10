@@ -25,36 +25,35 @@ Introduction - Readme
     * MIDDLE BLOCK	 
     * RIGHT BLOCK	 
     * PEDAL BLOCK	 
-3. [Playing on Xbox Without An Original Controller](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/3-Playing%20on%20Xbox%20Without%20An%20Original%20Controller.md)	 
+3. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md)	 
     * Adapter Hardware
     * 3A. [ogx360_t4](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/3A-ogx360_t4.md)	  
        * Keyboard and Mouse	  
        * HOTAS Flightstick  
     * 3B. [OGX-MINI-2026](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-OGX-MINI-2026.md)
-       * Xbox 360 Chatpad
+       * Xbox 360 + Chatpad
        * WIP
-    * 3C.Controller Hardware
-       * Combination KB+Joystick 
-       * Full Custom Joystick
-      
-   
-4. [Building The Pedals](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/4-Building%20The%20Pedals.md)	  
-    * The Pedals in the Original Controller and What They Do	  
-    * Options for Pedals	  
-    * Existing Potentiometer Pedals	  
-      * Pedals from scratch	  
-      * Hall Effect Pedals	  
-      * Microswitch Pedals	  
-5. [Playing on Emulator](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/5-Playing%20on%20Emulator.md)	  
+4. Custom Controller
+     * Combination KB+Joystick 
+     * Full Custom Joystick 
+   * 4A. [Building The Controller](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Building%20The%20Controller.md)
+   * 4B. [Building The Pedals](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/4-Building%20The%20Pedals.md)	  
+        * The Pedals in the Original Controller and What They Do	  
+        * Options for Pedals	  
+        * Existing Potentiometer Pedals	  
+        * Pedals from scratch	  
+        * Hall Effect Pedals	  
+        * Microswitch Pedals	  
+7. [Playing on Emulator](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/5-Playing%20on%20Emulator.md)	  
       * Xemu	  
         * Steel Battalion Dedicated Forks of Xemu
         * PenguinVR Xemu
         * Controls on Xemu
       * Cxbx-Reloaded	  
-6. [Improving Performance](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/6-Improving%20Performance.md)	  
+8. [Improving Performance](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/6-Improving%20Performance.md)	  
     * Improving Performance and Visuals on Xbox	  
     * Improving Performance and Visuals on Emulator	  
-7. Misc Information	  
+9. Misc Information	  
     * Using the Original Controller on PC
     * Control Configurations
     * Steel Battalion Pedal Research by AndyNumber
