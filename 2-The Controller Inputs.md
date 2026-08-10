@@ -104,12 +104,12 @@ Consists of 6 push buttons in a 2x3 pattern
 
 |Input|Function|Alternative Parts|
 |---|---|---|
-| X-Y Joystick| Aims weapons|Joystick, Mouse (see note
+| X-Y Joystick| Aims weapons|Joystick, Mouse with configuration
 | Trigger|Fires subweapon|Mouse buttons
-| Primary Weapon| Fires primary weapon |
-| Lock-On|Locks on to targeted enemy |
+| Primary Weapon| Fires primary weapon |Mouse buttons
+| Lock-On|Locks on to targeted enemy |Mouse buttons
 
-**Alternative Parts:** A joystick with a trigger and 2 buttons. Mouse with two buttons.
+**Alternative Parts:** A joystick with a trigger and 2 buttons. Mouse with three buttons.
 
 ### >MONITOR CONTROLS: 
 Cosnsists of 6 push buttons in a 3x2 pattern
@@ -146,7 +146,46 @@ Three analog pedals.
 
 
 
-## OVERALL PARTS
+## Overall Inputs
+
+This will come into play later in the Choosing Parts section
+When considering your remapped controller or custom controller, here is a simplified way of looking at all the necessary inputs.
+
+|Left Block|Analogue Inputs|Digital Inputs|
+|---|---|---|
+| Full Recreation| X Axis Joystick + X-Y Hatstick (3)| 1 Recenter + 5 Toggle + 7 Position Gear Shifter (13)
+| Simple Recreation|X Axis Joystick + X-Y Hatstick (3)|1 Recenter + 1 Toggles + 2 Button Digital Shifter (4)
+| Notes|| Mapping all the toggles to 1 reduces the the digital inputs by 4
+
+
+|Middle Block|Analogue Inputs|Digital Inputs|
+|---|---|---|
+| Full Recreation| NONE| 20 Buttons + 5 Position Rotary Tuner (25)
+| Simple Recreation|NONE|20 Buttons + 2 Button Digital Tuner (22)
+| Notes|| The tuner technically has more than 5 positions, but only has 5 channels
+
+|Left Block|Analogue Inputs|Digital Inputs|
+|---|---|---|
+| Full Recreation| X-Y Joystick (2)| 13 Buttons
+| Simple Recreation|X-Y Joystick (2)|11 Buttons
+| Notes|| The 3 start-up buttons can be mapped to 1 button
+
+|Pedal Block|Analogue Inputs|Digital Inputs|
+|---|---|---|
+| Full Recreation| 3 Push Pedals| NONE
+| Simple Recreation|2 Push Pedals|1 Digital Pedal
+| Notes|| Slide-Step is read as analog, but only functions digitally.
+
+|Total |Analogue Inputs|Digital Inputs|
+|---|---|---|
+| Full Recreation|8| 51 
+| Simple Recreation|6|38
+| Notes|| The left joystick and hatstick could be changed to digital, which would reduce the analogue inputs by 3 but increase the digital inputs by 6
+
+
+
+
+
 
 Finish this
 Two Joysticks
@@ -155,4 +194,5 @@ Two Joysticks
 3 Pedals
 Gear Shifter with 7 positions
 The Gear Shifter is the hardest part to source, 
+
 It should be noted that all of the Joysticks can be substituted with push buttons (ie. the keyboard substitutes the left joystick with Q and E keys)
