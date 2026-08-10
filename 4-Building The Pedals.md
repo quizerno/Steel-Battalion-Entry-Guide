@@ -1,4 +1,4 @@
-# 4. Building The Pedals
+# 4B. Building The Pedals
 
 
 For if you have a controller and need pedals.
