@@ -1,4 +1,5 @@
-# 3. Playing on Xbox Without An Original Controller
+# 3. Controller Adapters
+(**Playing on Xbox Without An Original Controller**)
 
 If you plan on playing on emulator, you can skip this section.
 But if you want to play on Xbox or are curious about tinkering, read on.
@@ -17,7 +18,7 @@ But if you want to play on Xbox or are curious about tinkering, read on.
 
 The inputs are read from your **custom controller** into your **adapter board** which outputs Steel Battalion inputs to the Xbox Controller 
 Through this rube-goldberg finaggling of connections, you can play Steel Battalion with a control set-up of your choosing. 
-Note that Xbox modding is not required for the controller to work.
+Note that Xbox modding is not required for the controller to work, but you will need the Female USB Cable Adapter to connect to it.
 
 # Hardware
 
