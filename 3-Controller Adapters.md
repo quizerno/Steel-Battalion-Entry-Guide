@@ -22,13 +22,14 @@ Note that Xbox modding is not required for the controller to work, but you will 
 
 # Hardware
 
-## Interface Cable
-To furst connect the adapter board to the Xbox, you will need a cable that allows you to connect USB devices to the Xbox.  If you have done softmodding or hard modding before, you will likely have some experience with this.
+## 
+
+To , you will need a cable that allows you to connect USB devices to the Xbox.  If you have done softmodding or hard modding before, you will likely have some experience with this.
 
 **Xbox USB Bridge Cable**
 |Hardware|Usage|Where to Buy|Price|
 |---|---|---|---|
-|USB-Female to Xbox Cable|Allows interfacing with the Original Xbox, also used for softmodding| [Ebay](https://www.ebay.com/itm/127869049454) among other places, you can also build one if you have a spare Xbox breakaway cable and a female USB port| Around 11 USD|
+|USB-Female to Xbox Cable|Allows interfacing with the Original Xbox, also used for softmodding| [Ebay](https://www.ebay.com/itm/127869049454), [Amazon](https://www.amazon.com/dp/B076HHZ41Z?lv=shuf&channelId=500&plpRedirect=mhFallback) among other places, you can also build one if you have a spare Xbox breakaway cable and a female USB port| Around 5-11 USD|
 
 **Notes:**
 - In the next section you will choose hardware for the adapter board
