@@ -29,6 +29,11 @@
 A **fourth section in the SCT view dropdown**, beside left/middle/right block.
 Contents so far:
 
+### Unbound Control List
+Little window on the side that shows which controls still need bindings
+
+
+
 ## Mouse Options
 - Steel Battalion's interaction with mouse movement is partially dependent on the usage.
 - Weapon Aim (Right Stick): By default the weapon aim will limit the cursor to the window size of the main monitor.
@@ -48,11 +53,20 @@ Contents so far:
 - **Possible Issues:** Check interactions with lock-on
 
 ### Optional Controller Consolidation
-- Allows an option to bind the **five toggle switches** to **one toggle**
-- Allows an option to bind the **Hatch, Ignition, and Start** to **one button**
-- Note that this **Optional Controller Consolidation** which should not be confused with possible **Necessary Controller Solidation** for the Gear Shifter and Tuner Dial 
+- Note that this **Optional Controller Consolidation** which should not be confused with possible **Necessary Controller Solidation** for the Gear Shifter and Tuner Dial
+- **Duplicate Inputs:** For players who want to bind one control to multiple positions
+- **One Toggle:** Allows an option to bind the **five toggle switches** to **one toggle**
+- **One Start:** Allows an option to bind the **Hatch, Ignition, and Start** to **one button**
+- **All Camera Control to Left:** For players without a middle block or don't wish to use one. Allows putting all camera controls on on the left block. Suggests positions on the Left Block for: Camera Zoom In/Out, Night Scope, and Line Color Change. 
+- **All Combat Control to Right::** For players without a middle block or don't wish to use one. Allows putting all camera controls on on the left block. Suggests positions on the Right Block for: F.S.S., Main Weapon Control, Sub Weapon Control, Reload, and Chaff.
 
-
+### Necessary Controller Solidation
+- **No Middle Block:** Suggests positions for middle block controls if the player has no middle block.
+- **No Pedals:** Looks for pressure sensitive buttons that the player can use if the player has pedals.
+- **Throttle As Gear Shifter:** For players with no shifter but have a throttle. Allows Joystick Throttle positions to be mapped for switching between the 7 Gears.
+- **Digital Gear Shift:** For players with no Shifter or Throttle. Allows an option to have two buttons GEAR UP and GEAR DOWN to replace the Gear Lever. For players with no Shifter or Throttle.
+- **Digial Tuner:** For players with no Throttle, Rotary Encoder, Thumb Roller, etc. Allows an option to have two buttons TUNE UP and TUNE DOWN to replace the Tuner Dials.
+  
 ## Input Settings Menu: 
 
 ### Kiosk mode (hotkey)
@@ -84,6 +98,7 @@ Contents so far:
 
 
 ## Optimization
-
+As it currently stands. Certain display options are only possible via rebuilding the ISO with an XBE file that altered with [JayXbox's patcher](https://jayxbox.com/Misc/SB.php).
+If memory editing is possible we might be able to cut out the middle-man for some features like removing the film grain.
 
 
