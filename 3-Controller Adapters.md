@@ -20,9 +20,9 @@ The inputs are read from your **custom controller** into your **adapter board** 
 Through this rube-goldberg finaggling of connections, you can play Steel Battalion with a control set-up of your choosing. 
 Note that Xbox modding is not required for the controller to work, but you will need the Female USB Cable Adapter to connect to it.
 
-# Prerequesite Hardware
+# Hardware
 
-## 
+## Connection Cables 
 
 To , you will need a cable that allows you to connect USB devices to the Xbox.  If you have done softmodding or hard modding before, you will likely have some experience with this.
 
