@@ -17,7 +17,17 @@ You have everything you need. You can see about [improving performance](https://
 
 ## I have an Xbox and the SB Controller, but I don’t have the game disc, what do I do?
 
-There are various guides on softmodding and hardmodding the Xbox, it should be simple enough to find ISO dump to the console and run it (obligatory, I DO NOT CONDONE PIRACY message). For softmodding you will need to either make or buy a Female USB to Xbox Male cable, this piece is also necessary if you want to use a custom controller on xbox
+There are various guides on softmodding and hardmodding the Xbox, it should be simple enough to find ISO dump to the console and run it (obligatory, I DO NOT CONDONE PIRACY message). For softmodding you will need to either make or buy a Female USB to Xbox Male cable, this piece is also necessary if you want to use a custom controller on Xbox
+
+## I have an Xbox and the Game Disc/ISO, but I don’t have the SB Controller, What do I do?
+
+You either need to buy a controller (expensive), map another controller or build a controller  (potentially expensive). Go to [my section on Custom Controller for Xbox](https://github.com/quizerno/https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md).
+
+## I have an Xbox, the Game Disc, and the SB Controller…but no pedals, what do I do?
+
+You need to build your own pedals. Go down to my [section on the pedals.](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/4-Building%20The%20Pedals.md)
+
+
 
 ## Can Xbox 360 run Steel Battalion?
 
@@ -27,13 +37,6 @@ No, this has been tested by N68dodgeboy. Even if you were able to link the contr
 
 No, neither of these consoles have mod options. In theory it would be possible to put an emulator on those consoles but they have ram limitations which make it impossible for now.
 
-## I have an Xbox and the Game Disc/ISO, but I don’t have the SB Controller, What do I do?
-
-You either need to buy a controller (expensive), map another controller or build a controller  (potentially expensive). Go to [my section on Custom Controller for Xbox](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/3-Playing%20on%20Xbox%20Without%20An%20Original%20Controller.md).
-
-## I have an Xbox, the Game Disc, and the SB Controller…but no pedals, what do I do?
-
-You need to build your own pedals. Go down to my [section on the pedals.](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/4-Building%20The%20Pedals.md)
 
 ## Can I use the SB controller on PC for the Emulator and/or other games?
 
