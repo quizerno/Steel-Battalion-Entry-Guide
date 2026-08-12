@@ -2,10 +2,10 @@
 
 
 ## Control Consolidation
-
-- The Gear Lever and Tuner Dial can be reduced to the 2 buttons each to avoid the complexity of programming a rotary switch.
+- The Gear Lever and Tuner Dial can be reduced to the 2 buttons each to avoid the complexity of programming 2 rotary switchs or gear shifters.
+- 
 - Mapping all toggles to one button/switch.
-- Mapping Hatch, Ignition, Start to one button
+- Mapping Hatch, Ignition, Start to one button.
 - 
 
 ## Ergonomics
