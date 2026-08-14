@@ -5,9 +5,11 @@
 
 It unfortunately does not have keyboard support since it lacks a driver. But it does have drivers for quite a few joysticks and other HID devices.
 
-## Wiring the USB Host
-The original repository has some [examples of the wiring.
+### Soldering the Host Cable to the RP2040
+This will be dependent on your board. The original repository has some [examples of the wiring.
 ](https://github.com/MegaCadeDev/OGX-Mini-2026/tree/master/hardware).
+
+
 
 
 ## Building the firmware
