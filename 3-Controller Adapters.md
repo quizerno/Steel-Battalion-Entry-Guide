@@ -64,19 +64,13 @@ The RP2040 boards are cheaper, but use more complex libraries and so might be ov
 
 Here is where the soldering comes in.
 
-### Soldering the Host Cable
-
-### Teensy 4.1  
-<img width="805" height="737" alt="usb copy" src="https://github.com/user-attachments/assets/89d8b624-9c0c-4c28-8122-38923cfed306" />
-
-The wiring on the teensy is pretty straight forward. Solder 5 pins to the USB header on the board and attach the cable, **MAKE ABSOLUTELY SURE YOUR ORIENATION IS CORRECT** 
 
 ### RP2400  
 This is slightly trickier because the pins are not in a row. See the [OGX-Mini-2026 documentation for wiring diagrams](https://github.com/MegaCadeDev/OGX-Mini-2026/tree/master/hardware).
 
 https://www.pjrc.com/store/cable_usb_host_t36.html
 
-## Firmware Building
+## Wiring and Firmware Building
 * [For instructions on ogx360_t4 go here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-ogx360_t4.md)
 * [For instructions on OGX-Mini-2026 go here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-OGX-MINI-2026.md)
 * [For instructions on SBCFirm2040-lite go here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-SBCFirm2040-lite.md)
