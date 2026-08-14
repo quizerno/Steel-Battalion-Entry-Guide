@@ -52,8 +52,8 @@ For the sake of ease, we will call this an Adapter Board.
 
 |Hardware|Relevant Software|Where to Buy|Price|Notes|
 |---|---|---|---|---|
-|Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|Ebay, Sparkfun | 27-30 USD| Uses Micro USB, has mSD card slot, powerful development platform. 
-|RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|Ebay, Sparkfun, Adafruit| 4-30 USD|Many Options including Pi Pico, Pi Pico 2, Pi Pico W, Pi Pico 2 W, RP2354, Pico/ESP32
+|Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|Ebay, Sparkfun | 27-30 USD| Uses Micro USB, has mSD card slot,  <br>powerful development platform. 
+|RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026), [SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Ebay, Sparkfun, Adafruit| 4-30 USD|Many Options including Pi Pico,  <br>Pi Pico 2, Pi Pico W, Pi Pico 2 W, RP2354, Pico/ESP32
 |USB Host Cable (Female USB A)||Ebay, Sparkfun or other online electronics stores| 3-8 USD| Needed to take in the Custom Controller inputs. Some of the RP2040 boards (such as the Adafruit Feather) come with a USB Host built in and therefore do not require this cable
 |Micro USB/USB-C to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer, as stated above the Teeny 4.1 uses Micro USB, RP2040s have Micro USB and USB-C options
 
@@ -72,13 +72,13 @@ Here is where the soldering comes in.
 The wiring on the teensy is pretty straight forward. Solder 5 pins to the USB header on the board and attach the cable, **MAKE ABSOLUTELY SURE YOUR ORIENATION IS CORRECT** 
 
 ### RP2400  
-This is slightly trickier because the pins are not in a row. See the [OGX-Mini-2026 for wiring diagrams](https://github.com/MegaCadeDev/OGX-Mini-2026/tree/master/hardware).
+This is slightly trickier because the pins are not in a row. See the [OGX-Mini-2026 documentation for wiring diagrams](https://github.com/MegaCadeDev/OGX-Mini-2026/tree/master/hardware).
 
 https://www.pjrc.com/store/cable_usb_host_t36.html
 
-## Firmware for the board
-For instructions on ogx360_t4 go here
-For instructions on OGX-Mini-2026 go here
-
+## Firmware Building
+* [For instructions on ogx360_t4 go here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-ogx360_t4.md)
+* [For instructions on OGX-Mini-2026 go here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-OGX-MINI-2026.md)
+* [For instructions on SBCFirm2040-lite go here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-SBCFirm2040-lite.md)
 
 ## Controller Pieces
