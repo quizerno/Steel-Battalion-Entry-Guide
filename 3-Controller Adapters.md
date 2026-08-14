@@ -65,11 +65,6 @@ The RP2040 boards are cheaper, but use more complex libraries and so might be ov
 Here is where the soldering comes in.
 
 
-### RP2400  
-This is slightly trickier because the pins are not in a row. See the [OGX-Mini-2026 documentation for wiring diagrams](https://github.com/MegaCadeDev/OGX-Mini-2026/tree/master/hardware).
-
-https://www.pjrc.com/store/cable_usb_host_t36.html
-
 ## Wiring and Firmware Building
 * [For instructions on ogx360_t4 go here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-ogx360_t4.md)
 * [For instructions on OGX-Mini-2026 go here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-OGX-MINI-2026.md)
