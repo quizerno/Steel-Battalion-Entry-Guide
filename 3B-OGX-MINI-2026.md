@@ -1,8 +1,9 @@
 # 3B. OGX-MINI-2026
 [OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026
 ) is a fork of the original [OGX-Mini](https://github.com/wiredopposite/OGX-Mini
-), it allows modern controllers to interact with older consoles.
-It requires a RP2040 board, which there are many options
+), it allows modern controllers to interact with older consoles. It includes the tinyUSB xid library for Steel Battalion.
+
+It unfortunately does not have keyboard support since it lacks a driver. But it does have drivers for quite a few joysticks and other HID devices.
 
 ## Wiring the USB Host
 The original repository has some [examples of the wiring.
