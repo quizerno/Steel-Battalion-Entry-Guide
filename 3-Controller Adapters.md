@@ -57,12 +57,13 @@ For the sake of ease, we will call this an Adapter Board.
 |USB Host Cable (Female USB A)||Ebay, Sparkfun or other online electronics stores| 3-8 USD| Needed to take in the Custom Controller inputs. Some of the RP2040 boards (such as the Adafruit Feather) come with a USB Host built in and therefore do not require this cable
 |Micro USB/USB-C to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer, as stated above the Teeny 4.1 uses Micro USB, RP2040s have Micro USB and USB-C options
 
-**Which Board Should I Choose?**
-The Teensy 4.1, while expensive, is pretty easy to configure. 
-The RP2040 boards are cheaper, but use more complex libraries and so might be overwhelming for newcomers. 
+**Which Board and Firmware Should I Choose?**
 
-
-Here is where the soldering comes in.
+|Hardware|Software|Pros|Cons|Prebuilt Configurations|
+|---|---|---|---|---|
+|Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|**Board:** Very Powerful, lots of GPIO pins **Software:** Very easy to configure, keyboard and joystick support| **Board:** Expensive, very sensitive to higher voltages| Keyboard+Mouse, HOTAS Flightstick
+|RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|**Board:** Inexpensive, many options, **Software:** For non-Steel Battalion uses, it can be used on most modern consoles| **Software:** No keyboard support yet, adding your own configurations might be time consuming| Xbox 360 Controller with Chatpad
+|RP2040|[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|**Board:** Inexpensive , **Software:** Simple  |**Board:** Currently only testing with the regular PICO **Software:** Currently WIP| Working on Keyboard Configuration,need to add HUB support, need to add gamepad and joystick support
 
 
 ## Wiring and Firmware Building
