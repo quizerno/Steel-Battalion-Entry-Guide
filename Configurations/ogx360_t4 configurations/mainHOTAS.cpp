@@ -22,10 +22,9 @@ void duke_task(uint8_t type_index, KeyboardController *kb, MouseController *m, J
 #endif
 
 #if (XID_STEELBATTALION >= 1)
-/* void steelbattalion_init(KeyboardController *kb, MouseController *m, JoystickController *joy, JoystickController *stecsjoy);
-void steelbattalion_task(uint8_t type_index, KeyboardController *kb, MouseController *m, JoystickController *joy, JoystickController *stecsjoy); */
-void steelbattalion_init(KeyboardController *kb, MouseController *m, JoystickController *joy);
-void steelbattalion_task(uint8_t type_index, KeyboardController *kb, MouseController *m, JoystickController *joy);
+void steelbattalion_init(KeyboardController *kb, MouseController *m, JoystickController *joy, JoystickController *stecsjoy);
+void steelbattalion_task(uint8_t type_index, KeyboardController *kb, MouseController *m, JoystickController *joy, JoystickController *stecsjoy);
+
 
 
 #endif
@@ -82,8 +81,8 @@ byte previousState = HIGH;
 #endif
 
 #if (XID_STEELBATTALION >= 1)
-    #steelbattalion_init(&keyboard, &mouse, &joy, &stecsjoy);
-    steelbattalion_init(&keyboard, &mouse, &joy);
+    steelbattalion_init(&keyboard, &mouse, &joy, &stecsjoy);
+    //steelbattalion_init(&keyboard, &mouse, &joy);
 
 #endif
 
@@ -122,8 +121,7 @@ void loop()
 #endif
 
 #if (XID_STEELBATTALION >= 1)
-    #steelbattalion_task(0, &keyboard, &mouse, &joy, &stecsjoy);
-    steelbattalion_task(0, &keyboard, &mouse, &joy);
+    steelbattalion_task(0, &keyboard, &mouse, &joy, &stecsjoy);
 
 #endif
 
