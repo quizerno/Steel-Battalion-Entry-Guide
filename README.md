@@ -62,6 +62,8 @@ Introduction - Readme
     * 3B. [OGX-MINI-2026](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-OGX-MINI-2026.md)
        * Xbox 360 + Chatpad
        * WIP
+    * 3C. [SBCFirmRP2040-lite](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-SBCFirm2040-lite.md)
+         * Keyboard and Mouse
 4. Custom Controller
      * Combination KB+Joystick 
      * Full Custom Joystick 
