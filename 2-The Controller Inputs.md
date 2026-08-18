@@ -191,12 +191,13 @@ When considering your remapped controller or custom controller, here is a simpli
 Of the 8 analogue reads in the controller, the Slide-Step Pedal is read digitally.
 The remaining seven analogue inputs could be converted to digital but there would 
 
-|Analogue Input|Function|Digital Inputs|
-|---|---|---|
-| Full Recreation|8| 51 
-| Simple Recreation|7|38
-| Notes|| 
-
+|Analogue Input|Function|Analog Input|Digital Input
+|---|---|---|---|
+| Left Joystick X| Rotates Mech| Can control the speed at which you rotate |Can only rotate at max speed
+| Hat Stick X/Y|Moves Camera|Smooth camera depending on sensitivity|
+| Right Joystick X/Y|Aims Weapon|Smooth camera depending on sensitivity|
+| Break Pedal|
+| Acceleration Pedal|
 
 For my documentation, we will keep the joysticks as analogue unless controller unless substitutions do not allow for it
 
