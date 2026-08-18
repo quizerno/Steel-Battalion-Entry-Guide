@@ -151,6 +151,7 @@ Three analog pedals.
 This will come into play later in the Choosing Parts section
 When considering your remapped controller or custom controller, here is a simplified way of looking at all the necessary inputs.
 
+## By Block
 |Left Block|Analogue Inputs|Digital Inputs|
 |---|---|---|
 | Full Recreation| X Axis Joystick + X-Y Hatstick (3)| 1 Recenter + 5 Toggle + 7 Position Gear Shifter (13)
@@ -175,6 +176,8 @@ When considering your remapped controller or custom controller, here is a simpli
 | Full Recreation| 3 Push Pedals| NONE
 | Simple Recreation|2 Push Pedals|1 Digital Pedal
 | Notes|| Slide-Step is read as analog, but only functions digitally.
+
+## Total Inputs
 
 |Total |Analogue Inputs|Digital Inputs|
 |---|---|---|
