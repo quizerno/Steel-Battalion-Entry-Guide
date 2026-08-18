@@ -193,11 +193,11 @@ The remaining seven analogue inputs could be converted to digital but there woul
 
 |Analogue Input|Function|Analog Input|Digital Input
 |---|---|---|---|
-| Left Joystick X| Rotates Mech| Can control the speed at which you rotate |Can only rotate at 1 Speed
-| Hat Stick X/Y|Moves Camera|Smooth camera depending on sensitivity|Can only rotate at 1 Speed
-| Right Joystick X/Y|Aims Weapon|Smooth weapon aim depending on sensitivity|Can only rotate at 1 Speed
-| Break Pedal|Descrease Speed and Stop|Able to control pressure of pedal press|Can only simulate a full press
-| Acceleration Pedal|Increase Speed|Able to control pressure of pedal press|Can only simulate a full press
+| Left Joystick X (1)| Rotates Mech| Can control the speed at which you rotate |Can only rotate at 1 Speed
+| Hat Stick X-Y (2)|Moves Camera|Smooth camera depending on sensitivity|Can only rotate at 1 Speed
+| Right Joystick X-Y (2)|Aims Weapon|Smooth weapon aim depending on sensitivity|Can only rotate at 1 Speed
+| Break Pedal (1)|Descrease Speed and Stop|Able to control pressure of pedal press|Can only simulate a full press
+| Acceleration Pedal(1)|Increase Speed|Able to control pressure of pedal press|Can only simulate a full press
 
 For my documentation, we will attempt to keep these inputs as analogue unless controller unless substitutions do not allow for it (ie. the keyboard substitutes the left joystick with Q and E keys).
 
