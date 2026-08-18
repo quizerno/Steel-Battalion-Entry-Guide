@@ -193,7 +193,7 @@ The remaining seven analogue inputs could be converted to digital but there woul
 
 |Input|Function|Analogue|Digital
 |---|---|---|---|
-| Left Joystick X (1)| Rotates Mech| Can control the speed at which you rotate |Can only rotate at 1 Speed which potentially means falling over easier if you are moving fast
+| Left Joystick X (1)| Rotates Mech| Can control the speed at which you rotate |Can only rotate at one defined value which potentially means falling over easier if you are moving fast
 | Hat Stick X-Y (2)|Moves Camera|Smooth camera depending on sensitivity|Less control
 | Right Joystick X-Y (2)|Aims Weapon|Smooth weapon aim depending on sensitivity|Less control
 | Break Pedal (1)|Descrease Speed and Stop|Able to control pressure of pedal press|Can only simulate a full press meaning coming to a complete stop
