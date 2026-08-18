@@ -63,7 +63,7 @@ For the sake of ease, we will call this an Adapter Board.
 |---|---|---|---|---|
 |Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|**Board:** Very Powerful, lots of GPIO pins **Software:** Very easy to configure, keyboard and joystick support| **Board:** Expensive, very sensitive to higher voltages| Keyboard+Mouse, HOTAS Flightstick
 |RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|**Board:** Inexpensive, many options, **Software:** For non-Steel Battalion uses, it can be used on most modern consoles| **Software:** No keyboard support yet, adding your own configurations might be time consuming| Xbox 360 Controller with Chatpad
-|RP2040|[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|**Board:** Inexpensive , **Software:** Simple  |**Board:** Currently only testing with the regular PICO **Software:** Currently WIP| Working on Keyboard Configuration,need to add HUB support, need to add gamepad and joystick support
+|RP2040|[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|**Board:** Inexpensive , **Software:** Simple  |**Board:** Currently only testing with the regular PICO **Software:** Currently WIP| Working on Keyboard Configuration, need to add gamepad and joystick support
 
 
 ## Wiring and Firmware Building
