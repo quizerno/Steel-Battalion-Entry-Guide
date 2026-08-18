@@ -189,9 +189,9 @@ When considering your remapped controller or custom controller, here is a simpli
 ## Notes on Analogue Reads vs Digital Reads
 
 Of the 8 analogue reads in the controller, the Slide-Step Pedal is read digitally.
-The remaining seven analogue inputs could be converted to digital but there would 
+The remaining seven analogue inputs could be converted to digital but there would some issues which I will detail here.
 
-|Analogue Input|Function|Analog Input|Digital Input
+|Analogue Input|Function|Analogue Input|Digital Input
 |---|---|---|---|
 | Left Joystick X (1)| Rotates Mech| Can control the speed at which you rotate |Can only rotate at 1 Speed
 | Hat Stick X-Y (2)|Moves Camera|Smooth camera depending on sensitivity|Can only rotate at 1 Speed
