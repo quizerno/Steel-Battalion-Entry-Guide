@@ -21,12 +21,15 @@ However since the topic of this guide is inherently very confusing, it therefore
 The FAQ should clear up some initial questions. But in case that is too confusing consider these questions.
 
 **Is Steel Battalion worth it?**
+
 That will depend on your interest in simulation games. If you're into them, Steel Battalion is worth trying at least once.
 
 **Should I play on Xbox or Emulator?**
+
 Xbox emulation has come a long way so playing on PC is possible, however it will be dependent on your specs.
 
 **How much money do I have to spend?**
+
 While the the original Steel Battalion Controller is quite expensive and a collector's item. It should be noted that you could consider spending that money on another high end controller and still play the game.
 
 Xbox + Original Controller: Original SBC Controller is 200+ dollars, Xbox units can range from 30 to 120 dollars, softmodding is 15 dollars, hard modding is variable. Softmodding is only necessary for Xbox online play and performance increases
@@ -43,7 +46,7 @@ PC + Any Controller: Potentially the cheapest option
 
 #### Do you want to use pedals or not?
 
-
+The original game is unique in that it uses 3 different ped
 
 
 # Table of Contents
