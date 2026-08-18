@@ -5,8 +5,7 @@ Each section will also detail an alternative for some of the harder to acquire p
 
 A more detailed explanation of the controls can be found on the fan wiki, [here](https://steelbattalion.fandom.com/wiki/SB_Controller_Functions) and [here](https://steelbattalion.fandom.com/wiki/LoC_Controller_Function).
 
-
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/28f43c9a-d5ca-48b0-ae92-e34873a119f7" />
+<img width="2486" height="1996" alt="image" src="https://github.com/user-attachments/assets/26c58f00-e654-4db8-b50f-9c6f0cdb4d38" />
 
 
  
@@ -199,3 +198,12 @@ Gear Shifter with 7 positions
 The Gear Shifter is the hardest part to source, 
 
 It should be noted that all of the Joysticks can be substituted with push buttons (ie. the keyboard substitutes the left joystick with Q and E keys)
+
+
+
+
+<img width="972" height="784" alt="image" src="https://github.com/user-attachments/assets/83ecb625-6f0b-480d-b6f2-abc180870511" />
+
+
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/28f43c9a-d5ca-48b0-ae92-e34873a119f7" />
+
