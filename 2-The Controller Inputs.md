@@ -149,6 +149,8 @@ Three analog pedals.
 
 This will come into play later in the Choosing Parts section
 When considering your remapped controller or custom controller, here is a simplified way of looking at all the necessary inputs.
+**Full Recreation** is what would be a faithful recreation of the Steel Battalion's inputs.
+**Simple Recreation** is a simplified version of the inputs that allows less buttons and reduction of some analogue controls.
 
 ## By Block
 |Left Block|Analogue Inputs|Digital Inputs|
@@ -174,17 +176,38 @@ When considering your remapped controller or custom controller, here is a simpli
 |---|---|---|
 | Full Recreation| 3 Push Pedals| NONE
 | Simple Recreation|2 Push Pedals|1 Digital Pedal
-| Notes|| Slide-Step is read as analog, but only functions digitally.
+| Notes|| Slide-Step is read as analogue, but only functions digitally.
 
 ## Total Inputs
 
 |Total |Analogue Inputs|Digital Inputs|
 |---|---|---|
 | Full Recreation|8| 51 
-| Simple Recreation|6|38
-| Notes|| The left joystick and hatstick could be changed to digital, which would reduce the analogue inputs by 3 but increase the digital inputs by 6
+| Simple Recreation|7|38
+| Notes|| 
+
+## Notes on Analogue Reads vs Digital Reads
+
+Of the 8 analogue reads in the controller, the Slide-Step Pedal is read digitally.
+The remaining seven analogue inputs could be converted to digital but there would 
+
+|Analogue Input|Function|Digital Inputs|
+|---|---|---|
+| Full Recreation|8| 51 
+| Simple Recreation|7|38
+| Notes|| 
 
 
+For my documentation, we will keep the joysticks as analogue unless controller unless substitutions do not allow for it
+
+For the Simple Recreation, I have kept the Left Joystick as analogue because 
+
+(ie. the keyboard substitutes the left joystick with Q and E keys).
+### Joysticks
+It should be noted that all of the joysticks could in theory be substituted with push buttons.
+The break and acceleration pedals
+
+The left joystick and hatstick could be changed to digital, which would reduce the analogue inputs by 3 but increase the digital inputs by 6, for the saake
 
 
 
