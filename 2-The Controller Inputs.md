@@ -191,13 +191,13 @@ When considering your remapped controller or custom controller, here is a simpli
 Of the 8 analogue reads in the controller, the Slide-Step Pedal is read digitally.
 The remaining seven analogue inputs could be converted to digital but there would some issues which I will detail here.
 
-|Analogue Input|Function|Analogue Input|Digital Input
+|Input|Function|Analogue|Digital
 |---|---|---|---|
-| Left Joystick X (1)| Rotates Mech| Can control the speed at which you rotate |Can only rotate at 1 Speed
-| Hat Stick X-Y (2)|Moves Camera|Smooth camera depending on sensitivity|Can only rotate at 1 Speed
-| Right Joystick X-Y (2)|Aims Weapon|Smooth weapon aim depending on sensitivity|Can only rotate at 1 Speed
-| Break Pedal (1)|Descrease Speed and Stop|Able to control pressure of pedal press|Can only simulate a full press
-| Acceleration Pedal(1)|Increase Speed|Able to control pressure of pedal press|Can only simulate a full press
+| Left Joystick X (1)| Rotates Mech| Can control the speed at which you rotate |Can only rotate at 1 Speed which potentially means falling over easier if you are moving fast
+| Hat Stick X-Y (2)|Moves Camera|Smooth camera depending on sensitivity|Less control
+| Right Joystick X-Y (2)|Aims Weapon|Smooth weapon aim depending on sensitivity|Less control
+| Break Pedal (1)|Descrease Speed and Stop|Able to control pressure of pedal press|Can only simulate a full press meaning coming to a complete stop
+| Acceleration Pedal(1)|Increase Speed|Able to control pressure of pedal press|Can only simulate a full press meaning speed adjustment is more difficult
 
 For my documentation, we will attempt to keep these inputs as analogue unless controller unless substitutions do not allow for it (ie. the keyboard substitutes the left joystick with Q and E keys).
 
