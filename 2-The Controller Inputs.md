@@ -193,35 +193,14 @@ The remaining seven analogue inputs could be converted to digital but there woul
 
 |Analogue Input|Function|Analog Input|Digital Input
 |---|---|---|---|
-| Left Joystick X| Rotates Mech| Can control the speed at which you rotate |Can only rotate at max speed
-| Hat Stick X/Y|Moves Camera|Smooth camera depending on sensitivity|
-| Right Joystick X/Y|Aims Weapon|Smooth camera depending on sensitivity|
-| Break Pedal|
-| Acceleration Pedal|
+| Left Joystick X| Rotates Mech| Can control the speed at which you rotate |Can only rotate at 1 Speed
+| Hat Stick X/Y|Moves Camera|Smooth camera depending on sensitivity|Can only rotate at 1 Speed
+| Right Joystick X/Y|Aims Weapon|Smooth weapon aim depending on sensitivity|Can only rotate at 1 Speed
+| Break Pedal|Descrease Speed and Stop|Able to control pressure of pedal press|Can only simulate a full press
+| Acceleration Pedal|Increase Speed|Able to control pressure of pedal press|Can only simulate a full press
 
-For my documentation, we will keep the joysticks as analogue unless controller unless substitutions do not allow for it
+For my documentation, we will attempt to keep these inputs as analogue unless controller unless substitutions do not allow for it (ie. the keyboard substitutes the left joystick with Q and E keys).
 
-For the Simple Recreation, I have kept the Left Joystick as analogue because 
-
-(ie. the keyboard substitutes the left joystick with Q and E keys).
-### Joysticks
-It should be noted that all of the joysticks could in theory be substituted with push buttons.
-The break and acceleration pedals
-
-The left joystick and hatstick could be changed to digital, which would reduce the analogue inputs by 3 but increase the digital inputs by 6, for the saake
-
-
-
-
-Finish this
-Two Joysticks
-1 Analog Stick with Click Down
-46 Push Buttons
-3 Pedals
-Gear Shifter with 7 positions
-The Gear Shifter is the hardest part to source, 
-
-It should be noted that all of the Joysticks can be substituted with push buttons (ie. the keyboard substitutes the left joystick with Q and E keys)
 
 
 
