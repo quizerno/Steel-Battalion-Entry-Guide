@@ -1,6 +1,3 @@
-//edited with HOTAS configuration
-//rename this file to main.cpp before you build
-
 #include <Arduino.h>
 #include <tusb.h>
 #include <USBHost_t36.h>
@@ -8,12 +5,8 @@
 #include "usbd_top.h"
 
 
-
-//test
-#include <Bounce.h>
-#include <printf.h>
-#include "usbd_top.h"
-
+//edited with HOTAS configuration
+//rename this file to main.cpp before you build
 
 //Forward declarations
 #if (XID_DUKE >= 1)
@@ -22,11 +15,8 @@ void duke_task(uint8_t type_index, KeyboardController *kb, MouseController *m, J
 #endif
 
 #if (XID_STEELBATTALION >= 1)
-void steelbattalion_init(KeyboardController *kb, MouseController *m, JoystickController *joy, JoystickController *stecsjoy);
-void steelbattalion_task(uint8_t type_index, KeyboardController *kb, MouseController *m, JoystickController *joy, JoystickController *stecsjoy);
-
-
-
+void steelbattalion_init(KeyboardController *kb, MouseController *m, JoystickController *gunfighter, JoystickController *stecsjoy);
+void steelbattalion_task(uint8_t type_index, KeyboardController *kb, MouseController *m, JoystickController *gunfighter, JoystickController *stecsjoy);
 #endif
 
 #if (XID_XREMOTE >= 1)
@@ -42,12 +32,33 @@ void xmu_task(uint8_t type_index);
 //USB Host Interface
 USBHost usbh;
 USBHub hub1(usbh);
-USBHIDParser hid(usbh);
+USBHIDParser hid(usbh), hid2(usbh), hid3(usbh);
 KeyboardController keyboard(usbh);
 MouseController mouse(usbh);
-JoystickController joy(usbh);
-JoystickController stecsjoy(usbh);
-RawHIDController raw_hid(usbh);
+
+// Local filtered joystick class: only claim devices that match a specific VID/PID.
+// This ensures each JoystickController instance attaches only to its assigned device at enumeration time.
+class FilteredJoystick : public JoystickController {
+  public:
+    FilteredJoystick(USBHost &host, uint16_t vid, uint16_t pid)
+      : JoystickController(host), want_vid(vid), want_pid(pid) {}
+  protected:
+    virtual bool claim(Device_t *dev, int type, const uint8_t *descriptors, uint32_t len) override {
+      if (dev == nullptr) return false;
+      if ((dev->idVendor != want_vid) || (dev->idProduct != want_pid)) return false;
+      return JoystickController::claim(dev, type, descriptors, len);
+    }
+  private:
+    uint16_t want_vid;
+    uint16_t want_pid;
+};
+
+// Instantiate filtered joystick controllers bound to specific VID/PID pairs (enumeration-only matching)
+FilteredJoystick gunfighter(usbh, 0x231D, 0x0125); // Gunfighter
+FilteredJoystick stecsjoy(usbh, 0x231D, 0x0136);   // STECS
+// JoystickController stecsjoy(usbh);
+RawHIDController raw_hid(usbh), raw_hid2(usbh), raw_hid3(usbh);
+// RawHIDController raw_hid2(usbh);
 
 void _putchar(char character)
 {
@@ -68,26 +79,16 @@ void setup()
     //Set onboard LED to output
     pinMode(LED_BUILTIN, OUTPUT);
 
-//test
-const int buttonPin = 1;
-Bounce button0 = Bounce(0, 10);
-
-pinMode(buttonPin, INPUT_PULLUP);
-byte previousState = HIGH; 
-
-
 #if (XID_DUKE >= 1)
-    duke_init(&keyboard, &mouse, &joy);
+    duke_init(&keyboard, &mouse);
 #endif
 
 #if (XID_STEELBATTALION >= 1)
-    steelbattalion_init(&keyboard, &mouse, &joy, &stecsjoy);
-    //steelbattalion_init(&keyboard, &mouse, &joy);
-
+    steelbattalion_init(&keyboard, &mouse, &gunfighter, &stecsjoy);
 #endif
 
 #if (XID_XREMOTE >= 1)
-    xremote_init(&keyboard, &mouse, &joy);
+    xremote_init(&keyboard, &mouse,);
 #endif
 
 #if (MSC_XMU >= 1)
@@ -115,14 +116,14 @@ byte previousState = HIGH;
 void loop()
 {
     tud_task();
+    usbh.Task(); // Process USB host events and device enumeration
 
 #if (XID_DUKE >= 1)
-    duke_task(0, &keyboard, &mouse, &joy);
+    duke_task(0, &keyboard, &mouse);
 #endif
 
 #if (XID_STEELBATTALION >= 1)
-    steelbattalion_task(0, &keyboard, &mouse, &joy, &stecsjoy);
-
+    steelbattalion_task(0, &keyboard, &mouse, &gunfighter, &stecsjoy);
 #endif
 
 #if (XID_XREMOTE >= 1)
