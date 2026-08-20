@@ -6,5 +6,25 @@ the stock [PICO-PIO-USB Host example](https://github.com/raspberrypi/pico-exampl
 As of now I have only tested it with a regular Pico
 
 ### Soldering the Host Cable to the RP2040
-This will be dependent on your board. The original repository has some [examples of the wiring.
+Same as the OGX-Mini. This will be dependent on your board. The original repository has some [examples of the wiring.
 ](https://github.com/MegaCadeDev/OGX-Mini-2026/tree/master/hardware).
+
+### Set-up
+For set-up clone [pico-sdk](https://github.com/raspberrypi/pico-sdk) to your computer and export path. You may also need to download python3
+
+```
+git clone --recurse-submodules https://github.com/raspberrypi/pico-sdk.git
+export PICO_SDK_PATH=$HOME/pico-sdk/
+```
+
+### Build Instructions
+
+```bash
+git clone --recurse-submodules https://github.com/quizerno/SBCFirm2040-lite.git
+cd SBCFirm2040-lite
+mkdir build
+cd build
+cmake ..
+make
+```
+Once that's done, connect your RP2040 to your PC in Download mode (hold button while connecting), and copy the .uf2 file to the drive that shows up
