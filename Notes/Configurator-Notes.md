@@ -107,8 +107,12 @@ Little window on the side that shows which controls still need bindings
 - Rationale: Done for FPS games and Steel Battalion.
 
 
-## Optimization
+
+
+## Xemu Optimization
 As it currently stands. Certain display options are only possible via rebuilding the ISO with an XBE file that altered with [JayXbox's patcher](https://jayxbox.com/Misc/SB.php).
 If memory editing is possible we might be able to cut out the middle-man for some features like removing the film grain.
 
+## Multi-Display Options
 
+## HID Binding
