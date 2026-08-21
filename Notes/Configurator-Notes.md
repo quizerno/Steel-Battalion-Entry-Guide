@@ -1,4 +1,4 @@
-# Sim Configuration Tool + Hotkey Fixes and Other Menu Options — requirements
+<img width="2486" height="1996" alt="image" src="https://github.com/user-attachments/assets/b638ad0c-7193-4a58-aae4-aabd373e3605" /># Sim Configuration Tool + Hotkey Fixes and Other Menu Options — requirements
 
 ## Sim Configuration Tool (SCT)
 
@@ -39,7 +39,6 @@ Little window on the side that shows which controls still need bindings
 - Weapon Aim (Right Stick): By default the weapon aim will limit the cursor to the window size of the main monitor.
 - If the player decides to use a multi-monitor set-up, this limitation needs to be recognized, it could be indicated with some sort of optional border overlay
 
-
 ### Alt-to-look (Arma 3 style)
 - A function for mouse users that do not have a left joystick
 - On the original controller, the left joystic's hat-stick (called Sight Change in game) **controls the direction of the VT's camera** 
@@ -52,20 +51,29 @@ Little window on the side that shows which controls still need bindings
 - A suggested configuration might be **hold alt to have the mouse control the camera** while **middle mouse click re-centers the camera**
 - **Possible Issues:** Check interactions with lock-on
 
-### Optional Controller Consolidation
-- Note that this **Optional Controller Consolidation** which should not be confused with possible **Necessary Controller Solidation** for the Gear Shifter and Tuner Dial
+## Consolidation
+
+## Optional Controller Consolidation
+- Note that this **Optional Controller Consolidation** which should not be confused with possible **Necessary Controller Solidation** for those with limited inputs
 - **Duplicate Inputs:** For players who want to bind one control to multiple positions
 - **One Toggle:** Allows an option to bind the **five toggle switches** to **one toggle**
 - **One Start:** Allows an option to bind the **Hatch, Ignition, and Start** to **one button**
 - **All Camera Control to Left:** For players without a middle block or don't wish to use one. Allows putting all camera controls on on the left block. Suggests positions on the Left Block for: Camera Zoom In/Out, Night Scope, and Line Color Change. 
-- **All Combat Control to Right::** For players without a middle block or don't wish to use one. Allows putting all camera controls on on the left block. Suggests positions on the Right Block for: F.S.S., Main Weapon Control, Sub Weapon Control, Reload, and Chaff.
-
-### Necessary Controller Solidation
+- **All Combat Control to Right:** For players without a middle block or don't wish to use one. Allows putting all weapon controls on on the right block. Suggests positions on the Right Block for: F.S.S., Main Weapon Control, Sub Weapon Control, Reload, and Chaff.
+- **Maintenance and Monitor:** Gives suggestions for remaining Middle Block and Monitor Controls if the user has selected the above two options.
+    - **Maintenance:** includes F1, F2, F3, Washing, Extinguisher, Manipulator, Tank Detach and Override
+    -  **Monitor:** includes Open/Close, Mode Select, Sub Monitor Mode Select, Map Zoom
+### Necessary Controller Consolidation
+- **Keyboard Map:** Provides suggested keyboard layouts for [various keyboard sizes](https://www.keychron.com/blogs/news/keyboard-size-layout-buying-guide) Maybe include options for Dvorak and AZERTY users.
 - **No Middle Block:** Suggests positions for middle block controls if the player has no middle block.
-- **No Pedals:** Looks for pressure sensitive buttons that the player can use if the player has pedals.
-- **Throttle As Gear Shifter:** For players with no shifter but have a throttle. Allows Joystick Throttle positions to be mapped for switching between the 7 Gears.
-- **Digital Gear Shift:** For players with no Shifter or Throttle. Allows an option to have two buttons GEAR UP and GEAR DOWN to replace the Gear Lever. For players with no Shifter or Throttle.
-- **Digial Tuner:** For players with no Throttle, Rotary Encoder, Thumb Roller, etc. Allows an option to have two buttons TUNE UP and TUNE DOWN to replace the Tuner Dials.
+- **No Pedals:** Looks for pressure sensitive buttons that the player can use if the player has pedals, this includes the Throttle
+- **Throttle As Gear Shifter:** For players with no shifter but have a throttle. Allows Joystick Throttle axis to be mapped for switching between the 7 Gears.
+- **Throttle As Gear Shifter + Pedal Combo:** For players with no shifter or pedals but have a throttle.
+    - **Forward Axis:** Gear 1-7 and full Acceleration Pedal Press
+    - **Neutral Axis:** Gear N
+    - **Backward Axis:** Gear R and full Acceleration Pedal Press
+- **Digital Gear Shifter:** For players with no Shifter or Throttle. Allows an option to have two buttons GEAR UP and GEAR DOWN to replace the Gear Lever. For players with no Shifter or Throttle.
+- **Digital Tuner:** For players with no Throttle, Rotary Encoder, Thumb Roller, etc. Allows an option to have two buttons TUNE UP and TUNE DOWN to replace the Tuner Dials.
   
 ## Input Settings Menu: 
 
