@@ -1,4 +1,6 @@
-<img width="2486" height="1996" alt="image" src="https://github.com/user-attachments/assets/b638ad0c-7193-4a58-aae4-aabd373e3605" /># Sim Configuration Tool + Hotkey Fixes and Other Menu Options — requirements
+<img width="2486" height="1996" alt="image" src="https://github.com/user-attachments/assets/b638ad0c-7193-4a58-aae4-aabd373e3605" />
+
+# Sim Configuration Tool + Hotkey Fixes and Other Menu Options — requirements
 
 ## Sim Configuration Tool (SCT)
 
