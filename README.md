@@ -23,26 +23,26 @@ However since the topic of this guide is inherently very confusing, it therefore
 # Table of Contents
 Introduction - Readme
 1. [FAQ](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-FAQ.md)
-2.  [The Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-The%20Controller%20Inputs.md)	 
-    - LEFT BLOCK	 
-    - MIDDLE BLOCK	 
-    - RIGHT BLOCK	 
-    - PEDAL BLOCK
-    - Overall Inputs
-    - Notes on Analogue Reads vs Digital Reads	 
-3. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md)	 
-   - Adapter Hardware
-   * 3A. [ogx360_t4](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/3A-ogx360_t4.md)	  
+2.  [The Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-The%20Controller%20Inputs.md) <br /> 
+    □ LEFT BLOCK <br />
+    □ MIDDLE BLOCK <br /> 
+    □ RIGHT BLOCK <br />
+    □ PEDAL BLOCK <br />
+    □ Overall Inputs <br />
+    □ Notes on Analogue Reads vs Digital Reads <br />
+3. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md) <br />
+   □ Adapter Hardware <br />
+   * 3A. [ogx360_t4](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/3A-ogx360_t4.md) <br />	  
        - Keyboard and Mouse	  
        - HOTAS Flightstick  
-    * 3B. [OGX-MINI-2026](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-OGX-MINI-2026.md)
+    * 3B. [OGX-MINI-2026](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-OGX-MINI-2026.md) <br />
        - Xbox 360 + Chatpad
        - WIP
-    * 3C. [SBCFirmRP2040-lite](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-SBCFirm2040-lite.md)
+    * 3C. [SBCFirmRP2040-lite](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-SBCFirm2040-lite.md) <br />
          - Keyboard and Mouse
-4. Custom Controller
-     * Combination KB+Joystick 
-     * Full Custom Joystick 
+4. Custom Controller <br />
+   □ Combination KB+Joystick <br /> 
+   □ Full Custom Joystick <br /> 
    * 4A. [Building The Controller](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Building%20The%20Controller.md)
    * 4B. [Building The Pedals](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/4-Building%20The%20Pedals.md)	  
         * The Pedals in the Original Controller and What They Do	  
