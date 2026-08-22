@@ -1,4 +1,4 @@
-# Steel-Battalion-Entry-Guide-Guide
+# Steel Battalion Entry Guide
 Guide for getting into Steel Battalion, focused on controller reproduction and game emulation.
 
 This guide is currently in WIP
@@ -7,47 +7,18 @@ This guide is currently in WIP
 
 This guide was initially just some documentation and instruction on how to create your own steel battalion controller or get the pedals working.
 But since I am obsessed with documentation, I have decided to expand it into the various ways to play Steel Battalion.
-Please also consult the main guide.
 
+If you have any other general questions about Steel Battalion, you can also consult the Discord server's F.A.Q.
 [Steel Battalion Online F.A.Q. - Google Docs
 ](https://docs.google.com/document/d/17r_LhhonAIT3Vusn6__5buRspa8D00lDpAtynqyXSRo/edit?tab=t.0#heading=h.7yerq3kylii)
+
+Join the discord server [here.](https://discord.gg/yG6yr96eb)
 
 # How To Use This Guide
 
 My goal with this guide is to make a series of easy to understand tutorials that even someone without knowledge of github can use.
 
 However since the topic of this guide is inherently very confusing, it therefore requires a lot of information that does not necessarily have a linear order.
-
-The FAQ should clear up some initial questions. But in case that is too confusing consider these questions.
-
-**Is Steel Battalion worth it?**
-
-That will depend on your interest in simulation games. If you're into them, Steel Battalion is worth trying at least once.
-
-**Should I play on Xbox or Emulator?**
-
-Xbox emulation has come a long way so playing on PC is possible, however it will be dependent on your specs.
-
-**How much money do I have to spend?**
-
-While the the original Steel Battalion Controller is quite expensive and a collector's item. It should be noted that you could consider spending that money on another high end controller and still play the game.
-
-Xbox + Original Controller: Original SBC Controller is 200+ dollars, Xbox units can range from 30 to 120 dollars, softmodding is 15 dollars, hard modding is variable. Softmodding is only necessary for Xbox online play and performance increases
-
-Xbox + Adapted Controller:  Softmodding is 15 dollars
-
-PC + Any Controller: Potentially the cheapest option
-
-
-
-#### Do you want make a custom controller or adapt an existing controller?
-
-
-
-#### Do you want to use pedals or not?
-
-The original game is unique in that it uses 3 different ped
-
 
 # Table of Contents
 Introduction - Readme
