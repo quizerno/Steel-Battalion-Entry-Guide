@@ -1,6 +1,6 @@
 <img width="2486" height="1996" alt="image" src="https://github.com/user-attachments/assets/b638ad0c-7193-4a58-aae4-aabd373e3605" />
 
-# Sim Configuration Tool + Hotkey Fixes and Other Menu Options — requirements
+# Sim Configuration Tool + Hotkey Fixes and Other Options — requirements
 
 ## Sim Configuration Tool (SCT)
 
@@ -90,7 +90,7 @@ Little window on the side that shows which controls still need bindings
 
 ### Toggle Fullscreen Switch
 - Turns off Xemu's double-click that switches the emulator window between fullscreen mode and windowed mode
--**Default: Disables This**
+- **Default: Disables This**
 - Rationale: not just for Steel Battalionm for FPS games that use the mouse this is a must-have..
 - Rebinding to ALT+ENTER
 
@@ -98,7 +98,7 @@ Little window on the side that shows which controls still need bindings
 
 ### Toggle Menu Bar 
 - Removes the Menu Bar.
--**Default: Menu Bar On**
+- **Default: Menu Bar On**
 - Rationale: Done so that mouse users don't accidentally click it during play and gives a bit more viewing room
 
 ### Toggle the Cursor Visibility 
