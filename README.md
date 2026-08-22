@@ -22,22 +22,24 @@ However since the topic of this guide is inherently very confusing, it therefore
 
 # Table of Contents
 Introduction - Readme
-1. [FAQ](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/1-FAQ.md)
-2. [The Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-The%20Controller%20Inputs.md)	 
-    * LEFT BLOCK	 
-    * MIDDLE BLOCK	 
-    * RIGHT BLOCK	 
-    * PEDAL BLOCK	 
+1. [FAQ](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-FAQ.md)
+2.  [The Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-The%20Controller%20Inputs.md)	 
+    - LEFT BLOCK	 
+    - MIDDLE BLOCK	 
+    - RIGHT BLOCK	 
+    - PEDAL BLOCK
+    - Overall Inputs
+    - Notes on Analogue Reads vs Digital Reads	 
 3. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md)	 
-    * Adapter Hardware
-    * 3A. [ogx360_t4](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/3A-ogx360_t4.md)	  
-       * Keyboard and Mouse	  
-       * HOTAS Flightstick  
+   - Adapter Hardware
+   * 3A. [ogx360_t4](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/3A-ogx360_t4.md)	  
+       - Keyboard and Mouse	  
+       - HOTAS Flightstick  
     * 3B. [OGX-MINI-2026](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-OGX-MINI-2026.md)
-       * Xbox 360 + Chatpad
-       * WIP
+       - Xbox 360 + Chatpad
+       - WIP
     * 3C. [SBCFirmRP2040-lite](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-SBCFirm2040-lite.md)
-         * Keyboard and Mouse
+         - Keyboard and Mouse
 4. Custom Controller
      * Combination KB+Joystick 
      * Full Custom Joystick 
