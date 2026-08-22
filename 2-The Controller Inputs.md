@@ -164,8 +164,9 @@ Three analog pedals.
 
 This will come into play later in the Choosing Parts section
 When considering your remapped controller or custom controller, here is a simplified way of looking at all the necessary inputs.
-**Full Recreation** is what would be a faithful recreation of the Steel Battalion's inputs.
-**Simple Recreation** is a simplified version of the inputs that allows less buttons and reduction of some analogue controls.
+
+  - **Full Recreation:** is what would be a faithful recreation of the Steel Battalion's inputs.
+  - **Simple Recreation:** is a simplified version of the inputs that allows less buttons and reduction of some analogue controls.
 
 ## By Block
 |Left Block|Analogue Inputs|Digital Inputs|
@@ -179,7 +180,7 @@ When considering your remapped controller or custom controller, here is a simpli
 |---|---|---|
 | Full Recreation| NONE| 20 Buttons + 5 Position Rotary Tuner (25)
 | Simple Recreation|NONE|20 Buttons + 2 Button Digital Tuner (22)
-| Notes|| The tuner technically has more than 5 positions, but only has 5 channels
+| Notes|| The tuner technically has more than 5 positions (around 15), but only has 5 channels
 
 |Left Block|Analogue Inputs|Digital Inputs|
 |---|---|---|
