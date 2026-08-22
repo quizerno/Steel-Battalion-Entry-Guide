@@ -31,9 +31,24 @@ A more detailed explanation of the controls can be found on the fan wiki, [here]
 
 
 ### >TOGGLE SWITCHES:
+
+**Original Game**
 |Input|Function|Alternative Parts|
 |---|---|---|
-| 5 Toggle Switches|  Used during the start-up sequence, in LoC these can be shut-off to confuse your enemy but leave you exposed. | Can be substituted with push buttons, or can be combined into 1 push button|
+| 5 Toggle Switches|  Used during the start-up sequence, in LoC they have other functions, see below | Can be substituted with push buttons, or can be combined into 1 push button|
+
+**Line of Contact**
+
+When all toggles are shut off, it turns off your VT and breaks enemy lock on. So if an enemy is locked onto you, they can't hit you with F.S.S. shot or keep the lock-on through walls. The individual functions are as follows. 
+||
+|---|
+|**Filt Control System:** Turns on the VT. When toggled off, causes the battery recovery time to be slower.|
+|**Oxygen Supply:** When toggled off, your pilot will begin to suffocate and will die in 30 seconds |
+|**Fuel Flow Rate:** When toggled off on its own makes the VT use 3x more fuel|
+|**Buffer Material:** When turned off own causes your VT's view to drop and make it harder to see while moving|
+|**VT Location Measurement:** When toggled off, shuts off the Radar/Multimonitor|
+||
+
 
 
 
