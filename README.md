@@ -3,7 +3,7 @@ Guide for getting into Steel Battalion, focused on controller reproduction and g
 
 This guide is currently in WIP
 
-# Introduction
+## Introduction
 
 This guide was initially just some documentation and instruction on how to create your own steel battalion controller or get the pedals working.
 But since I am obsessed with documentation, I have decided to expand it into the various ways to play Steel Battalion.
@@ -14,7 +14,7 @@ If you have any other general questions about Steel Battalion, you can also cons
 
 Join the discord server [here.](https://discord.gg/yG6yr96eb)
 
-# How To Use This Guide
+## How To Use This Guide
 
 My goal with this guide is to make a series of easy to understand tutorials that even someone without knowledge of github can use.
 
