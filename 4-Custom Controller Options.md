@@ -1,4 +1,4 @@
-# 4.  Alternative Controllers
+# 4. Custom Controller Options
 
 Whether you decide to play on Xbox or Emulator ultimately decides on how you approach this.
 
