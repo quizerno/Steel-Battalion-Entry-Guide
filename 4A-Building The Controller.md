@@ -12,8 +12,7 @@ Most USB devices have specific usages.
 
 ## Required Hardware
 
-Going back t0 section 2, we can see the table that illustrates the inputs we need.
-
+As
 |Total |Analogue Inputs|Digital Inputs|
 |---|---|---|
 | Full Recreation|8| 51 
