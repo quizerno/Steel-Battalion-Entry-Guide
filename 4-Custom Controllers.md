@@ -90,6 +90,10 @@ A microcontroller such as a pro micro, arduino, or another teensy can be used to
 
 QuantX's combination controller utilizing Thrustmaster T16000, Logitech G920 pedals, and a custom board
 
+<img width="652" height="870" alt="image" src="https://github.com/user-attachments/assets/08253b2d-0585-467e-956d-fb97184d3a9f" />
+
+FluffyStuff's combination controller utilizing
+
 https://cdn.discordapp.com/attachments/1249909486928265331/1467308107498655857/IMG_20260131_140148251.jpg?ex=6a8d836a&is=6a8c31ea&hm=72a67fd7d0002f04ea164213c389eec69a3bdf3c5e7e980f1956b6e6d777ee89&
 
 
