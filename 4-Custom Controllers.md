@@ -9,8 +9,7 @@ Requires rebinders on PC to remap existing USB devices for Xemu. At the moment m
 Requires one of the adapters and firmware from section 3, and then the proper configuring to get the adapter to recognize your devices.
 
 
-### Simplifying the Approach
-
+## Necessary Inputs
 Going back to section 2, we can see the table that illustrates the inputs we need.
 
 |Total |Analogue Inputs|Digital Inputs|
@@ -18,6 +17,8 @@ Going back to section 2, we can see the table that illustrates the inputs we nee
 | Full Recreation|8| 62
 | Simple Recreation|7|38
 | Notes|| 
+
+With this in mind
 
 
 ### Adapted Controller
@@ -43,12 +44,14 @@ If you've already spent money and time on the adapter
 | Pedal Block|Digital Foot Pad|Generic USB Triple Foot Switch Pedal
 
 **Bare Bones**
-If you've already spent money and time on the adapter. You can get away with a keyboard and mouse, however there are downsides with only 
+If you've already spent money and time on the adapter. You can get away with a keyboard and mouse, however there are downsides with only digital controls
 
 
 ### Making Your Own Hardware
 
 Let's say you want to build the controller
+
+Let's say you want to build your own pedals instead of 
 
 
 
