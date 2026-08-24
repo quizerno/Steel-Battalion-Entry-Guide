@@ -15,6 +15,14 @@
   * Checks how many inputs are available, compares to how many are needed.
   * Inputs for each block are color coded Left (Red), Middle (Green), Right (Blue), Pedal (Orange)
 * **Input:** Asks if user would like to calibrate the available analog inputs
-  * Left Joystick (signed 16 bit X Axis)
-  * Left Hatstick (signed 16 bit X-Y Axis)
-  * Right Joystick (unsigned 16 bit X-Y Axis)
+  * Left Joystick (signed 16-bit X Axis)
+  * Left Hatstick (signed 16-bit X-Y Axis)
+  * Right Joystick (unsigned 16-bit X-Y Axis)
+    * Detect if Right Joystick automatically recenters and makes suggestions
+  * Left Pedal (unsigned 16-bit axis)
+  * Middle Pedal (unsigned 16-bit axis)
+  * Right Pedal (unsigned 16-bit axis)
+
+## Step 3.
+* **Input:** Choose between **Recommended** and **Manual** settings modes
+* **Output:** two windows, one showing the chose devices and the other SB blocks 
