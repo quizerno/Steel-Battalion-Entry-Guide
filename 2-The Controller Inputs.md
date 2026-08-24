@@ -118,12 +118,12 @@ Consists of 6 push buttons in a 2x3 pattern
 
 |Input|Function|Alternative Parts|
 |---|---|---|
-| X-Y Joystick| Aims weapons|Joystick, Mouse with configuration
+| X-Y Joystick| Aims weapons|Non-Recentering Joystick, Mouse with configuration
 | Trigger|Fires subweapon|Mouse buttons
 | Primary Weapon| Fires primary weapon |Mouse buttons
 | Lock-On|Locks on to targeted enemy |Mouse buttons
 
-**Alternative Parts:** A joystick with a trigger and 2 buttons. Mouse with three buttons.
+**Alternative Parts:** A NON-recentering joystick with a trigger and 2 buttons. Mouse with three buttons.
 
 ### >MONITOR CONTROLS: 
 Cosnsists of 6 push buttons in a 3x2 pattern
