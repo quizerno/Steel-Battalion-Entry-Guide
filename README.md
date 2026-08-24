@@ -51,17 +51,18 @@ Introduction - Readme
         * Pedals from scratch	  
         * Hall Effect Pedals	  
         * Microswitch Pedals	  
-7. [Playing on Emulator](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/5-Playing%20on%20Emulator.md)	  
+5. [Playing on Emulator](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/5-Playing%20on%20Emulator.md)	  
       * Xemu	  
         * Steel Battalion Dedicated Forks of Xemu
         * PenguinVR Xemu
         * Controls on Xemu
       * Cxbx-Reloaded	  
-8. [Improving Performance](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/6-Improving%20Performance.md)	  
-    * Improving Performance and Visuals on Xbox	  
-    * Improving Performance and Visuals on Emulator	  
-9. Misc Information	  
+6. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/6-Improving%20Performance.md)	  
+    * Improving Performance  
+    * Improving Graphics   
+7. Misc Information	  
     * Using the Original Controller on PC
+    * Other Guides
     * Control Configurations
     * Steel Battalion Pedal Research by AndyNumber
 
