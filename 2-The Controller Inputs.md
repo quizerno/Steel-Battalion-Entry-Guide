@@ -180,7 +180,7 @@ When considering your remapped controller or custom controller, here is a simpli
 |---|---|---|
 | Full Recreation| NONE| 20 Buttons + 16 Position Rotary Tuner (36)
 | Simple Recreation|NONE|20 Buttons + 2 Button Digital Tuner (22)
-| Notes|| The tuner technically has more than 5 positions (around 15), but only has 5 channels
+| Notes|| The tuner has 16 positions, but only has 5 channels.
 
 |Left Block|Analogue Inputs|Digital Inputs|
 |---|---|---|
@@ -198,7 +198,7 @@ When considering your remapped controller or custom controller, here is a simpli
 
 |Total |Analogue Inputs|Digital Inputs|
 |---|---|---|
-| Full Recreation|8| 51 
+| Full Recreation|8| 62
 | Simple Recreation|7|38
 | Notes|| 
 
