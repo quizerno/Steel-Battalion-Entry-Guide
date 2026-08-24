@@ -1,4 +1,4 @@
-# 4C. Building or Adapting Pedals
+# 4C. Adapting or Building Pedals
 
 
 For if you have a controller and need pedals.
