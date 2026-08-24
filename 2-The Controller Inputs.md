@@ -178,7 +178,7 @@ When considering your remapped controller or custom controller, here is a simpli
 
 |Middle Block|Analogue Inputs|Digital Inputs|
 |---|---|---|
-| Full Recreation| NONE| 20 Buttons + 5 Position Rotary Tuner (25)
+| Full Recreation| NONE| 20 Buttons + 16 Position Rotary Tuner (36)
 | Simple Recreation|NONE|20 Buttons + 2 Button Digital Tuner (22)
 | Notes|| The tuner technically has more than 5 positions (around 15), but only has 5 channels
 
