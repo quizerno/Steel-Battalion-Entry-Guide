@@ -3,13 +3,10 @@
 Whether you decide to play on Xbox or Emulator ultimately decides on how you approach this.
 
 **Emulator Play**
-Requires rebinders on PC to remap existing USB devices for Xemu.
+Requires rebinders on PC to remap existing USB devices for Xemu. At the moment me and others are working on a framework that will hopefully reduce the software required.
 
 **Xbox Play**
-
-Requires one of the adapters and firmware from section 3, and then configuring
-
-
+Requires one of the adapters and firmware from section 3, and then the proper configuring to get the adapter to recognize your devices.
 
 
 ## Simplifying the Approach
@@ -22,14 +19,16 @@ Going back to section 2, we can see the table that illustrates the inputs we nee
 | Simple Recreation|7|38
 | Notes|| 
 
+
 ### Using Existing Hardware
-Let's say, you want to get right to the game
+Let's say, you want to get right to the game, and want a semi-accurate recreation of the original game.
+
 |Block |Hardware|Examples|
 |---|---|---|
 | Left Block|Left Handed Joystick with Hatstick and 4 buttons| Thrustmaster 16000m series
-| Middle Block|Full Length Keyboard|
-| Right Block|Right Handed Joystick with NO RECENTERING| Microsoft Sidewinder Force Feedback 2
-| Pedal Block|Logitech G29| Needs Adapter
+| Middle Block|Full Length Keyboard| Any keyboard will work, but an RGB keyboard might draw too much power from the adapter board unless you have a HUB
+| Right Block|Right Handed Joystick with NO RECENTERING| Microsoft Sidewinder Force Feedback 2 (Requires Modding)
+| Pedal Block|Three Pedal Controller|Logitech G29
 
 ### Making Your Own
 
@@ -83,3 +82,14 @@ https://www.freebsddiary.org/APC/usb_hid_usages.php
 
 ## Full Custom Controller
 A microcontroller such as a pro micro, arduino, or another teensy can be used to map a keyboard, and the keyboard will serve as a controller using the inputs designated in the ogx360_t4 configuration. This task can be quite daunting if you are unfamiliar with keyboard creation so I will create some examples to show you.
+
+
+## Examples of Custom Controllers
+
+<img width="768" height="576" alt="20231025_231002" src="https://github.com/user-attachments/assets/13e4fa22-7629-4a2d-b51b-697041da6807" />
+
+QuantX's combination controller utilizing Thrustmaster T16000, Logitech G920 pedals, and a custom board
+
+https://cdn.discordapp.com/attachments/1249909486928265331/1467308107498655857/IMG_20260131_140148251.jpg?ex=6a8d836a&is=6a8c31ea&hm=72a67fd7d0002f04ea164213c389eec69a3bdf3c5e7e980f1956b6e6d777ee89&
+
+
