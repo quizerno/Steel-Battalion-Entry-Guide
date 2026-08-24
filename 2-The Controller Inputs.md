@@ -76,7 +76,7 @@ Consists of 5 push buttons in a 1x5 row
 
 
 ### >TUNER DIAL
-A Rotary Dial with 5 positions, each corresponding to a channel.
+A Rotary Dial with 16 positions, 5 of the positions corresponding to a channel.
 
 **Original:** Used to change radio signal for communication with HQ or squadmates 
 |Channel 1 |Channel 2 |Channel 3|Channel 4|Channel 5|
