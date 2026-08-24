@@ -1,4 +1,4 @@
-# 4B. Building The Pedals
+# 4C. Custom Pedals
 
 
 For if you have a controller and need pedals.
