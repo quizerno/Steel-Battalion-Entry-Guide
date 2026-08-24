@@ -21,11 +21,10 @@ Going back to section 2, we can see the table that illustrates the inputs we nee
 With this in mind
 
 
-### Adapted Controller
-**(Using Existing Hardware)**
+### Adapted Controller **(Using Existing Hardware)**
 Let's say, you want to get right to the game.
 
-**Recommended**
+**Recommended**<br />
 If you want a semi-accurate recreation of the original game.
 |Block |Hardware|Examples|
 |---|---|---|
@@ -34,7 +33,7 @@ If you want a semi-accurate recreation of the original game.
 | Right Block|Right Handed Joystick with NO RECENTERING| Microsoft Sidewinder Force Feedback 2 (With Spring Removed)
 | Pedal Block|Three Pedal Controller|Logitech G29
 
-**Budget**
+**Budget**<br />
 If you've already spent money and time on the adapter
 |Block |Hardware|Examples|
 |---|---|---|
