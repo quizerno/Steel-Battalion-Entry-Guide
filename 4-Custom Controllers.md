@@ -1,5 +1,42 @@
 # 4. Custom Controller
 
+Whether you decide to play on Xbox or Emulator ultimately decides on how you approach this.
+
+**Emulator Play**
+Requires rebinders on PC to remap existing USB devices for Xemu.
+
+**Xbox Play**
+
+Requires one of the adapters and firmware from section 3, and then configuring
+
+
+
+
+## Simplifying the Approach
+
+Going back to section 2, we can see the table that illustrates the inputs we need.
+
+|Total |Analogue Inputs|Digital Inputs|
+|---|---|---|
+| Full Recreation|8| 62
+| Simple Recreation|7|38
+| Notes|| 
+
+### Using Existing Hardware
+Let's say, you want to get right to the game
+|Block |Hardware|Examples|
+|---|---|---|
+| Left Block|Left Handed Joystick with Hatstick and 4 buttons| Thrustmaster 16000m series
+| Middle Block|Full Length Keyboard|
+| Right Block|Right Handed Joystick with NO RECENTERING| Microsoft Sidewinder Force Feedback 2
+| Pedal Block|Logitech G29| Needs Adapter
+
+### Making Your Own
+
+Let's say you want to build the controlle
+
+
+Getting your chosen hardware and software to communicate with each other 
 Hardware-wise path you take on building a custom controller does not matter provided you can get the controls to function with the adapters mentioned in section 3. 
 The software side that interacts with those adapters is the key focus.
 
@@ -17,8 +54,9 @@ Going back t0 section 2, we can see the table that illustrates the inputs we nee
 
 |Total |Analogue Inputs|Digital Inputs|
 |---|---|---|
-| Full Recreation|8| 51 
-| Simple Recreation|6|38
+| Full Recreation|8| 62
+| Simple Recreation|7|38
+| Notes|| 
 
 You then have a choice between separating the blocks into 2 or more micro controllers and using a HUB to bring them together or consolidating into one micro controller.
 
@@ -28,7 +66,7 @@ Going back to section 3, deciding on your adapter board becomes a bit clearer. Y
 
   1. Create a Keyboard
 
-
+So how do we get that many digital inputs into one board? By using a matrix. You can turn 14 microcontroller pins into 49 inputs using a 7x7 keyboard matrix. Therefore, in theory you only need a board that has 14 digital pins and 6 analogue pins for a Simple Recreation of the controller.
 
 ## Examples
 
