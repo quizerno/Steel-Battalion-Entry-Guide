@@ -9,7 +9,7 @@ Requires rebinders on PC to remap existing USB devices for Xemu. At the moment m
 Requires one of the adapters and firmware from section 3, and then the proper configuring to get the adapter to recognize your devices.
 
 
-## Simplifying the Approach
+### Simplifying the Approach
 
 Going back to section 2, we can see the table that illustrates the inputs we need.
 
@@ -20,80 +20,47 @@ Going back to section 2, we can see the table that illustrates the inputs we nee
 | Notes|| 
 
 
-### Using Existing Hardware
-Let's say, you want to get right to the game, and want a semi-accurate recreation of the original game.
+### Adapted Controller
+**(Using Existing Hardware)**
+Let's say, you want to get right to the game.
 
+**Recommended**
+If you want a semi-accurate recreation of the original game.
 |Block |Hardware|Examples|
 |---|---|---|
 | Left Block|Left Handed Joystick with Hatstick and 4 buttons| Thrustmaster 16000m series
 | Middle Block|Full Length Keyboard| Any keyboard will work, but an RGB keyboard might draw too much power from the adapter board unless you have a HUB
-| Right Block|Right Handed Joystick with NO RECENTERING| Microsoft Sidewinder Force Feedback 2 (Requires Modding)
+| Right Block|Right Handed Joystick with NO RECENTERING| Microsoft Sidewinder Force Feedback 2 (With Spring Removed)
 | Pedal Block|Three Pedal Controller|Logitech G29
 
-### Making Your Own
-
-Let's say you want to build the controlle
-
-
-Getting your chosen hardware and software to communicate with each other 
-Hardware-wise path you take on building a custom controller does not matter provided you can get the controls to function with the adapters mentioned in section 3. 
-The software side that interacts with those adapters is the key focus.
-
-## Understanding HID codes
-
-Most USB devices have specific usages.
-
-
-
-
-
-## Required Hardware
-
-Going back t0 section 2, we can see the table that illustrates the inputs we need.
-
-|Total |Analogue Inputs|Digital Inputs|
+**Budget**
+If you've already spent money and time on the adapter
+|Block |Hardware|Examples|
 |---|---|---|
-| Full Recreation|8| 62
-| Simple Recreation|7|38
-| Notes|| 
+| Left Block|Left Handed Joystick with Hatstick and 4 buttons| Thrustmaster 16000m series
+| Middle Block|Full Length Keyboard| Any keyboard will work, but an RGB keyboard might draw too much power from the adapter board unless you have a HUB
+| Right Block|Mouse| Three Button Mouse
+| Pedal Block|Digital Foot Pad|Generic USB Triple Foot Switch Pedal
 
-You then have a choice between separating the blocks into 2 or more micro controllers and using a HUB to bring them together or consolidating into one micro controller.
-
-So how do we get that many digital inputs into one board? By using a matrix. You can turn 14 microcontroller pins into 49 inputs using a 7x7 keyboard matrix. Therefore, in theory you only need a board that has 14 digital pins and 6 analogue pins for a Simple Recreation of the controller.
-
-Going back to section 3, deciding on your adapter board becomes a bit clearer. Your options are now
-
-  1. Create a Keyboard
-
-So how do we get that many digital inputs into one board? By using a matrix. You can turn 14 microcontroller pins into 49 inputs using a 7x7 keyboard matrix. Therefore, in theory you only need a board that has 14 digital pins and 6 analogue pins for a Simple Recreation of the controller.
-
-## Examples
-
-<img width="1412" height="852" alt="image" src="https://github.com/user-attachments/assets/7f1cd1f8-c170-45
-e7-8e3c-fdac7be13e43" />
+**Bare Bones**
+If you've already spent money and time on the adapter. You can get away with a keyboard and mouse, however there are downsides with only 
 
 
+### Making Your Own Hardware
 
-### Links
+Let's say you want to build the controller
 
-https://github.com/gsmrana/USB-HID-Analyzer/releases/tag/v1.0.0
-
-https://www.freebsddiary.org/APC/usb_hid_usages.php
-
-## Full Custom Controller
-A microcontroller such as a pro micro, arduino, or another teensy can be used to map a keyboard, and the keyboard will serve as a controller using the inputs designated in the ogx360_t4 configuration. This task can be quite daunting if you are unfamiliar with keyboard creation so I will create some examples to show you.
 
 
 ## Examples of Custom Controllers
 
 <img width="768" height="576" alt="20231025_231002" src="https://github.com/user-attachments/assets/13e4fa22-7629-4a2d-b51b-697041da6807" />
 
-QuantX's combination controller utilizing Thrustmaster T16000, Logitech G920 pedals, and a custom board
+QuantX's combination controller utilizing two Thrustmaster T16000s, Logitech G920 pedals, and a custom board.
 
 <img width="652" height="870" alt="image" src="https://github.com/user-attachments/assets/08253b2d-0585-467e-956d-fb97184d3a9f" />
 
-FluffyStuff's combination controller utilizing
+FluffyStuff's Emulator set-up utilizing the VBK EVO Gladiator and Omni-throttle and Turtle Beach VelocityOne Rudder Pedals
 
-https://cdn.discordapp.com/attachments/1249909486928265331/1467308107498655857/IMG_20260131_140148251.jpg?ex=6a8d836a&is=6a8c31ea&hm=72a67fd7d0002f04ea164213c389eec69a3bdf3c5e7e980f1956b6e6d777ee89&
 
 
