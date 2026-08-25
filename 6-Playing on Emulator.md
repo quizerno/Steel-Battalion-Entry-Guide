@@ -1,13 +1,29 @@
 # 6. Playing on Emulator
 
+During the time at which this guide was being written (July 2026), there were some great strides in the emulation department.
+Newerest created a 
 
-Playing on Emulator
-Xemu
+## Xemu
 http://youtube.com/watch?v=clwK9Pdt7o8
-Xemu is an open source emulator for the original Xbox. It requires an Xbox BIOS files and system files to run.
- Development of the main Xemu has been slow, it lacks basic features and cohesion. However since it is open source, people have taken it upon themselves to build it to their needs. Xemu originally used OpenGL for graphics, but now also can be built with Vulkan
+Xemu is an open source emulator for the original Xbox. It requires an Xbox BIOS files and system files to run. Development of the main Xemu has been slow, it lacks basic features and cohesion. However since it is open source, people have taken it upon themselves to build it to their needs. Xemu originally used OpenGL for graphics, but now also can be built with Vulkan
 
-Steel Battalion Dedicated Forks of Xemu
+### PenguinBox Xemu
+[PenguinBox Github Release Page
+](https://github.com/PenguinVRLab/PenguinBox/releases)
+During the time at which this guide was being written (July 2026), there were some great strides in the emulation department.
+For his PenguinVRLab projct, Newerest forked a new version of Xemu which has very good performance. It is currently the best way to emulate thew game. VR is not required for this to me
+
+
+### Legacy Steel Battalion Dedicated Forks of Xemu
+
+Here are alternative forks of Xemu, most forks of the usb_passthrough fork of Xemu to allow use with the original controller.
+
+|Xemu Description|Fork Name|Compatibility|Notes
+|---|---|---|---|
+| Xemu with Vulkan Graphics (VK)| [Usb_passthrough_vk](https://github.com/faha223/xemu/tree/usb_passthrough_vk)|Steel Battalion|By SpecialFred: uses SDL3 for controls bindings
+| Xemu with OpenGL Graphics|[Usb_passthrough](https://github.com/faha223/xemu/tree/usb_passthrough)|Steel Battalion: Line of Contact|By SpecialFred: uses SDL2 for controls bindings, Input menu will display passthrough controller inputs
+| Xemu with Vulkan Graphics (VK) and QOL|[Xemu-SB-VK](https://github.com/quizerno/Xemu-SB-VK)|Steel Battalion|By Quizerno: options to disable hotkeys, rebinding from within th game
+| Xemu with Multiple Joystick Mapping|None, see downloads|Steel Battalion(?)|By FluffStuff that uses an older version of Xemu but allows joystick inputs. 
 
 SpecialFred’s Vanilla Fork
 A fork of Xemu created by SpecialFred allows inputs for the Steel Battalion controller via keyboard or using the original controller.
@@ -34,10 +50,10 @@ I took it upon myself to make a build of Xemu based on Fred’s. It adds several
 -Moving the Settings Menu Hotkey to Backslash (Emergency in case both the Menu Bar and Hotkeys are disabled, so the user does not have to reset Xemu settings manually)
 I have included it in the file package.
 
-FluffyStuff’s Fork
+### FluffyStuff’s Fork
 There is another Fork by FluffStuff that uses an older version of Xemu but allows joystick inputs. I have included it in the file package.
 
-Building Xemu Yourself
+### Building Xemu Yourself
 If you are knowledgeable on C++ or have coding experience, you can clone either the main branch of xemu or the USB Pass-Through, edit the files and build Xemu yourself
 Building Xemu https://xemu.app/docs/dev/building-from-source/#__tabbed_1_2
 
@@ -62,7 +78,7 @@ docker run --rm -v $PWD/usbpass:/usbpass -w /usbpass \
 
 
 
-Cxbx-Reloaded
+## Cxbx-Reloaded
 https://www.youtube.com/watch?v=hatA9M7ftlE&t=300s
 Cxbx reloaded is a stand alone emulator that does not require a dumped BIOS to run. 
 Cxbx has many more options in regards to controls and Steel Battalion is technically playable, but it also has sound and performance issues. Further development is needed.
