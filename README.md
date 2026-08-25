@@ -21,7 +21,7 @@ My goal with this guide is to make a series of easy to understand tutorials that
 # Table of Contents
 Introduction - Readme
 1. [Overview](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-Overview.md)
-    * 1A.[FAQ](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1A-FAQ.md)
+    * 1A. [FAQ](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1A-FAQ.md)
 2.  [The Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-The%20Controller%20Inputs.md) <br /> 
     □ LEFT BLOCK <br />
     □ MIDDLE BLOCK <br /> 
