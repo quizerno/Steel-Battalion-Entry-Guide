@@ -1,7 +1,6 @@
 # 1. Overview
 
-## How to use this guide <br />
-Here is a rundown on each section
+A rundown on each section
 
 ### 1. Overview <br/>
 You are here. Details each section of this guide and contains an FAQ for help on where you need to go.
