@@ -3,7 +3,7 @@ Guide for getting into Steel Battalion, focused on controller reproduction and g
 
 This guide is currently in WIP
 
-## Introduction
+## Description
 
 This guide was initially just some documentation and instruction on how to create your own steel battalion controller or get the pedals working.
 But since I am obsessed with documentation, I have decided to expand it into the various ways to play Steel Battalion.
@@ -16,13 +16,12 @@ Join the discord server [here.](https://discord.gg/yG6yr96eb)
 
 ## How To Use This Guide
 
-My goal with this guide is to make a series of easy to understand tutorials that even someone without knowledge of github can use.
-
-However since the topic of this guide is inherently very confusing, it therefore requires a lot of information that does not necessarily have a linear order.
+My goal with this guide is to make a series of easy to understand tutorials that even someone without knowledge of github can use. However since the topic of this guide is inherently very confusing, it therefore requires a lot of information that does not necessarily have a linear order. Proceed to the [Overview.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-Overview.md)
 
 # Table of Contents
 Introduction - Readme
-1. [FAQ](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-FAQ.md)
+1. [Overview](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-Overview.md)
+    * 1A.[FAQ](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1A-FAQ.md)
 2.  [The Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-The%20Controller%20Inputs.md) <br /> 
     □ LEFT BLOCK <br />
     □ MIDDLE BLOCK <br /> 
