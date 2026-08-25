@@ -1,10 +1,9 @@
-# Introduction
-As described in the readme, this guide is meant to encompass a lot of information.
+# 1. Overview
 
 ## How to use this guide <br />
 Here is a rundown on each section
 
-### 1. Introduction <br/>
+### 1. Overview <br/>
 You are here. Details each section of this guide and contains an FAQ for help on where you need to go.
 
 ### 2. Original Controller Information <br/>
