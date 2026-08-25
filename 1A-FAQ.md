@@ -1,4 +1,4 @@
-# 1. FAQ
+# 1A. FAQ
 ## What is Steel Battalion?
 
 Steel Battalion (Tekki) is a single player mecha simulation game released in 2002 for the original Xbox, it is noted for having a very intricate controller. In this guide I will abbreviate it to OG (original game)
