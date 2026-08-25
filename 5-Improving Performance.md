@@ -11,6 +11,11 @@ Improving Performance and Visuals on Xbox.
 I recommend several of the tutorials listed beloew
 
 ## HDMI Adapter
+<img width="566" height="566" alt="image" src="https://github.com/user-attachments/assets/cbe29e1f-73fa-4fe6-8b9c-2f0b0c16911d" />
+
+<img width="366" height="331" alt="image" src="https://github.com/user-attachments/assets/fd25b8ae-f53a-40c8-90a8-1de0d30c7138" />
+
+
 The original Xbox can actually output HDMI signals, it just requires an adapter and changing settings in the original dashboard.
    
 There are many different style of these adapters sold. Do not confuse these with composite to HDMI adapters.
@@ -29,6 +34,7 @@ Jay Xbox has provided a great website that allows customization of many of the g
 HDD performance can be improved with upgrades to the original console.
 In-Depth Instructions: TBD
  
+<img width="975" height="613" alt="image" src="https://github.com/user-attachments/assets/b1843ac4-80b4-4000-baab-8ebee880edc2" />
 
 
 1. Get this https://github.com/KilLo445/extract-xiso-gui 2. In XISO Gui, Extract ISO to Directory, select the SB ISO 3. Take the XBE file, make a copy 4. Upload the XBE to this website https://jayxbox.com/Misc/SB.php 5. Load Patch Library > Archive > Most Recent > Misc Modifications, select the options you want 6. Click Download Modified Core, this is your new XBE 7. Put the new XBE into the SB directory (overwrite if necessary) 2. In XISO gui, Create XISO from directory, select the SB directory.
