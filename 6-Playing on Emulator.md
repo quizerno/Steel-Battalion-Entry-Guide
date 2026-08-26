@@ -6,6 +6,16 @@
 - **[Xemu Github](https://github.com/xemu-project/xemu)**
 Xemu is an open source emulator for the original Xbox. It requires an Xbox BIOS files and system files to run. Development of the main Xemu has been slow, it lacks basic features and cohesion. However since it is open source, people have taken it upon themselves to build it to their needs. Xemu originally used OpenGL for graphics, but now also can be built with Vulkan
 
+### Setting up Xemu
+Setting up Xemu is fairly simple. Once started you will be prompted for three requires files. 
+
+* MCPX Boot ROM Image
+* Flash ROM Image (BIOS)
+* Hard Disk Image
+
+The first two files are copyrighted and must be obtained independently. The third file is provided by Xemu [here.](https://github.com/xemu-project/xemu-dashboard/releases/latest/download/xbox_hdd.qcow2)
+
+
 ### PenguinBox Xemu
 [PenguinBox Github Release Page
 ](https://github.com/PenguinVRLab/PenguinBox/releases)
@@ -20,7 +30,7 @@ Here are alternative forks of Xemu, most forks of the usb_passthrough fork of Xe
 |---|---|---|---|
 | Xemu with Vulkan Graphics (VK)| [Usb_passthrough_vk](https://github.com/faha223/xemu/tree/usb_passthrough_vk)|Steel Battalion|By SpecialFred: uses SDL3 for controls bindings
 | Xemu with OpenGL Graphics|[Usb_passthrough](https://github.com/faha223/xemu/tree/usb_passthrough)|Steel Battalion: Line of Contact|By SpecialFred: uses SDL2 for controls bindings, Input menu will display passthrough controller inputs
-| Xemu with Vulkan Graphics (VK) and QOL|[Xemu-SB-VK](https://github.com/quizerno/Xemu-SB-VK)|Steel Battalion|By Quizerno: options to disable hotkeys, rebinding from within teh game
+| Xemu with Vulkan Graphics (VK) and QOL|[Xemu-SB-VK](https://github.com/quizerno/Xemu-SB-VK)|Steel Battalion|By Quizerno: options to disable hotkeys, rebinding from within the game (requires restart)
 | Xemu with Multiple Joystick Mapping|None, can be [downloaded here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/FluffyStuff%20Xemu%20Build.7z) |Steel Battalion(?)|By FluffStuff: uses an older version of Xemu but allows joystick inputs. 
 
 ### Building Xemu Yourself
@@ -44,8 +54,6 @@ docker run --rm -v $PWD/usbpass:/usbpass -w /usbpass \
     -e CCACHE_DIR=/usbpass/ccache \
     ghcr.io/xemu-project/xemu-win64-toolchain:latest \
     ./build.sh -p win64-cross
-
-
 
 
 ## Cxbx-Reloaded
