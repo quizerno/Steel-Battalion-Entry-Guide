@@ -4,7 +4,6 @@
 ## Xemu
 - **[Xemu Website](https://xemu.app/)**
 - **[Xemu Github](https://github.com/xemu-project/xemu)**
-http://youtube.com/watch?v=clwK9Pdt7o8
 Xemu is an open source emulator for the original Xbox. It requires an Xbox BIOS files and system files to run. Development of the main Xemu has been slow, it lacks basic features and cohesion. However since it is open source, people have taken it upon themselves to build it to their needs. Xemu originally used OpenGL for graphics, but now also can be built with Vulkan
 
 ### PenguinBox Xemu
@@ -12,7 +11,6 @@ Xemu is an open source emulator for the original Xbox. It requires an Xbox BIOS 
 ](https://github.com/PenguinVRLab/PenguinBox/releases)
 During the time at which this guide was being written (July 2026), there were some great strides in the emulation department.
 For his PenguinVRLab projct, Newerest forked a new version of Xemu which has very good performance. It is currently the best way to emulate thew game. VR is not required for this to me
-
 
 ### Legacy Steel Battalion Dedicated Forks of Xemu
 
@@ -22,36 +20,8 @@ Here are alternative forks of Xemu, most forks of the usb_passthrough fork of Xe
 |---|---|---|---|
 | Xemu with Vulkan Graphics (VK)| [Usb_passthrough_vk](https://github.com/faha223/xemu/tree/usb_passthrough_vk)|Steel Battalion|By SpecialFred: uses SDL3 for controls bindings
 | Xemu with OpenGL Graphics|[Usb_passthrough](https://github.com/faha223/xemu/tree/usb_passthrough)|Steel Battalion: Line of Contact|By SpecialFred: uses SDL2 for controls bindings, Input menu will display passthrough controller inputs
-| Xemu with Vulkan Graphics (VK) and QOL|[Xemu-SB-VK](https://github.com/quizerno/Xemu-SB-VK)|Steel Battalion|By Quizerno: options to disable hotkeys, rebinding from within th game
-| Xemu with Multiple Joystick Mapping|None, see downloads|Steel Battalion(?)|By FluffStuff that uses an older version of Xemu but allows joystick inputs. 
-
-SpecialFred’s Vanilla Fork
-A fork of Xemu created by SpecialFred allows inputs for the Steel Battalion controller via keyboard or using the original controller.
-
-Xemu	Fork Name:	Game:	Notes:
-Xemu with Vulkan Graphics (VK)	Usb_passthrough_vk	Can run original Steel Battalion	Uses SDL3 for controls bindings
-
-
-Xemu with OpenGL Graphics (non-vulkan)	Usb_passthrough	Can run Steel Battalion: Line of Contact	Uses SDL2 for control bindings
-
-Input menu will display passthrough controller inputs
-
-In an attempt to streamline these two versions. I have 
-xemu/config_spec.yml at usb_passthrough_vk · faha223/xemu · GitHub
-
-I have included it in the file package along with instructions on how to rebind the controls as needed
-
-
-Quizern’s Fork of SpecialFred’s Fork
-I took it upon myself to make a build of Xemu based on Fred’s. It adds several features not included in regular builds of Xemu
--The option to turn off the hotkeys.
--The option to permanently turn off the mouse cursor
--Turning off the fullscreen toggle when double clicking with the Left Mouse Button
--Moving the Settings Menu Hotkey to Backslash (Emergency in case both the Menu Bar and Hotkeys are disabled, so the user does not have to reset Xemu settings manually)
-I have included it in the file package.
-
-### FluffyStuff’s Fork
-There is another Fork by FluffStuff that uses an older version of Xemu but allows joystick inputs. I have included it in the file package.
+| Xemu with Vulkan Graphics (VK) and QOL|[Xemu-SB-VK](https://github.com/quizerno/Xemu-SB-VK)|Steel Battalion|By Quizerno: options to disable hotkeys, rebinding from within teh game
+| Xemu with Multiple Joystick Mapping|None, can be [downloaded here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/FluffyStuff%20Xemu%20Build.7z) |Steel Battalion(?)|By FluffStuff: uses an older version of Xemu but allows joystick inputs. 
 
 ### Building Xemu Yourself
 If you are knowledgeable on C++ or have coding experience, you can clone either the main branch of xemu or the USB Pass-Through, edit the files and build Xemu yourself
@@ -86,14 +56,12 @@ https://cxbx-reloaded.co.uk/
 https://www.youtube.com/watch?v=YYqngubf_co
 https://www.youtube.com/watch?v=JYqUdGF6bBc
 https://www.youtube.com/watch?v=hatA9M7ftlE
+http://youtube.com/watch?v=clwK9Pdt7o8
 
 
 
 
-
-
-
-# PenguinBox
+#### Building PenguinBox (TBD)
 
 Dependencies that might have to be installed
 ```
