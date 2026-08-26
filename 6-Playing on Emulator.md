@@ -33,30 +33,9 @@ Here are alternative forks of Xemu, most forks of the usb_passthrough fork of Xe
 | Xemu with Vulkan Graphics (VK) and QOL|[Xemu-SB-VK](https://github.com/quizerno/Xemu-SB-VK)|Steel Battalion|By Quizerno: options to disable hotkeys, rebinding from within the game (requires restart)
 | Xemu with Multiple Joystick Mapping|None, can be [downloaded here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/FluffyStuff%20Xemu%20Build.7z) |Steel Battalion(?)|By FluffStuff: uses an older version of Xemu but allows joystick inputs. 
 
-### Building Xemu Yourself
-If you are knowledgeable on C++ or have coding experience, you can clone either the main branch of xemu or the USB Pass-Through, edit the files and build Xemu yourself
-Building Xemu https://xemu.app/docs/dev/building-from-source/#__tabbed_1_2
-
-https://forums.launchbox-app.com/topic/59105-tutorial-xemu-configuration/
-
-apt-get update && apt-get install curl
-
-# Clone and build
-git clone https://github.com/xemu-project/xemu
-docker run --rm -v $PWD/xemu:/xemu -w /xemu \
-    -e CCACHE_DIR=/xemu/ccache \
-    ghcr.io/xemu-project/xemu-win64-toolchain:latest \
-    ./build.sh -p win64-cross
-# Run
-./xemu/dist/xemu.exe
-
-docker run --rm -v $PWD/usbpass:/usbpass -w /usbpass \
-    -e CCACHE_DIR=/usbpass/ccache \
-    ghcr.io/xemu-project/xemu-win64-toolchain:latest \
-    ./build.sh -p win64-cross
 
 
-## Cxbx-Reloaded
+## Cxbx-Reloaded (TBD)
 https://www.youtube.com/watch?v=hatA9M7ftlE&t=300s
 Cxbx reloaded is a stand alone emulator that does not require a dumped BIOS to run. 
 Cxbx has many more options in regards to controls and Steel Battalion is technically playable, but it also has sound and performance issues. Further development is needed.
@@ -65,6 +44,32 @@ https://www.youtube.com/watch?v=YYqngubf_co
 https://www.youtube.com/watch?v=JYqUdGF6bBc
 https://www.youtube.com/watch?v=hatA9M7ftlE
 http://youtube.com/watch?v=clwK9Pdt7o8
+
+
+### Building Xemu Yourself (TBD)
+If you are knowledgeable on C++ or have coding experience, you can clone either the main branch of xemu or the USB Pass-Through branck, edit the files and build Xemu yourself
+Building Xemu https://xemu.app/docs/dev/building-from-source/#__tabbed_1_2
+
+https://forums.launchbox-app.com/topic/59105-tutorial-xemu-configuration/
+
+apt-get update && apt-get install curl
+
+#### Clone and build
+git clone https://github.com/xemu-project/xemu
+docker run --rm -v $PWD/xemu:/xemu -w /xemu \
+    -e CCACHE_DIR=/xemu/ccache \
+    ghcr.io/xemu-project/xemu-win64-toolchain:latest \
+    ./build.sh -p win64-cross
+#### Run
+./xemu/dist/xemu.exe
+
+docker run --rm -v $PWD/usbpass:/usbpass -w /usbpass \
+    -e CCACHE_DIR=/usbpass/ccache \
+    ghcr.io/xemu-project/xemu-win64-toolchain:latest \
+    ./build.sh -p win64-cross
+
+
+
 
 
 
