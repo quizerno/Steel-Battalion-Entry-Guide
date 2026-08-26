@@ -1,8 +1,5 @@
-# 5. Improving Performance
+# 5. Improving Performance and Graphics on Xbox
 
-
-# Improving Performance on Xbox
-## Xbox Modding
 Xbox Modding is required to implement visual performance ungrades.
 As said in the intro, I am not going to be detailing Xbox Mods as there are many tutorials.
 There is softmodding, hardmodding, and TSOP modding. All will give a custom dashboard capable of running Steel Battalion.
@@ -10,19 +7,29 @@ Improving Performance and Visuals on Xbox.
 
 I recommend several of the tutorials listed beloew
 
-## HDMI Adapter
+TBD ADD TUTORIALS
+
+## Hardware
+# HDMI Adapter
 <img width="566" height="566" alt="image" src="https://github.com/user-attachments/assets/cbe29e1f-73fa-4fe6-8b9c-2f0b0c16911d" />
+
+The original Xbox can actually output HDMI signals, it just requires an adapter and changing settings in the original dashboard
+There are many different style of these adapters sold. Do not confuse these with composite to HDMI adapters. You can also consider building one yourself if you have spare parts
+
+
+
+
+##Implimentation
+
+To utilize HDMI signals for Steel Battalion specifically, asoftmodded or hard modded Xbox is require. Go down to the section on "Playing Steel Battalion from the Xbox HDD"
 
 <img width="366" height="331" alt="image" src="https://github.com/user-attachments/assets/fd25b8ae-f53a-40c8-90a8-1de0d30c7138" />
 
 
-The original Xbox can actually output HDMI signals, it just requires an adapter and changing settings in the original dashboard.
-   
-There are many different style of these adapters sold. Do not confuse these with composite to HDMI adapters.
 
 Playing Steel Battalion from the Xbox HDD
 Getting Steel Battalion to use those signals requires
-1.	A softmod or hard modded xbox
+1.
 2.	Enabling higher resolution options from the ORIGINAL Xbox Dashboard (see previous section)
 3.	Extracting the ISO’s game files to a folder (with XISO)
 4.	FTP connection to the Xbox
