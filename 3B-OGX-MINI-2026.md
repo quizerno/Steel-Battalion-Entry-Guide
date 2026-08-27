@@ -3,9 +3,9 @@
 ) is a fork of the original [OGX-Mini](https://github.com/wiredopposite/OGX-Mini
 ), it allows modern controllers to interact with older consoles. It includes the tinyUSB xid library for Steel Battalion.
 
-It unfortunately does not have keyboard support since it lacks a driver. But it does have drivers for quite a few joysticks and other HID devices.
+It unfortunately does not have keyboard support since it lacks a driver, and also does not have USB Hub support. But it does have drivers for quite a few joysticks and other HID devices.
 
-### Soldering the Host Cable to the RP2040
+## Soldering the Host Cable to the RP2040
 This will be dependent on your board. The original repository has some [examples of the wiring.
 ](https://github.com/MegaCadeDev/OGX-Mini-2026/tree/master/hardware).
 
@@ -89,5 +89,4 @@ By default, OGX-MINI's configuration defaults to this control scheme using the X
 
 
 ## Other Configurations
-
-Development of OGX-Mini-2026 is currently in a state of limbo, so adding new different devices must be done independently. For the devices it does provide however you can attempt to match code to Steel Battalion's configuration
+Development of OGX-Mini-2026 is currently in a state of limbo, so adding new different devices must be done independently. For the devices it does provide however you can attempt to match code to Steel Battalion's configuration. The bindings are located in [device driver folder for the original Xbox](https://github.com/MegaCadeDev/OGX-Mini-2026/blob/master/Firmware/RP2040/src/USBDevice/DeviceDriver/XboxOG/XboxOG_SB.cpp).
