@@ -53,20 +53,18 @@ For the sake of ease, we will call this an Adapter Board.
 |Hardware|Relevant Software|Where to Buy|Price|Notes|
 |---|---|---|---|---|
 |Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|Ebay, Sparkfun | 27-30 USD| Uses Micro USB, has mSD card slot,  <br>powerful development platform. 
-|RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026), [SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite), [joypad-os](https://github.com/joypad-ai/joypad-os)|Ebay, Sparkfun, Adafruit| 4-30 USD|Many Options including Pi Pico,  <br>Pi Pico 2, Pi Pico W, Pi Pico 2 W, RP2354, Pico/ESP32
+|RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026), [SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Ebay, Sparkfun, Adafruit| 4-30 USD|Many Options including Pi Pico,  <br>Pi Pico 2, Pi Pico W, Pi Pico 2 W, RP2354, Pico/ESP32
 |USB Host Cable (Female USB A)||Ebay, Sparkfun or other online electronics stores| 3-8 USD| Needed to take in the Custom Controller inputs. Some of the RP2040 boards (such as the Adafruit Feather) come with a USB Host built in and therefore do not require this cable
 |Micro USB/USB-C to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer, as stated above the Teeny 4.1 uses Micro USB, RP2040s have Micro USB and USB-C options
 
 **Which Board and Firmware Should I Choose?**
 
-|Hardware|Software|Pros|Cons|Prebuilt Configurations/Supported Devices|
-|---|---|---|---|---|
-|Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|**Board:** Very Powerful, lots of GPIO pins **Software:** [USBHost_t36 drivers](https://github.com/PaulStoffregen/USBHost_t36), keyboard, hub, joystick support| **Board:** Expensive, very sensitive to higher voltages **Software:** | Keyboard+Mouse, HOTAS Gunfighter, HUB
-|RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|**Board:** Inexpensive, **Software:** Many host drivers| **Software:** No keyboard support yet, no hub support, adding your own configurations might be time consuming| Xbox 360 Controller with Chatpad
-|RP2040|[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|**Board:** Inexpensive , **Software:** Simple  |**Board:** Currently only testing with the regular PICO **Software:** Currently WIP| Keyboard+Mouse, HUB, DS4 Controller, working on support for other devices
+|Hardware|Software|Pros|Cons|Supported Devices|Prebuilt SBC Configurations|
+|---|---|---|---|---|---|
+|Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|**Board:** Very Powerful, lots of GPIO pins <br /> **Software:** [USBHost_t36 drivers](https://github.com/PaulStoffregen/USBHost_t36), keyboard, hub, joystick support| **Board:** Expensive, very sensitive to higher voltages **Software:** Lacking documentation| Keyboard, Mouse, HID Joysticks, Xbox 360 Controller, USB Hubs |  Keyboard+Mouse, HOTAS Gunfighter
+|RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|**Board:** Inexpensive, **Software:** Many host drivers| **Software:** No keyboard support yet, no hub support, adding your own configurations might be time consuming| Many Controllers |Xbox 360 Controller with Chatpad
+|RP2040|[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|**Board:** Inexpensive , **Software:** Simple  |**Board:** Currently only testing with the regular PICO **Software:** Currently WIP| Keyboard, Mouse, USB hubs, DS4 Controller, working on support for other devices | Pending
 
-
-|RP2040|[joypad_os](https://github.com/joypad-ai/joypad-os)|**Board:** Inexpensive , **Software:** ????  |**Board:** Inexpensive **Software:** ????| HUB 
 
 
 ## Wiring and Firmware Building
