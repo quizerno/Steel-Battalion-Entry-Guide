@@ -5,7 +5,7 @@
 - **[Xemu Website](https://xemu.app/)**
 - **[Xemu Github](https://github.com/xemu-project/xemu)**
 
-Xemu is an open source emulator for the original Xbox. It requires an Xbox BIOS files and system files to run. Development of the main Xemu has been slow, it lacks basic features and cohesion. However since it is open source, people have taken it upon themselves to build it to their needs. Xemu originally used OpenGL for graphics, but now also can be built with Vulkan
+Xemu is an open source emulator for the original Xbox. It requires Xbox BIOS files and other system files to run. Development of the main Xemu has been slow, it lacks basic features and cohesion. However since it is open source, people have taken it upon themselves to build it to their needs. Xemu originally used OpenGL for graphics, but now also can be built with Vulkan
 
 ### Setting up Xemu
 Setting up Xemu is fairly simple. Once started you will be prompted for three requires files. 
