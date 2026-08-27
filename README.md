@@ -22,14 +22,15 @@ My goal with this guide is to make a series of easy to understand tutorials that
 Introduction - Readme
 1. [Overview](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-Overview.md)
     * 1A. [FAQ](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1A-FAQ.md)
-2.  [The Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-The%20Controller%20Inputs.md) <br /> 
+2.  [Original Controller Information](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-Original%20Controller%20Information.md)<br /> 
+      - [Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-Controller%20Inputs.md) <br />
     □ LEFT BLOCK <br />
     □ MIDDLE BLOCK <br /> 
     □ RIGHT BLOCK <br />
     □ PEDAL BLOCK <br />
     □ Overall Inputs <br />
     □ Notes on Analogue Reads vs Digital Reads <br />
-3. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md) <br />
+4. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md) <br />
    □ Adapter Hardware <br />
    * 3A. [ogx360_t4](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/3A-ogx360_t4.md) <br />	  
        - Keyboard and Mouse	  
@@ -39,7 +40,7 @@ Introduction - Readme
        - WIP
     * 3C. [SBCFirmRP2040-lite](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-SBCFirm2040-lite.md) <br />
          - Keyboard and Mouse
-4. Custom Controller <br />
+5. Custom Controller <br />
    □ Combination KB+Joystick <br /> 
    □ Full Custom Joystick <br /> 
    * 4A. [Building The Controller](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Building%20The%20Controller.md)
@@ -50,16 +51,16 @@ Introduction - Readme
         * Pedals from scratch	  
         * Hall Effect Pedals	  
         * Microswitch Pedals	  
-5. [Playing on Emulator](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/5-Playing%20on%20Emulator.md)	  
+6. [Playing on Emulator](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/5-Playing%20on%20Emulator.md)	  
       * Xemu	  
         * Steel Battalion Dedicated Forks of Xemu
         * PenguinVR Xemu
         * Controls on Xemu
       * Cxbx-Reloaded	  
-6. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/6-Improving%20Performance.md)	  
+7. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/6-Improving%20Performance.md)	  
     * Improving Performance  
     * Improving Graphics   
-7. Misc Information	  
+8. Misc Information	  
     * Using the Original Controller on PC
     * Other Guides
     * Control Configurations
