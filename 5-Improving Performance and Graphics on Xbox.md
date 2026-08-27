@@ -64,3 +64,6 @@ Utilize
 
 
 CxBx-Reloaded: CxBx can run XBE files natively.
+
+
+https://forums.launchbox-app.com/topic/59105-tutorial-xemu-configuration/
