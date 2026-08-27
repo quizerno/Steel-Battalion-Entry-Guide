@@ -26,7 +26,7 @@ For his PenguinVRLab project, Newerest forked a new version of Xemu which has ve
 
 ### Legacy Steel Battalion Dedicated Forks of Xemu
 
-Here are alternative forks of Xemu, most forks of the usb_passthrough fork of Xemu to allow use with the original controller.
+Here are alternative forks of Xemu, most of them are based on the pre-existing usb_passthrough fork to allow use with the original controller.
 
 |Xemu Description|Fork Name|Compatibility|Notes
 |---|---|---|---|
