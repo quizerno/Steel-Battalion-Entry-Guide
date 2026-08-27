@@ -23,7 +23,7 @@ Introduction - Readme
 1. [Overview](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-Overview.md)
     * 1A. [FAQ](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1A-FAQ.md)
 2.  [Original Controller Information](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-Original%20Controller%20Information.md)<br /> 
-      - [Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-Controller%20Inputs.md) <br />
+      - [Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2A-Controller%20Inputs.md) <br />
     □ LEFT BLOCK <br />
     □ MIDDLE BLOCK <br /> 
     □ RIGHT BLOCK <br />
