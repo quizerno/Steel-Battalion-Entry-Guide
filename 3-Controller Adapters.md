@@ -72,7 +72,13 @@ For the sake of ease, we will call this an Adapter Board.
 * [For instructions on OGX-Mini-2026 go here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-OGX-MINI-2026.md)
 * [For instructions on SBCFirm2040-lite go here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-SBCFirm2040-lite.md)
 
-## Other firmwares to consider
+## Other controller firmwares
 
-RP2040
+**RP2040**
+* https://github.com/jfedor2/hid-remapper (keyboard remapper with some controller support, but does not have prebuilt configurations)
+* https://github.com/OpenStickCommunity/GP2040-CE (similar to OGX mini, does have keyboard support, but does not have prebuilt configurations and web configurator does not support steel battalion)
+* https://github.com/joypad-ai/joypad-os (steel battalion not yet implemented)
 
+**Arduino**
+* https://github.com/jimnarey/SimpleXboxControllerAdapter
+* https://github.com/eolvera85/OGXBOX-PAD 
