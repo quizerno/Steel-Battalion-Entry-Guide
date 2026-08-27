@@ -1,4 +1,4 @@
-### 4A. Adapting Controllers 
+# 4A. Adapting Controllers 
 **(Using Pre-Existing Hardware with a Controller Adapter)**
 
 Let's say, you want to get right to the game. You're confident in your programming skills.
