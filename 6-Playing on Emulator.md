@@ -18,8 +18,9 @@ The first two files are copyrighted and must be obtained independently. The thir
 CERBIOS does NOT work with Xemu (it flashes the title and then stops), but other custom dashboards like [UnleashX](https://consolemods.org/wiki/Xbox:UnleashX) do. For an official bios, it is recommended to use one of the Xbox Bios Complex 4627 files.
 
 ### PenguinBox Xemu
-[PenguinBox Github Release Page
+* [PenguinBox Github Release Page
 ](https://github.com/PenguinVRLab/PenguinBox/releases)
+
 During the time at which this guide was being written (July 2026), there were some great strides in the emulation department.
 For his PenguinVRLab project, Newerest forked a new version of Xemu which has very good performance. It is currently the best way to emulate the game. Despite the name, VR is not required for this.
 
