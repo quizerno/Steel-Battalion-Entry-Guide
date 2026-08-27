@@ -30,7 +30,7 @@ Introduction - Readme
     □ PEDAL BLOCK <br />
     □ Overall Inputs <br />
     □ Notes on Analogue Reads vs Digital Reads <br />
-4. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md) <br />
+3. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md) <br />
    □ Adapter Hardware <br />
    * 3A. [ogx360_t4](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/3A-ogx360_t4.md) <br />	  
        - Keyboard and Mouse	  
@@ -40,7 +40,7 @@ Introduction - Readme
        - WIP
     * 3C. [SBCFirmRP2040-lite](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-SBCFirm2040-lite.md) <br />
          - Keyboard and Mouse
-5. Custom Controller <br />
+4. [Custom Controller](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4-Custom%20Controller%20Options.md) <br />
    □ Combination KB+Joystick <br /> 
    □ Full Custom Joystick <br />
    * 4A. [Adapting Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Adapting%20Controllers.md)
@@ -52,16 +52,16 @@ Introduction - Readme
         * Pedals from scratch	  
         * Hall Effect Pedals	  
         * Microswitch Pedals	  
-7. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/6-Playing%20on%20Emulator.md)	  
+5. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/6-Playing%20on%20Emulator.md)	  
       * Xemu	  
         * Steel Battalion Dedicated Forks of Xemu
         * PenguinVR Xemu
         * Controls on Xemu
       * Cxbx-Reloaded	  
-8. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Improving%20Performance%20and%20Graphics%20on%20Xbox.md)	  
+6. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Improving%20Performance%20and%20Graphics%20on%20Xbox.md)	  
     * Improving Performance  
     * Improving Graphics   
-9. Misc Information	  
+7. Misc Information	  
     * Using the Original Controller on PC
     * Other Guides
     * Control Configurations
