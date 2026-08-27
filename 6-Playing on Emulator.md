@@ -15,7 +15,7 @@ Setting up Xemu is fairly simple. Once started you will be prompted for three re
 * Hard Disk Image
 
 The first two files are copyrighted and must be obtained independently. The third file is provided by Xemu [here.](https://github.com/xemu-project/xemu-dashboard/releases/latest/download/xbox_hdd.qcow2)
-
+CERBIOS does NOT work with Xemu (it flashes the title and then stops), but other custom dashboards like [UnleashX](https://consolemods.org/wiki/Xbox:UnleashX) do. For an official bios, it is recommended to use one of the Xbox Bios Complex 4627 files.
 
 ### PenguinBox Xemu
 [PenguinBox Github Release Page
