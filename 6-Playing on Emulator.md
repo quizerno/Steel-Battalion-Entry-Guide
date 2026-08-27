@@ -49,10 +49,8 @@ http://youtube.com/watch?v=clwK9Pdt7o8
 
 
 ### Building Xemu Yourself (TBD)
-If you are knowledgeable on C++ or have coding experience, you can clone either the main branch of xemu or the USB Pass-Through branck, edit the files and build Xemu yourself
-Building Xemu https://xemu.app/docs/dev/building-from-source/#__tabbed_1_2
+"If you are knowledgeable on C++ or have coding experience, you can clone either the main branch of xemu or the USB Pass-Through branch. You can edit the files and build Xemu for yourself [here](https://xemu.app/docs/dev/building-from-source/#__tabbed_1_2).
 
-https://forums.launchbox-app.com/topic/59105-tutorial-xemu-configuration/
 
 apt-get update && apt-get install curl
 
