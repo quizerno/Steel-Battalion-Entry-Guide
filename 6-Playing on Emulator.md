@@ -8,7 +8,7 @@
 Xemu is an open source emulator for the original Xbox. It requires Xbox BIOS files and other system files to run. Development of the main Xemu has been slow, it lacks basic features and cohesion. However since it is open source, people have taken it upon themselves to build it to their needs. Xemu originally used OpenGL for graphics, but now also can be built with Vulkan
 
 ### Setting up Xemu
-Setting up Xemu is fairly simple. Once started you will be prompted for three requires files. 
+Setting up Xemu is fairly simple. Once started you will be prompted for three required files. 
 
 * MCPX Boot ROM Image
 * Flash ROM Image (BIOS)
