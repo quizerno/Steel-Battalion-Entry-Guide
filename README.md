@@ -42,25 +42,26 @@ Introduction - Readme
          - Keyboard and Mouse
 5. Custom Controller <br />
    □ Combination KB+Joystick <br /> 
-   □ Full Custom Joystick <br /> 
-   * 4A. [Building The Controller](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Building%20The%20Controller.md)
-   * 4B. [Building The Pedals](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/4-Building%20The%20Pedals.md)	  
+   □ Full Custom Joystick <br />
+   * 4A. [Adapting Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Adapting%20Controllers.md)
+   * 4B. [Building Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4B-Building%20Controllers.md)
+   * 4C. [Adapting or Building Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-Adapting%20or%20Building%20Pedals.md)	  
         * The Pedals in the Original Controller and What They Do	  
         * Options for Pedals	  
         * Existing Potentiometer Pedals	  
         * Pedals from scratch	  
         * Hall Effect Pedals	  
         * Microswitch Pedals	  
-6. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/6-Playing%20on%20Emulator.md)	  
+7. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/6-Playing%20on%20Emulator.md)	  
       * Xemu	  
         * Steel Battalion Dedicated Forks of Xemu
         * PenguinVR Xemu
         * Controls on Xemu
       * Cxbx-Reloaded	  
-7. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Improving%20Performance%20and%20Graphics%20on%20Xbox.md)	  
+8. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Improving%20Performance%20and%20Graphics%20on%20Xbox.md)	  
     * Improving Performance  
     * Improving Graphics   
-8. Misc Information	  
+9. Misc Information	  
     * Using the Original Controller on PC
     * Other Guides
     * Control Configurations
