@@ -1,4 +1,4 @@
-# 2. The Controller Inputs
+# 2A. The Controller Inputs
 
 Here is an overview of all the inputs for the Steel Battalion Controller
 Each section will also detail an alternative for some of the harder to acquire parts.
