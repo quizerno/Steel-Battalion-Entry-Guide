@@ -9,18 +9,6 @@ Requires rebinders on PC to remap existing USB devices for Xemu. At the moment m
 Requires one of the adapters and firmware from [section 3](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md), and then the proper configuring to get the adapter to recognize your devices.
 
 
-## Necessary Inputs
-Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-The%20Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
-
-|Total |Analogue Inputs|Digital Inputs|
-|---|---|---|
-| Full Recreation|8| 62
-| Simple Recreation|7|38
-| Notes|| 
-
-With this in mind you can plan out the exact hardware you need.
-
-
 ### Adapting Controllers
 If you would like to make the controller quickly, utilizing  using existing controllers and configuring your chosen adapter (or simply connecting it to a PC). [Go to section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Adapting%20Controllers.md).
 
