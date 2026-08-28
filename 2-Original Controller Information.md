@@ -22,5 +22,5 @@ Despite its large size, it is not very heavy. Weighing only about WEIGHT HERE
 
 ## Inputs
 
-The controller itself has about 62 digital inputs and 8 analog inputs. For more details, see [section 2A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2A-The%20Controller%20Inputs.md)
+The controller itself has about 62 digital inputs and 8 analog inputs. For more details, see [section 2A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2A-Controller%20Inputs.md)
 
