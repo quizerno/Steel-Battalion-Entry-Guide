@@ -1,10 +1,50 @@
 # 4A. Adapting Controllers 
 **(Using Pre-Existing Hardware with a Controller Adapter)**
 
-Let's say, you want to get right to the game. You're confident in your programming skills.
+This path requires understanding how to parse USB devices, or adapting certain functions to do so.
+
+## Necessary Inputs
+Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2A-Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
+
+|Total |Analogue Inputs|Digital Inputs|
+|---|---|---|
+| Full Recreation|8| 62
+| Simple Recreation|7|38
+| Notes|| 
+
+|Total |Analogue Inputs|Digital Inputs|
+|---|---|---|
+| Full Recreation|8| 62
+| Simple Recreation|7|38
+| Notes|| 
+
+
+With this in mind you can plan out the exact hardware you need.
+
+## Full Recreation Controller vs Simple Recreation Controller
+
+A full recreation is difficult to achieve via an adapting method because two elements of the controller are not common parts:
+  * The 7 position Gear Shifter
+  * The 15 position Tuner Dial
+The Gear Shifter as a separate module is sometimes available, but the Tuner Dial would likely require custom parts. 
+Simplifying these reduces the number of inputs by 18.
+
+## Full Minus 18 Recreation Controller
+For this guide we shall proceed with a Full Recreation MINUS these 18
+
+
+
+## Simple Recreation Controller
+
+**Left Block:** consists of 
+
+**Middle Block:**
+
+**Right Block:** 
+
 ## Choosing Controllers
 
-At risk of sounding like a self-help manual. Choose what's right for you.
+At risk of sounding like a self-help manual. Choose what you feel is comfortable, 
 
 **Recommended Configuration**<br />
 If you want a semi-accurate recreation of the original game.
