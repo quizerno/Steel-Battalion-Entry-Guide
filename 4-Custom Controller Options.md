@@ -24,7 +24,7 @@ With this in mind you can plan out the exact hardware you need.
 ### Adapting Controllers
 If you would like to make the controller quickly, utilizing  using existing controllers and configuring your chosen adapter (or simply connecting it to a PC). [Go to section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Adapting%20Controllers.md).
 
-### Building a Controller **
+### Building a Controller 
 If you are interested in building your own controller, using microcontrollers and wiring your own inputs. [Go to section 4B](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Adapting%20Controllers.md).
 
 ### Adapting or Building Pedals
