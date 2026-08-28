@@ -1,5 +1,5 @@
 # 4A. Adapting Controllers 
-**(Using Pre-Existing Hardware with a Controller Adapter)**
+**(Using Pre-Existing Hardware with a Controller Adapter on Xbox)**
 
 This path requires understanding how to parse USB devices, or adapting certain functions to do so.
 
