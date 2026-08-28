@@ -2,7 +2,7 @@
 (**Playing on Xbox Without An Original Controller**)
 
 If you plan on playing on emulator, you can skip this section, and go to the first  part of [section 4.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4-Custom%20Controllers.md)
-IF you want to play on Xbox or are curious about tinkering, read on.
+If you want to play on Xbox or are curious about tinkering, read on.
 
 
 **Skills you need**
