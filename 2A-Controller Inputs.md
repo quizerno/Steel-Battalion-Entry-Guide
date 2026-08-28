@@ -55,8 +55,6 @@ When all toggles are shut off, it turns off your VT and breaks enemy lock on. So
 # MIDDLE BLOCK
 <img width="510" height="424" alt="image" src="https://github.com/user-attachments/assets/a4806aad-5e78-4bcf-991b-3a991fd4cd77" />
 
-The middle block is unique in that some the functions are different between the original game and Line of Contact.
-
 ### >COMMUNICATION BUTTONS:
 
 Consists of 5 push buttons in a 1x5 row
