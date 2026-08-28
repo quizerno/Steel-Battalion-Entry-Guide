@@ -36,6 +36,15 @@ Here are alternative forks of Xemu, most of them are based on the pre-existing u
 | Xemu with Multiple Joystick Mapping|None, can be [downloaded here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/FluffyStuff%20Xemu%20Build.7z) |Steel Battalion(?)|By FluffStuff: uses an older version of Xemu but allows joystick inputs. 
 
 
+## Improving Steel Battalion Performance on XEMU
+
+Xemu cannot run XBE files natively. To run the altered XBE files described in the Xbox Guide, Xemu must be running a modded dashboard and Cerbios (yes you are softmodding an emulator at this point), alternatively you can rebuild the ISO file and run the game via the ISO.
+
+Method 1. Softmodding Xemu
+
+Method 2. Rebuilding the ISO https://github.com/xboxdev/extract-xiso https://github.com/KilLo445/extract-xiso-gui Utilize
+
+
 
 ## Cxbx-Reloaded (TBD)
 https://www.youtube.com/watch?v=hatA9M7ftlE&t=300s
@@ -111,11 +120,5 @@ sudo apt-get install python3-sphinx-rtd-theme
 
 pip uninstall sphinx --break-system-packages
 pip uninstall sphinx-rtd-theme --break-system-packages
-
-
-
-
-
-
 
 ```
