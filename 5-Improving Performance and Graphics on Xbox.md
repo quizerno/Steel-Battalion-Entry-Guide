@@ -1,16 +1,39 @@
 # 5. Improving Performance and Graphics on Xbox
 
 Xbox Modding is required to implement visual performance ungrades.
-As said in the intro, I am not going to be detailing Xbox Mods as there are many tutorials.
-There is softmodding, hardmodding, and TSOP modding. All will give a custom dashboard capable of running Steel Battalion.
-Improving Performance and Visuals on Xbox.
 
-I recommend several of the tutorials listed beloew
+## Xbox Modding
+As said in the intro, I am not going to be detailing Xbox Mods as there are many tutorials, and much of it will depend on your Xbox version.
+Here are several tutorials. All will give a custom dashboard capable of running Steel Battalion. If your Xbox has been modded, go down to the next section.
 
-TBD ADD TUTORIALS
+* Softmodding: [Coulter Peterson's Tutorial](https://www.youtube.com/watch?v=NchZ-mHqTb0) utilizing [Rocky5's Softmodding Tool](https://github.com/Rocky5/Xbox-Softmodding-Tool)
+   * Easiest Option: Only requires a USB-to-Xbox Controller Adapter and compatible flash drive
+   * Works on all Xbox revisions
+* Hardmodding: [Modzcville USA's ModXO tutorial](https://www.youtube.com/watch?v=uUsov3i6jL0) using [ModXO](https://github.com/Team-Resurgent/Modxo)
+   * Requires some more in-depth soldering, and a RP2040 board, with some additional parts
+   * For Xbox (any revision) with a working LPC Port. But 1.6 Xboxes will need an LPC rebuild.
+* TSOP Flash Modding: [MrMario's TSOP Flash Tutorial](https://www.youtube.com/watch?v=YLcEAbb2iP0), see also [the console mods wiki](https://consolemods.org/wiki/Xbox:TSOP_Flashing)
+  * Requires some more in-depth soldering and necessary wires
+  * For Xbox revisions up to 1.4
+* Non-TSOP Flash Modding:[ MrMario's Xyclo Mod tutorial](https://www.youtube.com/watch?v=6lVsoFpWr7w) using Xyclo Scripts
+   * Only requires a bit of soldering and a UART USB Adapter
+   * Works on Xbox revision 1.6
 
-## Hardware
-# HDMI Adapter
+### Connecting via FTP
+After your Xbox has been modded. Connect it to your network (the same one your PC is connected to) with an ethernet cable.
+There are multiple FTP clients you can use. For this tutorial I will use FileZilla. On your computer, install Filezilla
+
+In your custom dashboard, go to your network settings and find the Xbox's IP address. In filezilla you will input this address and connect to the Xbox's file structure.
+
+## Dumping Steel Battalion to the Xbox HDD
+
+https://www.youtube.com/watch?v=HB0sqDRoFe4
+
+https://github.com/KilLo445/extract-xiso-gui
+
+
+
+## HDMI Adapter
 <img width="566" height="566" alt="image" src="https://github.com/user-attachments/assets/cbe29e1f-73fa-4fe6-8b9c-2f0b0c16911d" />
 
 The original Xbox can actually output HDMI signals, it just requires an adapter and changing settings in the original dashboard
