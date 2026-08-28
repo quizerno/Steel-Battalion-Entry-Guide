@@ -1,6 +1,20 @@
 # 4B. Building Controllers
 
+
 Hardware-wise path you take on building a custom controller does not matter provided you can get the controls to function with the adapters mentioned in section 3. The software side that interacts with those adapters is the key focus.
+
+## Necessary Inputs
+Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2A-Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
+
+|Total |Analogue Inputs|Digital Inputs|
+|---|---|---|
+| Full Recreation|8| 62
+| Simple Recreation|7|38
+| Notes|| 
+
+With this in mind you can plan out the exact hardware you need.
+
+
 
 ## Understanding HID codes
 
