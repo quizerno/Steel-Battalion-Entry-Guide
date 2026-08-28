@@ -1,10 +1,10 @@
 # 5. Improving Performance and Graphics on Xbox
 
-Xbox Modding is required to implement visual performance ungrades.
+Xbox Modding is required to implement these upgrades.
 
-## Xbox Modding
-As said in the intro, I am not going to be detailing Xbox Mods as there are many tutorials, and much of it will depend on your Xbox version.
-Here are several tutorials. All will give a custom dashboard capable of running Steel Battalion. If your Xbox has been modded, go down to the next section.
+### Xbox Modding
+As said in the intro, I am not going to be detailing Xbox Mods as there are many tutorials, and much of it will depend on your Xbox revision.
+Here are several tutorials. All will give a custom dashboard capable of running Steel Battalion. If your Xbox has been modded, go down to the next section on "Connecting via FTP."
 
 * Softmodding: [Coulter Peterson's Tutorial](https://www.youtube.com/watch?v=NchZ-mHqTb0) utilizing [Rocky5's Softmodding Tool](https://github.com/Rocky5/Xbox-Softmodding-Tool)
    * Easiest Option: Only requires a USB-to-Xbox Controller Adapter and compatible flash drive
@@ -19,34 +19,38 @@ Here are several tutorials. All will give a custom dashboard capable of running 
    * Only requires a bit of soldering and a UART USB Adapter
    * Works on Xbox revision 1.6
 
-### Connecting via FTP
-After your Xbox has been modded. Connect it to your network (the same one your PC is connected to) with an ethernet cable.
-There are multiple FTP clients you can use. For this tutorial I will use FileZilla. On your computer, install Filezilla
 
-In your custom dashboard, go to your network settings and find the Xbox's IP address. In filezilla you will input this address and connect to the Xbox's file structure.
-
-## Dumping Steel Battalion to the Xbox HDD
-
-https://www.youtube.com/watch?v=HB0sqDRoFe4
-
-https://github.com/KilLo445/extract-xiso-gui
-
-
-
-## HDMI Adapter
+## HDMI/Component Adapter
 <img width="566" height="566" alt="image" src="https://github.com/user-attachments/assets/cbe29e1f-73fa-4fe6-8b9c-2f0b0c16911d" />
 
-The original Xbox can actually output HDMI signals, it just requires an adapter and changing settings in the original dashboard
-There are many different style of these adapters sold. Do not confuse these with composite to HDMI adapters. You can also consider building one yourself if you have spare parts
+The original Xbox can actually output HD signals, it just requires an adapter and changing settings in the original dashboard.
+There are many different style of these adapters sold. Do not confuse these with composite to HDMI adapters, they will only try to upscale the composite signal.
+You can also consider building one yourself if you have spare parts ([TechnoOnTop's Tutorial](https://www.youtube.com/watch?v=S8jFJjoIO8s)).
 
+After you've connected the cable to the Xbox, go to the original Xbox dashboard (NOT your custom one) and enable the signals
 
+<img width="366" height="331" alt="image" src="https://github.com/user-attachments/assets/fd25b8ae-f53a-40c8-90a8-1de0d30c7138" />
 
 
 ##Implimentation
 
 To utilize HDMI signals for Steel Battalion specifically, asoftmodded or hard modded Xbox is require. Go down to the section on "Playing Steel Battalion from the Xbox HDD"
 
-<img width="366" height="331" alt="image" src="https://github.com/user-attachments/assets/fd25b8ae-f53a-40c8-90a8-1de0d30c7138" />
+
+
+## Connecting via FTP
+After your Xbox has been modded. Connect it to your network (the same one your PC is connected to) with an ethernet cable.
+There are multiple FTP clients you can use. For this tutorial I will use FileZilla. On your computer, install Filezilla
+
+In your custom dashboard, go to your network settings and find the Xbox's IP address. In filezilla you will input this address and connect to the Xbox's file structure.
+
+### Dumping Steel Battalion to the Xbox HDD
+
+https://www.youtube.com/watch?v=HB0sqDRoFe4
+
+https://github.com/KilLo445/extract-xiso-gui
+
+
 
 
 
