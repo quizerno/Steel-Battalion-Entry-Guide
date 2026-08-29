@@ -14,11 +14,19 @@ If you want to play on Xbox or are curious about tinkering, read on.
 
 ## How this works
 
+There are two ways to use the Controller Adapter. Note that Xbox modding is not required for the adapter to work, but you will need the Female USB Cable Adapter to connect it to the Xbox.
+
+### The Host Option
+
 <img width="1152" height="360" alt="image" src="https://github.com/user-attachments/assets/44a67dc0-539d-45d2-8aa5-a849d6a9ef41" />
 
-The inputs are read from your **custom controller** into your **adapter board** which outputs Steel Battalion inputs to the Xbox Controller 
-Through this rube-goldberg finaggling of connections, you can play Steel Battalion with a control set-up of your choosing. 
-Note that Xbox modding is not required for the controller to work, but you will need the Female USB Cable Adapter to connect to it.
+Your **USB Controller** connects to a **Host Cable** on your **adapter board.** The inputs on the USB Controller are read by the adapter which outputs Steel Battalion inputs to the Xbox. Through this rube-goldberg finaggling of connections, you can play Steel Battalion with the USB devices you ant. 
+
+## The GPIO Option
+
+Your **Custom Controller Direct Inputs** to your **adapter board** which outputs Steel Battalion inputs to the Xbox Controller.
+
+
 
 # Hardware
 
@@ -54,8 +62,9 @@ For the sake of ease, we will call this an Adapter Board.
 |---|---|---|---|---|
 |Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|Ebay, Sparkfun | 27-30 USD| Uses Micro USB, has mSD card slot,  <br>powerful development platform. 
 |RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026), [SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Ebay, Sparkfun, Adafruit| 4-30 USD|Many Options including Pi Pico,  <br>Pi Pico 2, Pi Pico W, Pi Pico 2 W, RP2354, Pico/ESP32
-|USB Host Cable (Female USB A)||Ebay, Sparkfun or other online electronics stores| 3-8 USD| Needed to take in the Custom Controller inputs. Some of the RP2040 boards (such as the Adafruit Feather) come with a USB Host built in and therefore do not require this cable
-|Micro USB/USB-C to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer, as stated above the Teeny 4.1 uses Micro USB, RP2040s have Micro USB and USB-C options
+|Arduino|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD), [SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|Ebay, Sparkfun, Adafruit| 4-30 USD| Many options, but must be a native HID Arduino device. This is primarily the GPIO option because Arduinos require separate boards to host USB devices
+|USB Host Cable (Female USB A)||Ebay, Sparkfun or other online electronics stores| 3-8 USD| Needed to take in the Custom Controller inputs on the Teensy or the RP2040. Some of the RP2040 boards (such as the Adafruit Feather) come with a USB Host built in and therefore do not require this cable
+|Micro USB/Mini USB/USB-C/ to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer, as stated above the Teeny 4.1 uses Micro USB, RP2040s and Arduinos have Micro USB and USB-C options. Some Arduinos use Mini USB
 
 **Which Board and Firmware Should I Choose?**
 
@@ -64,6 +73,8 @@ For the sake of ease, we will call this an Adapter Board.
 |Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|**Board:** Very Powerful, lots of GPIO pins <br /> **Firmware:** [USBHost_t36 drivers](https://github.com/PaulStoffregen/USBHost_t36), keyboard, hub, joystick support| **Board:** Expensive, very sensitive to higher voltages **Firmware:** Lacking documentation| Keyboard, Mouse, HID Joysticks, Xbox 360 Controller, USB Hubs |  Keyboard+Mouse, HOTAS Gunfighter
 |RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|**Board:** Inexpensive, **Software:** Many host drivers| **Firmware:** No keyboard support yet, no hub support, adding your own configurations might be time consuming| Many Controllers |Xbox 360 Controller with Chatpad
 |RP2040|[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|**Board:** Inexpensive , **Firmware:** Simple  |**Board:** Currently only testing with the regular PICO **Firmware:** Currently WIP| Keyboard, Mouse, USB hubs, DS4 Controller, working on support for other devices | Pending
+|Arduino|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD)|**Board:** Inexpensive, **Firmware:** Simple, great for GPIO|Firmware not built with host in mind|None, uses GPIO instead|Pending
+|Arduino|[SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|**Board:** Inexpensive, **Software:** Some host libraries|need to buy separate hostboard, Steel Battalion implementation not fully documented| Gamepads| Xbox 360 Controller with Chatpad
 
 
 
