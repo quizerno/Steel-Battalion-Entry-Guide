@@ -180,7 +180,7 @@ When considering your remapped controller or custom controller, here is a simpli
 | Simple Recreation|NONE|20 Buttons + 2 Button Digital Tuner (22)
 | Notes|| The tuner has 16 positions, but only has 5 channels.
 
-|Left Block|Analogue Inputs|Digital Inputs|
+|Right Block|Analogue Inputs|Digital Inputs|
 |---|---|---|
 | Full Recreation| X-Y Joystick (2)| 13 Buttons
 | Simple Recreation|X-Y Joystick (2)|11 Buttons
