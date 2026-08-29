@@ -3,10 +3,10 @@
 ## General Questions
 
 **What is Steel Battalion?** <br/>
-Steel Battalion (Tekki) is a single player mecha simulation game released in 2002 for the original Xbox, it is noted for having a very intricate controller. In this guide I will abbreviate it to OG (original game)
+Steel Battalion (JP: 鉄騎 Tekki) is a single player mecha simulation game released in 2002 for the original Xbox, it is noted for having a very intricate controller. In this guide I will abbreviate it to OG (original game)
 
 **What is Steel Battalion: Line of Contact?** <br/>
-Steel Battalion: Line of Contact (JP: Tekki Taisen), shortened to LoC, is the stand alone multiplayer game that was released a year later after the original game. Despite the servers being taken down, due to community support people still continue to play it today. 
+Steel Battalion: Line of Contact (JP: 鉄騎大戦 Tekki Taisen), shortened to LoC, is the stand alone multiplayer add-on that was released a year later after the original game. Despite the servers being taken down, due to community support people still continue to play it today. 
 
 **I want to play Steel Battalion!**  <br/>
 Good you’ve come to the right place.
@@ -35,19 +35,29 @@ While the the original Steel Battalion Controller is quite expensive and a colle
 That will depend on your interest in simulation games. If you're into them, Steel Battalion is worth trying at least once.
 
 **Can you give me a rough bill of sale?** <br/>
-
 Xbox Play
-
-
 Emulator Play
-
-
 Xbox + Original Controller: Original SBC Controller is 200+ dollars, Xbox units can range from 30 to 120 dollars, softmodding is 15 dollars, hard modding is variable. Softmodding is only necessary for Xbox online play and performance increases
 
 Xbox + Adapted Controller:  Softmodding is 15 dollars
 
 PC + Any Controller: Potentially the cheapest option
 
+## Controller Questions
+**Is it better have an original controller or do a custom/adapted controller?** <br/>
+In terms of play, it will really be up to you.
+In my opinion, the quality of the original controller is not amazing (although still impressive).
+So in terms of finances, I do believe it is better to invest in a custom controller.
+
+**How hard is it do a custom/adapted controller?** <br/>
+Depending on your level of tech saviness. It can be very time consuming.
+But since we have extensive documentation, it should not be considered impossibly hard.
+
+**Is dedicated hardware for a gear shifter and/or tuner dial necessary?** <br/>
+No. They can be created with 2 inputs each.
+
+**Are pedals necessary?** <br/>
+Not strictly necessary. If you don't find pedals comfortable, you can bind them to other analog buttons
 
 
 ## Xbox Questions
@@ -77,24 +87,9 @@ No, this has been tested by N68dodgeboy. Even if you were able to link the contr
 
 No, neither of these consoles have mod options. In theory it would be possible to put an emulator on those consoles but they have ram limitations which make it impossible for now.
 
-
 **Can I use the SB controller on PC for the Emulator and/or other games?** <br/>
 
 Yes, there are a couple methods to do this. See my section on using the SB Controller on PC 
 
-
-
-
-## More in-depth questions
-
-
-
-
-
-#### Do you want make a custom controller or adapt an existing controller?
-
-
-
-#### Do you want to use pedals or not?
 
 The original game is unique in that it uses 3 different ped
