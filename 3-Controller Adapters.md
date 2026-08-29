@@ -14,24 +14,23 @@ If you want to play on Xbox or are curious about tinkering, read on.
 
 ## How this works
 
-There are two ways to use the Controller Adapter. Note that Xbox modding is not required for the adapter to work, but you will need the Female USB Cable Adapter to connect it to the Xbox.
+There are two ways to use the Controller Adapter. Note that Xbox modding is not required for the adapter to work, but you will need the Female USB Cable Adapter to connect it to the Xbox. Behold the rube-goldberg machine below.
 
 ### The Host Option
 
 <img width="1152" height="360" alt="image" src="https://github.com/user-attachments/assets/44a67dc0-539d-45d2-8aa5-a849d6a9ef41" />
 
-Your **USB Controller** connects to a **Host Cable** on your **adapter board.** The inputs on the USB Controller are read by the adapter which outputs Steel Battalion inputs to the Xbox. Through this rube-goldberg finaggling of connections, you can play Steel Battalion with the USB devices you ant. 
+Your **USB Controller** connects to a **Host Cable** on your **adapter board** which connects to the Xbox. The inputs on the USB Controller are read by the adapter which outputs Steel Battalion inputs to the Xbox. As long as the USB devices are parsed properly, you can play Steel Battalion with the USB devices you want. 
 
-## The GPIO Option
+### The GPIO Option
 
-Your **Custom Controller Direct Inputs** to your **adapter board** which outputs Steel Battalion inputs to the Xbox Controller.
+Your **Custom Controller Direct Inputs** to your **adapter board** which outputs Steel Battalion inputs to the Xbox.
 
 
 
 # Hardware
 
 ## Connection Cables 
-
 
 **Xbox USB Bridge Cable**
 To , you will need a cable that allows you to connect USB devices to the Xbox.  If you have done softmodding or hard modding before, you will likely have some experience with this.
@@ -44,10 +43,11 @@ To , you will need a cable that allows you to connect USB devices to the Xbox.  
 - In an upcoming section section you will choose hardware for the adapter board
   - If the adapter board uses USB-C you can use an Xbox to USB-C Cable.
   - If the adapter board uses Micro USB you can use an Xbox to Micro USB Cable.
+  - etc
 
 **USB Hub**
 
-A powered USB hub will be needed if you want to connect more than one device to the adapter board. 
+A powered USB hub will be needed if you want to connect more than one device to the adapter board host. 
 |Hardware|Usage|Where to Buy|Price|
 |---|---|---|---|
 |USB Hub|Connects multiple devices to one device, power adapter ensures that it will not draw too much voltage from the adapter board | [Ebay](https://www.ebay.com/itm/334645888588?_skw=powered+usb+hub&itmmeta=01KZV57C33Q88G3AG75GB9JZ8K&hash=item4dea73064c%3Ag%3AnHkAAOSw4TxjhH7O&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBFIgVGBtXS5wgwN4pyL7MXjRDfFIAGwkYnN2nvH1ie4GqBubRWete0jUF0Y7T3eaG5Bhiht%2BrRE4qSLcnKbDpUlWfg5GtL6E3AzxSM7Mmtt6iPctwDBgFzD0hstEHe9el%2B%2ByRt5bjj2qzX818UcQIKMJBklrM9FdhHkvLi%2FQAGcgRCuMlniqCaJM%2FuA1Gb5%2FtqM1f5sVS6Xpk%2BsbAmkdeBn3ZPmxICIbtRF7wexiyMZW7ljH56IcS4znFNPAny1Dw%3D%7Ctkp%3ABk9SR6TCneX-Zw&var=543780669152)| Around 12-19 USD but more expensive ones exists|
@@ -91,5 +91,4 @@ For the sake of ease, we will call this an Adapter Board.
 * https://github.com/joypad-ai/joypad-os (steel battalion not yet implemented)
 
 **Arduino**
-* https://github.com/jimnarey/SimpleXboxControllerAdapter
-* https://github.com/eolvera85/OGXBOX-PAD 
+
