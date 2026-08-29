@@ -1,4 +1,19 @@
+# 3D. OGXBOX-PAD
 
+[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD) by eolvera85 is effectively a port of ogx360 to the arduino platform.
+Because of this, unlike the previous firmware options, OGXBOX-PAD utilizes arduino boards.
+
+Because it does not have any host libraries, this is effectively a GPIO only option
+
+## Hardware
+
+If you are unfamiliar with arduino boards, they are effectively multipurpose microcontrollers. 
+They are noted for their 
+
+## Set-up
+
+* Install the arduino IDE
+* 
 
 ```
 #include <usbd_xid.h> // <- This contains your usbd_sbattalion_in_t structure!
