@@ -23,3 +23,4 @@
  11. (Steam Guide) [Flame Soulis: Using a Steel Battalion Controller with HAWKEN](https://steamcommunity.com/sharedfiles/filedetails/?id=240489890)
  12. (SourceForge) [Hacknfly's Steel Battalion GUI for 64bit Windows](https://sourceforge.net/projects/steel-batallion-64/)
  13. (Video) [Blank Trigger Gamer's Guide on using the Steel Battalion Controller with Armored Core ](https://www.youtube.com/watch?v=rMlKRhGS01o)6
+ 14. (Github) [Sonik-br's pico-battalion](https://github.com/sonik-br/pico_battalion)
