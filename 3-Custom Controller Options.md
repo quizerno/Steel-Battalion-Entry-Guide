@@ -1,12 +1,43 @@
-# 4. Custom Controller Options
+# 3. Custom Controller Options
 
-Whether you decide to play on Xbox or Emulator ultimately decides on how you approach this.
+This is the bulk of the guide because it is extremely in-depth.
 
 **Emulator Play:**
-Requires rebinders on PC to remap existing USB devices for Xemu. At the moment me and others are working on a framework that will hopefully reduce the software required.
+Requires rebinders on PC to remap existing USB devices for Xemu. At the moment me and others are working on a framework that will hopefully reduce the software required. If you are interested in playing on Emulator proceed to the Emulator section
 
 **Xbox Play:**
 Requires one of the adapters and firmware from [section 3](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md), and then the proper configuring to get the adapter to recognize your devices.
+Two factors
+
+## Planning
+
+**First:** to interact with the Xbox USB protocol, we need a Controller Adapter and Firmware. 
+You will need to decide on 
+
+**Second:** you will need to decide on the control set-up you want. 
+
+Specifically:
+* **Adapted Host Set-Up:** If you want to use existing hardware that goes into an adapter, say use a Flightstick controller to play Steel Battalion.
+* **Adapted-HID Set-Up:** If you want to create your own hardware, a full custom controller to play Steel Battalion.
+* **SBC Hub Set-Up:** If you want to create multiple emulated Steel Battalion devices that meet together in one adapter.
+* **GPIO Set-Up:** If you want to have the controls directly wired to the adapter.
+
+Combining these set-ups is also an option but it will be heavily dependent on the adapter and firmware you choose. 
+
+
+## Adapted Set-Up
+**How this works**
+For an adapted controller set-up there is one path:
+-One or more USB-Devices connected to Host Cable of the adapter (HUB needed for 2+ devices)
+--The adapter is programmed to parse each of the devices to corresponding Steel Battalion inputs
+--The inputs are then sent to the Xbox
+
+
+
+
+
+
+
 
 
 ### Adapting Controllers
