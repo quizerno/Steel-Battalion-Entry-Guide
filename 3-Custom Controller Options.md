@@ -74,7 +74,6 @@ IMAGE
 
 Your **Custom SBC Controller** connects to a **Host Cable** on your **adapter board** which connects to the Xbox. The inputs on the USB Controller are read by the adapter which outputs Steel Battalion inputs to the Xbox.
 
-
 **To lay it out simply:**
 - This is essentially the same as an adapted controller but with your own custome controller 
 - One or more Custom HID Joysticks connected to Host Cable of the adapter (HUB needed for 2+ devices)
@@ -82,11 +81,14 @@ Your **Custom SBC Controller** connects to a **Host Cable** on your **adapter bo
 - A disadvantage of this is that you need to buy more microcontroller boards
 
 
-### Building a Controller 
-If you are interested in building your own controller, using microcontrollers and wiring your own inputs. [Go to section 4B](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Adapting%20Controllers.md).
+## Adapting Controllers
+If you are interested in adapting existing controllers, [go to section 3C](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-Adapted%20Controllers.md)
 
-### Adapting or Building Pedals
-If you need pedals and want to create your own pedals or need help adapting the analog inputs. [Go to Section 4C](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-Adapting%20or%20Building%20Pedals.md).
+## Building a Controller 
+If you are interested in building your own controller using any of the DIY Set-Ups mentioned above. [Go to section 3C](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-DIY%20Controllers.md).
+
+## Adapting or Building Pedals
+If you need pedals and want to create your own pedals or need help adapting the analog inputs. [Go to Section 3D](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3D-Adapted%20or%20DIY%20Pedals.md).
 
 
 
