@@ -26,11 +26,9 @@ With this in mind you can plan out the exact hardware you need.
 A full recreation is difficult to achieve via an adapting method because two elements of the controller are not common parts:
   * The 7 position Gear Shifter
   * The 15 position Tuner Dial
-The Gear Shifter as a separate module is sometimes available, but the Tuner Dial would likely require custom parts. 
-Simplifying these reduces the number of inputs by 18.
 
-## Full Minus 18 Recreation Controller
-For this guide we shall proceed with a Full Recreation MINUS these 18
+The Gear Shifter as a separate module is sometimes available, but the Tuner Dial would likely require custom parts. 
+Simplifying these reduces the number of inputs by 18. For this guide we shall proceed with a Full Recreation MINUS these 18
 
 
 
