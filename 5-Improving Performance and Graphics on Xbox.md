@@ -81,16 +81,13 @@ Xemu cannot run the XBE files directly, to run the altered XBE files described a
 
 Method 1. Softmodding Xemu
 
-
 Method 2. Rebuilding the ISO 
 https://github.com/xboxdev/extract-xiso
 https://github.com/KilLo445/extract-xiso-gui
 Utilize 
 
 
-
-
-CxBx-Reloaded: CxBx can run XBE files natively.
-
-
-https://forums.launchbox-app.com/topic/59105-tutorial-xemu-configuration/
+## Other additional Xbox Mods that can improve performance.
+* IDE to SSD Adapter
+* RAM Upgrade
+* CPU Upgrade
