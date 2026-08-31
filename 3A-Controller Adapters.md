@@ -1,31 +1,5 @@
 # 3A. Controller Adapters and Firmware
-(**Playing on Xbox Without An Original Controller**)
-
-If you plan on playing on emulator, you can skip this section, and go to the first  part of [section 4.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4-Custom%20Controllers.md)
-If you want to play on Xbox or are curious about tinkering, read on.
-
-
-**Skills you need**
-- Knowledge of programming: Coding is not strictly necessary unless you want to do more complex control options.
-- Mild understanding of linux commands
-- Basic soldering: you will need to solder 4 points. If you're planning on building a controller from scratch you will be need to solder a lot.
-- Patience: this can be difficult
-
-
-## How this works
-
-There are two ways to use the Controller Adapter. Note that Xbox modding is not required for the adapter to work, but you will need the Female USB Cable Adapter to connect it to the Xbox. Behold the rube-goldberg machine below.
-
-### The Host Option
-
-<img width="1152" height="360" alt="image" src="https://github.com/user-attachments/assets/44a67dc0-539d-45d2-8aa5-a849d6a9ef41" />
-
-Your **USB Controller** connects to a **Host Cable** on your **adapter board** which connects to the Xbox. The inputs on the USB Controller are read by the adapter which outputs Steel Battalion inputs to the Xbox. As long as the USB devices are parsed properly, you can play Steel Battalion with the USB devices you want. 
-
-### The GPIO Option
-
-Your **Custom Controller Direct Inputs** to your **adapter board** which outputs Steel Battalion inputs to the Xbox.
-
+(**The Hard Pard**)
 
 
 # Hardware
@@ -86,6 +60,9 @@ For the sake of ease, we will call this an Adapter Board.
 
 ## Board Options
 
+**Teensy**
+* Teensy 4.1
+
 **RP2040**
 * Pi Pico
 * Pi Pico 2
@@ -115,5 +92,8 @@ For the sake of ease, we will call this an Adapter Board.
 * https://github.com/OpenStickCommunity/GP2040-CE (similar to OGX mini, does have keyboard support, but does not have prebuilt configurations and web configurator does not support steel battalion)
 * https://github.com/joypad-ai/joypad-os (steel battalion not yet implemented)
 
-**Arduino**
+**Arduino or R2040**
+* [GIMX](https://github.com/matlo/GIMX)
 
+**ESP32**
+* [Talon](https://github.com/Team-Resurgent/Talon)
