@@ -1,6 +1,7 @@
 # 3A. Controller Adapters and Firmware
-(**The Hard Pard**)
+(**The Hard Part**)
 
+Here is a run-down of your options for controller adapters.
 
 # Hardware
 
