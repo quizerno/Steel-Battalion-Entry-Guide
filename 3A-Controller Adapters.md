@@ -89,12 +89,12 @@ For the sake of ease, we will call this an Adapter Board.
 ## Other controller firmwares
 
 **RP2040**
-* https://github.com/jfedor2/hid-remapper (keyboard remapper with some controller support, but does not have prebuilt configurations)
-* https://github.com/OpenStickCommunity/GP2040-CE (similar to OGX mini, does have keyboard support, but does not have prebuilt configurations and web configurator does not support steel battalion)
-* https://github.com/joypad-ai/joypad-os (steel battalion not yet implemented)
+* [HID Remapper](https://github.com/jfedor2/hid-remapper) - Keyboard remapper with some controller support, but does not have prebuilt configurations.
+* [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) - Similar to OGX mini, does have keyboard support, but does not have prebuilt configurations and web configurator does not support steel battalion.
+* [Joypad-os](https://github.com/joypad-ai/joypad-os) - Steel Battalion not yet implemented.
 
 **Arduino or R2040**
-* [GIMX](https://github.com/matlo/GIMX)
+* [GIMX](https://github.com/matlo/GIMX) - Similar to OGX-Mini but no longer supported and the wiki is prone to crashing
 
 **ESP32**
 * [Talon](https://github.com/Team-Resurgent/Talon)
