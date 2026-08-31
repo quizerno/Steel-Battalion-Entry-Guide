@@ -38,9 +38,9 @@ Introduction - Readme
       * 3A-II. [OGX-MINI-2026](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-II-OGX-MINI-2026.md) <br />
       * 3A-III. [SBCFirmRP2040-lite](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-III-SBCFirm2040-lite.md) <br />
       * 3A-IV. [OGXBOX-PAD](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-IV-OGXBOX-PAD.md) <br />
-   * 3B. [Adapting Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-Adapting%20Controllers.md) <br />
-   * 3C. [Building Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-Building%20Controllers.md) <br />
-   * 3D. [Adapting or Building Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3D-Adapting%20or%20Building%20Pedals.md) <br /> 
+   * 3B. [Adapted Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-Adapted%20Controllers.md) <br />
+   * 3C. [DIY Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-DIY%20Controllers.md) <br />
+   * 3D. [Adapted or DIY Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3D-Adapted%20or%20DIY%20Pedals.md) <br /> 
 4. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4-Playing%20on%20Emulator.md) <br />
       * Xemu	  
         * Steel Battalion Dedicated Forks of Xemu
