@@ -1,4 +1,4 @@
-# 3. Controller Adapters
+# 3A. Controller Adapters and Firmware
 (**Playing on Xbox Without An Original Controller**)
 
 If you plan on playing on emulator, you can skip this section, and go to the first  part of [section 4.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4-Custom%20Controllers.md)
