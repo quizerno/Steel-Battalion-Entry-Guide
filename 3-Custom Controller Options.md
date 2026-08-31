@@ -1,13 +1,13 @@
 # 3. Custom Controller Options
 
-(**Playing on Emulator Without an Original Controller**)<br /)
-If you plan on playing on emulator, you can any skip any part of this section that has to do with with the Controller Adapters, and go to the Emulator section. However, if you want to build a custom controller, some of this knowledge will be helpful.
+(**Playing on Emulator Without an Original Controller**)<br />
+If you plan on playing on emulator, you can any skip any part of this section that has to do with with the Controller Adapters, and go to the Emulator section. If you want to build a custom controller, some of this knowledge will be helpful.
 
-(**Playing on Xbox Without An Original Controller**)
+(**Playing on Xbox Without An Original Controller**)<br />
 If you want to play on Xbox or are curious about tinkering, read on.
 
 
-**Skills you need**
+**Skills you need**<br />
 - Knowledge of programming: Coding is not strictly necessary unless you want to do more complex control options.
 - Mild understanding of linux commands
 - Basic soldering: you will need to solder at least 4 points. If you're planning on building a controller from scratch you will be need to solder a lot.
