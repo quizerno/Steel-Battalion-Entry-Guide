@@ -8,28 +8,39 @@ You are here. Details each section of this guide and contains an FAQ subsection 
    
 This section is to help familiarize yourself with the controller and its inputs
 
-### 3. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md)<br/>
-  * **3A. [ogx360_t4](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-ogx360_t4.md)**
-  * **3B. [OGX-MINI-2026](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-OGX-MINI-2026.md)**
-  * **3C. [SBCFirm2040-lite](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-SBCFirm2040-lite.md)**
-  * 
+### 3. [Custom Controller Options <br/>](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-Custom%20Controller%20Options.md)
+  * **3A. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Adapters.md)**
+  * **3A-I. [ogx360_t4](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-I-ogx360_t4.md)**
+  * **3A-II. [OGX-MINI-2026](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-II-OGX-MINI-2026.md)**
+  * **3A-III. [SBCFirm2040-lite](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-III-SBCFirm2040-lite.md)**
+  * **3A-IV.  [OGXBOX-PAD](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-IV-OGXBOX-PAD.md)**
+ * **3B. [Adapting Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-Adapted%20Controllers.md)**
+ * **3C. [Building Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-DIYg%20Controllers.md)**
+ * **3D. [Adapting or Building Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-Adapted%20or%20DIY%20Pedals.md)**
+
+
 This section details hardware and firmware for the creation of microcontrollers to act as Controller Adapters, used for playing on 
-the original Xbox with non-official hardware. Eacb subsection is detail on each firmware. This section ties into section 4 where custom controllers are explained.
+the original Xbox with non-official hardware. Eacb subsection in 3A is detail on each firmware. 
 
-### 4. [Custom Controller Options <br/>](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4-Custom%20Controller%20Options.md)
- * **4A. [Adapting Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Adapting%20Controllers.md)**
- * **4B. [Building Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4B-Building%20Controllers.md)**
- * **4C. [Adapting or Building Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-Adapting%20or%20Building%20Pedals.md)**
+Sections 3B and 3C detail how you can use either pre-existing hardware or create custom hardware for use with a controller adapter.
+The hardware described here can also be used for use with with xbox emulators. 
 
-An addendum to the previous part, details how you can use either pre-existing hardware or create custom hardware for use with a controller adapter.
-The hardware described here can also be used for use with with xbox emulators. Lastly, this section includes a tutorial on the creation of a Pedal Block for use with the original controller or emulator.
+Lastly, 3D includes a tutorial on the creation of a Pedal Block for use with the original controller or emulator.
 
-### 5. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Improving%20Performance%20and%20Graphics%20on%20Xbox.md) <br/>
-This section describes hardware and softwaew options for Xbox players to improve their gameplay experience
+### 4. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Improving%20Performance%20and%20Graphics%20on%20Xbox.md) <br/>
+This section describes hardware and software options for Xbox players to improve their gameplay experience
 
-### 6. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/6-Playing%20on%20Emulator.md) <br/>
+### 5. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/6-Playing%20on%20Emulator.md) <br/>
 This section explains the options for playing Steel Battalion on PC via an Emulator and how to apply knowledge from the previous sections.
 
-### 7. Misc Information </br>
+### 6. Misc Information </br>
 This section is used as an archive for various information related to Steel Battalion. This includes guides on
 how to use the Original Controller on PC, suggestions for control set-ups, mods to the Original Controller and so-on.
+
+
+
+        * Steel Battalion Dedicated Forks of Xemu
+        * Controls on Xemu
+      * Cxbx-Reloaded	  
+6. Misc Information	  
+This section explains the options for playing Steel Battalion on PC via an Emulator and how to apply knowledge from the previous sections.
