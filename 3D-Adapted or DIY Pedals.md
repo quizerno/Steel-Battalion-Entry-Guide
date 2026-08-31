@@ -1,4 +1,4 @@
-# 4C. Adapting or Building Pedals
+# 3D. Adapted or DIY Pedals
 
 
 For if you have a controller and need pedals.
