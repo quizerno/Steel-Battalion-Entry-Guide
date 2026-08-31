@@ -31,7 +31,7 @@ Introduction - Readme
     □ Overall Inputs <br />
     □ Notes on Analogue Reads vs Digital Reads <br />
 3. [Custom Controller Options](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Custom%20Controller%20Options.md) <br /> 
-   - 3A.[Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-Controller%20Adapters.md) <br />
+   - 3A. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-Controller%20Adapters.md) <br />
       □ Adapter Hardware <br />
       □ Adapter Firmware <br />
       * 3A-I. [ogx360_t4](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/3A-I-ogx360_t4.md) <br />	  
