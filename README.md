@@ -14,6 +14,8 @@ If you have any other general questions about Steel Battalion, you can also cons
 
 Join the discord server [here.](https://discord.gg/yG6yr96eb)
 
+This guide should not be considered definitive. There are many things that need to be documented.
+
 ## How To Use This Guide
 
 My goal with this guide is to make a series of easy to understand tutorials that even someone without knowledge of github can use. However since the topic of this guide is inherently very confusing, it therefore requires a lot of information that does not necessarily have a linear order. Proceed to the [Overview.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-Overview.md)
@@ -42,14 +44,13 @@ Introduction - Readme
    * 3C. [DIY Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-DIY%20Controllers.md) <br />
    * 3D. [Adapted or DIY Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3D-Adapted%20or%20DIY%20Pedals.md) <br /> 
 4. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4-Improving%20Performance%20and%20Graphics%20on%20Xbox.md)	  
-    * Improving Performance  
-    * Improving Graphics
 5. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Playing%20on%20Emulator.md) <br />
       * Xemu	  
         * PenguinVR Xemu
         * Steel Battalion Dedicated Forks of Xemu
         * Controls on Xemu
-      * Cxbx-Reloaded	  
+      * Cxbx-Reloaded
+      * Improving Performance
 7. Misc Information	  
     * Using the Original Controller on PC
     * Other Guides
