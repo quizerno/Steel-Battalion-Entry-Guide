@@ -41,15 +41,15 @@ Introduction - Readme
    * 3B. [Adapted Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-Adapted%20Controllers.md) <br />
    * 3C. [DIY Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-DIY%20Controllers.md) <br />
    * 3D. [Adapted or DIY Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3D-Adapted%20or%20DIY%20Pedals.md) <br /> 
-4. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4-Playing%20on%20Emulator.md) <br />
+4. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4-Improving%20Performance%20and%20Graphics%20on%20Xbox.md)	  
+    * Improving Performance  
+    * Improving Graphics
+5. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Playing%20on%20Emulator.md) <br />
       * Xemu	  
-        * Steel Battalion Dedicated Forks of Xemu
         * PenguinVR Xemu
+        * Steel Battalion Dedicated Forks of Xemu
         * Controls on Xemu
       * Cxbx-Reloaded	  
-5. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Improving%20Performance%20and%20Graphics%20on%20Xbox.md)	  
-    * Improving Performance  
-    * Improving Graphics   
 7. Misc Information	  
     * Using the Original Controller on PC
     * Other Guides
