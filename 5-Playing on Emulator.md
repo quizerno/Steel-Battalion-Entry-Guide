@@ -1,4 +1,4 @@
-# 6. Playing on Emulator
+# 5. Playing on Emulator
 
 
 ## Xemu
