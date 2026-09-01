@@ -1,4 +1,4 @@
-# 3C. DIY Controllers
+# 4C. DIY Controllers
 
 
 Hardware-wise path you take on building a custom controller does not matter provided you can get the controls to function with the adapters mentioned in section 3. The software side that interacts with those adapters is the key focus.
