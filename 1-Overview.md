@@ -39,6 +39,16 @@ how to use the Original Controller on PC, suggestions for control set-ups, mods 
 
 
 
+## Terminology
+
+Just to make sure things are clear.
+
+**Controller Adapter:** Microcontroller used to do Steel Battalion inputs
+**Custom Controller:** Refers to any controller that is not the original Steel Battalion controller<br />
+**Adapted Controller:** A pre-existing controller that has is conected by USB and has it's inputs read by an adapter
+**DIY Controller:** A controller made from scratch.
+
+
 
 # Table of Contents
 Introduction - Readme
