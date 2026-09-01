@@ -1,4 +1,4 @@
-# 3. Custom Controller Options
+# 4. Custom Controller Options
 
 (**Playing on Emulator Without an Original Controller**)<br />
 If you plan on playing on emulator, you can any skip any part of this section that has to do with with the Controller Adapters, and go to the Emulator section. If you want to build a custom controller, some of this knowledge will be helpful.
