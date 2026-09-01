@@ -4,7 +4,7 @@
 Hardware-wise path you take on building a custom controller does not matter provided you can get the controls to function with the adapters mentioned in section 3. The software side that interacts with those adapters is the key focus.
 
 ## Necessary Inputs
-Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2A-Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
+Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
 
 |Total |Analogue Inputs|Digital Inputs|
 |---|---|---|
