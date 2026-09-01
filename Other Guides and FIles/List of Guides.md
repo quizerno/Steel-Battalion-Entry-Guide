@@ -1,5 +1,8 @@
 # List of Guides
 
+## Recreated SBC Controller Firmware
+1. [BSBB-USB ](https://github.com/Quantx/bsbb-usb/tree/master) by QuantX
+
 ## Controller Mods and Maintenance
 
  1. (Video) [N68DodgeBoy's Guide on Spring Replacement for BLUE PEDALS](https://www.youtube.com/watch?v=6TYqZhD9kCM)
@@ -9,7 +12,7 @@
  5. (Archived Website) [AlphA's Guide on Button Cosmetics](http://www.bigmech.com/sb/sb_controller_mod/buttons.html)
  6. (Archived Website) [Alpha's Guide for Mega Mods Including Adding Rumble](https://web.archive.org/web/20170409123727/http://www.bigmech.com/sb/sb_controller_mod/disclaimer.html)
 
-# Using the Controller on PC and Other Games
+## Using the Controller on PC and Other Games
  1. (Github) [Shopcreeper's SteelBattalionMapper](https://github.com/Shopcreeper/SteelBattalionMapper)
  2. (Google Doc, and also archived in this directory) [[Rhobius’ Guide To The STEEK!]](https://docs.google.com/document/d/1TNEt_g_YkVw31bMz7lscZEsul9aSit-pv2i_M_ne2cQ/edit?tab=t.0) 
  3. (Website Guide) [SantiagoSaldana's Hackaday Guide for a Teensy Adapter](https://hackaday.io/project/182810/instructions)
