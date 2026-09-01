@@ -8,7 +8,7 @@ Here is a run-down of your options for controller adapters and firmware, and the
 ## Connection Cables 
 
 **Xbox USB Bridge Cable**
-To , you will need a cable that allows you to connect USB devices to the Xbox.  If you have done softmodding or hard modding before, you will likely have some experience with this.
+You will need a cable that allows you to connect USB devices to the Xbox.  If you have done softmodding or hard modding before, you will likely have some experience with this.
 
 |Hardware|Usage|Where to Buy|Price|
 |---|---|---|---|
@@ -54,10 +54,10 @@ For the sake of ease, we will call this an Adapter Board.
 
 
 ## Wiring and Firmware Building
-* [For instructions on ogx360_t4 go to section 3A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3A-ogx360_t4.md)
-* [For instructions on OGX-Mini-2026 go to section 3B](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-OGX-MINI-2026.md)
-* [For instructions on SBCFirm2040-lite go to section 3C](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-SBCFirm2040-lite.md)
-* [For instructions on OGXBOX-PAD go to section 3D](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3D-OGXBOX-PAD.md)
+* [For instructions on ogx360_t4 go to section 3A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-I-ogx360_t4.md)
+* [For instructions on OGX-Mini-2026 go to section 3B](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-II-OGX-MINI-2026.md)
+* [For instructions on SBCFirm2040-lite go to section 3C](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-SBCFirm2040-lite.md)
+* [For instructions on OGXBOX-PAD go to section 3D](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-IV-OGXBOX-PAD.md)
 
 ## Board Options
 
