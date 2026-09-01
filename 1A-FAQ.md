@@ -77,21 +77,13 @@ No. They can be created with 2 inputs each.
 Not strictly necessary. If you don't find pedals comfortable, you can bind them to other analog buttons
 
 
-
-
 ## Other Questions
-
 **Can Xbox 360 run Steel Battalion?** <br/>
-
 No, this has been tested by N68dodgeboy. Even if you were able to link the controller to the 360 it would not read the inputs without extensive modification, it also has many graphical issues.
 
 **Can Xbox One, or Xbox Series X run Steel Battalion?** <br/>
-
 No, neither of these consoles have mod options. In theory it would be possible to put an emulator on those consoles but they have ram limitations which make it impossible for now.
 
 **Can I use the SB controller on PC for the Emulator and/or other games?** <br/>
-
 Yes, there are a couple methods to do this. See my section on using the SB Controller on PC 
 
-
-The original game is unique in that it uses 3 different ped
