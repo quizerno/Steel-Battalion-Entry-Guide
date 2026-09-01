@@ -1,7 +1,7 @@
-# 3A. Controller Adapters and Firmware
+# 4A. Controller Adapters
 (**The Hard Part**)
 
-Here is a run-down of your options for controller adapters.
+Here is a run-down of your options for controller adapters and firmware, and the specific hardware.
 
 # Hardware
 
