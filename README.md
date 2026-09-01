@@ -25,14 +25,14 @@ Introduction - Readme
 
 1. [Overview](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-Overview.md)<br />
 2. [Original Controller Information](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-Original%20Controller%20Information.md)<br /> 
-3. [Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2A-Controller%20Inputs.md) <br />
-4. [Custom Controller Options](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Custom%20Controller%20Options.md) <br />
-      * A-Controller Adapters
-      * B-Adapted Controllers
-      * C-DIY Controllers
-5. Custom Pedals<br /> 
-6. Improving Performance and Graphics on Xbox<br />
-7. Playing on Emulator<br />
+3. [Controller Inputs](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md) <br />
+4. [Custom Controller Options](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4-Custom%20Controller%20Options.md) <br />
+      * A-[Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md)
+      * B-[Adapted Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4B-Adapted%20Controllers.md)
+      * C-[DIY Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-DIY%20Controllers.md)
+5. [Custom Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md)<br /> 
+6. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/6-Improving%20Performance%20and%20Graphics%20on%20Xbox.md)<br />
+7. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20Emulator.md)<br />
 8. Misc Information<br />	  
 
 
