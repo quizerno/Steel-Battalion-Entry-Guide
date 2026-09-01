@@ -1,10 +1,10 @@
-# 3B. Adapting Controllers 
+# 4B. Adapting Controllers 
 **(Using Pre-Existing Hardware with a Controller Adapter on Xbox)**
 
 This path requires understanding how to parse USB devices, or adapting certain functions to do so.
 
 ## Necessary Inputs
-Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2A-Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
+Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
 
 |Total |Analogue Inputs|Digital Inputs|
 |---|---|---|
@@ -63,7 +63,7 @@ If you've already spent money and time on the adapter
 | Pedal Block|Digital Foot Pad|Generic USB Triple Foot Switch Pedal
 
 **Bare Bones**<br />
-You can get away with a keyboard and mouse, however there are downsides with only digital controls, the details of which are described in [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-The%20Controller%20Inputs.md) under "Notes on Analog Reads vs Digital Reads"
+You can get away with a keyboard and mouse, however there are downsides with only digital controls, the details of which are described in [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-The%20Controller%20Inputs.md) under "Notes on Analog Reads vs Digital Reads"
 
 ## Configuring the Adapter for your Selected Controllers
 
