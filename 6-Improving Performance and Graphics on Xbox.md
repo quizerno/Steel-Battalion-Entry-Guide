@@ -1,4 +1,4 @@
-# 4. Improving Performance and Graphics on Xbox
+# 6. Improving Performance and Graphics on Xbox
 
 Xbox Modding is required to implement these upgrades.
 
