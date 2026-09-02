@@ -130,7 +130,7 @@ The controls are configured in [steelbattalion.cpp](https://github.com/Ryzee119/
 The ogx360_t4 has a prebuilt Keyboard and Keyboard configuration for Steel Battalion. You must plug the mouse and keyboard to a powered USB HUB and then plug the hub into the teensy.
 Rebinding the keyboard controls is fairly simple, you can open the steelbattalion.cpp file described above and see how the controls are bound, and edit them to your choosing
 
-## Using a HOTAS Joystick + STECS
+### Using a HOTAS Joystick + STECS
 I have attached a [configuration for HOTAS provided by Gnomp](https://github.com/quizerno/Steel-Battalion-Entry-Guide/tree/main/Configurations/ogx360_t4%20configurations). These are specifically built for the Gunfighter MCG and STECs
 To implement it before building the .hex file, you simply need to do 2 things. 
 
