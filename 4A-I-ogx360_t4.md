@@ -8,7 +8,9 @@ This guide will be slightly out of order. First I will show you how to properly 
 ### Soldering the Host Cable to the Teensy 4.1  
 <img width="805" height="737" alt="usb copy" src="https://github.com/user-attachments/assets/89d8b624-9c0c-4c28-8122-38923cfed306" />
 
-The wiring on the teensy is pretty straight forward. Solder 5 pins to the USB header on the board and attach the cable, **MAKE ABSOLUTELY SURE YOUR ORIENATION IS CORRECT OTHERWISE YOU RISK DAMAGING WHICHEVER DEVICE IS CONNECTED TO THE HOST** 
+The wiring on the teensy is pretty straight forward. Solder 5 pins to the USB header on the board and attach the cable.
+
+**MAKE ABSOLUTELY SURE YOUR ORIENATION IS CORRECT OTHERWISE YOU RISK DAMAGING THE DEVICE IS CONNECTED TO THE HOST** 
 
 
 ## Building
@@ -121,10 +123,12 @@ WIP
 Open the Teensy Loader program, select the hex file, press the button on the teensy to begin the flash.
 
 ## Configuring the Controls
+The controls are configured in [steelbattalion.cpp](https://github.com/Ryzee119/ogx360_t4/blob/master/src/steelbattalion.cpp
+). ogx360_t4 is so far the most versatile of the adapter firmwares because it comes with implementation of the USBHost_t36 libraries, which allow it to read HID devices.
 
 ### Using a Keyboard and Mouse (Default)
 The ogx360_t4 has a prebuilt Keyboard and Keyboard configuration for Steel Battalion. You must plug the mouse and keyboard to a powered USB HUB and then plug the hub into the teensy.
-Rebinding the keyboard controls is fairly simple, you can open the steelbattalion.cpp file and see how the controls are bound, and edit them to your choosing
+Rebinding the keyboard controls is fairly simple, you can open the steelbattalion.cpp file described above and see how the controls are bound, and edit them to your choosing
 
 ## Using a HOTAS Joystick + STECS
 I have attached a [configuration for HOTAS provided by Gnomp](https://github.com/quizerno/Steel-Battalion-Entry-Guide/tree/main/Configurations/ogx360_t4%20configurations). These are specifically built for the Gunfighter MCG and STECs
@@ -139,9 +143,9 @@ For Step 2, instead of replacing the whole file, you can merely add the followin
 	{ 0x231D, 0x0125, SpaceNav, true}, // Gunfighter
 	{ 0x231D, 0x0136, SpaceNav, true}, // STECS
 ```
-### Adding Your Joystick
+### Adding Your Own Joystick
+If your joystick is not parsed immediately, you may need to configure further.
 In the Joystick.cpp file described above, the section where the lines are added are where devices are recognized and how they are processed. To use the Gunfighter as an example:
-
 ```
 { 0x231D, 0x0125, SpaceNav, true}, // Gunfighter
 {VendorID address, ProductID address, JoystickType, boolean HID Device}
