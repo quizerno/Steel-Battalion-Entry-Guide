@@ -14,7 +14,7 @@ If you are unfamiliar with arduino boards, they are effectively multipurpose mic
 5. Plug in your arduino board, when you select your board, you will select your board with the w/ OGXbox option (ie. for a Pro Micro or Micro you will select "Arduino Micro w/ OGXBox)
 
 ## Defining Your Inputs
-From here, this will be a matter of handwiring your inputs and defining them.
+From here, this will be a matter of handwiring your inputs and defining them in the Arduino IDE.
 
 In the example below, the Arduino's PIN 2 is set to be press when connected to ground. When it is pressed it triggers the Fire Main Weapon input.
 
