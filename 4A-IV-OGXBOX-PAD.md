@@ -3,18 +3,25 @@
 [OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD) by eolvera85 is effectively a port of ogx360 to the arduino platform.
 Because of this, unlike the previous firmware options, OGXBOX-PAD utilizes arduino boards.
 
-Because it does not have any host libraries, this is effectively a GPIO only option
-
-## Hardware
-
-If you are unfamiliar with arduino boards, they are effectively multipurpose microcontrollers. 
-They are noted for their 
+Because it does not have any host libraries (althought they could be added), this is effectively a GPIO only option
+If you are unfamiliar with arduino boards, they are effectively multipurpose microcontrollers, noted for their simplicity. 
 
 ## Set-up
+1. Install the Arduino IDE
+2. Depending on if you are Mac/Linux/Windows, look at the instructions for ["adding third party boards."](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE)
+3. At the "Additional Boards Manager URLs" add ```https://raw.githubusercontent.com/eolvera85/OGXBOX-PAD/main/releases/package_ogxbox_index.json```
+4. Go to "Boards Manager" and add "OGXBOX AVR Boards"
+5. Plug in your arduino board, when you select your board, you will select your board with the w/ OGXbox option (ie. for a Pro Micro or Micro you will select "Arduino Micro w/ OGXBox)
 
-* Install the arduino IDE
-* 
+## Defining Your Inputs
+From here, this will be a matter of handwiring your inputs and defining them.
 
+In the example below, the Arduino's PIN 2 is set to be press when connected to ground. When it is pressed it triggers the Fire Main Weapon input.
+
+TO DO: examples of analog
+
+
+**Example**<br/>
 ```
 #include <usbd_xid.h> // <- This contains your usbd_sbattalion_in_t structure!
 
@@ -55,4 +62,9 @@ void loop() {
   XID().sendReport(&sbPacket, sizeof(sbPacket));
 
   delay(10); // 10ms polling interval to match console expectations
-}```
+}
+```
+
+## Flashing
+The Arduino IDE has a verify and upload button, it will also flash the OGXbox core to your board.
+It should be noted that when your board is flashed with this core it will start having the VID and PID of the Original Xbox S Controller (VID 0x045E / PID 0x0289).
