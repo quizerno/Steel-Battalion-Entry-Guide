@@ -29,24 +29,39 @@ The Left-Middle-Right blocks are joined together by IDE cables, which then with 
 On the GREEN controller, the pedal block uses torsion springs. 
 On the BLUE controller, the pedal block uses compression springs
 
-Despite its large size, it is not particularly heavy. Weighing only about 17 pounds.
+Despite its large size, it is not particularly heavy. Weighing only about 17 pounds .
 
 ## Longevity
 
 * The original GREEN controller pedals were notoriously prone to breaking.
-* The BLUE controller LEDs reportedly burn out easier.
+* The BLUE controller LEDs reportedly burn out easier, but do not affect functionality.
 * Both controllers are reported to have some issues where wires for the joystick inputs get pinched and need repair
 
 ## Inputs
 
 The controller itself has about 62 digital inputs and 8 analog inputs. For more details, see [section 2A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2A-Controller%20Inputs.md)
 
+## Internals
+
+[via rfgeneration
+](https://www.rfgeneration.com/blogs/nupoile/Whats-Inside-Steel-Battalion-2440.php)
+
 
 ## Controller Maintenance
 
+#### Tutorials
  1. (Video) [N68DodgeBoy's Guide on Spring Replacement for BLUE PEDALS](https://www.youtube.com/watch?v=6TYqZhD9kCM)
  2. (Video) [N68DodgeBoy's Guide on Spring Replacement for GREEN PEDALS](https://www.youtube.com/watch?v=Zjc7WY2_tNw)
  3. (Video)[N68DodgeBoy's Guide on Installing Harcroft's Gear Lever Mod](https://www.youtube.com/watch?v=OAIkCWEfvhA)
+#### Replacement Plastic
+[Special Fred has taken it upon himself to create 3D printable versions of most of the controller's plastic pieces
+](https://www.thingiverse.com/specialfred453/designs)
+
+### Replacement Electronics
+TBD
+
+### Replacement Pedals
+
 
 
 ## Controller Mods
