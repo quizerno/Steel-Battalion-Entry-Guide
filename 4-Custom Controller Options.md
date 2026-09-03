@@ -47,7 +47,7 @@ Your **Existing USB Controller** connects to a **Host Cable** on your **adapter 
 - The adapter is programmed to parse each of the devices to and map them to corresponding Steel Battalion inputs
 - The inputs are then sent to the Xbox
 
-Proceed to [section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Adapting%20Controllers.md).
+Proceed to [section 4B](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4B-Adapted%20Controllers.md).
 
 ## DIY-HID Set-Up
 
