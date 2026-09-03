@@ -4,11 +4,23 @@
 
 See also wiki [FAQ](https://steelbattalion.fandom.com/wiki/FAQ) and [Controller Differences](https://steelbattalion.fandom.com/wiki/Controller_Differences)
 ## Details
-The Steel Battalion Controller, also nicknamed the Mega Jockey 9000, is a large four piece videogame controller built solely for the puporse of playing (you guessed it) Steel Battalion.
+The Steel Battalion Controller, also nicknamed the Mega Jockey 9000 and sometimes the VT Controller, is a large four piece videogame controller built solely for the puporse of playing (you guessed it) Steel Battalion.
 There exist two variants, the first release GREEN button-LED controller (released in 2002) and the BLUE button-LED controller (released in 2004). With the exception of the joystick buttons, every single button on the controller is lit by an LED.
 
 Aside from the obvious visual change and different markings, the only mechanic difference is the construction of the Pedal Block.
 The variant pieces are compatible with each others, and the controller is not region locked.
+
+## Dimensions
+[via ifixit](https://www.ifixit.com/Device/Steel_Battalion_Controller)<br />
+**Main Controller**<br />
+* **Length:** 32.65 in (88 cm)
+* **Width:** 10.23 in (26 cm)
+* **Joystick Height:** 6.5 in (16.5 cm)
+  
+**Foot Pedals**<br />
+* **Length:** 14.06 in (35.7 cm)
+* **Width:** 11.75 in (29.8 cm)
+* **Pedal Height:** 8.25 in (21 cm)
 
 ## Construction
 
@@ -29,3 +41,16 @@ Despite its large size, it is not particularly heavy. Weighing only about 17 pou
 
 The controller itself has about 62 digital inputs and 8 analog inputs. For more details, see [section 2A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2A-Controller%20Inputs.md)
 
+
+## Controller Maintenance
+
+ 1. (Video) [N68DodgeBoy's Guide on Spring Replacement for BLUE PEDALS](https://www.youtube.com/watch?v=6TYqZhD9kCM)
+ 2. (Video) [N68DodgeBoy's Guide on Spring Replacement for GREEN PEDALS](https://www.youtube.com/watch?v=Zjc7WY2_tNw)
+ 3. (Video)[N68DodgeBoy's Guide on Installing Harcroft's Gear Lever Mod](https://www.youtube.com/watch?v=OAIkCWEfvhA)
+
+
+## Controller Mods
+
+ 1. (Archived Website) [AlphA's Guide on Adjusting the Gear Lever Resistance](https://web.archive.org/web/20170409101223/http://www.bigmech.com/sb/sb_controller_mod/gearleaver.htm)
+ 2. (Archived Website) [AlphA's Guide on Button Cosmetics](http://www.bigmech.com/sb/sb_controller_mod/buttons.html)
+ 3. (Archived Website) [Alpha's Guide for Mega Mods Including Adding Rumble](https://web.archive.org/web/20170409123727/http://www.bigmech.com/sb/sb_controller_mod/disclaimer.html)
