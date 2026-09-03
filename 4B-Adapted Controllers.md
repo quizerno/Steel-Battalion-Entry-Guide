@@ -1,7 +1,12 @@
 # 4B. Adapting Controllers 
-**(Using Pre-Existing Hardware with a Controller Adapter on Xbox)**
+**(Using Pre-Existing Hardware with a Controller Adapter on Xbox, aka the Host Option)**
 
 This path requires understanding how to parse USB devices, or adapting certain functions to do so.
+
+## Recommended Hardware
+
+Per [section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md), I recommend either a Teensy 4.1 with og360_t4 or Raspberry Pi board running SBCFirm2040-lite.
+The reason for this being that if using a pre-build controllers, you will want hub support to attach additional ones.
 
 ## Necessary Inputs
 Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
@@ -73,5 +78,4 @@ This is hard part of the process. Depending on the firmware you are using, you w
 |Firmware|Host Drivers|Cons|Prebuilt Configurations|
 |---|---|---|---|
 |[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|**Board:** Very Powerful, lots of GPIO pins **Software:** Very easy to configure, keyboard and joystick support| **Board:** Expensive, very sensitive to higher voltages| Keyboard+Mouse, HOTAS Flightstick
-|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|**Board:** Inexpensive, many options, **Software:** For non-Steel Battalion uses, it can be used on most modern consoles| **Software:** No keyboard support yet, adding your own configurations might be time consuming| Xbox 360 Controller with Chatpad
 |[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|**Board:** Inexpensive , **Software:** Simple  |**Board:** Currently only testing with the regular PICO **Software:** Currently WIP| Keyboard, Mouse, DS4 Controller, working on support for other devices
