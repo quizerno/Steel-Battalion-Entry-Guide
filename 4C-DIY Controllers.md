@@ -3,6 +3,14 @@
 
 Hardware-wise path you take on building a custom controller does not matter provided you can get the controls to function with the adapters mentioned in section 3. The software side that interacts with those adapters is the key focus.
 
+
+Per [section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md), I recommend either a 
+* Teensy 4.1 with og360_t4
+* Raspberry Pi board running SBCFirm2040-lite.
+* An HID Arduino (with at least 14 digital pins and 7-8 Analog pins) running OGXBOX-PAD
+  
+The reason for this being that if using a pre-build controllers, you will want hub support to attach additional ones.
+
 ## Necessary Inputs
 Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
 
