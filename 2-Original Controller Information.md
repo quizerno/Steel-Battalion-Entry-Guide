@@ -3,12 +3,19 @@
 <img width="620" height="465" alt="image" src="https://github.com/user-attachments/assets/4960c102-b1b6-4ff9-9525-b2123274e2aa" />
 
 See also wiki [FAQ](https://steelbattalion.fandom.com/wiki/FAQ) and [Controller Differences](https://steelbattalion.fandom.com/wiki/Controller_Differences)
+
+
 ## Details
 The Steel Battalion Controller, also nicknamed the Mega Jockey 9000 and sometimes the VT Controller, is a large four piece videogame controller built solely for the puporse of playing (you guessed it) Steel Battalion.
 There exist two variants, the first release GREEN button-LED controller (released in 2002) and the BLUE button-LED controller (released in 2004). With the exception of the joystick buttons, every single button on the controller is lit by an LED.
 
 Aside from the obvious visual change and different markings, the only mechanic difference is the construction of the Pedal Block.
 The variant pieces are compatible with each others, and the controller is not region locked.
+
+
+## Inputs
+
+The controller itself has about 62 digital inputs and 8 analog inputs. For more details, see [section 3](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md)
 
 ## Dimensions
 [via ifixit](https://www.ifixit.com/Device/Steel_Battalion_Controller)<br />
@@ -37,9 +44,7 @@ Despite its large size, it is not particularly heavy. Weighing only about 17 pou
 * The BLUE controller LEDs reportedly burn out easier, but do not affect functionality.
 * Both controllers are reported to have some issues where wires for the joystick inputs get pinched and need repair
 
-## Inputs
 
-The controller itself has about 62 digital inputs and 8 analog inputs. For more details, see [section 2A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2A-Controller%20Inputs.md)
 
 ## Internals
 
@@ -49,10 +54,6 @@ The controller itself has about 62 digital inputs and 8 analog inputs. For more 
 
 ## Controller Maintenance
 
-#### Tutorials
- 1. (Video) [N68DodgeBoy's Guide on Spring Replacement for BLUE PEDALS](https://www.youtube.com/watch?v=6TYqZhD9kCM)
- 2. (Video) [N68DodgeBoy's Guide on Spring Replacement for GREEN PEDALS](https://www.youtube.com/watch?v=Zjc7WY2_tNw)
- 3. (Video)[N68DodgeBoy's Guide on Installing Harcroft's Gear Lever Mod](https://www.youtube.com/watch?v=OAIkCWEfvhA)
 #### Replacement Plastic
 [Special Fred has taken it upon himself to create 3D printable versions of most of the controller's plastic pieces
 ](https://www.thingiverse.com/specialfred453/designs)
@@ -61,10 +62,17 @@ The controller itself has about 62 digital inputs and 8 analog inputs. For more 
 TBD
 
 ### Replacement Pedals
+See [section 5](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md) for details on the pedals.
+
+#### Tutorials
+ 1. (Video) [N68DodgeBoy's Guide on Spring Replacement for BLUE PEDALS](https://www.youtube.com/watch?v=6TYqZhD9kCM)
+ 2. (Video) [N68DodgeBoy's Guide on Spring Replacement for GREEN PEDALS](https://www.youtube.com/watch?v=Zjc7WY2_tNw)
+ 3. (Video) [N68DodgeBoy's Guide on Installing Harcroft's Gear Lever Mod](https://www.youtube.com/watch?v=OAIkCWEfvhA)
 
 
 
-## Controller Mods
+
+## Controller Mods Tutorials
 
  1. (Archived Website) [AlphA's Guide on Adjusting the Gear Lever Resistance](https://web.archive.org/web/20170409101223/http://www.bigmech.com/sb/sb_controller_mod/gearleaver.htm)
  2. (Archived Website) [AlphA's Guide on Button Cosmetics](http://www.bigmech.com/sb/sb_controller_mod/buttons.html)
