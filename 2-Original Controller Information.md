@@ -29,6 +29,10 @@ The controller itself has about 62 digital inputs and 8 analog inputs. For more 
 * **Width:** 11.75 in (29.8 cm)
 * **Pedal Height:** 8.25 in (21 cm)
 
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/28f43c9a-d5ca-48b0-ae92-e34873a119f7" />
+
+
+
 ## Construction
 
 The Left-Middle-Right blocks are joined together by IDE cables, which then with brackets are secured with a 3mm hex wrench (61mm long, which can be secured underneath the middle block for safekeeping). The pedal block is connected by a modified PS/2 connector which connects to the middle block. From the middle block an Xbox cable connects to the Xbox,
