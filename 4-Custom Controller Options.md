@@ -28,7 +28,7 @@ the other 3 involve DIY controllers.
 * **DIY-SBC HUB Set-Up:** If you want to create multiple emulated Steel Battalion devices that meet together in one adapter hub.
 * **DIY-GPIO Set-Up:** If you want to have the controls directly wired to the adapter.
 
-Combining these options into a **Hybrid Set-up** is also an option but it will be heavily dependent on the adapter and firmware you choose. 
+Combining these options into a **Hybrid Set-Up** is also an option but it will be heavily dependent on the adapter and firmware you choose. 
 
 
 ## Adapted Set-Up 
