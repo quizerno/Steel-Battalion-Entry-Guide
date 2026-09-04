@@ -28,7 +28,9 @@ the other 3 involve DIY controllers.
 * **DIY-SBC HUB Set-Up:** If you want to create multiple emulated Steel Battalion devices that meet together in one adapter hub.
 * **DIY-GPIO Set-Up:** If you want to have the controls directly wired to the adapter.
 
-Combining these options into a **Hybrid Set-Up** is also an option but it will be heavily dependent on the adapter and firmware you choose. 
+Combining pats of each of these nto a **Hybrid Set-Up** is also an option but it will be heavily dependent on the adapter and firmware you choose. 
+
+After reading about each set-up, proceed to [Section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md) and consider which adapter you want to buy.
 
 
 ## Adapted Set-Up 
@@ -42,10 +44,12 @@ Your **Existing USB Controller** connects to a **Host Cable** on your **adapter 
 
 
 **To lay it out simply:**
-- One adapter board 
 - One or more USB-Devices connected to Host Cable of the adapter (HUB needed for 2+ devices)
 - The adapter is programmed to parse each of the devices to and map them to corresponding Steel Battalion inputs
 - The inputs are then sent to the Xbox
+
+An advantage of this is that you do not need to build your own controller, you only need to buy one microcontroller <br/>
+An disadvantage of this is that you need ensure that you can parse the existing controller<br/>
 
 Proceed to [section 4B](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4B-Adapted%20Controllers.md).
 
@@ -59,10 +63,13 @@ Your **Custom USB Controller** connects to a **Host Cable** on your **adapter bo
 
 
 **To lay it out simply:**
-- This is essentially the same as an adapted controller but with your own custom controller.
+- This is essentially the same as an adapted controller but with your own custom controller
 - One or more Custom HID Joysticks connected to Host Cable of the adapter (HUB needed for 2+ devices)
-- An advantage of this is that since you are responsible for the HID Protocol, it is far easier to parse it on the adapter side
-- A disadvantage of this is that you need to buy more microcontroller boards
+- The adapter is programmed to parse each of the devices to and map them to corresponding Steel Battalion inputs
+- The inputs are then sent to the Xbox
+
+An advantage of this is that since you are responsible for the HID Protocol, it is far easier to parse it on the adapter side <br/>
+An disadvantage of this is that you need to buy at least two microcontrollers (1 for the controller inputs, 1 for the adapter) <br/>
 
 
 ## DIY-SBC HUB Set-Up
@@ -76,7 +83,10 @@ Your **Emulated SBC Controller** connects to a **Host Cable** on your **adapter 
 **To lay it out simply:**
 - This essentially the same as the DIY-HID Se
 - One or more Custom HID Joysticks connected to Host Cable of the adapter (HUB needed for 2+ devices)
-- An advantage of this is that you don't need to worry about adapter settings 
+
+
+
+- An advantage of this is that you don't need to worry about adapter settings, 
 - A disadvantage of this is that you need to buy more microcontroller boards
 
 ## DIY-GPIO Set-Up
@@ -87,6 +97,8 @@ Your inputs are directly connected to your **adapter board** which connects to t
 - An advantage of this is that you don't need to worry about adapter settings 
 - A disadvantage of this is that you need to buy more microcontroller boards
 
+An advantage of this is that you only need to buy one microcontroller.
+A disadvantage of this 
 
 
 ## Hybrid Set-Up
