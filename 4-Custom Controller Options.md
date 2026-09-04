@@ -59,7 +59,7 @@ Your **Custom USB Controller** connects to a **Host Cable** on your **adapter bo
 
 
 **To lay it out simply:**
-- This is essentially the same as an adapted controller but with your own custom controller or HID.
+- This is essentially the same as an adapted controller but with your own custom controller.
 - One or more Custom HID Joysticks connected to Host Cable of the adapter (HUB needed for 2+ devices)
 - An advantage of this is that since you are responsible for the HID Protocol, it is far easier to parse it on the adapter side
 - A disadvantage of this is that you need to buy more microcontroller boards
