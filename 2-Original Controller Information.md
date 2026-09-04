@@ -76,7 +76,7 @@ See [section 5](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/mai
 
 
 
-## Controller Mods Tutorials
+#### Mod Tutorials
 
  1. (Archived Website) [AlphA's Guide on Adjusting the Gear Lever Resistance](https://web.archive.org/web/20170409101223/http://www.bigmech.com/sb/sb_controller_mod/gearleaver.htm)
  2. (Archived Website) [AlphA's Guide on Button Cosmetics](http://www.bigmech.com/sb/sb_controller_mod/buttons.html)
