@@ -20,12 +20,14 @@ Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guid
 | Simple Recreation|7|38
 | Notes|| 
 
-With this in mind you can plan out the exact hardware you need.
-
 
 ## DIY-HID Set-Up:
 
 
+
+## DIY-SBC HUB Set-Up
+
+## DIY-GPIO Set-Up
 
 
 
