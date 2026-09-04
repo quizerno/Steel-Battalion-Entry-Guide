@@ -1,5 +1,5 @@
 # 4C. DIY Controllers
-
+**(The really intricate path)**
 
 Hardware-wise path you take on building a custom controller does not matter provided you can get the controls to function with the adapters mentioned in section 3. The software side that interacts with those adapters is the key focus.
 
@@ -21,6 +21,16 @@ Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guid
 | Notes|| 
 
 With this in mind you can plan out the exact hardware you need.
+
+
+## DIY-HID Set-Up:
+
+
+
+
+
+
+
 
 
 
