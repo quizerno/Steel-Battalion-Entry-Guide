@@ -160,7 +160,8 @@ The third argument does not matter as it is not used.
 The fourth argument depends on the device as some devices can use the HID Parsers and others can't
 
 ## Adding GPIO Inputs
-Adding GPIO inputs to Teensy is quite simple, in the steelbattalion.cpp file. In the steelbattalion_init function, define your pins:
+### Digital Inputs
+Adding digital GPIO inputs to the Teensy is quite simple, in the steelbattalion.cpp file. In the steelbattalion_init function, define your pins:
 
 ```
 pinMode(14, INPUT_PULLUP); // Example pin 14 for fire button
@@ -174,4 +175,23 @@ Then in in the steelbattalion_task function, within the if block ``` if xid_send
 	sb_data.dButtons[0] |= CXBX_SBC_GAMEPAD_W0_RIGHTJOYMAINWEAPON;
 	}
 ```
+### Analogue Inputs
+For analogue inputs. The Teensy 4.1 by default uses a 10 bit ADC, which means need to convert to the Steel Battalion's 16 bit reads.
+For higher bit reads, the ADC on the Teensy can do 12 bit reading but it is noted that noise will interfered, there is also [the possibility of using averaging function to get higher bit reads.](https://industrialmonitordirect.com/blogs/knowledgebase/teensy-41-adc-reference-reading-0-33v-safely-guide)
+
+
+In the steelbattalion_init function, define your pins like you did for digital:
+```
+    pinMode(A0, INPUT); // Rotation
+    pinMode(A1, INPUT); // Sight Change X
+    pinMode(A2, INPUT); // Sight Change Y
+    pinMode(A3, INPUT); // Aim Lever X
+    pinMode(A4, INPUT); // Aim Lever Y
+    pinMode(A5, INPUT); // Slide Pedal
+    pinMode(A6, INPUT); // Brake Pedal
+    pinMode(A7, INPUT); // Accelerator Pedal
+```
+
+
+
 
