@@ -11,7 +11,17 @@ If you are unfamiliar with arduino boards, they are effectively multipurpose mic
 2. Depending on if you are Mac/Linux/Windows, look at the instructions for ["adding third party boards."](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE)
 3. At the "Additional Boards Manager URLs" add ```https://raw.githubusercontent.com/eolvera85/OGXBOX-PAD/main/releases/package_ogxbox_index.json```
 4. Go to "Boards Manager" and add "OGXBOX AVR Boards"
-5. Plug in your arduino board, when you select your board, you will select your board with the w/ OGXbox option (ie. for a Pro Micro or Micro you will select "Arduino Micro w/ OGXBox)
+
+5. Depending on your operating system got to the following directory:
+   * **Windows:** C:\Users\{username}\AppData\Local\Arduino15\packages\ogxbox\hardware\avr\1.0.1
+   * **macOS:** /Users/{username}/Library/Arduino15\packages\ogxbox\hardware\avr\1.0.1
+   * **Linux:** /home/{username}/.arduino15\packages\ogxbox\hardware\avr\1.0.1
+
+Find the boards.txt file and replace it with github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Configuration Files/OGXBOX-PAD/boards.txt. What this will do is change the emulated VID/PID from the OG Xbox S Controller (vid=0x045E, pid=0x0289) to the Steel Battalion Controller (vid=0x9A7B, pid=0xD000). It will also change the name of the board profile so you can confirm that the file was recognized. 
+
+**This step is not strictly necessary**, but it will allow your microcontroller to be recognized as a Steel Battalion Controller should you try to use it with an emulator or other software in this guide.
+
+5. Plug in your arduino board, when you select your board, you will select your board with the w/ OGXboxSBC option (ie. for a Pro Micro or Micro you will select "Arduino Micro w/ OGXBox)
 
 ## Defining Your Inputs
 From here, this will be a matter of handwiring your inputs and defining them in the Arduino IDE.
@@ -67,4 +77,3 @@ void loop() {
 
 ## Flashing
 The Arduino IDE has a verify and upload button, it will also flash the OGXbox core to your board.
-It should be noted that when your board is flashed with this core it will start having the VID and PID of the Original Xbox S Controller (VID 0x045E / PID 0x0289).
