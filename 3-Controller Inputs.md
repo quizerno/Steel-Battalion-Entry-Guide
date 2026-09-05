@@ -200,6 +200,17 @@ When considering your remapped controller or custom controller, here is a simpli
 | Simple Recreation|7|38
 | Notes|| 
 
+## Analogue Read Specifics
+
+
+|Input|Data Type|Minimum Value|Max Value|Notes
+|---|---|---|---|---|
+| Left Joystick X-Axis|signed 16 bit integer (int16_t)|0x8000|0x7FFF| -32768 (INT16_MIN) and 32767 (INT16_MAX)
+| Sight Change Hat Stick X-Y Axis|signed 16 bit integer (int16_t)|0x8000|0x7FFF|-32768 (INT16_MIN) and 32767 (INT16_MAX)
+| Right Joystick X-Y Axis|unsigned 16 bit integer (uint16_t)|0x0000|0xFFFF|0 to 65,535
+| Pedals |unsigned 16 bit integer (uint16_t)|0x0000|0xFFFF|0 to 65,535
+
+
 ## Notes on Analogue Reads vs Digital Reads
 
 Of the 8 analogue reads in the controller, the Slide-Step Pedal is read digitally.
@@ -208,7 +219,7 @@ The remaining seven analogue inputs could be converted to digital but there woul
 |Input|Function|Analogue|Digital
 |---|---|---|---|
 | Left Joystick X (1)| Rotates Mech| Can control the speed at which you rotate |Can only rotate at one defined value which potentially means falling over easier if you are moving fast
-| Hat Stick X-Y (2)|Moves Camera|Smooth camera depending on sensitivity|Less control
+| Sight Change Hat Stick X-Y (2)|Moves Camera|Smooth camera depending on sensitivity|Less control
 | Right Joystick X-Y (2)|Aims Weapon|Smooth weapon aim depending on sensitivity|Less control
 | Break Pedal (1)|Descrease Speed and Stop|Able to control pressure of pedal press|Can only simulate a full press meaning coming to a complete stop
 | Acceleration Pedal(1)|Increase Speed|Able to control pressure of pedal press|Can only simulate a full press meaning speed adjustment is more difficult
