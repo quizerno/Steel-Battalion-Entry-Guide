@@ -1,8 +1,15 @@
+ogx360_t4 tests
+
+```
 void steelbattalion_init(KeyboardController *kb, MouseController *m, JoystickController *gunfighter, JoystickController *stecsjoy)
 {
     // Digital Inputs
     pinMode(14, INPUT_PULLUP); 
     pinMode(15, INPUT_PULLUP); 
+
+
+//Define Resolution here
+    analogReadResolution(12);
 
     // Analog Inputs Configuration
     pinMode(A0, INPUT); // Rotation
@@ -71,3 +78,54 @@ void steelbattalion_init(KeyboardController *kb, MouseController *m, JoystickCon
         {
             TU_LOG1("[USBD] Error sending OUT report\r\n");
         }
+
+```
+
+
+
+
+
+
+
+
+
+If using 12 bit
+
+```
+        // ====================================================================
+        // PHYSICAL ANALOG INPUT PROCESSING (12-BIT UPDATED)
+        // ====================================================================
+        
+        // 1. Rotation (Signed 16-bit: -32767 to 32767)
+        int32_t raw_rotation = analogRead(A0);
+        if (abs(raw_rotation - 2048) > 60) { // Scaled deadzone for 12-bit
+            sb_data.rotationLever = map(raw_rotation, 0, 4095, -32767, 32767);
+        }
+
+        // 2. Sight Change X & Y (Signed 16-bit: -32767 to 32767)
+        int32_t raw_sightX = analogRead(A1);
+        int32_t raw_sightY = analogRead(A2);
+        if (abs(raw_sightX - 2048) > 60) {
+            sb_data.sightChangeX = map(raw_sightX, 0, 4095, -32767, 32767);
+        }
+        if (abs(raw_sightY - 2048) > 60) {
+            sb_data.sightChangeY = map(raw_sightY, 0, 4095, -32767, 32767);
+        }
+
+        // 3. Aiming/Aim Lever X & Y (Unsigned 16-bit)
+        // Input range updated from 0-1023 to 0-4095
+        sb_data.aimingX = map(analogRead(A3), 0, 4095, 6000, 51000);
+        sb_data.aimingY = map(analogRead(A4), 0, 4095, 6000, 51050); 
+
+        // 4. Pedals (Unsigned 16-bit: 0x0000 to 0xFF00)
+        // Input range updated from 0-1023 to 0-4095
+        uint16_t raw_slide = map(analogRead(A5), 0, 4095, 0, 0xFF00);
+        uint16_t raw_brake = map(analogRead(A6), 0, 4095, 0, 0xFF00);
+        uint16_t raw_accel = map(analogRead(A7), 0, 4095, 0, 0xFF00);
+
+        if (raw_slide > 800) sb_data.leftPedal   = raw_slide; // Scaled rest threshold (800/4095)
+        if (raw_brake > 800) sb_data.middlePedal = raw_brake; 
+        if (raw_accel > 800) sb_data.rightPedal  = raw_accel; 
+```
+
+
