@@ -122,15 +122,15 @@ WIP
 ## Flashing the Teensy
 Open the Teensy Loader program, select the hex file, press the button on the teensy to begin the flash.
 
-## Configuring the Controls
+## Host Configurations
 The controls are configured in [steelbattalion.cpp](https://github.com/Ryzee119/ogx360_t4/blob/master/src/steelbattalion.cpp
 ). ogx360_t4 is so far the most versatile of the adapter firmwares because it comes with implementation of the USBHost_t36 libraries, which allow it to read HID devices.
 
-### Using a Keyboard and Mouse (Default)
+### Keyboard and Mouse (Default)
 The ogx360_t4 has a prebuilt Keyboard and Keyboard configuration for Steel Battalion. You must plug the mouse and keyboard to a powered USB HUB and then plug the hub into the teensy.
 Rebinding the keyboard controls is fairly simple, you can open the steelbattalion.cpp file described above and see how the controls are bound, and edit them to your choosing
 
-### Using a HOTAS Joystick + STECS
+### HOTAS Joystick + STECS
 I have attached a [configuration for HOTAS provided by Gnomp](https://github.com/quizerno/Steel-Battalion-Entry-Guide/tree/main/Configurations/ogx360_t4%20configurations). These are specifically built for the Gunfighter MCG and STECs
 To implement it before building the .hex file, you simply need to do 2 things. 
 
@@ -159,5 +159,19 @@ The first two arguments require the VID and PID, these can be easily read from p
 The third argument does not matter as it is not used.
 The fourth argument depends on the device as some devices can use the HID Parsers and others can't
 
+## Adding GPIO Inputs
+Adding GPIO inputs to Teensy is quite simple, in the steelbattalion.cpp file. In the steelbattalion_init function, define your pins:
 
+```
+pinMode(14, INPUT_PULLUP); // Example pin 14 for fire button
+// 
+```
+Then in in the steelbattalion_task function, within the if block ``` if xid_send_report_ready(index)``` you add the condition
+
+```
+	if (digitalRead(14) == LOW) { //when pin 14 is put to ground, run this block
+    // Fire command
+	sb_data.dButtons[0] |= CXBX_SBC_GAMEPAD_W0_RIGHTJOYMAINWEAPON;
+	}
+```
 
