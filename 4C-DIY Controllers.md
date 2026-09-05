@@ -38,6 +38,9 @@ Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guid
 * One microcontroller (Teensy 4.1, HID Arduino, RP2040)
 * Additional parts for creating your controller (switches, potentiometers, sensors, etc)
 
+Your microcontroller needs to have at least 14 digital pins and 7 analogue pins. If you need to use an additional microcontroller, you can either consider 
+using I2C SCL and SDA lines, or using the DIY-SBC HUB set-up.
+
 
 
 
@@ -49,6 +52,8 @@ Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guid
 * One microcontroller (Teensy 4.1 with host or RP2040 with host)
 * Powered USB HUB (since you are connecting more than one device)
 
+
+## Hybrid Set-Up
 
 
 
