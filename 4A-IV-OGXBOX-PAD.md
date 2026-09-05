@@ -23,7 +23,7 @@ What this will do is change the emulated VID/PID from the OG Xbox S Controller (
 
 **This step is not strictly necessary**, but it will allow your microcontroller to be recognized as a Steel Battalion Controller should you try to use it with an emulator or other software in this guide.
 
-5. Plug in your arduino board, when you select your board, you will select your board with the w/ OGXboxSBC option (ie. for a Pro Micro or Micro you will select "Arduino Micro w/ OGXBox)
+5. Plug in your arduino board, when you select your board, you will select your board with the w/ OGXboxSBC option (ie. for a Pro Micro or Micro you will select "Arduino Micro w/ OGXBoxSBC", if you did not replace the file in step 5 it will just be "Arduino Micro w/ OGXBox")
 
 ## Defining Your Inputs
 From here, this will be a matter of handwiring your inputs and defining them in the Arduino IDE.
