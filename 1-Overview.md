@@ -46,5 +46,7 @@ Just to make sure things are clear.<br />
 **Custom Controller:** Refers to any controller that is not the original Steel Battalion controller<br />
 **Adapted Controller:** A pre-existing controller that has is connected by USB and has it's inputs read by an adapter<br />
 **DIY Controller:** A controller made from scratch.<br />
+**Input:** Joystick, Button, Switch, Pedal.<br />
+
 
 
