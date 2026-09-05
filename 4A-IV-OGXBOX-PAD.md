@@ -13,9 +13,9 @@ If you are unfamiliar with arduino boards, they are effectively multipurpose mic
 4. Go to "Boards Manager" and add "OGXBOX AVR Boards"
 
 5. **Optional:** Depending on your operating system got to the following directory:
-   * **Windows:** C:\Users\{username}\AppData\Local\Arduino15\packages\ogxbox\hardware\avr\1.0.1
-   * **macOS:** /Users/{username}/Library/Arduino15\packages\ogxbox\hardware\avr\1.0.1
-   * **Linux:** /home/{username}/.arduino15\packages\ogxbox\hardware\avr\1.0.1
+   * **Windows:** C:\Users\{username}\AppData\Local\Arduino15\packages\ogxbox\hardware\avr\1.0.1\
+   * **macOS:** /Users/{username}/Library/Arduino15/packages/ogxbox/hardware/avr/1.0.1/
+   * **Linux:** /home/{username}/.arduino15/packages/ogxbox/hardware/avr/1.0.1/
 
 Find the boards.txt file and replace it with github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Configuration Files/OGXBOX-PAD/boards.txt. Restart your IDE.
 
