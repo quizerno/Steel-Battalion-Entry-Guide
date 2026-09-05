@@ -1,4 +1,30 @@
-        // ====================================================================
+void steelbattalion_init(KeyboardController *kb, MouseController *m, JoystickController *gunfighter, JoystickController *stecsjoy)
+{
+    // Digital Inputs
+    pinMode(14, INPUT_PULLUP); 
+    pinMode(15, INPUT_PULLUP); 
+
+    // Analog Inputs Configuration
+    pinMode(A0, INPUT); // Rotation
+    pinMode(A1, INPUT); // Sight Change X
+    pinMode(A2, INPUT); // Sight Change Y
+    pinMode(A3, INPUT); // Aim Lever X
+    pinMode(A4, INPUT); // Aim Lever Y
+    pinMode(A5, INPUT); // Slide Pedal (Left)
+    pinMode(A6, INPUT); // Brake Pedal (Middle)
+    pinMode(A7, INPUT); // Accelerator Pedal (Right)
+
+    memset(&sb_data, 0x00, sizeof(sb_data));
+    sb_data.bLength = sizeof(sb_data);
+    sb_data.gearLever = 7;
+    kb->attachRawPress(key_pressed_cb);
+    kb->attachRawRelease(key_released_cb);
+}
+
+
+
+
+// ====================================================================
         // PHYSICAL ANALOG INPUT PROCESSING
         // ====================================================================
         
