@@ -1,0 +1,47 @@
+        // ====================================================================
+        // PHYSICAL ANALOG INPUT PROCESSING
+        // ====================================================================
+        
+        // 1. Rotation (Signed 16-bit: -32767 to 32767)
+        int32_t raw_rotation = analogRead(A0);
+        if (abs(raw_rotation - 512) > 15) {
+            sb_data.rotationLever = map(raw_rotation, 0, 1023, -32767, 32767);
+        }
+
+        // 2. Sight Change X & Y (Signed 16-bit: -32767 to 32767)
+        int32_t raw_sightX = analogRead(A1);
+        int32_t raw_sightY = analogRead(A2);
+        if (abs(raw_sightX - 512) > 15) {
+            sb_data.sightChangeX = map(raw_sightX, 0, 1023, -32767, 32767);
+        }
+        if (abs(raw_sightY - 512) > 15) {
+            sb_data.sightChangeY = map(raw_sightY, 0, 1023, -32767, 32767);
+        }
+
+        // 3. Aiming/Aim Lever X & Y (Unsigned 16-bit)
+        // FIXED: Both X and Y axes now follow normal, non-inverted scaling (6000 to 51000)
+        sb_data.aimingX = map(analogRead(A3), 0, 1023, 6000, 51000);
+        sb_data.aimingY = map(analogRead(A4), 0, 1023, 6000, 51050); 
+
+        // 4. Pedals (Unsigned 16-bit: 0x0000 to 0xFF00)
+        uint16_t raw_slide = map(analogRead(A5), 0, 1023, 0, 0xFF00);
+        uint16_t raw_brake = map(analogRead(A6), 0, 1023, 0, 0xFF00);
+        uint16_t raw_accel = map(analogRead(A7), 0, 1023, 0, 0xFF00);
+
+        if (raw_slide > 200) sb_data.leftPedal   = raw_slide; // Slide
+        if (raw_brake > 200) sb_data.middlePedal = raw_brake; // Brake
+        if (raw_accel > 200) sb_data.rightPedal  = raw_accel; // Accelerator
+
+
+        // ====================================================================
+        // DIGITAL INPUTS
+        // ====================================================================
+        if (digitalRead(14) == LOW) {
+            sb_data.dButtons[0] |= CXBX_SBC_GAMEPAD_W0_RIGHTJOYMAINWEAPON;
+        }
+
+        // Send the complete report
+        if (!xid_send_report(index, &sb_data, sizeof(sb_data)))
+        {
+            TU_LOG1("[USBD] Error sending OUT report\r\n");
+        }
