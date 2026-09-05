@@ -24,14 +24,30 @@ Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guid
 ## DIY-HID Set-Up:
 <img width="607" height="405" alt="hidcrop hid copy" src="https://github.com/user-attachments/assets/6db7aab0-1c86-403c-8354-b885c373c27c" />
 
+**Hardware**<br/>
+* Adapter: One microcontroller (Teensy 4.1 with host or RP2040 with host)
+* Custom HID Devices: At least one additional microcontroller (RP2040 or HID Arduino)
+* Additional parts for creating your controller (switches, potentiometers, sensors, etc)
+* Powered USB HUB (only required if you want to attach more than one device)
+
+
+## DIY-GPIO Set-Up
+<img width="607" height="405" alt="hidcrop direct" src="https://github.com/user-attachments/assets/c260270d-04dc-4729-8e29-54ca32ac81b1" />
+
+**Hardware**<br/>
+* One microcontroller (Teensy 4.1, HID Arduino, RP2040)
+* Additional parts for creating your controller (switches, potentiometers, sensors, etc)
+
 
 
 
 ## DIY-SBC HUB Set-Up
 <img width="607" height="405" alt="hidcrop sbchub" src="https://github.com/user-attachments/assets/83b24e33-bbb3-4991-bcb8-77555f6188b5" />
 
-## DIY-GPIO Set-Up
-<img width="607" height="405" alt="hidcrop direct" src="https://github.com/user-attachments/assets/c260270d-04dc-4729-8e29-54ca32ac81b1" />
+**Hardware**<br/>
+* Any DIY-GPIO Devices you've made
+* One microcontroller (Teensy 4.1 with host or RP2040 with host)
+* Powered USB HUB (since you are connecting more than one device)
 
 
 
