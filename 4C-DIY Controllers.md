@@ -22,12 +22,16 @@ Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guid
 
 
 ## DIY-HID Set-Up:
+<img width="607" height="405" alt="hidcrop hid copy" src="https://github.com/user-attachments/assets/6db7aab0-1c86-403c-8354-b885c373c27c" />
+
 
 
 
 ## DIY-SBC HUB Set-Up
+<img width="607" height="405" alt="hidcrop sbchub" src="https://github.com/user-attachments/assets/83b24e33-bbb3-4991-bcb8-77555f6188b5" />
 
 ## DIY-GPIO Set-Up
+<img width="607" height="405" alt="hidcrop direct" src="https://github.com/user-attachments/assets/c260270d-04dc-4729-8e29-54ca32ac81b1" />
 
 
 
