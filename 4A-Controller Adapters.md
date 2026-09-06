@@ -5,9 +5,7 @@ Here is a run-down of your options for controller adapters and firmware, and the
 
 # Hardware
 
-## Connection Cables 
-
-**Xbox USB Bridge Cable**
+### Xbox Bridge Cable
 You will need a cable that allows you to connect USB devices to the Xbox.  If you have done softmodding or hard modding before, you will likely have some experience with this.
 
 |Hardware|Usage|Where to Buy|Price|
@@ -20,7 +18,7 @@ You will need a cable that allows you to connect USB devices to the Xbox.  If yo
   - If the adapter board uses Micro USB you can use an Xbox to Micro USB Cable.
   - etc
 
-**USB Hub**
+### USB Hub
 
 A powered USB hub will be needed if you want to connect more than one device to the adapter board host. 
 |Hardware|Usage|Where to Buy|Price|
@@ -28,10 +26,9 @@ A powered USB hub will be needed if you want to connect more than one device to 
 |USB Hub|Connects multiple devices to one device, power adapter ensures that it will not draw too much voltage from the adapter board | [Ebay](https://www.ebay.com/itm/334645888588?_skw=powered+usb+hub&itmmeta=01KZV57C33Q88G3AG75GB9JZ8K&hash=item4dea73064c%3Ag%3AnHkAAOSw4TxjhH7O&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBFIgVGBtXS5wgwN4pyL7MXjRDfFIAGwkYnN2nvH1ie4GqBubRWete0jUF0Y7T3eaG5Bhiht%2BrRE4qSLcnKbDpUlWfg5GtL6E3AzxSM7Mmtt6iPctwDBgFzD0hstEHe9el%2B%2ByRt5bjj2qzX818UcQIKMJBklrM9FdhHkvLi%2FQAGcgRCuMlniqCaJM%2FuA1Gb5%2FtqM1f5sVS6Xpk%2BsbAmkdeBn3ZPmxICIbtRF7wexiyMZW7ljH56IcS4znFNPAny1Dw%3D%7Ctkp%3ABk9SR6TCneX-Zw&var=543780669152)| Around 12-19 USD but more expensive ones exists|
 
 ## Adapter Board
-Before building the controller proper we need hardware that emulates the original controller's signals.
-For the sake of ease, we will call this an Adapter Board.
+The main part of the adapter.
 
-**Adapter Boards Hardware**
+**Adapter Board Microcontrollers**
 
 |Hardware|Relevant Firmware|Where to Buy|Price|Notes|
 |---|---|---|---|---|
@@ -46,15 +43,15 @@ For the sake of ease, we will call this an Adapter Board.
 |Hardware|Pros|Cons|
 |---|---|---|
 |Teensy 4.1| Very Powerful, lots of GPIO pins <br />|Expensive|
-|RP2040|Inexpensive| Only 4 Analogue GPIO|
-|Arduino|Inexpensive, Simple to program, lots of GPIO options|Needs separate board for USB host|
+|RP2040|Inexpensive, lots of options including Wi-fi, Blutooth and integrated USB Host | Only 3-4 Analogue GPIO, requires I2C GPIO expanders or analog multiplexers to add more|
+|Arduino|Inexpensive, simple to program, lots of options|Needs separate board for USB host|
 
 
 |Firmware|Pros|Cons|Supported Devices|Prebuilt SBC Configurations|
 |---|---|---|---|---|
 |[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|[USBHost_t36 drivers](https://github.com/PaulStoffregen/USBHost_t36), lots of supported devices|Lacking documentation| Keyboard, Mouse, HID Joysticks, Xbox 360 Controller, USB Hubs |  Keyboard+Mouse, HOTAS Gunfighter
 |[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Simple, some supported devices| Currently WIP, only tested with PICO| Keyboard, Mouse, USB hubs, DS4 Controller, GPIO, working on support for other devices | Pending
-|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD)|Simple, great for GPIO|Firmware not built with host in mind|None, uses GPIO instead|Pending
+|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD)|Simple, great for GPIO|Firmware not built with host in mind|None, uses GPIO instead|N/A
 |[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|Many host drivers|No keyboard support yet, no hub support, no native GPIO, adding your own configurations might be time consuming| Many Controllers |Xbox 360 Controller with Chatpad
 |[SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|Some host libraries|need to buy separate hostboard, Steel Battalion implementation not fully documented| Gamepads| Xbox 360 Controller with Chatpad
 
@@ -77,6 +74,8 @@ For the sake of ease, we will call this an Adapter Board.
 * Pi Pico W
 * Pi Pico 2 W
 * RP2354, Pico/ESP32
+* Adafruit Feather
+* Arduino Nano RP2040 Connect
 
 **Arduino**
 * Adafruit Circuit Playground 32u4
