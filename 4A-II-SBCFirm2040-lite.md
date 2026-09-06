@@ -27,3 +27,34 @@ cmake ..
 make
 ```
 Once that's done, connect your RP2040 to your PC in Download mode (hold button while connecting), and copy the .uf2 file to the drive that shows up
+
+
+## Host Inputs
+
+
+# GPIO Inputs
+
+## Digital Inputs
+
+At the top of the main file, define your pins
+```
+#define fireButtonPin 15 //remember this is GPIO 15 not literally pin 15
+```
+At the beginning of ```int main(void)``` configure your pin
+
+```
+//input GPIO
+    gpio_init(fireButtonPin); //initializes
+    gpio_set_dir(fireButtonPin, GPIO_IN); //sets pin as GPIO input
+    gpio_pull_up(fireButtonPin); //pin is set to be normal ACTIVE
+	
+```
+
+within the ```apply_inputs_to_steelbattalion``` function:
+```
+	if(gpio_get(fireButtonPin)==0){
+	gp->steel_battalion_in_report.dButtons.MainWeapon = true;
+	}
+```
+
+## Analogue Inputs
