@@ -115,9 +115,11 @@ void loop() {
   bool isPressed = (digitalRead(fireButtonPin) == LOW);
 
   //read in the input
-  int16_t rotation = map(raw_rotation, 0, 4095, -32767, 32767);
+//  int16_t rotation = map(rotationLever, 0, 4095, -32767, 32767);
+int16_t rotation_input = rotationLever << 6;
+
  //apply it to the steal battalion data
-  sb_data.rotationLever = rotation;
+  sb_data.rotationLever = rotation_input;
 
 
   // 2. Map using the explicit naming conventions found in your file!
