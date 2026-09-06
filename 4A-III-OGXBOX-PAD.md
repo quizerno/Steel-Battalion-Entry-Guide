@@ -1,4 +1,4 @@
-# 4A-IV. OGXBOX-PAD
+# 4A-III. OGXBOX-PAD
 
 [OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD) by eolvera85 is effectively a port of ogx360 to the arduino platform.
 Because of this, unlike the previous firmware options, OGXBOX-PAD utilizes arduino boards.
