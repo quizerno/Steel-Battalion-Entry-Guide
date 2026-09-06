@@ -200,15 +200,7 @@ When considering your remapped controller or custom controller, here is a simpli
 | Simple Recreation|7|38
 | Notes|| 
 
-## Analogue Read Specifics
 
-
-|Input|Data Type|Minimum Value|Max Value|Notes
-|---|---|---|---|---|
-| Left Joystick X-Axis|signed 16 bit integer (int16_t)|0x8000|0x7FFF| -32768 (INT16_MIN) and 32767 (INT16_MAX)
-| Sight Change Hat Stick X-Y Axis|signed 16 bit integer (int16_t)|0x8000|0x7FFF|-32768 (INT16_MIN) and 32767 (INT16_MAX)
-| Right Joystick X-Y Axis|unsigned 16 bit integer (uint16_t)|0x0000|0xFFFF|0 to 65,535
-| Pedals |unsigned 16 bit integer (uint16_t)|0x0000|0xFFFF|0 to 65,535
 
 
 ## Notes on Analogue Reads vs Digital Reads
@@ -225,6 +217,26 @@ The remaining seven analogue inputs could be converted to digital but there woul
 | Acceleration Pedal(1)|Increase Speed|Able to control pressure of pedal press|Can only simulate a full press meaning speed adjustment is more difficult
 
 For my documentation, we will attempt to keep these inputs as analogue unless controller unless substitutions do not allow for it (ie. the keyboard substitutes the left joystick with Q and E keys).
+
+## Digital Input Specifics
+|Input|Data Type|Values|Notes
+|---|---|---|---|
+| Buttons|unsigned 16 bit integer (int16_t)|1 (ON), 0 (OFF)|| 
+| Toggle|unsigned 16 bit integer (int16_t)|1 (ON), 0 (OFF)|| 
+| Gear|signed 8 bit integer (int8_t)|7 to 13|
+| Tuner|signed 8 bit integer (int8_t)|0 to 15|
+
+
+
+## Analogue Input Specifics
+
+
+|Input|Data Type|Minimum Value|Max Value|Notes
+|---|---|---|---|---|
+| Left Joystick X-Axis|signed 16 bit integer (int16_t)|0x8000|0x7FFF| -32768 (INT16_MIN) and 32767 (INT16_MAX)
+| Sight Change Hat Stick X-Y Axis|signed 16 bit integer (int16_t)|0x8000|0x7FFF|-32768 (INT16_MIN) and 32767 (INT16_MAX)
+| Right Joystick X-Y Axis|unsigned 16 bit integer (uint16_t)|0x0000|0xFFFF|0 to 65,535
+| Pedals |unsigned 16 bit integer (uint16_t)|0x0000|0xFFFF|0 to 65,535
 
 
 
