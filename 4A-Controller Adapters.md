@@ -43,21 +43,28 @@ For the sake of ease, we will call this an Adapter Board.
 
 **Which Board and Firmware Should I Choose?**
 
-|Hardware|Firmware|Pros|Cons|Supported Devices|Prebuilt SBC Configurations|
-|---|---|---|---|---|---|
-|Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|**Board:** Very Powerful, lots of GPIO pins <br /> **Firmware:** [USBHost_t36 drivers](https://github.com/PaulStoffregen/USBHost_t36), keyboard, hub, joystick support| **Board:** Expensive, very sensitive to higher voltages **Firmware:** Lacking documentation| Keyboard, Mouse, HID Joysticks, Xbox 360 Controller, USB Hubs |  Keyboard+Mouse, HOTAS Gunfighter
-|RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|**Board:** Inexpensive, **Software:** Many host drivers| **Firmware:** No keyboard support yet, no hub support, adding your own configurations might be time consuming| Many Controllers |Xbox 360 Controller with Chatpad
-|RP2040|[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|**Board:** Inexpensive , **Firmware:** Simple  |**Board:** Currently only testing with the regular PICO **Firmware:** Currently WIP| Keyboard, Mouse, USB hubs, DS4 Controller, working on support for other devices | Pending
-|Arduino|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD)|**Board:** Inexpensive, **Firmware:** Simple, great for GPIO|Firmware not built with host in mind|None, uses GPIO instead|Pending
-|Arduino|[SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|**Board:** Inexpensive, **Software:** Some host libraries|need to buy separate hostboard, Steel Battalion implementation not fully documented| Gamepads| Xbox 360 Controller with Chatpad
+|Hardware|Pros|Cons|
+|---|---|---|
+|Teensy 4.1| Very Powerful, lots of GPIO pins <br />|Expensive|
+|RP2040|Inexpensive| Only 4 Analogue GPIO|
+|Arduino|Inexpensive, Simple to program, lots of GPIO options|Needs separate board for USB host|
+
+
+|Firmware|Pros|Cons|Supported Devices|Prebuilt SBC Configurations|
+|---|---|---|---|---|
+|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|[USBHost_t36 drivers](https://github.com/PaulStoffregen/USBHost_t36), lots of supported devices|Lacking documentation| Keyboard, Mouse, HID Joysticks, Xbox 360 Controller, USB Hubs |  Keyboard+Mouse, HOTAS Gunfighter
+|[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Simple, some supported devices| Currently WIP, only tested with PICO| Keyboard, Mouse, USB hubs, DS4 Controller, GPIO, working on support for other devices | Pending
+|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD)|Simple, great for GPIO|Firmware not built with host in mind|None, uses GPIO instead|Pending
+|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|Many host drivers|No keyboard support yet, no hub support, no native GPIO, adding your own configurations might be time consuming| Many Controllers |Xbox 360 Controller with Chatpad
+|[SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|Some host libraries|need to buy separate hostboard, Steel Battalion implementation not fully documented| Gamepads| Xbox 360 Controller with Chatpad
 
 
 
 ## Wiring and Firmware Building
-* [For instructions on ogx360_t4 go to section 3A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-I-ogx360_t4.md)
-* [For instructions on OGX-Mini-2026 go to section 3B](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-II-OGX-MINI-2026.md)
-* [For instructions on SBCFirm2040-lite go to section 3C](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-SBCFirm2040-lite.md)
-* [For instructions on OGXBOX-PAD go to section 3D](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-IV-OGXBOX-PAD.md)
+* [For instructions on ogx360_t4 go to section 4A-I](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-I-ogx360_t4.md)
+* [For instructions on OGXBOX-PAD go to section 4A-II](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-II-OGXBOX-PAD.md)
+* [For instructions on SBCFirm2040-lite go to section 4A-III](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-SBCFirm2040-lite.md)
+* [For instructions on OGX-Mini-2026 go to section 4A-IV](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-IV-OGX-MINI-2026.md)
 
 ## Board Options
 
@@ -90,7 +97,7 @@ For the sake of ease, we will call this an Adapter Board.
 
 **RP2040**
 * [HID Remapper](https://github.com/jfedor2/hid-remapper) - Keyboard remapper with some controller support, but does not have prebuilt configurations.
-* [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) - Similar to OGX mini, does have keyboard support, but does not have prebuilt configurations and web configurator does not support steel battalion.
+* [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) - Similar to OGX mini, does have keyboard support, GPIO support, but does not have prebuilt configurations and web configurator does not support steel battalion, Steel Battalion is included in the libraries.
 * [Joypad-os](https://github.com/joypad-ai/joypad-os) - Steel Battalion not yet implemented.
 
 **Arduino or R2040**
