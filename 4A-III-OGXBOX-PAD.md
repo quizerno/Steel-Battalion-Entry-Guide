@@ -115,7 +115,7 @@ void loop() {
   bool isPressed = (digitalRead(fireButtonPin) == LOW);
 
   //read in the input
-//  int16_t rotation = map(rotationLever, 0, 4095, -32767, 32767);
+//  int16_t rotation_input = map(rotationLever, 0, 4095, -32767, 32767);
 int16_t rotation_input = rotationLever << 6;
 
  //apply it to the steal battalion data
