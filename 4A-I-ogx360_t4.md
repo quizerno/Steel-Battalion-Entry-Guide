@@ -122,7 +122,7 @@ WIP
 ## Flashing the Teensy
 Open the Teensy Loader program, select the hex file, press the button on the teensy to begin the flash.
 
-## Host Configurations
+## Host Input
 The controls are configured in [steelbattalion.cpp](https://github.com/Ryzee119/ogx360_t4/blob/master/src/steelbattalion.cpp
 ). ogx360_t4 is so far the most versatile of the adapter firmwares because it comes with implementation of the USBHost_t36 libraries, which allow it to read HID devices.
 
@@ -159,7 +159,7 @@ The first two arguments require the VID and PID, these can be easily read from p
 The third argument does not matter as it is not used.
 The fourth argument depends on the device as some devices can use the HID Parsers and others can't
 
-## Adding GPIO Inputs
+## GPIO Inputs
 ### Digital Inputs
 Adding digital GPIO inputs to the Teensy is quite simple, in the steelbattalion.cpp file. In the steelbattalion_init function, define your pins:
 
@@ -181,6 +181,8 @@ For higher bit reads, the ADC on the Teensy can do 12 bit reading but it is note
 
 
 In the steelbattalion_init function, define your pins like you did for digital:
+
+TBD
 ```
     pinMode(A0, INPUT); // Rotation
     pinMode(A1, INPUT); // Sight Change X
