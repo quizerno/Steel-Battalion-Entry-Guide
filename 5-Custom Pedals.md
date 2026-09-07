@@ -3,19 +3,21 @@
 
 Creating or adapting pedals for the original controller or for use with PC
 
+
+
 ## Original Controller Pedals
 
 <img width="975" height="592" alt="image" src="https://github.com/user-attachments/assets/61031888-86cc-48f7-a8e4-929d80e0cd4c" />
 
 
-The original pedals use three 10K Type B potentiometers. If you don’t understand this, it means that the game can detect different levels of pressurem hence why it is analogue.
+The original pedals use three 10K Type B potentiometers. If you don’t understand this, it means that the game can detect different levels of pressure hence why it is analogue.
 The best way to describe this in layman’s terms is that this not the same as pressing a button, it is the level of pressing a button.
 
 **Specifications**
-* Three 10K Type B potentiometers
-* Input lines connected to the same 3.3 volt wire.
-* Ground line connected to the same ground wire.
-* Output line connected to different return wires.
+* Three 10K Type B potentiometers, these have 3 terminals each.
+ * Input lines connected to the same 3.3 volt wire.
+ * Ground line connected to the same ground wire.
+ * Output line connected to different return wires.
 
 **In-Game Function**
 |Left Pedal|Middle Pedal|Right Pedal|
@@ -32,11 +34,20 @@ The best way to describe this in layman’s terms is that this not the same as p
 
 ## Xbox Play
 
-**Pedals for the Original Controller**<br/>
+### Custom Pedals for the Original Controller**<br/>
+
+This is where things might get confusing. 
+
+
 What You Need:
 * Three Adapted or DIY Pedals (see below)
 * A Male Mini 6DIN connector WITH ALL 6 LINES, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the central control block.
 * A circuit board or a way to splice cables together.
+
+**Adapting Pedals for use with the original controller**
+
+
+
 
 **Pedals for a Custom Controller**<br/>
 Custom Controllers have two options. Using the GPIO pins on the adapter (see DIY Pedals) or using the USB host to plug-in a USB Pedal controller:
@@ -63,7 +74,6 @@ In the case of adapting pedals,
 2. DIY: Using a 3D printer and making them yourself with necessary electronics and springs
 3. DIY: Buying go-kart and/or industrial pedals, making adjustments
 4. DIY: Using microswitch pedals
-
 
 
 
