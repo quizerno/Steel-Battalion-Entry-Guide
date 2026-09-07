@@ -37,8 +37,7 @@ This section explains the options for playing Steel Battalion on PC via an Emula
 ## 8. Misc Information </br>
 This section is used as an archive for various information related to Steel Battalion. This includes guides on
 how to use the Original Controller on PC, suggestions for control set-ups, mods to the Original Controller and so-on.
-**DIY Controller:** A controller made from scratch.<br />
-**Input:** Joystick, Button, Switch, Pedal.<br />
+
 
 
 
