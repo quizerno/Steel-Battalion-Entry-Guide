@@ -27,12 +27,6 @@ Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guid
 | Simple Recreation|7|38
 | Notes|| 
 
-|Total |Analogue Inputs|Digital Inputs|
-|---|---|---|
-| Full Recreation|8| 62
-| Simple Recreation|7|38
-| Notes|| 
-
 
 With this in mind you can plan out the exact hardware you need.
 
