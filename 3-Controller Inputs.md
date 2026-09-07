@@ -152,9 +152,9 @@ Three analog pedals.
 
 |Left Pedal|Middle Pedal|Right Pedal|
 |---|---|---|
-| Slide Step: does an evasive manuever<br>depending on the direction<br>of the rotation joystick. Jumps forward if no rotation|Break, slows down depending on the pressure.|Acceleration: moves forward and speeds up depending on the pressure|
+| Slide Step: Does an evasive manuever<br>depending on the direction<br>of the rotation joystick. Jumps forward if no rotation, jumps backward if in reverse.|Break, slows down depending on the pressure.|Acceleration: moves forward/backward and speeds up depending on selected gear. |
 
-**Alternative Parts:** See [section on the pedals](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/4-Building%20The%20Pedals.md) for a full breakdown of what options you have.,
+**Alternative Parts:** See [section on the pedals](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/5-Custom%20Pedals.md) for a full breakdown of what options you have.,
 
 
 
