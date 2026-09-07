@@ -90,11 +90,12 @@ Yes, there are a couple methods to do this. See my section on using the Controll
 ## Terminology
 Just to make sure things are clear.<br />
 **Custom Controller:** Refers to any controller that is not the original Steel Battalion controller<br />
+**Custom Pedals:** Refers to any pedals that are not the original Steel Battalion pedals<br />
 **Controller Adapter:** Microcontroller used to do Steel Battalion inputs<br />
 **Adapter Board:** The physical hardware, microcontroller, of the Controller Adapter<br />
-**Adapted Controller:** A pre-existing controller that has is connected by USB and has it's inputs read by an adapter<br />
-**DIY Controller:** A controller made from scratch.<br />
-**Adapted Pedals:** A pre-existing set of pedals that has is connected by USB and has it's inputs read by an adapter<br />
-**DIY Pedals:** Pedals made from scratch. <br />
 **Pedal Input Adapter Board:** A board that converts the signals of pedals for use with Steel Baatalion, NOT A MICROCONTROLLER<br />
+**Adapted Controller:** A pre-existing controller that has is connected by USB and has it's inputs read by an adapter<br />
+**Adapted Pedals:** A pre-existing set of pedals that has is connected by USB and has it's inputs read by an adapter<br />
+**DIY Controller:** A controller made from scratch.<br />
+**DIY Pedals:** Pedals made from scratch. <br />
 **Input:** Joystick, Button, Switch, Pedal.<br />
