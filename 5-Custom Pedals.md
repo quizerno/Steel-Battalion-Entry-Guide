@@ -1,44 +1,70 @@
 # 3D. Custom Pedals
 **(Adapted or DIY Pedals)**
-For if you have an original controller and need pedals. 
+
+Creating or adapting pedals for the original controller or for use with PC
+
+## Original Controller Pedals
+
+<img width="975" height="592" alt="image" src="https://github.com/user-attachments/assets/61031888-86cc-48f7-a8e4-929d80e0cd4c" />
 
 
-
-## Xbox Play
-What You Need
-
-* a Mini 6DIN connector WITH ALL 6 LINES, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the central control block
-* a circuit board or a way to splice cables together
-* Three Pedals with potentiometers, and will transmit up to 3.33v (see options below)
-
-The Pedals in the Original Controller and What They Do
-The original game controller uses three potentiometers. If you don’t understand this, it means that the game can detect different levels of pressure (analog)
+The original pedals use three 10K Type B potentiometers. If you don’t understand this, it means that the game can detect different levels of pressurem hence why it is analogue.
 The best way to describe this in layman’s terms is that this not the same as pressing a button, it is the level of pressing a button.
-How it works in the game varies between the three pedals:
-The Slide-Step Pedal (left pedal) despite using the potentiometer, only reads the signal digitally. The pressure does not matter. But it does read the length of time you hold down the pedal, longer press = longer slide.
-The Break Pedal (middle pedal)  - The break pedals has several positions, but a full stop requires a full press.
-The Accelerator Pedal (right pedal) does read the pressure. A half-press will not reach max speed. A full press will reach max speed (depending on the terrain and VT of course). A full press of this pedal is necessary after becoming unbalanced.
+
+**Specifications**
+* Three 10K Type B potentiometers
+* Input lines connected to the same 3.3 volt wire.
+* Ground line connected to the same ground wire.
+* Output line connected to different return wires.
+
+**In-Game Function**
+|Left Pedal|Middle Pedal|Right Pedal|
+|---|---|---|
+| Slide Step: Despite using the potentiometer, only reads the signal digitally. The pressure does not matter. But it does read the length of time you hold down the pedal, longer press means longer slide.|Break: has several positions, but a full stop requires a full press.|Accelerator: has several positions. A half-press will not reach max speed. A full press will reach max speed. A full press of this pedal is necessary after becoming unbalanced.|
 
 
-The original controller utilizes three 10K Type B potentiometers 
-The original controller’s mechanism utilized torsion springs to rotate the potentiometer,This was later revised to a compression spring system
- 
-Torsion Spring Pedal Mechanism
- 
-Compression Spring Pedal Mechanism
+
 
 (https://www.youtube.com/watch?v=6TYqZhD9kCM)
 
 
 
-Options for Pedals
-Simply put your options are
+
+## Xbox Play
+
+**Pedals for the Original Controller**<br/>
+What You Need:
+* Three Adapted or DIY Pedals (see below)
+* A Male Mini 6DIN connector WITH ALL 6 LINES, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the central control block.
+* A circuit board or a way to splice cables together.
+
+**Pedals for a Custom Controller**<br/>
+Custom Controllers have two options. Using the GPIO pins on the adapter (see DIY Pedals) or using the USB host to plug-in a USB Pedal controller:
+
+## Emulator Play
+If you are looking for a simple plug-in and play option, any USB Pedal Controller will work. <br/>
+If you are looking for a DIY option, you will need:
+* Three DIY Pedals (see below)
+* HID Microcontroller, either an arduino or something similar.
+
+
+## Options for Pedals
+
+As long as you 
+### Adapted Pedals
+In the case of adapting pedals, 
+
+
+### DIY Pedals
+
+
+
 1. Buying set of pre-made simulation pedals, making adjustments 
 2. DIY: Using a 3D printer and making them yourself with necessary electronics and springs
 3. DIY: Buying go-kart and/or industrial pedals, making adjustments
 4. DIY: Using microswitch pedals
 
-Ideally you want to get three pedals that use 10K Type B potentiometers to match the original. 10K Type B potentiometers themselves are quite cheap. But getting them into a physical housing for pedals requires some work. See Andynumbers research I have included 
+
 
 
 
@@ -68,7 +94,9 @@ Harcroft has created a circuit to convert the voltages properly, specifically fo
 Microswitch Pedals
 If you want to use cheap microswitch pedals, this is not out of the question. But there will be no pressure detection. The difference is that you will, not be able to control the accelerator as well, you will need to release the pedal more frequently.
 The wiring is exactly the same as the potentiometer pedals
+
 <img width="628" height="344" alt="image" src="https://github.com/user-attachments/assets/2fe090e2-6051-40e2-8e81-118e54797482" />
+
 
 
 <img width="1121" height="404" alt="image" src="https://github.com/user-attachments/assets/23dd0a4c-8518-4844-96a4-aa73d9e6ab53" />
@@ -82,8 +110,6 @@ The wiring is exactly the same as the potentiometer pedals
 
 <img width="816" height="404" alt="image" src="https://github.com/user-attachments/assets/fc4a5eea-265b-486e-aa33-03c6e15ccb6e" />
 
-
-<img width="975" height="592" alt="image" src="https://github.com/user-attachments/assets/61031888-86cc-48f7-a8e4-929d80e0cd4c" />
 
 
 <img width="605" height="509" alt="image" src="https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff" />
