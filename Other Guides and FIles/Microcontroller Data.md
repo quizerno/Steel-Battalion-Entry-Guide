@@ -16,3 +16,14 @@ Utilizing data from [SlayingRipper](https://github.com/Slayingripper/MicroContro
 | **Teensy 4.1** | ARM Cortex-M7 | 600 MHz | 8 MB | 1 MB | 3.3V | 55 | 18 | Ethernet | SD Card Slot, USB Host |
 | **Raspberry Pi Pico** | Dual ARM Cortex-M0+ | 133 MHz | 2 MB | 264 KB | 3.3V | 26 | 3 | None | Programmable I/O, USB 1.1 Host/Device |
 | **Raspberry Pi Pico W** | Dual ARM Cortex-M0+ | 133 MHz | 2 MB | 264 KB | 3.3V | 26 | 3 | Wi-Fi | Programmable I/O, USB 1.1 Host/Device |
+
+To add:
+
+Adafruit Circuit Playground 32u4
+Arduino Esplora
+Arduino Industrial 101
+Arduino Leonardo ETH
+Arduino Robot Control / Motor
+Arduino Yún Mini
+LilyPad Arduino USB
+Linino One
