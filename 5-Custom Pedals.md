@@ -20,7 +20,7 @@ The best way to describe this in layman’s terms is that this not the same as p
 **In-Game Function**
 |Left Pedal|Middle Pedal|Right Pedal|
 |---|---|---|
-| Slide Step: Despite using the potentiometer, only reads the signal digitally. The pressure does not matter. But it does read the length of time you hold down the pedal, longer press means longer slide.|Break: has several positions, but a full stop requires a full press.|Accelerator: has several positions. A half-press will not reach max speed. A full press will reach max speed. A full press of this pedal is necessary after becoming unbalanced.|
+| **Slide Step:** Despite using the potentiometer, only reads the signal digitally. The pressure does not matter. But it does read the length of time you hold down the pedal, longer press means longer slide.|**Break:** has several positions, but a full stop requires a full press.|**Accelerator:** has several positions. A half-press will not reach max speed. A full press will reach max speed. A full press of this pedal is necessary after becoming unbalanced.|
 
 
 
