@@ -50,6 +50,7 @@ There are a multitude of 3D printable options available. These are perfectly fin
 * https://makerworld.com/en/models/1578870-sim-pedals#profileId-2657983
 * https://www.printables.com/model/770673-sim-racing-pedals-with-load-cell
 * https://www.thingiverse.com/thing:4812405
+* https://www.youtube.com/watch?v=I4P86DJPXAc
 
 ### Go-kart and Industrial Pedals
 
