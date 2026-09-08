@@ -17,7 +17,7 @@ If you are unfamiliar with arduino boards, they are effectively multipurpose mic
    * **macOS:** /Users/{username}/Library/Arduino15/packages/ogxbox/hardware/avr/1.0.1/
    * **Linux:** /home/{username}/.arduino15/packages/ogxbox/hardware/avr/1.0.1/
 
-Find the boards.txt file and replace it with github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Configuration Files/OGXBOX-PAD/boards.txt. Restart your IDE.
+Find the boards.txt file, back it up and replace it with [this one](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Configuration%20Files/OGXBOX-PAD/boards.txt). Restart your IDE.
 
 What this will do is change the emulated VID/PID from the OG Xbox S Controller (vid=0x045E, pid=0x0289) to the Steel Battalion Controller (vid=0x9A7B, pid=0xD000). It will also change the name of the board profile so you can confirm that the file was recognized. 
 
