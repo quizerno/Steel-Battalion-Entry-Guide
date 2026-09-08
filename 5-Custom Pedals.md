@@ -24,25 +24,82 @@ The best way to describe this in layman’s terms is that this not the same as p
 |---|---|---|
 | **Slide Step:** Despite using the potentiometer, only reads the signal digitally. The pressure does not matter. But it does read the length of time you hold down the pedal, longer press means longer slide.|**Break:** has several positions, but a full stop requires a full press.|**Accelerator:** has several positions. A half-press will not reach max speed. A full press will reach max speed. A full press of this pedal is necessary after becoming unbalanced.|
 
-
-
-
-(https://www.youtube.com/watch?v=6TYqZhD9kCM)
-
-
-
-
-## Xbox Play
-
-### Custom Pedals for the Original Controller**<br/>
-
+## Original Controller Replacement Custom Pedals<br/>
 This is where things might get confusing. 
-
-
 What You Need:
-* Three Adapted or DIY Pedals (see below)
-* A Male Mini 6DIN connector WITH ALL 6 LINES, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the central control block.
+* Three Pedals that use linear potentiometers or have had their signals converted to do such (see below)
+* A Male Mini 6DIN connector **with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the central control block.
 * A circuit board or a way to splice cables together.
+
+### Logitech
+Logitech Pedal modules connect to their main unit via DE-9 Connector.  <br/>
+The potentiometers are the same as the original pedals.  <br/>
+Harcroft sells an adaptor which converts the the DE9 connector to the Original Controller's Mini-Din6.  <br/>
+If you would like to create your own, follow the schematic below.  <br/>
+
+<img width="605" height="509" alt="image" src="https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff" />
+
+
+### Thrustmaster <br/>
+Thrustmaster Pedals require an electronics adapter that is also sold by Harcroft.
+
+### 3D Printing
+
+There are a multitude of 3D printable options available. These are perfectly fine options as long as you use a 
+
+* https://makerworld.com/en/models/1578870-sim-pedals#profileId-2657983
+* https://www.printables.com/model/770673-sim-racing-pedals-with-load-cell
+* https://www.thingiverse.com/thing:4812405
+
+### Go-kart and Industrial Pedals
+
+
+
+<img width="1766" height="1635" alt="image" src="https://github.com/user-attachments/assets/67a57e8d-1abc-4eb0-9616-f703e49e3347" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **Adapting Pedals for use with the original controller**
 
@@ -67,7 +124,7 @@ In the case of adapting pedals,
 
 
 ### DIY Pedals
-
+<br/>
 
 
 1. Buying set of pre-made simulation pedals, making adjustments 
@@ -122,7 +179,6 @@ The wiring is exactly the same as the potentiometer pedals
 
 
 
-<img width="605" height="509" alt="image" src="https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff" />
 
 
 <img width="716" height="620" alt="image" src="https://github.com/user-attachments/assets/2877dfc7-cc57-432e-ae55-9bc90b2524b0" />
