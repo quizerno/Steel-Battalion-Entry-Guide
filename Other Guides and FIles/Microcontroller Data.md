@@ -21,11 +21,10 @@ Utilizing data from:
 | |**ESP32 Pico Kit** | Tensilica Xtensa LX6 Dual-Core | Up to 240 MHz | 4 MB | 520 KB | 3.3V | 40 | 18 | Wi-Fi, Bluetooth | Compact Size |
 To add:
 
-*Adafruit Circuit Playground 32u4
-*Arduino Esplora
-*Arduino Industrial 101
-*Arduino Leonardo ETH
-*Arduino Robot Control / Motor
-*Arduino Yún Mini
-*LilyPad Arduino USB
-*Linino One
+* Adafruit Circuit Playground 32u4
+* Arduino Esplora
+* Arduino Industrial 101
+* Arduino Leonardo ETH
+* Arduino Robot Control / Motor
+* LilyPad Arduino USB
+* Linino One
