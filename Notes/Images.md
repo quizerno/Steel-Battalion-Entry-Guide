@@ -42,10 +42,39 @@
 
 <img width="563" height="453" alt="image" src="https://github.com/user-attachments/assets/9d6e7042-7c0c-4662-b097-ef15de92afba" />
 
+# Thrustmaster T248P
+
+<img width="854" height="395" alt="image" src="https://github.com/user-attachments/assets/426a30c7-5825-40bc-883b-3b1d20f6dce0" />
+
+<img width="499" height="639" alt="image" src="https://github.com/user-attachments/assets/8b2f7b5e-f360-419c-9c09-913e02fcc5d8" />
+
+<img width="418" height="417" alt="image" src="https://github.com/user-attachments/assets/6403101b-1bb0-4a15-8ce6-853abf6fb354" />
+
+## CSL Elite
+
+<img width="1000" height="612" alt="image" src="https://github.com/user-attachments/assets/fd6f4091-688b-4d2e-87ee-fabaacab87a3" />
+
+## MOZA SRP
+
+<img width="749" height="1066" alt="image" src="https://github.com/user-attachments/assets/2302052a-9e2b-4a1b-9971-48410d3389a6" />
+
+## MOZA R5
+
+<img width="301" height="277" alt="image" src="https://github.com/user-attachments/assets/d7693750-fb7b-47d3-809d-f04bc15f54f9" />
+
+
+## Joytech Williamsf1
+
+<img width="1015" height="1156" alt="image" src="https://github.com/user-attachments/assets/4351d5ad-8ad9-411f-b892-0f65b73917ea" />
+
 
 ## Saitek Cyborg X
 
 <img width="573" height="435" alt="image" src="https://github.com/user-attachments/assets/c5d6aea6-4223-4404-a65f-5d5605b812cc" />
+
+## X52 HOTAS
+
+<img width="2336" height="3328" alt="image" src="https://github.com/user-attachments/assets/d4469bb2-2d62-4936-8670-71835d489fc1" />
 
 
 ## URSA Minor
@@ -55,6 +84,9 @@
 ## PXN F16 Flight
 
 <img width="397" height="512" alt="image" src="https://github.com/user-attachments/assets/6c871424-fb44-4233-9b44-7a5f46ef7359" />
+
+<img width="981" height="652" alt="image" src="https://github.com/user-attachments/assets/a2b1ad7d-57c5-45bf-a238-6ca24b26f423" />
+
 
 
 ## CDT Aeromax R
@@ -66,5 +98,30 @@
 ## Microsoft Sidewinder
 
 <img width="300" height="356" alt="image" src="https://github.com/user-attachments/assets/45790389-2fc8-4f03-b18b-b7deffc1f4e4" />
+
+<img width="390" height="321" alt="image" src="https://github.com/user-attachments/assets/e1b8f029-7db7-488a-8ac5-ccb85843a006" />
+
+
+## Hori
+
+<img width="946" height="310" alt="image" src="https://github.com/user-attachments/assets/ea97a21a-996a-4c79-a4bd-837d89533228" />
+
+
+## Logitech
+
+G29/920/923
+
+<img width="564" height="261" alt="image" src="https://github.com/user-attachments/assets/b19d8c4b-3fd6-4ba8-aec1-bcd13c567711" />
+
+<img width="1650" height="1275" alt="image" src="https://github.com/user-attachments/assets/40e97b1f-cfab-4c9a-b948-6d53e368904d" />
+
+
+<img width="698" height="471" alt="image" src="https://github.com/user-attachments/assets/814a3de1-5368-4241-a7eb-fc45ec5b880b" />
+
+
+# PXN V3
+
+<img width="582" height="691" alt="image" src="https://github.com/user-attachments/assets/96b312ec-862c-4601-afe2-3c0569efa972" />
+
 
 
