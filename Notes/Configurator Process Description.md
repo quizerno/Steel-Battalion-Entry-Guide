@@ -19,10 +19,17 @@
   * Left Hatstick (signed 16-bit X-Y Axis)
   * Right Joystick (unsigned 16-bit X-Y Axis)
     * Detect if Right Joystick automatically recenters and makes suggestions
+     * ie. **Steel Battalion's Right Joystick does not normally recenter we have detected that your Right Stick does** 
   * Left Pedal (unsigned 16-bit axis)
   * Middle Pedal (unsigned 16-bit axis)
   * Right Pedal (unsigned 16-bit axis)
 
 ## Step 3.
 * **Input:** Choose between **Recommended** and **Manual** settings modes
-* **Output:** two windows, one showing the chose devices and the other SB blocks 
+* **Output:** if **Recommended** was chosen, the inputs auto-populate
+* **Output:** two windows, one showing the chose devices and the other SB blocks
+In this window the user:
+* Can save their profile, if they load it, it will return to this same window.
+* Add macros and modifiers
+* Adjust various settings
+* Repeat from Step 1 and scan devices.
