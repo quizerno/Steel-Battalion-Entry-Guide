@@ -19,7 +19,8 @@
   * Left Hatstick (signed 16-bit X-Y Axis)
   * Right Joystick (unsigned 16-bit X-Y Axis)
     * Detect if Right Joystick automatically recenters and makes suggestions
-     * ie. **Steel Battalion's Right Joystick does not normally recenter we have detected that your Right Stick does** 
+     * ie. **Steel Battalion's Right Joystick does not normally recenter we have detected that your Right Stick does**
+     * ie. "Would you like to add a modifier?"
   * Left Pedal (unsigned 16-bit axis)
   * Middle Pedal (unsigned 16-bit axis)
   * Right Pedal (unsigned 16-bit axis)
