@@ -9,9 +9,7 @@ Creating or adapting pedals for the original controller or for use with PC
 
 <img width="975" height="592" alt="image" src="https://github.com/user-attachments/assets/61031888-86cc-48f7-a8e4-929d80e0cd4c" />
 
-
 The original pedals use three 10K Type B potentiometers. If you don’t understand this, it means that the game can detect different levels of pressure hence why it is analogue.
-The best way to describe this in layman’s terms is that this not the same as pressing a button, it is the level of pressing a button.
 
 **Specifications**
 * Three 10K Type B potentiometers, these have 3 terminals each.
@@ -31,43 +29,55 @@ What You Need:
 * A Male Mini 6DIN connector **with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the central control block.
 * A circuit board or a way to splice cables together.
 
-### Logitech
-Logitech Pedal modules connect to their main unit via DE-9 Connector.  <br/>
-The potentiometers are the same as the original pedals.  <br/>
-Harcroft sells an adaptor which converts the the DE9 connector to the Original Controller's Mini-Din6.  <br/>
-If you would like to create your own, follow the schematic below.  <br/>
-
-<img width="605" height="509" alt="image" src="https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff" />
-
-
-### Thrustmaster <br/>
-Thrustmaster Pedals require an electronics adapter that is also sold by Harcroft.
-
 ### 3D Printing
 
-There are a multitude of 3D printable options available. These are perfectly fine options as long as you use a 
+There are a multitude of 3D printable options available. These are perfectly fine options as long as you use the 10K Type B Linear potentiometers
 
 * https://makerworld.com/en/models/1578870-sim-pedals#profileId-2657983
 * https://www.printables.com/model/770673-sim-racing-pedals-with-load-cell
 * https://www.thingiverse.com/thing:4812405
 * https://www.youtube.com/watch?v=I4P86DJPXAc
 
+
+### Logitech
+Logitech Pedal modules connect to their main unit via DE-9 Connector.  <br/>
+The potentiometers are the same as the original pedals.  <br/>
+[Harcroft](https://x.com/OGX_Harcroft) sells an adaptor which converts the the DE9 connector to the Original Controller's Mini-Din6.  <br/>
+If you would like to create your own, follow the schematic below.  <br/>
+
+<img width="302.5" height="254.5" alt="image" src="https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff" />
+
+### Thrustmaster <br/>
+Thrustmaster Pedals require an electronics adapter that is also sold by Harcroft.<br/>
+This adapter has worked with the following models: T3PA, T3PA-GT, T3PM, T-LCM<br/>
+<img width="312.5" height="277.5" alt="image" src="https://github.com/user-attachments/assets/5b9c1aab-2553-40f9-9e73-a629fdfe66d1" />
+
 ### Go-kart and Industrial Pedals
+Online, there are a couple of cheap options for pedals that are normally intended for non-gaming.<br/>
+These pedals, however, use Hall Effect sensors which are not linear. Again, Harcroft sells an adapter for this particular model, and has provided schematics if you wish to build it yourself.
+
+<img width="1146" height="489" alt="image" src="https://github.com/user-attachments/assets/41432c9e-959a-4608-a047-b896b9fe84c8" />
+
+<img width="441.5" height="408" alt="image" src="https://github.com/user-attachments/assets/67a57e8d-1abc-4eb0-9616-f703e49e3347" />
 
 
 
-<img width="1766" height="1635" alt="image" src="https://github.com/user-attachments/assets/67a57e8d-1abc-4eb0-9616-f703e49e3347" />
+#### The digital option
+
+If you 
+
+<img width="1121" height="404" alt="image" src="https://github.com/user-attachments/assets/23dd0a4c-8518-4844-96a4-aa73d9e6ab53" />
 
 
 
 
+## Adapted Pedals<br/>
 
 
+## DIY HID Pedals<br/>
 
 
-
-
-
+## DIY GPIO Pedals<br/>
 
 
 
@@ -167,10 +177,6 @@ The wiring is exactly the same as the potentiometer pedals
 
 
 
-<img width="1121" height="404" alt="image" src="https://github.com/user-attachments/assets/23dd0a4c-8518-4844-96a4-aa73d9e6ab53" />
-
-
-<img width="1146" height="489" alt="image" src="https://github.com/user-attachments/assets/41432c9e-959a-4608-a047-b896b9fe84c8" />
 
  
  <img width="975" height="404" alt="image" src="https://github.com/user-attachments/assets/903dc332-d521-40c4-b7f0-2974480a3a9a" />
