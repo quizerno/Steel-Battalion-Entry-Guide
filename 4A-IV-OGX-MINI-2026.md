@@ -3,7 +3,7 @@
 ) by MegaCadeDev is a fork and continuation of the original [OGX-Mini](https://github.com/wiredopposite/OGX-Mini
 ) by wiredopposite. It allows modern controllers to interact with older consoles and vice versa using the RP2040 platform. It includes the tinyUSB xid library for Steel Battalion and ogx360's configuration for controlling Steel Battalion with the Xbox 360 Controller+Chatpad.
 
-It unfortunately does not have USB hub, keyboard, or mouse support. But it does have drivers for quite a few joysticks and other HID devices you are curious 
+It unfortunately does not have USB hub, keyboard, or mouse support. But it does have drivers for quite a few joysticks and other HID devices if you are curious 
 
 ## Soldering the Host Cable to the RP2040
 This will be dependent on your board. The original repository has some [examples of the wiring.
@@ -84,9 +84,9 @@ Holding down on the BOOT SELECT button, plug the RP2040 board into the computer.
 Simply drag and drop the uf2 file to the board.
 
 ## Default Configuration
-By default, OGX-MINI's configuration defaults to this control scheme using the Xbox 360+Chatpad. The configuration can be altered [at this source file](https://github.com/MegaCadeDev/OGX-Mini-2026/blob/master/Firmware/RP2040/src/USBDevice/DeviceDriver/XboxOG/XboxOG_SB.cpp).
+By default, OGX-MINI's configuration defaults to this control scheme using the Xbox 360+Chatpad.
 <img width="975" height="965" alt="image" src="https://github.com/user-attachments/assets/7d95fc88-7829-45cb-86cd-088762b4ac45" />
 
 
 ## Other Configurations. 
-Development of OGX-Mini-2026 is currently in a state of limbo, so adding new different devices must be done independently. For the devices it does provide however you can attempt to match code to Steel Battalion's configuration. The bindings are located in [device driver folder for the original Xbox](https://github.com/MegaCadeDev/OGX-Mini-2026/blob/master/Firmware/RP2040/src/USBDevice/DeviceDriver/XboxOG/XboxOG_SB.cpp).
+Development of OGX-Mini-2026 is currently in a state of limbo, so adding new different devices must be done independently. For the devices it does provide however you can attempt to match code to Steel Battalion's configuration. The existing configuration and bindings are located in the [device driver folder for the original Xbox](https://github.com/MegaCadeDev/OGX-Mini-2026/blob/master/Firmware/RP2040/src/USBDevice/DeviceDriver/XboxOG/XboxOG_SB.cpp).
