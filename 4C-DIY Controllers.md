@@ -8,7 +8,7 @@ Per [section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/ma
 * Raspberry Pi (RP2040) board running SBCFirm2040-lite, having additional analog inputs via an expansion board.
 * An HID Arduino (with at least 14 digital pins and 7-8 Analog pins) running OGXBOX-PAD
   
-## Necessary Inputs
+## Necessary Inputs and the Microcontroller
 Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
 
 |Total |Analogue Inputs|Digital Inputs|
@@ -20,9 +20,9 @@ Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guid
 
 So how do we get that many digital inputs into one board? By using a matrix. You can turn 14 microcontroller pins into 49 inputs using a 7x7 keyboard matrix. Therefore, in theory you only need a board that has 14 digital pins and 7 analogue pins for a Simple Recreation of the controller.
 
-Deciding on your adapter board becomes a bit clearer. Your options are now
+Deciding on your adapter board becomes a bit clearer. Your goal is now
 
-  1. Create a matrix of 49 keys and map each input, either directly or detecting each key of a keyboard layout
+  1. Create a matrix of 7x7 (49 keys) and map each input, either directly or detecting each key of a keyboard layout
   2. Mapping 7-8 analog inputs
 
 **Teensy 4.1**<br/>
@@ -30,14 +30,20 @@ Teensy 4.1 has more than enough GPIO pins to handle all the Steel Battalion's in
 
 **RP2040**<br/>
 The RP2040 boards will typically have enough digital pins, usually 26 or more, but only has 3-4 analogue pins (An exception to this is ESP32-PICO-KIT-1 which has 18 analogue pins.
-). Therefore you will need to either:
+). 
+Therefore to handle the remaining inputs you will need to either:
 * Use the USB HOST to bring in another HID device
 * Add another microcontroller and connect to the first via i2c
 * Use a multiplexer or shift register
 
 **Arduino**<br/>
 There are many arduinos. Typically they will have 14 to 20 or more digital pins. At minimum it will have 6 analogue pins, but some have more such as the Arduino Leonardo which has 12.
-As with the RP2040 adding another microcontroller and connecting to the first via i2c is an option.
+
+If a single arduino board lacks enough GPIO pins, your choices are:
+* Add another microcontroller and connect to the first via i2c
+* Use a multiplexer or shift register
+
+  
 
 
 You then have a choice between separating the blocks into 2 or more micro controllers and using a HUB to bring them together or consolidating into one micro controller.
@@ -64,9 +70,6 @@ You then have a choice between separating the blocks into 2 or more micro contro
 Your microcontroller needs to have at least 14 digital pins and 7 analogue pins. If you need to use an additional microcontroller, you can either consider 
 using I2C SCL and SDA lines, or using the DIY-SBC HUB set-up.
 
-
-
-
 ## DIY-SBC HUB Set-Up
 <img width="607" height="405" alt="hidcrop sbchub" src="https://github.com/user-attachments/assets/83b24e33-bbb3-4991-bcb8-77555f6188b5" />
 
@@ -88,7 +91,11 @@ using I2C SCL and SDA lines, or using the DIY-SBC HUB set-up.
 
 Most USB devices have specific usages.
 
+## Keyboard Matrix and Mounting
 
+
+
+## 3D Printable Joysticks
 
 
 ### Links
