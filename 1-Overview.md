@@ -22,7 +22,7 @@ The further subsections are tutorials on how to set-up each of the firmware.
 ### ⎯⎯⎯ 4B. [Adapted Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4B-Adapted%20Controllers.md)<br/>
 An explanation on how to adapt existing hardware with the controller adapters.
 
-### ⎯⎯⎯ 4C. [DIY Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-DIYg%20Controllers.md)<br/>
+### ⎯⎯⎯ 4C. [DIY Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-DIY%20Controllers.md)<br/>
 An explanation on how to create your own controllers for use with the adapters.
 
 ## 5. [Custom Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md) <br/>
