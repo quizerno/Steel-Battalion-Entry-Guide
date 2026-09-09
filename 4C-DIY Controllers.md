@@ -29,13 +29,15 @@ Deciding on your adapter board becomes a bit clearer. Your options are now
 Teensy 4.1 has more than enough GPIO pins to handle all the Steel Battalion's inputs. It has 55 GPIO, 18 of which are analogue.
 
 **RP2040**<br/>
-The RP2040 has enough digital pins, but only has 3-4 analogue pins. Therefore you will need to either:
-* Use the USB to bring in another HID device
-* Add another microcontroller and add it via i2c
+The RP2040 boards will typically have enough digital pins, usually 26 or more, but only has 3-4 analogue pins (An exception to this is ESP32-PICO-KIT-1 which has 18 analogue pins.
+). Therefore you will need to either:
+* Use the USB HOST to bring in another HID device
+* Add another microcontroller and connect to the first via i2c
 * Use a multiplexer or shift register
 
 **Arduino**<br/>
-There are many arduinos
+There are many arduinos. Typically they will have 14 to 20 or more digital pins. At minimum it will have 6 analogue pins, but some have more such as the Arduino Leonardo which has 12.
+As with the RP2040 adding another microcontroller and connecting to the first via i2c is an option.
 
 
 You then have a choice between separating the blocks into 2 or more micro controllers and using a HUB to bring them together or consolidating into one micro controller.
