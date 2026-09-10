@@ -4,7 +4,7 @@ Xbox Modding is required to implement these upgrades.
 
 ### Xbox Modding
 As said in the intro, I am not going to be detailing Xbox Mods as there are many tutorials, and much of it will depend on your Xbox revision.
-Here are several tutorials. All will give a custom dashboard capable of running Steel Battalion. If your Xbox has been modded, go down to the next section."
+Here are several tutorials. All will give a custom dashboard capable of running Steel Battalion. If your Xbox has been modded, go down to the next section.
 
 **If you happen to come across a modded Xbox or mod yours, consider [running XCAT ](https://consolemods.org/wiki/Xbox:XCAT)to help with archival**
 
