@@ -27,9 +27,6 @@ There are two primary paths for this, both involve using a microcontroller to em
 Combining parts of each of these into a **Hybrid Set-Up** is also an option but it will be heavily dependent on the adapter and firmware you choose. 
 
 
-After reading about each set-up, proceed to [**Section 4A**](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md) and consider which adapter you want to use.
-
-
 ## Specifics of Each Set-Up
 
 ### Adapted Set-Up
@@ -38,75 +35,13 @@ After reading about each set-up, proceed to [**Section 4A**](https://github.com/
 
 Your **Existing USB Controller** connects to a **Host Cable** on your **adapter board** which connects to the Xbox. The inputs on the USB Controller are read by the adapter which outputs Steel Battalion inputs to the Xbox. As long as the USB devices are parsed properly, you can play Steel Battalion with the USB devices you want. 
 
+### DIY Set-Up
 
-**To lay it out simply:**
-- One or more USB-Devices connected to Host Cable of the adapter (HUB needed for 2+ devices)
-- The adapter is programmed to parse each of the devices to and map them to corresponding Steel Battalion inputs
-- The inputs are then sent to the Xbox
+<img width="991" height="239" alt="sb connection4 copy" src="https://github.com/user-attachments/assets/06677fe0-61e9-4047-a2f7-e18208547c0c" />
 
-An advantage of this is that you do not need to build your own controller, you only need to buy one microcontroller <br/>
-An disadvantage of this is that you need ensure that you can parse the existing controller<br/>
+Your **DIY inputs** are directly connected to your **adapter board** which connects to the Xbox. The apapter board effectively becomes the Steel Battalion Controller.
 
-Proceed to [section 4B](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4B-Adapted%20Controllers.md).
-
-## DIY-HID Set-Up
-
-Let's say you want to build your own controller, but you also want to use it on PC.
-
-IMAGE
-
-Your **Custom USB Controller** connects to a **Host Cable** on your **adapter board** which connects to the Xbox. The inputs on the USB Controller are read by the adapter which outputs Steel Battalion inputs to the Xbox.
-
-
-**To lay it out simply:**
-- This is essentially the same as an adapted controller but with your own custom controller
-- One or more Custom HID Joysticks connected to Host Cable of the adapter (HUB needed for 2+ devices)
-- The adapter is programmed to parse each of the devices to and map them to corresponding Steel Battalion inputs
-- The inputs are then sent to the Xbox
-
-An advantage of this is that since you are responsible for the HID Protocol, it is far easier to parse it on the adapter side <br/>
-An disadvantage of this is that you need to buy at least two microcontrollers (1 for the controller inputs, 1 for the adapter) <br/>
-
-
-## DIY-SBC HUB Set-Up
-
-Let's say you want to build your own controller, but you don't want to bother with USB protocols and parsing.
-
-IMAGE
-
-Your **Emulated SBC Controller** connects to a **Host Cable** on your **adapter board** which connects to the Xbox. The inputs on the USB Controller are read by the adapter which outputs Steel Battalion inputs to the Xbox.
-
-**To lay it out simply:**
-- This essentially the same as the DIY-HID Se
-- One or more Custom HID Joysticks connected to Host Cable of the adapter (HUB needed for 2+ devices)
-
-
-
-- An advantage of this is that you don't need to worry about adapter settings, 
-- A disadvantage of this is that you need to buy more microcontroller boards
-
-## DIY-GPIO Set-Up
-Your inputs are directly connected to your **adapter board** which connects to the Xbox. The apapter board effectively becomes the Steel Battalion Controller
-
-**To lay it out simply:**
-- This essentially the same as the DIY-HID Se
-- An advantage of this is that you don't need to worry about adapter settings 
-- A disadvantage of this is that you need to buy more microcontroller boards
-
-An advantage of this is that you only need to buy one microcontroller.
-A disadvantage of this 
-
-
-## Hybrid Set-Up
-Using any of the above set-ups together. 
-
-
-
-## Adapting Controllers
-If you are interested in adapting existing controllers, [go to section 3C](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3B-Adapted%20Controllers.md)
-
-## Building a Controller 
-If you are interested in building your own controller using any of the DIY Set-Ups mentioned above. [Go to section 3C](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3C-DIY%20Controllers.md).
+After reading about each set-up, proceed to [**Section 4A**](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md) and consider which adapter you want to use.
 
 ## Adapting or Building Pedals
 If you need pedals and want to create your own pedals or need help adapting the analog inputs. [Go to Section 3D](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3D-Adapted%20or%20DIY%20Pedals.md).
