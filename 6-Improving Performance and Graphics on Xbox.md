@@ -77,19 +77,6 @@ In-Depth Instructions: TBD
 1. Get this https://github.com/KilLo445/extract-xiso-gui 2. In XISO Gui, Extract ISO to Directory, select the SB ISO 3. Take the XBE file, make a copy 4. Upload the XBE to this website https://jayxbox.com/Misc/SB.php 5. Load Patch Library > Archive > Most Recent > Misc Modifications, select the options you want 6. Click Download Modified Core, this is your new XBE 7. Put the new XBE into the SB directory (overwrite if necessary) 2. In XISO gui, Create XISO from directory, select the SB directory.
 
 
-Improving Performance and Visuals on Emulator
-Emulators
-XEMU
-Xemu cannot run the XBE files directly, to run the altered XBE files described above, Xemu must be running a modded dashboard and Cerbios (yes you are softmodding an emulator at this point), alternatively you can rebuild the ISO file  and run the game via the ISO.
-
-Method 1. Softmodding Xemu
-
-Method 2. Rebuilding the ISO 
-https://github.com/xboxdev/extract-xiso
-https://github.com/KilLo445/extract-xiso-gui
-Utilize 
-
-
 ## Other additional Xbox Mods that can improve performance.
 * IDE to SSD Adapter
 * RAM Upgrade
