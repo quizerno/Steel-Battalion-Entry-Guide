@@ -45,6 +45,14 @@ Method 1. Softmodding Xemu
 Method 2. Rebuilding the ISO https://github.com/xboxdev/extract-xiso https://github.com/KilLo445/extract-xiso-gui Utilize
 
 
+Method 2. Rebuilding the ISO 
+https://github.com/xboxdev/extract-xiso
+https://github.com/KilLo445/extract-xiso-gui
+Utilize 
+
+
+
+
 
 ## Cxbx-Reloaded (TBD)
 https://www.youtube.com/watch?v=hatA9M7ftlE&t=300s
