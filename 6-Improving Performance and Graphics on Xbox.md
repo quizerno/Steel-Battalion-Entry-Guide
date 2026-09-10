@@ -6,6 +6,8 @@ Xbox Modding is required to implement these upgrades.
 As said in the intro, I am not going to be detailing Xbox Mods as there are many tutorials, and much of it will depend on your Xbox revision.
 Here are several tutorials. All will give a custom dashboard capable of running Steel Battalion. If your Xbox has been modded, go down to the next section."
 
+**If you happen to come across a modded Xbox or mod yours, consider [running XCAT ](https://consolemods.org/wiki/Xbox:XCAT)to help with archival**
+
 * Softmodding: [Coulter Peterson's Tutorial](https://www.youtube.com/watch?v=NchZ-mHqTb0) utilizing [Rocky5's Softmodding Tool](https://github.com/Rocky5/Xbox-Softmodding-Tool)
    * Easiest Option: Only requires a USB-to-Xbox Controller Adapter and compatible flash drive
    * Works on all Xbox revisions
