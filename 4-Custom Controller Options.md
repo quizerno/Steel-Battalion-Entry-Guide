@@ -13,30 +13,26 @@ If you want to play on Xbox or are curious about tinkering, read on.
 - Basic soldering: you will need to solder at least 4 points. If you're planning on building a controller from scratch you will be need to solder a lot.
 - Patience: this can be difficult
 
-
-
-
 ## Planning
 
-**First:** to interact with the Xbox USB protocol, we need a Controller Adapter and Firmware. 
+There are two primary paths for this, both involve using a microcontroller to emulate inputs of a Steel Battalion Controller
 
-**Second:** you will need to decide on the control set-up you want. One of these uses existing controllers, 
-the other 3 involve DIY controllers.
+* **[Adapted Set-Up:](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4B-Adapted%20Controllers.md)** You take an existing controllers (gamepad/flightstick/etc) and use a controller adapter to play Steel Battalion.
+  * This path is the simplest option for playing on Xbox.
 
-* **Adapted Set-Up:** If you want to use existing controllers that connect to an adapter.
-* **DIY-HID Set-Up:** If you want to create your own controller that connects to an adapter.
-* **DIY-SBC HUB Set-Up:** If you want to create multiple emulated Steel Battalion devices that meet together in one adapter hub.
-* **DIY-GPIO Set-Up:** If you want to have the controls directly wired to the adapter.
-
-Combining pats of each of these nto a **Hybrid Set-Up** is also an option but it will be heavily dependent on the adapter and firmware you choose. 
-
-After reading about each set-up, proceed to [Section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md) and consider which adapter you want to buy.
+* **[DIY Set-Up:](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-DIY%20Controllers.md)** You make your controller from scratch and use a controller adapter to play Steel Battalion.
+  * This path is more complicated and has many sub-options, but is great for learning about how to build gamepads and selecting your own inputs.
 
 
-## Adapted Set-Up 
-If you would like to make the custom controller quickly, utilizing  using existing controllers and configuring your chosen adapter.
+Combining parts of each of these into a **Hybrid Set-Up** is also an option but it will be heavily dependent on the adapter and firmware you choose. 
 
-**How this works**
+
+After reading about each set-up, proceed to [**Section 4A**](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md) and consider which adapter you want to use.
+
+
+## Specifics of Each Set-Up
+
+### Adapted Set-Up
 
 <img width="1152" height="360" alt="image" src="https://github.com/user-attachments/assets/44a67dc0-539d-45d2-8aa5-a849d6a9ef41" />
 
