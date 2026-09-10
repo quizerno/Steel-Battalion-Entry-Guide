@@ -19,8 +19,9 @@ Utilizing data from:
 | |**ESP32 DevKitC** | Tensilica Xtensa LX6 Dual-Core | Up to 240 MHz | Up to 16 MB (external) | 520 KB | 3.3V | 34 | 18 | Wi-Fi, Bluetooth | Low Power Modes |
 | |**ESP32-WROOM-32** | Tensilica Xtensa LX6 Dual-Core | Up to 240 MHz | 4 MB | 520 KB | 3.3V | 30 | 18 | Wi-Fi, Bluetooth | Integrated Antenna |
 | |**ESP32 Pico Kit** | Tensilica Xtensa LX6 Dual-Core | Up to 240 MHz | 4 MB | 520 KB | 3.3V | 40 | 18 | Wi-Fi, Bluetooth | Compact Size |
-To add:
 
+
+To add:
 * Adafruit Circuit Playground 32u4
 * Arduino Esplora
 * Arduino Industrial 101
