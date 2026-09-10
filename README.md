@@ -14,9 +14,10 @@ If you have any other general questions about Steel Battalion, you can also cons
 
 # Join the discord server [here.](https://discord.gg/yG6yr96eb)
 
-This guide should not be considered definitive. There are many things that need to be documented.
 
 ## How To Use This Guide
+
+This guide should not be considered definitive. There are many things that need to be documented.
 
 My goal with this guide is to make a series of easy to understand tutorials that even someone without knowledge of github can use. However since the topic of this guide is inherently very confusing, it therefore requires a lot of information that does not necessarily have a linear order. Proceed to the [Overview.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-Overview.md)
 
