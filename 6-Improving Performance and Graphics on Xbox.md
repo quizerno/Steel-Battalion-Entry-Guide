@@ -27,7 +27,7 @@ Here are several tutorials. All will give a custom dashboard capable of running 
 
 The original Xbox can actually output HD signals, it just requires an adapter and changing settings in the original dashboard.
 There are many different style of these adapters sold. Do not confuse these with composite to HDMI adapters, they will only try to upscale the composite signal.
-You can also consider building one yourself if you have spare parts ([TechnoOnTop's Tutorial](https://www.youtube.com/watch?v=S8jFJjoIO8s)).
+You can also consider building one yourself if you have spare parts ([TechnoOnTop's Tutorial](https://www.youtube.com/watch?v=S8jFJjoIO8s)). A future current project called [OpenXHD](https://consolemods.org/wiki/Xbox:OpenXHD) is also something to consider. 
 
 After you've connected the cable to the Xbox, go to the original Xbox dashboard (NOT your custom one) and enable the signals
 
@@ -35,7 +35,7 @@ After you've connected the cable to the Xbox, go to the original Xbox dashboard 
 
 
 
-To utilize HDMI signals for Steel Battalion specifically, asoftmodded or hard modded Xbox is require. Go down to the section on "Playing Steel Battalion from the Xbox HDD"
+To utilize HDMI signals for **Steel Battalion specifically**, asoftmodded or hard modded Xbox is require. Go down to the section on "Playing Steel Battalion from the Xbox HDD"
 
 
 
