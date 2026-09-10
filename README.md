@@ -12,7 +12,7 @@ If you have any other general questions about Steel Battalion, you can also cons
 [Steel Battalion Online F.A.Q. - Google Docs
 ](https://docs.google.com/document/d/17r_LhhonAIT3Vusn6__5buRspa8D00lDpAtynqyXSRo/edit?tab=t.0#heading=h.7yerq3kylii)
 
-Join the discord server [here.](https://discord.gg/yG6yr96eb)
+# Join the discord server [here.](https://discord.gg/yG6yr96eb)
 
 This guide should not be considered definitive. There are many things that need to be documented.
 
