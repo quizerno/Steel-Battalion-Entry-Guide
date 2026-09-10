@@ -39,8 +39,7 @@ The main part of the adapter.
 |Micro USB/Mini USB/USB-C/ to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer, as stated above the Teeny 4.1 uses Micro USB, RP2040s and Arduinos have Micro USB and USB-C options. Some Arduinos use Mini USB
 
 **Which Board and Firmware Should I Choose?**<br />
-Your choice of board and firmware should ultimately be dependent on your end goal, uing pre-existing USB Controllers and/or using GPIO and adding more features. See also [Slayingripper's comparison of microncontrollers](https://github.com/Slayingripper/MicroControllers).
-
+Your choice of board and firmware should ultimately be dependent on your end goal, uing pre-existing USB Controllers and/or using GPIO and adding more features.
 
 |Hardware|Pros|Cons|
 |---|---|---|
@@ -68,6 +67,7 @@ Your choice of board and firmware should ultimately be dependent on your end goa
 * [For instructions on OGX-Mini-2026 go to section 4A-IV](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-IV-OGX-MINI-2026.md)
 
 ## Board Options
+More data on the microcontrollers [here.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/Microcontroller%20Data.md)
 
 **Teensy**
 * Teensy 4.1
