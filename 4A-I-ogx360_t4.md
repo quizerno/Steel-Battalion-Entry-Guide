@@ -156,7 +156,7 @@ The first two arguments require the VID and PID, these can be easily read from p
 The third argument does not matter as it is not used.
 The fourth argument depends on the device as some devices can use the HID Parsers and others can't
 
-## GPIO Inpu Configuring
+## GPIO Input Configuring
 ### Digital Inputs
 Adding digital GPIO inputs to the Teensy is quite simple, in the steelbattalion.cpp file. In the steelbattalion_init function, define your pins:
 
