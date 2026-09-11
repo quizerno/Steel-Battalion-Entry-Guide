@@ -1,7 +1,7 @@
 # 4. Custom Controller Options
 
 (**Playing on Emulator Without an Original Controller**)<br />
-If you plan on playing on emulator, you can any skip any part of this section that has to do with with the Controller Adapters, and go to the Emulator section. If you want to build a custom controller, some of this knowledge will be helpful.
+If you plan on playing on emulator, you can any skip any part of this section that has to do with with the Controller Adapters, and go to the Emulator section ([section 7](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20Emulator.md)). If you want to build a custom controller, some of this knowledge will be helpful.
 
 (**Playing on Xbox Without An Original Controller**)<br />
 If you want to play on Xbox or are curious about tinkering, read on.
@@ -17,7 +17,7 @@ If you want to play on Xbox or are curious about tinkering, read on.
 
 There are two primary paths for this, both involve using a microcontroller to emulate inputs of a Steel Battalion Controller
 
-* **[Adapted Set-Up:](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4B-Adapted%20Controllers.md)** You take an existing controllers (gamepad/flightstick/etc) and use a controller adapter to play Steel Battalion.
+* **[Adapted Set-Up:](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4B-Adapted%20Controllers.md)** You take any existing controllers (gamepad/flightstick/etc) and use a controller adapter to play Steel Battalion.
   * This path is the simplest option for playing on Xbox.
 
 * **[DIY Set-Up:](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-DIY%20Controllers.md)** You make your controller from scratch and use a controller adapter to play Steel Battalion.
@@ -39,12 +39,12 @@ Your **Existing USB Controller** connects to a **Host Cable** on your **adapter 
 
 <img width="991" height="239" alt="sb connection4 copy" src="https://github.com/user-attachments/assets/06677fe0-61e9-4047-a2f7-e18208547c0c" />
 
-Your **DIY inputs** are directly connected to your **adapter board** which connects to the Xbox. The apapter board effectively becomes the Steel Battalion Controller.
+Your **DIY inputs** are directly connected to your **adapter board** which connects to the Xbox. The adapter board effectively becomes the Steel Battalion Controller.
 
 After reading about each set-up, proceed to [**Section 4A**](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md) and consider which adapter you want to use.
 
 ## Adapting or Building Pedals
-If you need pedals and want to create your own pedals or need help adapting the analog inputs. [Go to Section 3D](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3D-Adapted%20or%20DIY%20Pedals.md).
+If you need pedals and want to create your own pedals or need help adapting the analog inputs. [Go to Section 5](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md).
 
 
 
