@@ -72,7 +72,7 @@ If you've already spent money and time on the adapter
 | Pedal Block|Digital Foot Pad|Generic USB Triple Foot Switch Pedal
 
 **Bare Bones**<br />
-You can get away with a keyboard and mouse, however there are downsides with only digital controls, the details of which are described in [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-%20Controller%20Inputs.md) under "Notes on Analog Reads vs Digital Reads"
+You can get away with a keyboard and mouse, however there are downsides with only digital controls, the details of which are described in [section 3](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md#notes-on-analogue-reads-vs-digital-reads) under "Notes on Analog Reads vs Digital Reads"
 
 ## Configuring the Adapter for your Selected Controllers
 
