@@ -1,6 +1,6 @@
 # 1. Overview <br/>
 You are here. Details each section of this guide and contains an FAQ subsection for help on where you need to go.
- * **□ [1A. FAQ](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1A-FAQ.md)** <br/>
+### ⎯⎯⎯ [1A. FAQ](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1A-FAQ.md) <br/>
 
 ## 2. [Original Controller Information](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/2-Original%20Controller%20Information.md)<br/>
 Basic information about the Original Steel Battalion Controller and links to maintenance guides.
@@ -26,7 +26,7 @@ An explanation on how to adapt existing hardware with the controller adapters.
 Guides on how to create your own controllers for use with the adapters or emulator.
 
 ## 5. [Custom Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md) <br/>
-Guides on how how to adapt existing pedals for the original controller or controller adapte, or making your own.
+Guides on how how to adapt existing pedals for the original controller or controller adapter, or making your own.
 
 ## 6. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/6-Improving%20Performance%20and%20Graphics%20on%20Xbox.md) <br/>
 This section describes hardware and software options for Xbox players to improve their gameplay experience
@@ -37,7 +37,5 @@ This section explains the options for playing Steel Battalion on PC via an Emula
 ## 8. Misc Information </br>
 This section is used as an archive for various information related to Steel Battalion. This includes guides on
 how to use the Original Controller on PC, suggestions for control set-ups, mods to the Original Controller and so-on.
-
-
-
-
+□
+□
