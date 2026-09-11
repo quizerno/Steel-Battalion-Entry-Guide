@@ -5,21 +5,20 @@ It is a port of Ryzee’s own project [ogx360](https://github.com/Ryzee119/ogx36
 
 This guide will be slightly out of order. First I will show you how to properly build for the teensy, then I will show you how to configure controls. After which you can build again.
 
+## Wiring
 ### Soldering the Host Cable to the Teensy 4.1  
 <img width="805" height="737" alt="usb copy" src="https://github.com/user-attachments/assets/89d8b624-9c0c-4c28-8122-38923cfed306" />
 
 The wiring on the teensy is pretty straight forward. Solder 5 pins to the USB header on the board and attach the cable.
 
-**MAKE ABSOLUTELY SURE YOUR ORIENATION IS CORRECT OTHERWISE YOU RISK DAMAGING THE DEVICE IS CONNECTED TO THE HOST** 
+**MAKE ABSOLUTELY SURE YOUR ORIENATION IS CORRECT OTHERWISE YOU RISK DAMAGING THE DEVICE CONNECTED TO THE HOST** 
 
 
-## Building
-## Linux or WSL
-Using command line interface. 
+## Firmware Building
+### Building in Linux or WSL
 
 **Initial Set-up**
-
-Run the following commands to set-up
+Using command line interface run the following commands to set-up
 ```
 #Clone the repository
 git clone --recurse-submodules https://github.com/Ryzee119/ogx360_t4.git
@@ -96,7 +95,7 @@ Back in the command line, run the following command to build using this environm
 After this you will get a hex file. Located at ogx360_t4\.pio\build\SB\ We must then flash this hex file to the teensy.  
 If you need help flashing the teensy, go down to the section on flashing.
 
-## Compile Using Windows
+### Building in Windows
 
 For windows you can either install Windows Subsystem for Linux and follow the Linux instructions above. Or you can use visual studio code.
 **Visual Studio Code Initial Set-up**
@@ -116,13 +115,11 @@ Locate the platformio.ini file, follow the same instructions as posted in the Li
 You will get a hex file. We must then flash this hex file to the teensy.
 If you need help flashing the teensy, go down to the section on flashing.
 
-## Compile Using Mac OSX
-WIP
 
 ## Flashing the Teensy
 Open the Teensy Loader program, select the hex file, press the button on the teensy to begin the flash.
 
-## Host Input
+## Host Input Configuring
 The controls are configured in [steelbattalion.cpp](https://github.com/Ryzee119/ogx360_t4/blob/master/src/steelbattalion.cpp
 ). ogx360_t4 is so far the most versatile of the adapter firmwares because it comes with implementation of the USBHost_t36 libraries, which allow it to read HID devices.
 
@@ -159,7 +156,7 @@ The first two arguments require the VID and PID, these can be easily read from p
 The third argument does not matter as it is not used.
 The fourth argument depends on the device as some devices can use the HID Parsers and others can't
 
-## GPIO Inputs
+## GPIO Inpu Configuring
 ### Digital Inputs
 Adding digital GPIO inputs to the Teensy is quite simple, in the steelbattalion.cpp file. In the steelbattalion_init function, define your pins:
 
