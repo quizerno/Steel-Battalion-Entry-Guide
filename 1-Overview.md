@@ -9,7 +9,7 @@ Basic information about the Original Steel Battalion Controller and links to mai
 Details of the controller inputs both technical and gameplay.
 
 ## 4. [Custom Controller Options](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4-Custom%20Controller%20Options.md)<br/>
-A rundown on the options for custom controllers. For use with original Xbox or Emulator
+A rundown on the options for custom controllers. This is primarily concerning use for the original Xbox, but it can be helpful if you are looking to play on emulator as well.
 
 ### ⎯⎯⎯ 4A. [Controller Adapters](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md)<br/>
 A very large subsection detailing the specific hardware for controller adapters, their supported firmware and the capabilities of both.
@@ -23,10 +23,10 @@ The further subsections are tutorials on how to set-up each of the firmware.
 An explanation on how to adapt existing hardware with the controller adapters.
 
 ### ⎯⎯⎯ 4C. [DIY Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-DIY%20Controllers.md)<br/>
-An explanation on how to create your own controllers for use with the adapters.
+Guides on how to create your own controllers for use with the adapters or emulator.
 
 ## 5. [Custom Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md) <br/>
-An explanation and tutorials on adapting existing pedals or making your own.
+Guides on how how to adapt existing pedals for the original controller or controller adapte, or making your own.
 
 ## 6. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/6-Improving%20Performance%20and%20Graphics%20on%20Xbox.md) <br/>
 This section describes hardware and software options for Xbox players to improve their gameplay experience
