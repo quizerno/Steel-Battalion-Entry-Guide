@@ -12,15 +12,24 @@ This will be dependent on your board. The original repository has some [examples
 
 
 
-## Building the firmware
-Build in Linux or WSL, using these instructions.
+## Firmware Building
 
+
+### Building in Linux or WSL
+
+**Initial Set-up**<br/>
+In command line interface, run the following
 ```
 git clone --recurse-submodules https://github.com/MegaCadeDev/OGX-Mini-2026
 cd OXG-Mini-2026/Firmware/external
 git clone --recurse-submodules https://github.com/RaspberryPi/pico-sdk
 mkdir ../RP2040/build
 cd ../RP2040/build
+```
+
+**Building***<br/>
+The build commands are:
+```
 cmake -DOGXM_BOARD=[BOARD OPTION] -DOGXM_FIXED_DRIVER=[CONTROLLER OPTION] -DCMAKE_BUILD_TYPE=[Debug or Release] ..
 make 
 ```
