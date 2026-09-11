@@ -17,7 +17,7 @@ The wiring on the teensy is pretty straight forward. Solder 5 pins to the USB he
 ## Firmware Building
 ### Building in Linux or WSL
 
-**Initial Set-up**
+**Initial Set-up**<br/>
 Using command line interface run the following commands to set-up
 ```
 #Clone the repository
