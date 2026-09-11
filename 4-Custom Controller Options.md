@@ -24,7 +24,7 @@ There are two primary paths for this, both involve using a microcontroller to em
   * This path is more complicated and has many sub-options, but is great for learning about how to build gamepads and selecting your own inputs.
 
 
-Combining parts of each of these into a **Hybrid Set-Up** is also an option but it will be heavily dependent on the adapter and firmware you choose. 
+Combining parts of each of these set-ups is also an option but it will be heavily dependent on the adapter and firmware you choose. 
 
 
 ## Specifics of Each Set-Up
