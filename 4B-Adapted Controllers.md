@@ -18,6 +18,17 @@ This path requires understanding how to parse USB devices, or adapting certain f
 Per [section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md), I recommend either a Teensy 4.1 with og360_t4 or Raspberry Pi board running SBCFirm2040-lite.
 The reason for this being that if using a pre-build controllers, you will want hub support to attach additional ones.
 
+
+
+## Understanding HID Reads
+When a USB device is connected, it
+
+https://www.beyondlogic.org/usbnutshell/usb5.shtml
+https://github.com/pasztorpisti/hid-report-parser/
+https://learn.microsoft.com/en-us/windows-hardware/drivers/hid/hid-usages#usage-id
+https://github.com/hathach/tinyusb/blob/master/src/class/hid/hid.h
+https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf
+
 ## Necessary Inputs
 Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
 
