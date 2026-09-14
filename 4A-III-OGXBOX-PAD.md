@@ -114,9 +114,12 @@ void loop() {
   // Read physical pin 2 (LOW means button is actively pressed)
   bool isPressed = (digitalRead(fireButtonPin) == LOW);
 
-  //read in the input
-//  int16_t rotation_input = map(rotationLever, 0, 4095, -32767, 32767);
-int16_t rotation_input = rotationLever << 6;
+  //read in the input and map to a value
+  int16_t rotation_input = map(rotationLever, 0, 4095, -32767, 32767);
+//shift 6 bits?
+int16_t rotation_input << 6;
+
+//uneeded int16_t rotation_input = rotationLever << 6;
 
  //apply it to the steal battalion data
   sb_data.rotationLever = rotation_input;
