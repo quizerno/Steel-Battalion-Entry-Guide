@@ -11,20 +11,21 @@ Keep in mind that there are 3.3v and 5v arduinos, although both should work for 
 The wiring for your controls will depend on your desired set-up. See the the [DIY Controller section](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-DIY%20Controllers.md) and the Arduino part of [Microcontroller Data](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/Microcontroller%20Data.md)
 
 ## Set-up
-1. Install the Arduino IDE
-2. Depending on if you are Mac/Linux/Windows, look at the instructions for ["adding third party boards."](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE)
-3. At the "Additional Boards Manager URLs" add ```https://raw.githubusercontent.com/eolvera85/OGXBOX-PAD/main/releases/package_ogxbox_index.json```
-4. Go to "Boards Manager" and add "OGXBOX AVR Boards"
+1. Install [the Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) and open it.
+2. Add the OGXBOX-Pad Boards
+   * Depending on if you are Mac/Linux/Windows, look at the instructions for ["adding third party boards."](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE)
+   * At the "Additional Boards Manager URLs" add ```https://raw.githubusercontent.com/eolvera85/OGXBOX-PAD/main/releases/package_ogxbox_index.json```
+   * Go to "Boards Manager" and add "OGXBOX AVR Boards"
 
-5. **Optional:** Depending on your operating system got to the following directory:
-   * **Windows:** C:\Users\{username}\AppData\Local\Arduino15\packages\ogxbox\hardware\avr\1.0.1\
-   * **macOS:** /Users/{username}/Library/Arduino15/packages/ogxbox/hardware/avr/1.0.1/
-   * **Linux:** /home/{username}/.arduino15/packages/ogxbox/hardware/avr/1.0.1/
+3. **Optional:** Changing the board data.
+   * Depending on your operating system got to the following directory:
+     * **Windows:** C:\Users\{username}\AppData\Local\Arduino15\packages\ogxbox\hardware\avr\1.0.1\
+     * **macOS:** /Users/{username}/Library/Arduino15/packages/ogxbox/hardware/avr/1.0.1/
+     * **Linux:** /home/{username}/.arduino15/packages/ogxbox/hardware/avr/1.0.1/
 
-Find the boards.txt file, back it up and replace it with [this one](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Configuration%20Files/OGXBOX-PAD/boards.txt). Restart your IDE.
+    * Find the boards.txt file, back it up and replace it with [this one](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Configuration%20Files/OGXBOX-PAD/boards.txt). Restart your IDE.
 
-What this will do is change the emulated VID/PID from the OG Xbox S Controller (vid=0x045E, pid=0x0289) to the Steel Battalion Controller (vid=0x9A7B, pid=0xD000). It will also change the name of the board profile so you can confirm that the file was recognized. 
-
+    * What this will do is change the emulated VID/PID from the OG Xbox S Controller (vid=0x045E, pid=0x0289) to the Steel Battalion Controller (vid=0x9A7B, pid=0xD000). It will also change the name of the board profile so you can confirm that the file was recognized. 
 **This step is not strictly necessary**, but it will allow your microcontroller to be recognized as a Steel Battalion Controller should you try to use it with an emulator or other software in this guide.
 
 5. Plug in your arduino board, when you select your board, you will select your board with the w/ OGXboxSBC option (ie. for a Pro Micro or Micro you will select "Arduino Micro w/ OGXBoxSBC", if you did not replace the file in step 5 it will just be "Arduino Micro w/ OGXBox")
