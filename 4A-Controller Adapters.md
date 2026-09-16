@@ -21,7 +21,7 @@ You will need a cable that allows you to connect USB devices to the Xbox.  If yo
   - etc
 
 ### USB Hub
-<img width="450" height="291.5" alt="image" src="https://github.com/user-attachments/assets/3f11bf75-5056-4160-b5f3-040c9980a401" />
+<img width="225" height="145.5" alt="image" src="https://github.com/user-attachments/assets/3f11bf75-5056-4160-b5f3-040c9980a401" />
 
 A powered USB hub will be needed if you want to connect more than one device to the adapter board host. 
 |Hardware|Usage|Where to Buy|Price|
