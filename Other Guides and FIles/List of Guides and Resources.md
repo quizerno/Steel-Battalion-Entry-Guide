@@ -1,6 +1,6 @@
 # List of Guides and Resources
 
-Entries marked in gold are referenced by the guide.
+Entries marked in bold are referenced by the guide.
 
 ## Controller Firmware and Emulation
 1. (Github) [BSBB-USB](https://github.com/Quantx/bsbb-usb/tree/master) by QuantX
