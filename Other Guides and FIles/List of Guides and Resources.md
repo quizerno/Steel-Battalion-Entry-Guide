@@ -1,7 +1,13 @@
-# List of Guides and Repositories
+# List of Guides and Resources
 
-## Recreated SBC Controller Firmware
-1. [BSBB-USB ](https://github.com/Quantx/bsbb-usb/tree/master) by QuantX
+Entries marked in gold are referenced by the guide.
+
+## Controller Firmware and Emulation
+1. (Github) [BSBB-USB](https://github.com/Quantx/bsbb-usb/tree/master) by QuantX
+2. (Github) **[ogx360](https://github.com/Ryzee119/ogx360), [ogx360_t4](https://github.com/Ryzee119/ogx360_t4/) by Ryzee119**
+3. (Github) **[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD) by eolvera**
+4. (Github) **[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite) by Quizerno**
+5. (Github) **[OGX-Mini](https://github.com/wiredopposite/OGX-Mini) by wiredopposite, [OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026) by MegaCadeDev**
 
 ## Controller Mods and Maintenance
 
@@ -12,8 +18,14 @@
  5. (Archived Website) [AlphA's Guide on Button Cosmetics](http://www.bigmech.com/sb/sb_controller_mod/buttons.html)
  6. (Archived Website) [Alpha's Guide for Mega Mods Including Adding Rumble](https://web.archive.org/web/20170409123727/http://www.bigmech.com/sb/sb_controller_mod/disclaimer.html)
 
+## Xbox Emulation
+1. See [Emulation Section](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20Emulator.md)
+
+## Xbox Modding
+1.
+
 ## Using the Controller on PC and Other Games
- 1. (Github) [Shopcreeper's SteelBattalionMapper](https://github.com/Shopcreeper/SteelBattalionMapper)
+ 1. (Github) **[Shopcreeper's SteelBattalionMapper](https://github.com/Shopcreeper/SteelBattalionMapper)**
  2. (Google Doc, and also archived in this directory) [[Rhobius’ Guide To The STEEK!]](https://docs.google.com/document/d/1TNEt_g_YkVw31bMz7lscZEsul9aSit-pv2i_M_ne2cQ/edit?tab=t.0) 
  3. (Website Guide) [SantiagoSaldana's Hackaday Guide for a Teensy Adapter](https://hackaday.io/project/182810/instructions)
  4. (Github) The corresponding [Github Arduino Library](https://github.com/SantiagoSaldana/SBC) for SantiagoSaldana's above Guide
@@ -26,7 +38,11 @@
  11. (Steam Guide) [Flame Soulis: Using a Steel Battalion Controller with HAWKEN](https://steamcommunity.com/sharedfiles/filedetails/?id=240489890)
  12. (SourceForge) [Hacknfly's Steel Battalion GUI for 64bit Windows](https://sourceforge.net/projects/steel-batallion-64/)
  13. (Video) [Blank Trigger Gamer's Guide on using the Steel Battalion Controller with Armored Core ](https://www.youtube.com/watch?v=rMlKRhGS01o)6
- 14. (Github) [Sonik-br's pico-battalion USB adapter](https://github.com/sonik-br/pico_battalion)
+ 14. (Github) **[Sonik-br's pico-battalion USB adapter](https://github.com/sonik-br/pico_battalion)**
  15. (Github) [Darksturm's pySBC project](https://github.com/Darkstrumn/pySBC) and [pySBC2](https://github.com/Darkstrumn/pySBC2)
  16. Archives of vtchid drivers [1](https://github.com/StingerAJ/vtchid-profiles), [2](https://github.com/HadetTheUndying/vtchid-backup)
  17. (Github) [Count Bronislaw's arduino SBC Pedal adapter](https://github.com/CountBronislaw/SBPedals)
+
+
+
+
