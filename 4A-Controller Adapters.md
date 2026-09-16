@@ -3,7 +3,7 @@
 
 Here is a run-down of your options for controller adapters and firmware, and the specific hardware.
 
-# Pre-requisite Hardware
+## Pre-requisite Hardware
 
 <img width="275" height="275" alt="image" src="https://github.com/user-attachments/assets/89c86672-539c-4846-ab5b-935306c70d17" />
 
