@@ -11,6 +11,10 @@ Keep in mind that there are 3.3v and 5v arduinos, although both should work for 
 The wiring for your controls will depend on your desired set-up. See the the [DIY Controller section](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-DIY%20Controllers.md) and the Arduino part of [Microcontroller Data](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/Microcontroller%20Data.md)
 
 ## Set-up
+**Caution:** Be sure that your arduino board has at least the Caterina Bootloader which allows 8 seconds of bootloader mode (after hitting reset twice).
+This is because once you flash OGXBOX-PAD firmware to the board, the arduino IDE will NOT recognize it unless it is in bootloader mode. 
+If you have a clone board with a different bootloader, this can make it VERY DIFFICULT to reflash since some will only give you 1 second to reflash.
+
 1. Install [the Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE) and open it.
 2. Add the OGXBOX-Pad Boards
    * Depending on if you are Mac/Linux/Windows, look at the instructions for ["adding third party boards."](https://support.arduino.cc/hc/en-us/articles/360016466340-Add-third-party-platforms-to-the-Boards-Manager-in-Arduino-IDE)
