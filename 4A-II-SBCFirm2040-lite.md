@@ -28,6 +28,9 @@ make
 ```
 Once that's done, connect your RP2040 to your PC in Download mode (hold button while connecting), and copy the .uf2 file to the drive that shows up
 
+## Steel Battalion Passthrough
+Using the custom drivers in [Sonik-br's pico-battalion USB adapter](https://github.com/sonik-br/pico_battalion), I was able to get Steel Battalion inputs to actually pass through the adapter.
+Now why would you want to do this?
 
 ## Host Input Configuring
 ### Keyboard and Mouse (Default)
