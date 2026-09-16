@@ -4,10 +4,10 @@
 Here is a run-down of your options for controller adapters and firmware, and the specific hardware.
 
 ## Pre-requisite Hardware
-
+### Xbox Bridge Cable
 <img width="275" height="275" alt="image" src="https://github.com/user-attachments/assets/89c86672-539c-4846-ab5b-935306c70d17" />
 
-### Xbox Bridge Cable
+
 You will need a cable that allows you to connect USB devices to the Xbox.  If you have done softmodding or hard modding before, you will likely have some experience with this.
 
 |Hardware|Usage|Where to Buy|Price|
