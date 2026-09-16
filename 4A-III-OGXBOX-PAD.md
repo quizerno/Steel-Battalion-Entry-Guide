@@ -5,6 +5,10 @@ Because of this, unlike the previous firmware options, OGXBOX-PAD utilizes ardui
 
 Because it does not have any host libraries (althought they could be added), this is effectively a GPIO only option
 If you are unfamiliar with arduino boards, they are effectively multipurpose microcontrollers, noted for their simplicity. 
+Keep in mind that there are 3.3v and 5v arduinos, although both should work for this project.
+
+## Wiring
+The wiring for your controls will depend on your desired set-up. See the the [DIY Controller section](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-DIY%20Controllers.md) and the Arduino part of [Microcontroller Data](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/Microcontroller%20Data.md)
 
 ## Set-up
 1. Install the Arduino IDE
