@@ -25,7 +25,7 @@ The wiring for your controls will depend on your desired set-up. See the the [DI
 
     * Find the boards.txt file, back it up and replace it with [this one](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Configuration%20Files/OGXBOX-PAD/boards.txt). Restart your IDE.
 
-    * What this will do is change the emulated VID/PID from the OG Xbox S Controller (vid=0x045E, pid=0x0289) to the Steel Battalion Controller (vid=0x9A7B, pid=0xD000). It will also change the name of the board profile so you can confirm that the file was recognized. 
+    * What this will do is change the emulated VID/PID from the OG Xbox S Controller (vid=0x045E, pid=0x0289) to the Steel Battalion Controller (vid=0x0A7B, pid=0xD000). It will also change the name of the board profile so you can confirm that the file was recognized. 
 **This step is not strictly necessary**, but it will allow your microcontroller to be recognized as a Steel Battalion Controller should you try to use it with an emulator or other software in this guide.
 
 5. Plug in your arduino board, when you select your board, you will select your board with the w/ OGXboxSBC option (ie. for a Pro Micro or Micro you will select "Arduino Micro w/ OGXBoxSBC", if you did not replace the file in step 5 it will just be "Arduino Micro w/ OGXBox")
