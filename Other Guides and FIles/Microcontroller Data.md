@@ -29,6 +29,13 @@ Utilizing data from:
 |3.99|**Raspberry Pi Pico** | Dual ARM Cortex-M0+ | 133 MHz | 2 MB | 264 KB | 3.3V | 26 | 3 | None | Programmable I/O, USB 1.1 Host/Device |
 |6.00|**Raspberry Pi Pico W** | Dual ARM Cortex-M0+ | 133 MHz | 2 MB | 264 KB | 3.3V | 26 | 3 | Wi-Fi | Programmable I/O, USB 1.1 Host/Device |
 |17.50|**Adafruit Feather**|Dual ARM Cortex-M0+ |133MHz 
+
+
+
+
+# ESP32
+| **Price (USD)** | **Microcontroller** | **Processor** | **Clock Speed** | **Flash Memory** | **RAM** | **Operating Voltage** | **Digital I/O Pins** | **Analog Inputs** | **Connectivity** | **Special Features** |
+|---------------------|---------------|-----------------|------------------|---------|-----------------------|----------------------|-------------------|------------------|----------------------|----------------------|
 | |**ESP32 DevKitC** | Tensilica Xtensa LX6 Dual-Core | Up to 240 MHz | Up to 16 MB (external) | 520 KB | 3.3V | 34 | 18 | Wi-Fi, Bluetooth | Low Power Modes |
 | |**ESP32-WROOM-32** | Tensilica Xtensa LX6 Dual-Core | Up to 240 MHz | 4 MB | 520 KB | 3.3V | 30 | 18 | Wi-Fi, Bluetooth | Integrated Antenna |
 | |**ESP32 Pico Kit** | Tensilica Xtensa LX6 Dual-Core | Up to 240 MHz | 4 MB | 520 KB | 3.3V | 40 | 18 | Wi-Fi, Bluetooth | Compact Size |
