@@ -9,7 +9,7 @@ This guide will be slightly out of order. First I will show you how to properly 
 ### Soldering the Host Cable to the Teensy 4.1  
 <img width="805" height="737" alt="usb copy" src="https://github.com/user-attachments/assets/89d8b624-9c0c-4c28-8122-38923cfed306" />
 
-The wiring on the teensy is pretty straight forward. Solder 5 pins to the USB header on the board and attach the cable.
+The wiring on the teensy is pretty straight forward. Solder 5 pins to the USB header on the board and attach the cable. Alternatively solder a cable directly.
 
 **MAKE ABSOLUTELY SURE YOUR ORIENATION IS CORRECT OTHERWISE YOU RISK DAMAGING THE DEVICE CONNECTED TO THE HOST** 
 
