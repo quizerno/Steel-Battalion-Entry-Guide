@@ -1,4 +1,4 @@
-# List of Guides
+# List of Guides and Repositories
 
 ## Recreated SBC Controller Firmware
 1. [BSBB-USB ](https://github.com/Quantx/bsbb-usb/tree/master) by QuantX
