@@ -63,7 +63,7 @@ Your choice of board and firmware should ultimately be dependent on your end goa
 ## Wiring and Firmware Building
 * [For instructions on ogx360_t4 go to section 4A-I](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-I-ogx360_t4.md)
 * [For instructions on SBCFirm2040-lite go to section 4A-II](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-II-SBCFirm2040-lite.md)
-* [For instructions on OGXBOX-PAD go to section 4A-III](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-II-OGXBOX-PAD.md)
+* [For instructions on OGXBOX-PAD go to section 4A-III](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-OGXBOX-PAD.md)
 * [For instructions on OGX-Mini-2026 go to section 4A-IV](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-IV-OGX-MINI-2026.md)
 
 ## Board Options
