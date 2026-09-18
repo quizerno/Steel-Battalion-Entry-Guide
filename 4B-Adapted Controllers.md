@@ -10,13 +10,16 @@ This path requires understanding how to parse USB devices, or adapting certain f
 
 
 **Hardware**<br/>
-* One microcontroller (Teensy 4.1 with host or RP2040 with host)
+* One microcontroller. Either
+   * Teensy 4.1 with og360_t4 and host cable
+   * RP2040 with with SBCFirm2040-lite and host board/cable
 * Whichever USB Controller you want to use.
 * Powered USB HUB (only required if you want to attach more than one device)
 
 
-Per [section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md), I recommend either a Teensy 4.1 with og360_t4 or Raspberry Pi board running SBCFirm2040-lite.
-The reason for this being that if using a pre-built controllers, you will want hub support to attach additional ones.
+Per [section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md), the two firmware options for this are
+1. og360_t4.
+2. 
 
 
 
