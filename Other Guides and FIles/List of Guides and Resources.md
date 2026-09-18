@@ -3,7 +3,7 @@
 Entries marked in bold are referenced by the guide.
 
 ## Controller Firmware and Emulation
-1. (Github) [BSBB-USB](https://github.com/Quantx/bsbb-usb/tree/master) by QuantX
+1. (Github) **[BSBB-USB](https://github.com/Quantx/bsbb-usb/tree/master) by QuantX**
 2. (Github) **[ogx360](https://github.com/Ryzee119/ogx360), [ogx360_t4](https://github.com/Ryzee119/ogx360_t4/) by Ryzee119**
 3. (Github) **[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD) by eolvera**
 4. (Github) **[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite) by Quizerno**
