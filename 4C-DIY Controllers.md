@@ -34,7 +34,7 @@ Deciding on your adapter board becomes a bit clearer. Your goal is now
 Teensy 4.1 has more than enough GPIO pins to handle all the Steel Battalion's inputs. It has 55 GPIO, 18 of which are analogue.
 
 **RP2040**<br/>
-The RP2040 boards will typically have enough digital pins, usually 26 or more, but only has 3-4 analogue pins (An exception to this is ESP32-PICO-KIT-1 which has 18 analogue pins.
+The RP2040 boards will typically have enough digital pins, usually 26 or more, but only have 3-4 analogue pins (An exception to this is ESP32-PICO-KIT-1 which has 18 analogue pins.
 ). 
 Therefore to handle the remaining inputs you will need to either:
 * Use the USB HOST to bring in another HID device
@@ -59,8 +59,7 @@ For the **HID Option** I recommend 1 or 2 HID Arduinos with either Teensy 4.1 or
 
 The earlier Teensy boards are also options for HID, however **I do not recommend using the teensyduino** libraries for the core configuration.
 This is because they force the Teensy into devices with Mouse+Keyboard+Joystick endpoints, making them much more difficult for the adapter to read. 
-The [QMK firmware](https://qmk.fm/) may be a suitable alternative.
-
+[QMK firmware](https://qmk.fm/) reduces the endpoints to 2 (Keyboard and Joystick) while MMJoy...
 
 
 
@@ -92,7 +91,7 @@ Emulated Steel Battalion Devices put into a HUB connected to an adapter. The Xbo
 
 **Hardware**<br/>
 * Any DIY-GPIO Devices you've made
-* One microcontroller (Teensy 4.1 with host or RP2040 with host)
+* One microcontroller (RP2040 with host cable/board running SBCFirm2040-lite)
 * Powered USB HUB (since you are connecting more than one device)
 
 
