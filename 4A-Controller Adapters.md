@@ -37,7 +37,7 @@ The main part of the adapter.
 |---|---|---|---|---|
 |Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|Ebay, Sparkfun | 27-30 USD| Uses Micro USB, has mSD card slot,  <br>powerful development platform. 
 |RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026), [SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Ebay, Sparkfun, Adafruit| 4-30 USD|Many options (see below)
-|USB-HID Arduino|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD), [SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|Ebay, Sparkfun, Adafruit| 4-30 USD| Many options (see below), This is primarily the GPIO option because Arduinos require separate boards to host USB devices
+|USB-HID Arduino|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD), [SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|Ebay, Sparkfun, Adafruit| 4-90 USD| Many options (see below), This is primarily the GPIO option because Arduinos require separate boards to host USB devices
 |USB Host Cable (Female USB A)||Ebay, Sparkfun or other online electronics stores| 3-8 USD| Needed to take in the Custom Controller inputs on the Teensy or the RP2040. Some of the RP2040 boards (such as the Adafruit Feather) come with a USB Host built in and therefore do not require this cable
 |Micro USB/Mini USB/USB-C/ to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer or Xbox host cable, as stated above the Teeny 4.1 uses Micro USB, RP2040s and Arduinos have Micro USB and USB-C options. Some Arduinos use Mini USB
 
