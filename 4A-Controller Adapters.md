@@ -39,7 +39,7 @@ The main part of the adapter.
 |RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026), [SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Ebay, Sparkfun, Adafruit| 4-30 USD|Many options (see below)
 |USB-HID Arduino|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD), [SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|Ebay, Sparkfun, Adafruit| 4-30 USD| Many options (see below), This is primarily the GPIO option because Arduinos require separate boards to host USB devices
 |USB Host Cable (Female USB A)||Ebay, Sparkfun or other online electronics stores| 3-8 USD| Needed to take in the Custom Controller inputs on the Teensy or the RP2040. Some of the RP2040 boards (such as the Adafruit Feather) come with a USB Host built in and therefore do not require this cable
-|Micro USB/Mini USB/USB-C/ to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer, as stated above the Teeny 4.1 uses Micro USB, RP2040s and Arduinos have Micro USB and USB-C options. Some Arduinos use Mini USB
+|Micro USB/Mini USB/USB-C/ to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer or Xbox host cable, as stated above the Teeny 4.1 uses Micro USB, RP2040s and Arduinos have Micro USB and USB-C options. Some Arduinos use Mini USB
 
 **Which Board and Firmware Should I Choose?** <br />
 Your choice of board and firmware should ultimately be dependent on your end goal, using pre-existing USB Controllers and/or using GPIO and adding more features. See more specifics on the boards [here.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/Microcontroller%20Data.md)
