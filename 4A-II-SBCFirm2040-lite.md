@@ -44,7 +44,11 @@ The only downside to this is that it will not replicate the light responses on t
 ### HOTAS Joystick + STECS
 ### Adding Your Own Joystick
 
+## Host Input Directing
+With the VID and PID of the device, you can direct the firmware to apply to specific controls without needing to worry about overlapping controls between HID devices. Each attached device will receive a usage code and the input will be directed based on that.
 
+* Steel Battalion Passthrough Inputs use their own usage code to specify the packet type.
+* GPIO Inputs of course are not affected by this as they do not use the host.
 
 ## GPIO Input Configuring
 ### Digital Inputs
