@@ -29,8 +29,15 @@ make
 Once that's done, connect your RP2040 to your PC in Download mode (hold button while connecting), and copy the .uf2 file to the drive that shows up
 
 ## Steel Battalion Passthrough
-Using the custom drivers in [Sonik-br's pico-battalion USB adapter](https://github.com/sonik-br/pico_battalion), I was able to get Steel Battalion inputs to actually pass through the adapter.
-Now why would you want to do this?
+Using the custom drivers in [Sonik-br's pico-battalion USB adapter](https://github.com/sonik-br/pico_battalion) and [Quant's packet descriptors](https://github.com/Quantx/bsbb-usb/tree/master)), I was able to get Steel Battalion inputs to actually pass through the adapter. This will work with both emulated controllers and the original controller (provided you have the Xbox to Male USB adapter).
+Now why would you want to do this? 
+* In the case that you use [OGXBOX-PAD](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-OGXBOX-PAD.md) but need to use more than 1 microcontroller, you can effectively use SBCFirm2040-lite as a hub without needing to pair the controller. USB Hubs on their own do not work with the Original Xbox
+* If you want to experiment with different inputs in addition to the original controller (or don't have a pedal adapter).
+* If you want to alter inputs on the original controller
+
+The only downside to this is that it will not replicate the light responses on the original controller.
+  
+
 
 ## Host Input Configuring
 ### Keyboard and Mouse (Default)
