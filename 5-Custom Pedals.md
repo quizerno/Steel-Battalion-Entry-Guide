@@ -1,4 +1,4 @@
-# 3D. Custom Pedals
+# 5. Custom Pedals
 **(Adapted or DIY Pedals)**
 
 Creating or adapting pedals for the original controller or for use with PC
