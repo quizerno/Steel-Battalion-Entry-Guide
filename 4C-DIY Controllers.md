@@ -3,16 +3,49 @@
 
 DIY Controllers are challenging, not solely due to their intricacy, but due to the multitude of options and configurations available. This however, is also their advantage.
 
-## GPIO vs HID
+## GPIO vs HID vs Passthrough
 
-The GPIO option makes things simpler. You connect inputs to your adapter and program them. However if you choose to use your adapter for
+The **GPIO** option makes things simpler. You connect inputs to your adapter and program them. However if you choose to use your adapter-controller for
 anything non-Steel Battalion anything else it will require reprogramming.
 
-The HID option is more complicated since it requires a separate microcontroller. But it allows you to create custom controllers that can be used for Steel Battalion and on PC on whim.
-As with the Adapted Controllers, understanding the the HID codes is important to getting your DIY Controller to work with Steel Battalion. The advantage of the DIY option is that you are defining the HID firmware and makes it easier for the adapter to read it.
+The **HID** option is more complicated since it requires a separate microcontroller, you are creating a controller and then adapting it. This allows you to create custom controllers that can be used for Steel Battalion and on PC on whim. As with the Adapted Controllers, understanding the the HID codes is important to getting your DIY Controller to work with Steel Battalion. The advantage of the DIY option is that you are defining the HID firmware and makes it easier for the adapter to read it.
 
-For both options arduino and RP2040 libraries for joysticks are quite simple to understand.
+The **Passthrough** options is something I developed with SBCFirm2040-lite with help from Quant. You have 2 or more GPIO controllers plugged into the RP2040 which acts as hub. You can also use an actual Steel Battalion Controller provided you have the middle block.
+
   
+## DIY-GPIO Set-Up
+<img width="607" height="405" alt="hidcrop direct" src="https://github.com/user-attachments/assets/c260270d-04dc-4729-8e29-54ca32ac81b1" />
+
+DIY Inputs into an adapter.
+**Hardware**<br/>
+* One microcontroller (Teensy 4.1, HID Arduino, RP2040)
+* Additional parts for creating your controller (switches, potentiometers, sensors, etc)
+* Your microcontroller needs to have at least 14 digital pins and 7 analogue pins. If you need to use an additional microcontroller, you can either consider 
+using I2C SCL and SDA lines, or using the DIY-SBC Passthrough set-up.
+
+## DIY-HID Set-Up:
+<img width="607" height="405" alt="hidcrop hid copy" src="https://github.com/user-attachments/assets/6db7aab0-1c86-403c-8354-b885c373c27c" />
+
+DIY Controllers read by an adapter.
+**Hardware**<br/>
+* Adapter: One microcontroller (Teensy 4.1 with host or RP2040 with host)
+* Custom HID Devices: At least one additional microcontroller (RP2040 or HID Arduino)
+* Additional parts for creating your controller (switches, potentiometers, sensors, etc)
+* Powered USB HUB (only required if you want to attach more than one device)
+
+## DIY-SBC Passthrough Set-Up
+<img width="607" height="405" alt="hidcrop sbchub" src="https://github.com/user-attachments/assets/83b24e33-bbb3-4991-bcb8-77555f6188b5" />
+
+Emulated Steel Battalion Devices put into a HUB connected to an adapter. The Xbox cannot natively read USB-Hubs
+
+**Hardware**<br/>
+* Two or more DIY-GPIO Devices you've made
+* One microcontroller (RP2040 with host cable/board running SBCFirm2040-lite)
+* Powered USB HUB (since you are connecting more than one device)
+
+
+
+
 ## Necessary Inputs and the Microcontroller
 Going back to [section 2](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md), we can see the table that illustrates the inputs we need.
 
@@ -60,39 +93,6 @@ For the **HID Option** I recommend 1 or 2 HID Arduinos with either Teensy 4.1 or
 The earlier Teensy boards are also options for HID, however **I do not recommend using the teensyduino** libraries for the core configuration.
 This is because they force the Teensy into devices with Mouse+Keyboard+Joystick endpoints, making them much more difficult for the adapter to read. 
 [QMK firmware](https://qmk.fm/) reduces the endpoints to 2 (Keyboard and Joystick) while MMJoy...
-
-
-
-## DIY-HID Set-Up:
-<img width="607" height="405" alt="hidcrop hid copy" src="https://github.com/user-attachments/assets/6db7aab0-1c86-403c-8354-b885c373c27c" />
-
-DIY Controllers read by an adapter.
-**Hardware**<br/>
-* Adapter: One microcontroller (Teensy 4.1 with host or RP2040 with host)
-* Custom HID Devices: At least one additional microcontroller (RP2040 or HID Arduino)
-* Additional parts for creating your controller (switches, potentiometers, sensors, etc)
-* Powered USB HUB (only required if you want to attach more than one device)
-
-
-## DIY-GPIO Set-Up
-<img width="607" height="405" alt="hidcrop direct" src="https://github.com/user-attachments/assets/c260270d-04dc-4729-8e29-54ca32ac81b1" />
-
-DIY Inputs into an adapter.
-**Hardware**<br/>
-* One microcontroller (Teensy 4.1, HID Arduino, RP2040)
-* Additional parts for creating your controller (switches, potentiometers, sensors, etc)
-* Your microcontroller needs to have at least 14 digital pins and 7 analogue pins. If you need to use an additional microcontroller, you can either consider 
-using I2C SCL and SDA lines, or using the DIY-SBC HUB set-up.
-
-## DIY-SBC HUB Set-Up
-<img width="607" height="405" alt="hidcrop sbchub" src="https://github.com/user-attachments/assets/83b24e33-bbb3-4991-bcb8-77555f6188b5" />
-
-Emulated Steel Battalion Devices put into a HUB connected to an adapter. The Xbox cannot natively read USB-Hubs
-
-**Hardware**<br/>
-* Any DIY-GPIO Devices you've made
-* One microcontroller (RP2040 with host cable/board running SBCFirm2040-lite)
-* Powered USB HUB (since you are connecting more than one device)
 
 
 
