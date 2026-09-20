@@ -1,16 +1,16 @@
 # 4C. DIY Controllers
 **(The really intricate path)**
 
-DIY Controllers are challenging, not solely due to their intricacy, but due to the multitude of options and configurations available. This however, is also their advantage.
+DIY Controllers are challenging, not solely due to their intricacy, but due to the multitude of options and configurations available. This is also their advantage.
 
-## GPIO vs HID vs Passthrough
+## GPIO vs HID Host vs Passthrough Host
 
 The **GPIO** option makes things simpler. You connect inputs to your adapter and program them. However if you choose to use your adapter-controller for
 anything non-Steel Battalion anything else it will require reprogramming.
 
-The **HID** option is more complicated since it requires a separate microcontroller, you are creating a controller and then adapting it. This allows you to create custom controllers that can be used for Steel Battalion and on PC on whim. As with the Adapted Controllers, understanding the the HID codes is important to getting your DIY Controller to work with Steel Battalion. The advantage of the DIY option is that you are defining the HID firmware and makes it easier for the adapter to read it.
+The **HID Host** option is more complicated since it requires a separate microcontroller, you are creating a controller and then adapting it, same as with an Adapted Controller. This allows you to create custom controllers that can be used for Steel Battalion and on PC on whim. The advantage of the DIY option is that you are defining the HID protocol yourself and makes it easier for the adapter to read it.
 
-The **Passthrough** options is something I developed with SBCFirm2040-lite with help from Quant. You have 2 or more GPIO controllers plugged into the RP2040 which acts as hub. You can also use an actual Steel Battalion Controller provided you have the middle block.
+The **SBC Passthrough Host** options is something I developed with SBCFirm2040-lite with help from Quant's code. U You have 2 or more GPIO controllers plugged into the RP2040 which acts as hub. You can also use an actual Steel Battalion Controller provided you have the usb adapter.
 
   
 ## DIY-GPIO Set-Up
@@ -23,7 +23,7 @@ DIY Inputs into an adapter.
 * Your microcontroller needs to have at least 14 digital pins and 7 analogue pins. If you need to use an additional microcontroller, you can either consider 
 using I2C SCL and SDA lines, or using the DIY-SBC Passthrough set-up.
 
-## DIY-HID Set-Up:
+## DIY-HID Host Set-Up:
 <img width="607" height="405" alt="hidcrop hid copy" src="https://github.com/user-attachments/assets/6db7aab0-1c86-403c-8354-b885c373c27c" />
 
 DIY Controllers read by an adapter.
@@ -33,7 +33,7 @@ DIY Controllers read by an adapter.
 * Additional parts for creating your controller (switches, potentiometers, sensors, etc)
 * Powered USB HUB (only required if you want to attach more than one device)
 
-## DIY-SBC Passthrough Set-Up
+## DIY-SBC Passthrough Host Set-Up
 <img width="607" height="405" alt="hidcrop sbchub" src="https://github.com/user-attachments/assets/83b24e33-bbb3-4991-bcb8-77555f6188b5" />
 
 Emulated Steel Battalion Devices put into a HUB connected to an adapter. The Xbox cannot natively read USB-Hubs
@@ -60,7 +60,7 @@ So how do we get that many digital inputs into one board? By using a matrix. You
 
 Deciding on your adapter board becomes a bit clearer. Your goal is now
 
-  1. Create a matrix of 7x7 (49 keys) and map each input, either directly or detecting each key of a keyboard layout
+  1. Create a matrix of 7x7 (49 keys) and map each input, either directly doing Steel Battalion Inputs or detecting each key of a keyboard layout
   2. Mapping 7-8 analog inputs
 
 **Teensy 4.1**<br/>
@@ -88,13 +88,13 @@ For the **GPIO Option** per [section 4A](https://github.com/quizerno/Steel-Batta
 * Raspberry Pi (RP2040) board running SBCFirm2040-lite, having additional analog inputs via an expansion board.
 * An HID Arduino (with at least 14 digital pins and 7-8 Analog pins) running OGXBOX-PAD
 
-For the **HID Option** I recommend 1 or 2 HID Arduinos with either Teensy 4.1 or RP2040 as the adapter board. 
+For the **HID Host Option** or **SBC Passthrough Host** I recommend 1 or 2 HID Arduinos with either Teensy 4.1 or RP2040 as the adapter board. 
 
-The earlier Teensy boards are also options for HID, however **I do not recommend using the teensyduino** libraries for the core configuration.
-This is because they force the Teensy into devices with Mouse+Keyboard+Joystick endpoints, making them much more difficult for the adapter to read. 
+  * The earlier Teensy boards are also options for HID, however when making an HID Joystick **I do not recommend using the teensyduino or QMK** the configuration.
+This is because they force the Teensy into devices with Mouse+Keyboard+Joystick endpoints, making them much more difficult for the adapters to read without more configuration. 
 [QMK firmware](https://qmk.fm/) reduces the endpoints to 2 (Keyboard and Joystick) while MMJoy...
 
-
+  * The earlier Teensy boards if adapted with QMK or other Keyboard firmware are acceptable.
 
 
 
