@@ -41,32 +41,7 @@ The main part of the adapter.
 |USB Host Cable (Female USB A)||Ebay, Sparkfun or other online electronics stores| 3-8 USD| Needed to take in the Custom Controller inputs on the Teensy or the RP2040. Some of the RP2040 boards (such as the Adafruit Feather) come with a USB Host built in and therefore do not require this cable
 |Micro USB/Mini USB/USB-C/ to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer or Xbox host cable, as stated above the Teeny 4.1 uses Micro USB, RP2040s and Arduinos have Micro USB and USB-C options. Some Arduinos use Mini USB
 
-**Which Board and Firmware Should I Choose?** <br />
-Your choice of board and firmware should ultimately be dependent on your end goal, using pre-existing USB Controllers and/or using GPIO and adding more features. See more specifics on the boards [here.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/Microcontroller%20Data.md)
-
-|Hardware|Pros|Cons|
-|---|---|---|
-|Teensy 4.1| Very Powerful, lots of GPIO pins, USB Host <br />|Expensive|
-|RP2040|Inexpensive, lots of options including Wi-fi, Blutooth and USB Host | Only 3-4 Analogue GPIO, requires I2C GPIO expanders or analog multiplexers to add more|
-|Arduino|Various prices, some inexpensive some very expensive, simple to program, lots of options|Needs separate board for USB host|
-
-|Firmware|Pros|Cons|Supported Devices|Prebuilt SBC Configurations|
-|---|---|---|---|---|
-|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|[USBHost_t36 drivers](https://github.com/PaulStoffregen/USBHost_t36), lots of supported devices|Host Drivers are bit lacking in documentation| Keyboard, Mouse, HID Joysticks, Xbox 360 Controller, USB Hubs |  Keyboard+Mouse, HOTAS Gunfighter
-|[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Simple, some supported devices| Currently WIP, only tested with PICO| Keyboard, Mouse, USB Hubs, Steel Battalion Passthrough, DS4 Controller, GPIO, working on support for other devices | Pending
-|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD)|Simple, great for GPIO|Firmware not built with host in mind|None, uses GPIO instead|N/A
-|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|Many host drivers|No keyboard support yet, no hub support, no native GPIO, adding your own configurations might be time consuming| Many Controllers |Xbox 360 Controller with Chatpad
-|[SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|Some host libraries|need to buy separate hostboard, Steel Battalion implementation not fully documented| Gamepads| Xbox 360 Controller with Chatpad
-
-
-
-## Wiring and Firmware Building
-* [For instructions on ogx360_t4 go to section 4A-I](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-I-ogx360_t4.md)
-* [For instructions on SBCFirm2040-lite go to section 4A-II](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-II-SBCFirm2040-lite.md)
-* [For instructions on OGXBOX-PAD go to section 4A-III](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-OGXBOX-PAD.md)
-* [For instructions on OGX-Mini-2026 go to section 4A-IV](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-IV-OGX-MINI-2026.md)
-
-## Board Options
+**Board Options**
 More data on the microcontrollers [here.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/Microcontroller%20Data.md)
 
 **Teensy**
@@ -93,6 +68,32 @@ More data on the microcontrollers [here.](https://github.com/quizerno/Steel-Batt
 * Arduino Yún Mini
 * LilyPad Arduino USB
 * Linino One
+
+**Which Board and Firmware Should I Choose?** <br />
+Your choice of board and firmware should ultimately be dependent on your end goal, using pre-existing USB Controllers and/or using GPIO and adding more features. See more specifics on the boards at the relevant page linked above.
+
+|Hardware|Pros|Cons|
+|---|---|---|
+|Teensy 4.1| Very Powerful, lots of GPIO pins, USB Host <br />|Expensive|
+|RP2040|Inexpensive, lots of options including Wi-fi, Blutooth and USB Host | Only 3-4 Analogue GPIO, requires I2C GPIO expanders or analog multiplexers to add more|
+|Arduino|Various prices, some inexpensive some very expensive, simple to program, lots of options|Needs separate board for USB host|
+
+|Firmware|Pros|Cons|Supported Devices|Prebuilt SBC Configurations|
+|---|---|---|---|---|
+|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|[USBHost_t36 drivers](https://github.com/PaulStoffregen/USBHost_t36), lots of supported devices|Host Drivers are bit lacking in documentation| Keyboard, Mouse, HID Joysticks, Xbox 360 Controller, USB Hubs |  Keyboard+Mouse, HOTAS Gunfighter+STECS
+|[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Simple, some supported devices| Currently WIP, only tested with PICO| Keyboard, Mouse, USB Hubs, Steel Battalion Passthrough, DS4 Controller, GPIO, working on support for other devices | Pending
+|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD)|Simple, great for GPIO|Firmware not built with host in mind|None, uses GPIO instead|N/A
+|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|Many host drivers|No keyboard support yet, no hub support, no native GPIO, adding your own configurations might be time consuming| Many Controllers |Xbox 360 Controller with Chatpad
+|[SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|Some host libraries|need to buy separate hostboard, Steel Battalion implementation not fully documented| Gamepads| Xbox 360 Controller with Chatpad
+
+
+
+## Wiring and Firmware Building
+* [For instructions on ogx360_t4 go to section 4A-I](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-I-ogx360_t4.md)
+* [For instructions on SBCFirm2040-lite go to section 4A-II](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-II-SBCFirm2040-lite.md)
+* [For instructions on OGXBOX-PAD go to section 4A-III](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-OGXBOX-PAD.md)
+* [For instructions on OGX-Mini-2026 go to section 4A-IV](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-IV-OGX-MINI-2026.md)
+
 
 ## Other controller firmwares
 
