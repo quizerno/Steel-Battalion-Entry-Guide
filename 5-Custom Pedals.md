@@ -1,7 +1,7 @@
 # 5. Custom Pedals
 **(Adapted or DIY Pedals)**
 
-Creating or adapting pedals for the original controller or for use with PC
+Creating or adapting pedals for the original controller, custom controller, or for use with PC.
 
 
 
@@ -29,15 +29,8 @@ What You Need:
 * A Male Mini 6DIN connector **with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the central control block.
 * A circuit board or a way to splice cables together.
 
-### 3D Printing
 
-There are a multitude of 3D printable options available. These are perfectly fine options as long as you use the 10K Type B Linear potentiometers
-
-* https://makerworld.com/en/models/1578870-sim-pedals#profileId-2657983
-* https://www.printables.com/model/770673-sim-racing-pedals-with-load-cell
-* https://www.thingiverse.com/thing:4812405
-* https://www.youtube.com/watch?v=I4P86DJPXAc
-
+## Pre-Made Pedals
 
 ### Logitech
 Logitech Pedal modules connect to their main unit via DE-9 Connector.  <br/>
@@ -52,9 +45,19 @@ Thrustmaster Pedals require an electronics adapter that is also sold by Harcroft
 This adapter has worked with the following models: T3PA, T3PA-GT, T3PM, T-LCM<br/>
 <img width="312.5" height="277.5" alt="image" src="https://github.com/user-attachments/assets/5b9c1aab-2553-40f9-9e73-a629fdfe66d1" />
 
+
+
+### 3D Printing
+
+There are a multitude of 3D printable options available. These are perfectly fine options as long as you use the 10K Type B Linear potentiometers
+
+* https://makerworld.com/en/models/1578870-sim-pedals#profileId-2657983
+* https://www.printables.com/model/770673-sim-racing-pedals-with-load-cell
+* https://www.thingiverse.com/thing:4812405
+* https://www.youtube.com/watch?v=I4P86DJPXAc
 ### Go-kart and Industrial Pedals
 Online, there are a couple of cheap options for pedals that are normally intended for non-gaming.<br/>
-These pedals, however, use Hall Effect sensors which are not linear. Again, Harcroft sells an adapter for this particular model, and has provided schematics if you wish to build it yourself.
+These pedals, however, sometimes use Hall Effect sensors which are not linear. Again, Harcroft sells an adapter for this particular model, and has provided schematics if you wish to build it yourself.
 
 <img width="1146" height="489" alt="image" src="https://github.com/user-attachments/assets/41432c9e-959a-4608-a047-b896b9fe84c8" />
 
@@ -64,7 +67,7 @@ These pedals, however, use Hall Effect sensors which are not linear. Again, Harc
 
 #### The digital option
 
-If you 
+If you do not care about the 
 
 <img width="1121" height="404" alt="image" src="https://github.com/user-attachments/assets/23dd0a4c-8518-4844-96a4-aa73d9e6ab53" />
 
@@ -89,10 +92,10 @@ If you
 
 
 
-
-
-
 <img width="3280" height="3364" alt="image" src="https://github.com/user-attachments/assets/d98a4bc3-74e7-4d9b-a9a3-441520692bb8" />
+
+
+
 
 
 
