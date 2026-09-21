@@ -9,7 +9,7 @@ Entries marked in bold are referenced by the guide.
 4. (Github) **[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite) by Quizerno**
 5. (Github) **[OGX-Mini](https://github.com/wiredopposite/OGX-Mini) by wiredopposite, [OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026) by MegaCadeDev**
 
-## Controller Mods and Maintenance
+## Original Controller Mods and Maintenance
 
  1. (Video) [N68DodgeBoy's Guide on Spring Replacement for BLUE PEDALS](https://www.youtube.com/watch?v=6TYqZhD9kCM)
  2. (Video) [N68DodgeBoy's Guide on Spring Replacement for GREEN PEDALS](https://www.youtube.com/watch?v=Zjc7WY2_tNw)
