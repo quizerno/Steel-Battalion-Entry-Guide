@@ -15,9 +15,9 @@ A rundown on the options for custom controllers. This is primarily concerning us
 A very large subsection detailing the specific hardware for controller adapters, their supported firmware and the capabilities of both.
 The further subsections are tutorials on how to set-up each of the firmware.
   * **4A-I. [ogx360_t4](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-I-ogx360_t4.md)**
-  * **4A-II. [SBCFirm2040-lite](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-SBCFirm2040-lite.md)**
-  * **4A-III. [OGXBOX-PAD](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-IV-OGXBOX-PAD.md)**
-  * **4A-IV.  [OGX-MINI-2026](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-II-OGX-MINI-2026.md)**
+  * **4A-II. [SBCFirm2040-lite](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-II-SBCFirm2040-lite.md)**
+  * **4A-III. [OGXBOX-PAD](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-OGXBOX-PAD.md)**
+  * **4A-IV.  [OGX-MINI-2026](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-IV-OGX-MINI-2026.md)**
 
 ### ⎯⎯⎯ 4B. [Adapted Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4B-Adapted%20Controllers.md)<br/>
 An explanation on how to adapt existing hardware with the controller adapters.
