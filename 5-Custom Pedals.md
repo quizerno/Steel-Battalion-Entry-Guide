@@ -1,7 +1,12 @@
 # 5. Custom Pedals
 **(Adapted or DIY Pedals)**
 
-Creating or adapting pedals for the original controller, custom controller, or for use with PC.
+Creating or adapting pedals for:
+* The original controller
+* Custom controller
+* Use with PC.
+
+##
 
 
 
@@ -32,29 +37,26 @@ What You Need:
 
 ## Pre-Made Pedals
 
-### Logitech
-Logitech Pedal modules connect to their main unit via DE-9 Connector.  <br/>
+### Logitech Pedals
+**Adapter Type:** Input<br/>
+Logitech Pedal modules connect to their main unit viaa male DE-9 Connector.  <br/>
 The potentiometers are the same as the original pedals.  <br/>
-[Harcroft](https://x.com/OGX_Harcroft) sells an adaptor which converts the the DE9 connector to the Original Controller's Mini-Din6.  <br/>
+[Harcroft](https://x.com/OGX_Harcroft) sells an adaptor which converts the the DE9 connector to the Original Controller's Mini-Din6 by linking the lines.  <br/>
+
 If you would like to create your own, follow the schematic below.  <br/>
+* Mini-Din 6 male connector
+* DE9 female connector
 
 <img width="302.5" height="254.5" alt="image" src="https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff" />
 
-### Thrustmaster <br/>
+### Thrustmaster (Adapted)
+**Adapter Type:** Input<br/>
+
 Thrustmaster Pedals require an electronics adapter that is also sold by Harcroft.<br/>
 This adapter has worked with the following models: T3PA, T3PA-GT, T3PM, T-LCM<br/>
 <img width="312.5" height="277.5" alt="image" src="https://github.com/user-attachments/assets/5b9c1aab-2553-40f9-9e73-a629fdfe66d1" />
 
 
-
-### 3D Printing
-
-There are a multitude of 3D printable options available. These are perfectly fine options as long as you use the 10K Type B Linear potentiometers
-
-* https://makerworld.com/en/models/1578870-sim-pedals#profileId-2657983
-* https://www.printables.com/model/770673-sim-racing-pedals-with-load-cell
-* https://www.thingiverse.com/thing:4812405
-* https://www.youtube.com/watch?v=I4P86DJPXAc
 ### Go-kart and Industrial Pedals
 Online, there are a couple of cheap options for pedals that are normally intended for non-gaming.<br/>
 These pedals, however, sometimes use Hall Effect sensors which are not linear. Again, Harcroft sells an adapter for this particular model, and has provided schematics if you wish to build it yourself.
@@ -63,13 +65,11 @@ These pedals, however, sometimes use Hall Effect sensors which are not linear. A
 
 <img width="441.5" height="408" alt="image" src="https://github.com/user-attachments/assets/67a57e8d-1abc-4eb0-9616-f703e49e3347" />
 
-
+<img width="1121" height="404" alt="image" src="https://github.com/user-attachments/assets/23dd0a4c-8518-4844-96a4-aa73d9e6ab53" />
 
 #### The digital option
 
-If you do not care about the 
-
-<img width="1121" height="404" alt="image" src="https://github.com/user-attachments/assets/23dd0a4c-8518-4844-96a4-aa73d9e6ab53" />
+If you do not care about the analog precision. You have option of using digital pedal switches.
 
 
 
@@ -106,7 +106,14 @@ If you do not care about the
 
 
 
+### 3D Printing
 
+There are a multitude of 3D printable options available. These are perfectly fine options as long as you use the 10K Type B Linear potentiometers
+
+* https://makerworld.com/en/models/1578870-sim-pedals#profileId-2657983
+* https://www.printables.com/model/770673-sim-racing-pedals-with-load-cell
+* https://www.thingiverse.com/thing:4812405
+* https://www.youtube.com/watch?v=I4P86DJPXAc
 
 
 
