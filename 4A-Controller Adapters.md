@@ -1,7 +1,7 @@
 # 4A. Controller Adapters
 (**The Hard Part**)
 
-Here is a run-down of your options for controller adapters: the specific hardware and firmware.
+Here is a run-down of the options for controller adapters: the specific hardware and firmware.
 
 ## Pre-requisite Hardware
 ### Xbox Bridge Cable
