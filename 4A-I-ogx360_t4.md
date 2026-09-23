@@ -124,11 +124,13 @@ The controls are configured in [steelbattalion.cpp](https://github.com/Ryzee119/
 ). ogx360_t4 is so far the most versatile of the adapter firmwares because it comes with implementation of the USBHost_t36 libraries, which allow it to read HID devices.
 
 ### Keyboard and Mouse (Default)
+<img width="1624" height="724" alt="ogx360 keyboard-layout copy" src="https://github.com/user-attachments/assets/01233a2c-aa96-45a7-8bce-488ca42ca46f" />
+
 The ogx360_t4 has a prebuilt Keyboard and Keyboard configuration for Steel Battalion. You must plug the mouse and keyboard to a powered USB HUB and then plug the hub into the teensy.
 Rebinding the keyboard controls is fairly simple, you can open the steelbattalion.cpp file described above and see how the controls are bound, and edit them to your choosing
 
 ### HOTAS Joystick + STECS
-I have attached a [configuration for HOTAS provided by Gnomp](https://github.com/quizerno/Steel-Battalion-Entry-Guide/tree/main/Configurations/ogx360_t4%20configurations). These are specifically built for the Gunfighter MCG and STECs
+I have attached a [configuration for HOTAS provided by Gnomp](https://github.com/quizerno/Steel-Battalion-Entry-Guide/tree/main/Adapter%20Configuration%20Files/ogx360_t4%20configurations/HOTAS). These are specifically built for the Gunfighter MCG and STECs
 To implement it before building the .hex file, you simply need to do 2 things. 
 
 1. Substitute 2 files located in ```ogx360_t4/src/``` (main.cpp and steelbattalion.cpp, remove HOTAS from the name)
