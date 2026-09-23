@@ -30,7 +30,7 @@ A powered USB hub will be needed if you want to connect more than one device to 
 ## Adapter Board
 The main part of the adapter.
 
-**Adapter Board Microcontrollers**
+**Adapter Board Platforms and Firmware**
 
 |Hardware|Relevant Firmware|Where to Buy|Price|Notes|
 |---|---|---|---|---|
@@ -41,7 +41,7 @@ The main part of the adapter.
 |Micro USB/Mini USB/USB-C/ to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer or Xbox host cable, as stated above the Teeny 4.1 uses Micro USB, RP2040s and Arduinos have Micro USB and USB-C options. Some Arduinos use Mini USB
 
 **Board Options**
-More data on the microcontrollers [here.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Other%20Guides%20and%20FIles/Microcontroller%20Data.md)
+For more data on the microcontrollers go [here.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Misc%20Information/Microcontroller%20Data.md)
 
 **Teensy**
 * Teensy 4.1
