@@ -10,14 +10,14 @@ Utilizing data from:
 |---------------------|---------------|-----------------|------------------|---------|-----------------------|----------------------|-------------------|------------------|----------------------|----------------------|
 |31.50|**[Teensy 4.1](https://www.pjrc.com/store/teensy41.html)** | ARM Cortex-M7 | 600 MHz | 8 MB | 1 MB | 3.3V | 55 | 18 | Ethernet | SD Card Slot, USB Host |
 
-
 # Arduino
-| **Price (USD)** | **Microcontroller** | **Processor** | **Clock Speed** | **Flash Memory** | **RAM** | **Operating Voltage** | **Digital I/O Pins** | **Analog Inputs** | **Connectivity** | **Special Features** |
+| **Price (USD)** | **Microcontroller** | **Processor** | **Clock Speed** | **Flash Memory** | **RAM** | **Operating Voltage** | **Digital I/O Pins** | **Analog Inputs** | **Connectivity** | **Special Features and Notes** |
 |---------------------|---------------|-----------------|------------------|---------|-----------------------|----------------------|-------------------|------------------|----------------------|----------------------|
-|24.00|**Arduino Leonardo** | ATmega32U4 | 16 MHz | 32 KB | 2.5 KB | 5V | 20 | 12 | None | USB HID Support |
-|49.40|**Arduino Due** | ATSAM3X8E | 84 MHz | 512 KB | 96 KB | 3.3V | 54 | 12 | None | 32-bit ARM Core |
-|22.80|**Arduino Micro** | ATmega32U4 | 16 MHz | 32 KB | 2.5 KB | 5V | 20 | 12 | None | Small Form Factor |
-|11.25|**Arduino Pro Mini** | ATmega328P | 8 MHz (3.3V) / 16 MHz (5V) | 32 KB | 2 KB | 3.3V / 5V | 14 | 6 | None | Low Power Consumption |
+|24.00|**[Arduino Leonardo](https://store-usa.arduino.cc/products/arduino-leonardo-with-headers)** | ATmega32U4 | 16 MHz | 32 KB | 2.5 KB | 5V | 20 | 12 | None | USB HID Support |
+|49.40|**[Arduino Due](https://store-usa.arduino.cc/products/arduino-due)** | ATSAM3X8E | 84 MHz | 512 KB | 96 KB | 3.3V | 54 | 12 | None | 32-bit ARM Core |
+|22.80|**[Arduino Micro](https://store-usa.arduino.cc/products/arduino-micro)** | ATmega32U4 | 16 MHz | 32 KB | 2.5 KB | 5V | 20 | 12 | None | Small Form Factor, also has 3.3V/8 MHz variant |
+|22.80|**[Arduino Pro Micro](https://www.sparkfun.com/pro-micro-5v-16mhz.html)** | ATmega32U4 | 16 MHz | 32 KB | 2.5 KB | 5V | 12 | 9 | None | Small Form Factor |
+|11.25|**[Arduino Pro Mini](https://docs.arduino.cc/retired/boards/arduino-pro-mini/)** | ATmega328P | 8 MHz (3.3V) / 16 MHz (5V) | 32 KB | 2 KB | 3.3V / 5V | 14 | 6 | None | Low Power Consumption |
 |74.95|**Arduino Yún** | ATmega32U4 + Atheros AR9331 | 16 MHz + 400 MHz | 32 KB + 16 MB | 2.5 KB + 64 MB | 5V | 20 | 12 | Wi-Fi, Ethernet | Linux-Based System |
 |48.80|**Arduino Zero** | ATSAMD21G18 | 48 MHz | 256 KB | 32 KB | 3.3V | 20 | 6 | None | 32-bit ARM Cortex M0+ |
 
