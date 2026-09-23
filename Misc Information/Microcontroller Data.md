@@ -8,7 +8,7 @@ Utilizing data from:
 # Teensy
 | **Price (USD)** | **Microcontroller** | **Processor** | **Clock Speed** | **Flash Memory** | **RAM** | **Operating Voltage** | **Digital I/O Pins** | **Analog Inputs** | **Connectivity** | **Special Features** |
 |---------------------|---------------|-----------------|------------------|---------|-----------------------|----------------------|-------------------|------------------|----------------------|----------------------|
-|31.50|**Teensy 4.1** | ARM Cortex-M7 | 600 MHz | 8 MB | 1 MB | 3.3V | 55 | 18 | Ethernet | SD Card Slot, USB Host |
+|31.50|**[Teensy 4.1](https://www.pjrc.com/store/teensy41.html)** | ARM Cortex-M7 | 600 MHz | 8 MB | 1 MB | 3.3V | 55 | 18 | Ethernet | SD Card Slot, USB Host |
 
 
 # Arduino
