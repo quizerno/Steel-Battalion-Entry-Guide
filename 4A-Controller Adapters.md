@@ -74,12 +74,12 @@ Your choice of board and firmware should ultimately be dependent on your end goa
 |Hardware|Pros|Cons|
 |---|---|---|
 |Teensy 4.1| Very Powerful, lots of GPIO pins, USB Host <br />|Expensive|
-|RP2040|Inexpensive, lots of options including Wi-fi, Blutooth and USB Host | Only 3-4 Analogue GPIO, requires I2C GPIO expanders or analog multiplexers to add more|
+|RP2040|Inexpensive, lots of options including Wi-fi, Blutooth and USB Host | Only 3-4 Analogue GPIO, requires I2C, GPIO expanders or analog multiplexers to add more|
 |Arduino|Various prices, some inexpensive some very expensive, simple to program, lots of options|Needs separate board for USB host|
 
 |Firmware|Pros|Cons|Supported Devices|Prebuilt SBC Configurations|
 |---|---|---|---|---|
-|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|[USBHost_t36 drivers](https://github.com/PaulStoffregen/USBHost_t36), lots of supported devices|Host Drivers are bit lacking in documentation| Keyboard, Mouse, HID Joysticks, Xbox 360 Controller, USB Hubs |  Keyboard+Mouse, HOTAS Gunfighter+STECS
+|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|[USBHost_t36 drivers](https://github.com/PaulStoffregen/USBHost_t36), lots of supported devices|Host Drivers are bit lacking in documentation| Keyboard, Mouse, HID Joysticks, Xbox 360 Controller, USB Hub, GPIO |  Keyboard+Mouse, HOTAS Gunfighter+STECS
 |[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Simple, some supported devices| Currently WIP, only tested with PICO| Keyboard, Mouse, USB Hubs, Steel Battalion Passthrough, DS4 Controller, GPIO, working on support for other devices | Pending
 |[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD)|Simple, great for GPIO|Firmware not built with host in mind|None, uses GPIO instead|N/A
 |[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|Many host drivers|No keyboard support yet, no hub support, no native GPIO, adding your own configurations might be time consuming| Many Controllers |Xbox 360 Controller with Chatpad
