@@ -101,7 +101,7 @@ Your choice of board and firmware should ultimately be dependent on your end goa
 * [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) - Similar to OGX mini, does have keyboard support, GPIO support, but does not have prebuilt configurations and web configurator does not support steel battalion, Steel Battalion is included in the libraries.
 * [Joypad-os](https://github.com/joypad-ai/joypad-os) - Steel Battalion not yet implemented.
 
-**Arduino or R2040**
+**Arduino or RP2040**
 * [GIMX](https://github.com/matlo/GIMX) - Similar to OGX-Mini but no longer supported and the wiki is prone to crashing
 
 **ESP32**
