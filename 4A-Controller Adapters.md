@@ -74,7 +74,7 @@ Your choice of board and firmware should ultimately be dependent on your end goa
 |Hardware|Pros|Cons|
 |---|---|---|
 |Teensy 4.1| Very Powerful, lots of GPIO pins, USB Host <br />|Expensive|
-|RP2040|Inexpensive, lots of options including Wi-fi, Blutooth and USB Host | Only 3-4 Analogue GPIO, requires I2C, GPIO expanders or analog multiplexers to add more|
+|RP2040|Inexpensive, lots of options including Wi-fi, Blutooth and USB Host | For GPIO only has 3-4 Analogue pins, requires I2C, GPIO expanders or analog multiplexers to add more|
 |Arduino|Various prices, some inexpensive some very expensive, simple to program, lots of options|Needs separate board for USB host|
 
 |Firmware|Pros|Cons|Supported Devices|Prebuilt SBC Configurations|
