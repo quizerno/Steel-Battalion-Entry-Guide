@@ -129,7 +129,7 @@ Cosnsists of 6 push buttons in a 3x2 pattern
 |||
 |---|---|
 |**Open/Close:** closes or opens the multi-monitor|**Map Zoom In/Out:**  changes monitor map from small to large|
-|**Mode Select:** witches multi-monitor between map, objective, or score|**Sub Monitor Mode Select:**  changes the camera view of the sub monitors|
+|**Mode Select:** Switches multi-monitor between map, objective, or score|**Sub Monitor Mode Select:**  changes the camera view of the sub monitors|
 |**Zoom In** Zoom In Main Monitor|**Zoom Out:** Zoom Out Main Monitor|
 
 
