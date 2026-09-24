@@ -5,7 +5,7 @@
 
 //Steel Battalion HOTAS Input Configuration for ogx360_t4
 //Provided by Gnomp
-//For building, you must
+//For building, you must:
 //1. Rename this file to steelbattalion.cpp and put it in the src folder
 //2. You MUST also include the altered main.cpp file
 
