@@ -124,10 +124,67 @@ The controls are configured in [steelbattalion.cpp](https://github.com/Ryzee119/
 ). ogx360_t4 is so far the most versatile of the adapter firmwares because it comes with implementation of the USBHost_t36 libraries, which allow it to read HID devices.
 
 ### Keyboard and Mouse (Default)
-<img width="1624" height="724" alt="ogx360 keyboard-layout copy" src="https://github.com/user-attachments/assets/01233a2c-aa96-45a7-8bce-488ca42ca46f" />
+<img width="1624" height="724" alt="ogx360 keyboard-layout copyfin2" src="https://github.com/user-attachments/assets/570a5679-f53a-4655-ab87-8f7afb9e31ef" />
 
 The ogx360_t4 has a prebuilt Keyboard and Keyboard configuration for Steel Battalion. You must plug the mouse and keyboard to a powered USB HUB and then plug the hub into the teensy.
-Rebinding the keyboard controls is fairly simple, you can open the steelbattalion.cpp file described above and see how the controls are bound, and edit them to your choosing
+Rebinding the keyboard and mouse controls is fairly simple, you can open the steelbattalion.cpp file described above and see how the controls are bound, and edit them to your choosing.
+
+```
+//Keyboard example
+if (is_key_pressed(KEY_ENTER, 0))     sb_data.dButtons[0] |= CXBX_SBC_GAMEPAD_W0_START;
+if (is_key_pressed(KEY_R, 0))         sb_data.dButtons[1] |= CXBX_SBC_GAMEPAD_W1_WEAPONCONMAGAZINE;
+
+//Mouse buttons and scrollwheel
+
+        if (m->getWheel() > 0)                sb_data.dButtons[1] |= CXBX_SBC_GAMEPAD_W1_WEAPONCONMAIN;
+        if (m->getWheel() < 0)                sb_data.dButtons[1] |= CXBX_SBC_GAMEPAD_W1_WEAPONCONSUB;
+
+        if (m->getButtons() & (1 << 0))       sb_data.dButtons[0] |= CXBX_SBC_GAMEPAD_W0_RIGHTJOYMAINWEAPON;
+        if (m->getButtons() & (1 << 1))       sb_data.dButtons[0] |= CXBX_SBC_GAMEPAD_W0_RIGHTJOYFIRE;
+        if (m->getButtons() & (1 << 2))       sb_data.dButtons[0] |= CXBX_SBC_GAMEPAD_W0_RIGHTJOYLOCKON;
+
+
+
+//Mouse analog example
+        if (m->available())
+        {
+            int32_t x, y;
+            x = sb_data.aimingX + m->getMouseX() * 100;
+            y = sb_data.aimingY + m->getMouseY() * 100;
+            if (x < 13000) x = 13000;
+            if (x > 51000) x = 51000;
+            if (y < 13000) y = 13000;
+            if (y > 51000) y = 51000;
+            sb_data.aimingX = x;
+            sb_data.aimingY = y;
+            //TU_LOG1("X: %i Y: %i, mX: %i, mY: %i\r\n", sb_data.aimingX, sb_data.aimingY, m->getMouseX(), m->getMouseY());
+            m->mouseDataClear();
+        }
+
+```
+
+This also provides a good example of how the tuner dial and gear shifter are turned into two buttons each
+
+```
+if (is_key_pressed(KEY_Q, 1))         sb_data.gearLever -= (sb_data.gearLever > 7) ? 1 : 0; //gear up
+if (is_key_pressed(KEY_E, 1))         sb_data.gearLever += (sb_data.gearLever < 13) ? 1 : 0; //gear down
+
+if (is_key_pressed(KEY_UP, 1))    sb_data.tunerDial += (sb_data.tunerDial < 15) ? 1 : -15; //tuner up
+if (is_key_pressed(KEY_DOWN, 1))  sb_data.tunerDial -= (sb_data.tunerDial > 0) ? 1 : -15; //tuner down
+
+```
+
+The analog inputs that are handled digitally are done like so
+```
+        if (is_key_pressed(KEY_W, 0))         sb_data.rightPedal  = 0xFFFF; //full press of right ledal
+        if (is_key_pressed(KEY_S, 0))         sb_data.middlePedal = 0xFFFF; //full press of middle pedals
+        if (is_key_pressed(KEY_SPACE, 0))     sb_data.leftPedal = 0xFFFF; //full press of left pedal
+        if (is_key_pressed(KEY_A, 0))         sb_data.rotationLever = INT16_MIN; //max left movemet of left joystick
+        if (is_key_pressed(KEY_D, 0))         sb_data.rotationLever = INT16_MAX; //max right movement of left joystick
+```
+
+
+
 
 ### HOTAS Joystick + STECS
 I have attached a [configuration for HOTAS provided by Gnomp](https://github.com/quizerno/Steel-Battalion-Entry-Guide/tree/main/Adapter%20Configuration%20Files/ogx360_t4%20configurations/HOTAS). These are specifically built for the Gunfighter MCG and STECs
