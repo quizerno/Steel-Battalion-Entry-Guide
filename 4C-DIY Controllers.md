@@ -66,6 +66,14 @@ Deciding on your adapter board becomes a bit clearer. Your goal is now
 **Teensy 4.1**<br/>
 Teensy 4.1 has more than enough GPIO pins to handle all the Steel Battalion's inputs. It has 55 GPIO, 18 of which are analogue.
 
+**Earlier Teensy Boards**<br/>
+The earlier Teensy boards (1-3.6) cannot run ogx360_t4, but like the other microcontrollers they are also options for HID, they will typically have enough Digital and Analog Pins
+
+However:
+* When making an HID Joystick **I do not recommend using the teensyduino or QMK**  for configuration, This is because they force the Teensy into devices with Mouse+Keyboard+Joystick endpoints, making them much more difficult for the adapters to read without more configuration, you will have to remove the endpoints from the library manually. QMK reduces the endpoints to 2 (Keyboard and Joystick)
+* Keyboards made with QMK are an option however.
+
+
 **RP2040**<br/>
 The RP2040 boards will typically have enough digital pins, usually 26 or more, but only have 3-4 analogue pins (An exception to this is ESP32-PICO-KIT-1 which has 18 analogue pins.
 ). 
@@ -75,7 +83,7 @@ Therefore to handle the remaining inputs you will need to either:
 * Use a multiplexer or shift register
 
 **Arduino**<br/>
-There are many arduinos. Typically they will have 14 to 20 or more digital pins. At minimum it will have 6 analogue pins, but some have more such as the Arduino Leonardo which has 12.
+There are many HID arduinos. Typically they will have 14 to 20 or more digital pins. At minimum it will have 6 analogue pins, but some have more such as the Arduino Leonardo which has 12.
 
 If a single arduino board lacks enough GPIO pins, your choices are:
 * Add another microcontroller and connect to the first via i2c
@@ -90,18 +98,23 @@ For the **GPIO Option** per [section 4A](https://github.com/quizerno/Steel-Batta
 
 For the **HID Host Option** or **SBC Passthrough Host** I recommend 1 or 2 HID Arduinos with either Teensy 4.1 or RP2040 as the adapter board. 
 
-  * The earlier Teensy boards are also options for HID, however when making an HID Joystick **I do not recommend using the teensyduino or QMK** the configuration.
-This is because they force the Teensy into devices with Mouse+Keyboard+Joystick endpoints, making them much more difficult for the adapters to read without more configuration. 
+
 [QMK firmware](https://qmk.fm/) reduces the endpoints to 2 (Keyboard and Joystick) while MMJoy...
 
   * The earlier Teensy boards if adapted with QMK or other Keyboard firmware are acceptable.
 
 
 
-## Understanding HID Codes and Firmware
+## HID Firmware
 
+**Joystick**<br/>
+* Arduino Joystick Libraries
+* [MMJoy](https://github.com/MMjoy)
+* 
 
-If you want something that requires less coding, you can consider [MMJoy](https://github.com/MMjoy) which is a custom firmware that you can upload to arduinos.
+* Arduino Keyboard Libraries
+* [QMK firmware](https://qmk.fm/) reduces the endpoints to 2 (Keyboard and Joystick) while MMJoy...
+
 
 As a pr
 
