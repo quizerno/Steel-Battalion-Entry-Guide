@@ -22,7 +22,18 @@ Entries marked in bold are referenced by the guide.
 1. See [Emulation Section](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20Emulator.md)
 
 ## Xbox Modding
-1.
+* Softmodding: [Coulter Peterson's Tutorial](https://www.youtube.com/watch?v=NchZ-mHqTb0) utilizing [Rocky5's Softmodding Tool](https://github.com/Rocky5/Xbox-Softmodding-Tool)
+   * Easiest Option: Only requires a USB-to-Xbox Controller Adapter and compatible flash drive
+   * Works on all Xbox revisions
+* Hardmodding: [Modzcville USA's ModXO tutorial](https://www.youtube.com/watch?v=uUsov3i6jL0) using [ModXO](https://github.com/Team-Resurgent/Modxo)
+   * Requires some more in-depth soldering, and a RP2040 board, with some additional parts
+   * For Xbox (any revision) with a working LPC Port. But 1.6 Xboxes will need an LPC rebuild.
+* TSOP Flash Modding: [MrMario's TSOP Flash Tutorial](https://www.youtube.com/watch?v=YLcEAbb2iP0), see also [the console mods wiki](https://consolemods.org/wiki/Xbox:TSOP_Flashing)
+  * Requires some more in-depth soldering and necessary wires
+  * For Xbox revisions up to 1.4
+* Non-TSOP Flash Modding:[ MrMario's Xyclo Mod tutorial](https://www.youtube.com/watch?v=6lVsoFpWr7w) using Xyclo Scripts
+   * Only requires a bit of soldering and a UART USB Adapter
+   * Works on Xbox revision 1.6
 
 ## Using the Controller on PC and Other Games
  1. (Github) **[Shopcreeper's SteelBattalionMapper](https://github.com/Shopcreeper/SteelBattalionMapper)**
