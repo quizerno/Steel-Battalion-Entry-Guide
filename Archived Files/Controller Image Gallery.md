@@ -30,4 +30,5 @@
 
 ## Seller Websites
 <img width="1200" height="903" alt="image" src="https://github.com/user-attachments/assets/c29d35a4-bb24-43db-adf2-58a97a777a5c" />
+
 [Yahoo.co.jp](https://paypayfleamarket.yahoo.co.jp/item/j1098695824)
