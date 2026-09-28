@@ -204,10 +204,10 @@ When considering your remapped controller or custom controller, here is a simpli
 
 
 ## Notes on Analogue Reads vs Digital Reads
-
-Of the 8 analogue reads in the controller, the Slide-Step Pedal is read digitally.
 The remaining seven analogue inputs could be converted to digital but there would some issues which I will detail here.
 
+Of the 8 analogue reads in the controller, the Slide-Step Pedal is read digitally. 
+If considering doing a recreated controller, Quant'x project Brain Box (which uses Steel Battalion inputs) will be utilizing analogue inputs for the Slide-Step pedal.
 |Input|Function|Analogue|Digital
 |---|---|---|---|
 | Left Joystick X (1)| Rotates Mech| Can control the speed at which you rotate |Can only rotate at one defined value which potentially means falling over easier if you are moving fast
