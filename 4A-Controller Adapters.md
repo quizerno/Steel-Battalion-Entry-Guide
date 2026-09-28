@@ -36,7 +36,7 @@ The main part of the adapter.
 |---|---|---|---|---|
 |Teensy 4.1|[ogx360_t4](https://github.com/Ryzee119/ogx360_t4/)|Ebay, Sparkfun | 27-30 USD| Uses Micro USB, has mSD card slot,  <br>powerful development platform. 
 |RP2040|[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026), [SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Ebay, Sparkfun, Adafruit| 4-30 USD|Many options (see below)
-|USB-HID Arduino|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD), [SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|Ebay, Sparkfun, Adafruit| 4-90 USD| Many options (see below), This is primarily the GPIO option because Arduinos require separate boards to host USB devices
+|USB-HID Arduino|[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD), [SimpleXboxControllerAdapter (only on version 1.2)](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master), [ogx360-micropro8](https://github.com/crutchlow/ogx360-micropro8)|Ebay, Sparkfun, Adafruit| 4-90 USD| Many options (see below), This is primarily the GPIO option because Arduinos require separate boards to host USB devices
 |USB Host Cable (Female USB A)||Ebay, Sparkfun or other online electronics stores| 3-8 USD| Needed to take in the Custom Controller inputs on the Teensy or the RP2040. Some of the RP2040 boards (such as the Adafruit Feather) come with a USB Host built in and therefore do not require this cable
 |Micro USB/Mini USB/USB-C/ to USB-A Cable||Everywhere|1-15 USD|Needed to connect the platform to the computer or Xbox host cable, as stated above the Teeny 4.1 uses Micro USB, RP2040s and Arduinos have Micro USB and USB-C options. Some Arduinos use Mini USB
 
@@ -83,7 +83,7 @@ Your choice of board and firmware should ultimately be dependent on your end goa
 |[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite)|Simple, some supported devices| Currently WIP, only tested with PICO| Keyboard, Mouse, USB Hubs, Steel Battalion Passthrough, DS4 Controller, GPIO, working on support for other devices | Pending
 |[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD)|Simple, great for GPIO|Firmware not built with host in mind|None, uses GPIO instead|N/A
 |[OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026)|Many host drivers|No keyboard support yet, no hub support, no native GPIO, adding your own configurations might be time consuming| Many Controllers |Xbox 360 Controller with Chatpad
-|[SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|Some host libraries|need to buy separate hostboard, Steel Battalion implementation not fully documented| Gamepads| Xbox 360 Controller with Chatpad
+|[SimpleXboxControllerAdapter](https://github.com/jimnarey/SimpleXboxControllerAdapter/tree/master)|Some host libraries|need to buy separate hostboard, Steel Battalion only supported on release 1.2| Gamepads| Xbox 360 Controller with Chatpad
 
 
 
