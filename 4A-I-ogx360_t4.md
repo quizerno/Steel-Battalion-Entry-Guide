@@ -213,7 +213,49 @@ In the Joystick.cpp file described above, the section where the lines are added 
 
 The first two arguments require the VID and PID, these can be easily read from plugging in the device and looking at the settings
 The third argument does not matter as it is not used.
-The fourth argument depends on the device as some devices can use the HID Parsers and others can't
+The fourth argument depends on the device as some devices can use the default HID Parsers and others can't
+
+### Putting it into the configuration
+Both the main file and steelbattalion file must be altered to accept arguments for the number of joysticks.
+
+Looking at the HOTAS configuration for example
+In the **main file**
+```
+
+//Lines 18 and 19 are altered to add two Joystick controllers
+void steelbattalion_init(KeyboardController *kb, MouseController *m, JoystickController *gunfighter, JoystickController *stecsjoy);
+void steelbattalion_task(uint8_t type_index, KeyboardController *kb, MouseController *m, JoystickController *gunfighter, JoystickController *stecsjoy);
+
+//Lines 57 and 58 define and filter the Joystick controlelrs
+FilteredJoystick gunfighter(usbh, 0x231D, 0x0125); // Gunfighter
+FilteredJoystick stecsjoy(usbh, 0x231D, 0x0136);   // STECS
+
+//line 27 is altered to match line 18
+steelbattalion_init(&keyboard, &mouse, &gunfighter, &stecsjoy);
+
+//Line is altered to match line 19
+steelbattalion_task(0, &keyboard, &mouse, &gunfighter, &stecsjoy);
+
+```
+
+
+in the steelbattalion file
+
+```
+//Line 59, altered to match the previous argument definitions
+void steelbattalion_init(KeyboardController *kb, MouseController *m, JoystickController *gunfighter, JoystickController *stecsjoy)
+
+//Line 68, again alatered to match the previous argument definitions
+//void steelbattalion_init(KeyboardController *kb, MouseController *m, JoystickController *gunfighter, JoystickController *stecsjoy)
+
+
+
+
+
+```
+
+
+
 
 ## GPIO Input Configuring
 ### Digital Inputs
