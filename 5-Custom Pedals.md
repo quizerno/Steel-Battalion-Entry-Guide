@@ -82,6 +82,14 @@ If you do not care about the analog precision. You have option of using digital 
 
 ## DIY GPIO Pedals<br/>
 
+Consult the analog input sections of the these sections depending on your firmware
+
+* [ogx360_t4 GPIO
+](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-I-ogx360_t4.md#gpio-input-configuring)
+* [SBCFirm2040-lite GPIO](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-I-ogx360_t4.md#gpio-input-configuring
+)
+* [OGXBOX-PAD GPIO
+](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-OGXBOX-PAD.md#defining-your-inputs)
 
 
 
