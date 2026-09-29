@@ -6,8 +6,9 @@ Entries marked in bold are referenced by the guide.
 1. (Github) **[BSBB-USB](https://github.com/Quantx/bsbb-usb/tree/master) by QuantX**
 2. (Github) **[ogx360](https://github.com/Ryzee119/ogx360), [ogx360_t4](https://github.com/Ryzee119/ogx360_t4/) by Ryzee119**
 3. (Github) **[OGXBOX-PAD](https://github.com/eolvera85/OGXBOX-PAD) by eolvera**
-4. (Github) **[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite) by Quizerno**
-5. (Github) **[OGX-Mini](https://github.com/wiredopposite/OGX-Mini) by wiredopposite, [OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026) by MegaCadeDev**
+4. (Github) **[SteelBattalionControllerFirmware_RP2040](https://github.com/faha223/SteelBattalionControllerFirmware_RP2040) by faha332**
+5. (Github) **[SBCFirm2040-lite](https://github.com/quizerno/SBCFirm2040-lite) by Quizerno**
+6. (Github) **[OGX-Mini](https://github.com/wiredopposite/OGX-Mini) by wiredopposite, [OGX-Mini-2026](https://github.com/MegaCadeDev/OGX-Mini-2026) by MegaCadeDev**
 
 ## Original Controller Mods and Maintenance
 
@@ -17,7 +18,8 @@ Entries marked in bold are referenced by the guide.
  4. (Archived Website) [AlphA's Guide on Adjusting the Gear Lever Resistance](https://web.archive.org/web/20170409101223/http://www.bigmech.com/sb/sb_controller_mod/gearleaver.htm)
  5. (Archived Website) [AlphA's Guide on Button Cosmetics](http://www.bigmech.com/sb/sb_controller_mod/buttons.html)
  6. (Archived Website) [Alpha's Guide for Mega Mods Including Adding Rumble](https://web.archive.org/web/20170409123727/http://www.bigmech.com/sb/sb_controller_mod/disclaimer.html)
-
+ 7. (Github) [faha332's ControllerTester_CLI](https://github.com/faha223/SteelBattalionControllerTester_CLI)
+    
 ## Xbox Emulation
 1. See [Emulation Section](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20Emulator.md)
 
@@ -53,7 +55,10 @@ Entries marked in bold are referenced by the guide.
  15. (Github) [Darksturm's pySBC project](https://github.com/Darkstrumn/pySBC) and [pySBC2](https://github.com/Darkstrumn/pySBC2)
  16. Archives of vtchid drivers [1](https://github.com/StingerAJ/vtchid-profiles), [2](https://github.com/HadetTheUndying/vtchid-backup)
  17. (Github) [Count Bronislaw's arduino SBC Pedal adapter](https://github.com/CountBronislaw/SBPedals)
-
+ 18. (Github) [darkfall's plug-in to use Steel Battalion Controller in Unity3D](https://github.com/darkfall/SteelBattalionUnity)
+ 19. (Github) [SteelBattalion.NET
+ dmanning's .NET Library for using the Steel Battalion Controller with Ustream and communication apps](https://github.com/dmanning23/SteelBattalion.NET)
+ 20. [faha332's repurposing of some of the above projects](https://github.com/faha223/SteelBattalionController)
 
 
 
