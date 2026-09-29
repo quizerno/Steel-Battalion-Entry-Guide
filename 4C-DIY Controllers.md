@@ -120,6 +120,14 @@ As a pr
 
 
 ## Understanding GPIO Inputs and Firmware.
+All of the Firmwares use the same libraries for the Steel Battalion inputs, so their application is roughly the same.
+* [ogx360_t4 GPIO
+](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-I-ogx360_t4.md#gpio-input-configuring)
+* [SBCFirm2040-lite GPIO](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-I-ogx360_t4.md#gpio-input-configuring
+)
+* [OGXBOX-PAD GPIO
+](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-OGXBOX-PAD.md#defining-your-inputs)
+
 
 
 ## 3D Printable Joysticks
