@@ -25,7 +25,7 @@ If you have a clone board with a different bootloader, this can make it VERY DIF
    * Go to "Boards Manager" and add "OGXBOX AVR Boards"
 
 3. **Optional:** Changing the board data. What this will do is change the arduino's emulated VID/PID from the OG Xbox S Controller (vid=0x045E, pid=0x0289) to the Steel Battalion Controller (vid=0x0A7B, pid=0xD000). It will also change the name of the board profile so you can confirm that the file was recognized. **This step is not strictly necessary**, but it will allow your microcontroller to be recognized as a Steel Battalion Controller should you try to use it with an emulator or other software in this guide
-   * Depending on your operating system got to the following directory:
+   * Depending on your operating system you use, go to the following directory:
      * **Windows:** C:\Users\{username}\AppData\Local\Arduino15\packages\ogxbox\hardware\avr\1.0.1\
      * **macOS:** /Users/{username}/Library/Arduino15/packages/ogxbox/hardware/avr/1.0.1/
      * **Linux:** /home/{username}/.arduino15/packages/ogxbox/hardware/avr/1.0.1/
@@ -38,7 +38,7 @@ If you have a clone board with a different bootloader, this can make it VERY DIF
 From here, this will be a matter of handwiring your inputs and defining them in the Arduino IDE.
 
 
-## Digital
+## Digital Inputs
 In the example below, the Arduino's PIN 2 is set to be press when connected to ground. When it is pressed it triggers the Fire Main Weapon input.
 
 **Example**<br/>
@@ -86,7 +86,7 @@ void loop() {
 }
 ```
 
-## Analogue
+## Analogue Inputs
 For analogue inputs. Arduino predominantly have the same minimum ADC resolution of 10 bit, but some can go higher. You will need to convert to the 16 bit integers that Steel Battalion uses.
 
 
