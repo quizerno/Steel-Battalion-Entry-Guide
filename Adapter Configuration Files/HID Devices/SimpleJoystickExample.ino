@@ -1,6 +1,7 @@
 #include <Joystick.h>
 
 // Create Joystick object with x and y axis, 8 buttons and 1 hat switch, and a throttle
+
 Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_JOYSTICK,
   8, 1,                  // Button Count, Hat Switch Count
   true, true, false,     // X and Y Axis, No Z Axis
@@ -32,9 +33,6 @@ Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_JOYSTICK,
 //The order of the pins in this array is very important.
 const int buttonPins[] = {5, 8, 10, 6, 9, 7, 3, 4};
 
-int negate = -1;
-
-
 //This is in case I want to have the hatswitch defined as as a hatswitch
 //const int hatPins[] = {9, 7, 3, 4}; // Up, Down, Left, Right
 
@@ -65,6 +63,11 @@ void loop() {
 
 
   // Read 8 main action buttons
+  //This is where each pin gets defined as the numerial button
+  //This is why the order of the pins matters
+//  {1, 2, 3, 4, 5, 6, 7, 8};
+//  {5, 8, 10, 6, 9, 7, 3, 4};
+
   for (int i = 0; i < 8; i++) {
     Joystick.setButton(i, !digitalRead(buttonPins[i]));
     //Joystick.setButton(i + 1, !digitalRead(buttonPins[i]));
