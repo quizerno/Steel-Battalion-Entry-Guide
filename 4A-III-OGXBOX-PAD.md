@@ -38,7 +38,7 @@ If you have a clone board with a different bootloader, this can make it VERY DIF
 From here, this will be a matter of handwiring your inputs and defining them in the Arduino IDE.
 
 
-## Digital Inputs
+### Digital Inputs
 In the example below, the Arduino's PIN 2 is set to be press when connected to ground. When it is pressed it triggers the Fire Main Weapon input.
 
 **Example**<br/>
@@ -86,7 +86,7 @@ void loop() {
 }
 ```
 
-## Analogue Inputs
+### Analogue Inputs
 For analogue inputs. Arduino predominantly have the same minimum ADC resolution of 10 bit, but some can go higher. You will need to convert to the 16 bit integers that Steel Battalion uses.
 
 
