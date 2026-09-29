@@ -5,10 +5,10 @@ DIY Controllers are challenging, not solely due to their intricacy, but due to t
 
 ## GPIO vs HID Host vs Passthrough Host
 
-The **GPIO** option makes things simpler. You connect inputs to your adapter and program them. However if you choose to use your adapter-controller for
-anything non-Steel Battalion anything else it will require reprogramming.
+The **GPIO** option. This makes things simpler. You connect inputs to your adapter and program them. However if you choose to use your adapter-controller for
+anything non-Steel Battalion anything else it will require reprogramming. The obvious solution to this is to just keep both configurations backed up, but there is also....
 
-The **HID Host** option is more complicated since it requires a separate microcontroller, you are creating a controller and then adapting it, same as with an Adapted Controller. This allows you to create custom controllers that can be used for Steel Battalion and on PC on whim. The advantage of the DIY option is that you are defining the HID protocol yourself and makes it easier for the adapter to read it.
+The **HID Host** option. This is more complicated since it requires a separate microcontroller, you are creating a controller and then adapting it, same as with an Adapted Controller. This allows you to create custom controllers that can be used for Steel Battalion and on PC on whim. The advantage of the DIY option is that you are defining the HID protocol yourself and makes it easier for the adapter to read it.
 
 The **SBC Passthrough Host** options is something I developed with SBCFirm2040-lite with help from Quant's code. You have 2 or more GPIO controllers plugged into the RP2040 which acts as hub. You can also use an actual Steel Battalion Controller provided you have the usb adapter.
 
