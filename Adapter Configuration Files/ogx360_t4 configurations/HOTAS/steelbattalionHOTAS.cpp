@@ -8,6 +8,7 @@
 //For building, you must:
 //1. Rename this file to steelbattalion.cpp and put it in the src folder
 //2. You MUST also include the altered main.cpp file
+//3. You MUST also include the joystick.cpp by adding it to ogx360_t4/src/usbh/USBHost_t36
 
 //USB Device Interface
 static USB_SteelBattalion_InReport_t sb_data;
