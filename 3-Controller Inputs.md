@@ -26,8 +26,8 @@ A more detailed explanation of the controls can be found on the fan wiki, [here]
 
 |Input|Function|Alternative Parts|
 |---|---|---|
-| Left-Right Joystick| Rotates VT left and right. | Joystick with only one axis mapped or 2 buttons
-| Analog Hatstick|Operates the camera, clicking down on the stick recenters the camera | simple hatstick and one push button or 5 push buttons|
+| Left-Right Joystick| Rotates VT left and right. | Left Handed Joystick with only one axis mapped or 2 buttons
+| Analog Hatstick|Operates the camera, clicking down on the stick recenters the camera | simple hatswitch or hatstick and one push button or 5 push buttons|
 
 
 ### >TOGGLE SWITCHES:
