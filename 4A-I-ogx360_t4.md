@@ -212,7 +212,7 @@ In the Joystick.cpp file described above, the section where the lines are added 
 4. Is it an HID Device: ```true```
 
 The first two arguments require the VID and PID, these can be easily read from plugging in the device and looking at the settings
-The third argument does not matter as it is not used.
+The third argument ------FIX THIS
 The fourth argument depends on the device as some devices can use the default HID Parsers and others can't
 
 ### Putting it into the configuration
