@@ -27,7 +27,7 @@
 |Part|Price|Additional Inputs|Notes|
 |---|---|---|---|
 |[Thrustmaster T.16000M FCS](https://eshop.thrustmaster.com/en_us/t-16000m-fcs.html)|79.99 USD|16 buttons, 8 way hatswitch, 1 throttle, twist axis |Convertible for left or right hand use
-|[CH Flightstick Pro USB](https://www.chproducts.com/Flightstick-Pro-v13-d-723.html)|15-35 USD|4 buttons, 4 way hatswitch, 1 throttle|Ambidextrous, hard to find from official retailers, do not confuse with the Gameport Model.
+|[CH Flightstick Pro USB](https://www.chproducts.com/Flightstick-Pro-v13-d-723.html)|15-35 USD|4 buttons, 4 way hatswitch, 1 throttle|Ambidextrous, hard to find from official retailers, do not confuse with the Gameport Model. If you find the Gameport model, the inputs can be convered to DIY.
 
 
 **Toggle Switches**<br/>
@@ -37,16 +37,18 @@ Use push buttons
 ## Middle Block
 
 **Buttons**
-
+Keyboard List
 
 
 **Tuner Dial**
-
+Use Throttle from left or right joysticks
 
 
 ## Right Block
 
 **Right Handed Non-Centering Joystick**
+Any joystick that only uses one spring can be easily modded to 
+https://www.amazon.com/dp/B0000AW9RE?lv=shuf&channelId=500&plpRedirect=mhFallback
 
 
 
@@ -58,7 +60,11 @@ Use push buttons
 
 ### Left Block
 
+
+
 **Gear Shifter**
+Futaba 8 Position Slide Switch SP8T,
+
 
 **Left Handed Joystick**
 
@@ -67,18 +73,22 @@ Use push buttons
 ## Middle Block
 
 **Buttons**
+Consult the keyboard matrixes section to 
 
 **Tuner Dial**
+Rotary Encoder 
+https://www.ebay.com/itm/307061688643?_skw=rotary+encoder&itmmeta=01M3W31D3TX9N35BAKZERAG08T&hash=item477e4d8943:g:DAEAAeSwmkxqVVhY&itmprp=enc%3AAQALAAAA0GfYFPkwiKCW4ZNSs2u11xBhahneX1U1uD%2Bv%2B2hVFat4CgswNXD%2BEPzx4CdkFx6iLFv6UfF9TL3CsrhNDQTsudrFPrWgWL%2Bo6%2Fqngp0eXvzNLkEzSQolYbR94IF5s3md2wJ11I9YqNA0Z1bCe3RYUIecKE%2Fblk8KUtmU5SsfhdTbmXonbjBIaAwt%2B14jsqzJGvo1gzPsYtjzHqScCB76LtBkY6BLE8Pzj6qPJaqNUtONfcuWV1ACwglg44jlZ2uPWar%2BcNb5v5SLDbucJUTYK88%3D%7Ctkp%3ABk9SR6TShYOfaA
+
+
 
 ## Right Block
 
 **Right Handed Non-Centering Joystick**
-
-
+https://cults3d.com/en/3d-model/game/flight-sim-joystick-with-hall-effect-sensors-and-arduino?__cf_chl_rt_tk=49Emc7d9LhcWv3dNbj4bn_GMIUfOJbNplHWfh1jNwsU-1790873291-1.0.1.1-laGxTOKQfH3miu4HjD_3tMeTHwYchZLg.zSqEBGvW6Y
 
 
 ### Custom Pedals
-See 
+See Pedals Page
 
 
 
