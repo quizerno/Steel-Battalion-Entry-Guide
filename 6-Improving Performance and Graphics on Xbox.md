@@ -78,6 +78,6 @@ In-Depth Instructions: TBD
 
 
 ## Other additional Xbox Mods that can improve performance.
-* IDE to SSD Adapter
-* RAM Upgrade
-* CPU Upgrade
+* IDE to SSD Adapter: Simple to install but requires building an Xbox drive image.
+* RAM Upgrade: Requires specialized tools
+* CPU Upgrade: Requires specialized tools
