@@ -43,7 +43,7 @@ Entries marked in bold are referenced by the guide.
  3. (Website Guide) [SantiagoSaldana's Hackaday Guide for a Teensy Adapter](https://hackaday.io/project/182810/instructions)
  4. (Github) The corresponding [Github Arduino Library](https://github.com/SantiagoSaldana/SBC) for SantiagoSaldana's above Guide
  5. (Github) [DMadison's Arduino Teensy Packages](https://github.com/dmadison/ArduinoXInput_Teensy) also used in the above guide
- 6. [Faha223's XboxPeripheralUSBTools](https://github.com/faha223/XboxPeripheralLibusbTools/)
+ 6. (Github) [Faha223's XboxPeripheralUSBTools](https://github.com/faha223/XboxPeripheralLibusbTools/)
  7. (Frontier Forums) [Dildaria's Elite Dangerous Controller Configuration](https://forums.frontier.co.uk/threads/working-steel-battalion-controller.405175/)
  8. (Website Guide, uses Windows  Test Mode) [Oscar Sebio Cajaraville's Guide](https://medium.com/@oscarsc/how-to-use-the-steel-battalion-controller-on-windows-10-2e21aa8ccd28)
  9. (Github) [kgmonteith's Script for Playing Into the Breach with the Steel Battalion Controller](https://github.com/kgmonteith/ITBSBC)
