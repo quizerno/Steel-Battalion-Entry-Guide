@@ -24,7 +24,7 @@ Entries marked in bold are referenced by the guide.
 1. See [Emulation Section](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20Emulator.md)
 
 ## Xbox Modding
-* Softmodding: [Coulter Peterson's Tutorial](https://www.youtube.com/watch?v=NchZ-mHqTb0) utilizing [Rocky5's Softmodding Tool](https://github.com/Rocky5/Xbox-Softmodding-Tool)
+* Softmodding: [Coulter Peterson's Tutorial](https://www.youtube.com/watch?v=NchZ-mHqTb0) or [MrMario's Tutorial](https://www.youtube.com/watch?v=FqgQWe_r5I4) utilizing [Rocky5's Softmodding Tool](https://github.com/Rocky5/Xbox-Softmodding-Tool)
    * Easiest Option: Only requires a USB-to-Xbox Controller Adapter and compatible flash drive
    * Works on all Xbox revisions
 * Hardmodding: [Modzcville USA's ModXO tutorial](https://www.youtube.com/watch?v=uUsov3i6jL0) using [ModXO](https://github.com/Team-Resurgent/Modxo)
