@@ -53,7 +53,7 @@ Entries marked in bold are referenced by the guide.
  13. (Video) [Blank Trigger Gamer's Guide on using the Steel Battalion Controller with Armored Core ](https://www.youtube.com/watch?v=rMlKRhGS01o)6
  14. (Github) **[Sonik-br's pico-battalion USB adapter](https://github.com/sonik-br/pico_battalion)**
  15. (Github) [Darksturm's pySBC project](https://github.com/Darkstrumn/pySBC) and [pySBC2](https://github.com/Darkstrumn/pySBC2)
- 16. Archives of vtchid drivers [1](https://github.com/StingerAJ/vtchid-profiles), [2](https://github.com/HadetTheUndying/vtchid-backup)
+ 16. (Github) Archives of vtchid drivers [1](https://github.com/StingerAJ/vtchid-profiles), [2](https://github.com/HadetTheUndying/vtchid-backup)
  17. (Github) [Count Bronislaw's arduino SBC Pedal adapter](https://github.com/CountBronislaw/SBPedals)
  18. (Github) [darkfall's plug-in to use Steel Battalion Controller in Unity3D](https://github.com/darkfall/SteelBattalionUnity)
  19. (Github) [SteelBattalion.NET
