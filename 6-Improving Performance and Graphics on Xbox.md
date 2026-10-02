@@ -8,7 +8,7 @@ Here are several tutorials. All will give a custom dashboard capable of running 
 
 **If you happen to come across a modded Xbox or mod yours, consider [running XCAT ](https://consolemods.org/wiki/Xbox:XCAT)to help with archival**
 
-* Softmodding: [Coulter Peterson's Tutorial](https://www.youtube.com/watch?v=NchZ-mHqTb0) utilizing [Rocky5's Softmodding Tool](https://github.com/Rocky5/Xbox-Softmodding-Tool)
+* Softmodding: [Coulter Peterson's Tutorial](https://www.youtube.com/watch?v=NchZ-mHqTb0) or [MrMario's Tutorial](https://www.youtube.com/watch?v=FqgQWe_r5I4) utilizing [Rocky5's Softmodding Tool](https://github.com/Rocky5/Xbox-Softmodding-Tool)
    * Easiest Option: Only requires a USB-to-Xbox Controller Adapter and compatible flash drive
    * Works on all Xbox revisions
 * Hardmodding: [Modzcville USA's ModXO tutorial](https://www.youtube.com/watch?v=uUsov3i6jL0) using [ModXO](https://github.com/Team-Resurgent/Modxo)
@@ -17,7 +17,7 @@ Here are several tutorials. All will give a custom dashboard capable of running 
 * TSOP Flash Modding: [MrMario's TSOP Flash Tutorial](https://www.youtube.com/watch?v=YLcEAbb2iP0), see also [the console mods wiki](https://consolemods.org/wiki/Xbox:TSOP_Flashing)
   * Requires some more in-depth soldering and necessary wires
   * For Xbox revisions up to 1.4
-* Non-TSOP Flash Modding:[ MrMario's Xyclo Mod tutorial](https://www.youtube.com/watch?v=6lVsoFpWr7w) using Xyclo Scripts
+* Non-TSOP Flash Modding:[ MrMario's Xyclo Mod tutorial](https://www.youtube.com/watch?v=6lVsoFpWr7w) using [Xyclo Scripts](https://github.com/Prehistoricman/Xbox_SMC/tree/master/Xyclops)
    * Only requires a bit of soldering and a UART USB Adapter
    * Works on Xbox revision 1.6
 
