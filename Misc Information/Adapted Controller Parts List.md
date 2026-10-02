@@ -1,8 +1,10 @@
 ## Adapted Controller Parts
+Parts you can plug into an adapter or PC to use
 
 ### Left Block
 
 **Gear Shifter**
+If not using a digital shifter
 |Part|Price|Notes|
 |---|---|---|
 |[PC USB Racing Games Simulator Gear Shifter with Reverse](https://www.ebay.com/itm/389493099774?_trksid=p2332490.c101875.m1851&itmprp=cksum%3A389493099774b61e7fc35b0a457eb68c57e898a8d7f5%7Cenc%3AAQALAAABIBATtG8Mq9gsG2uQBtJHQj1FrY%252B%252F17xUSS%252F0fjfy%252BW8LCsT8QDfmB2gOzjWfrOtn9RTXYFX4RU7OwwpbmsQcoI6kBI05GIhyNMhw%252Ft0iT2soJ3Y3wL%252FJyGt6Irh433dORkC%252Bq%252B%252FdDmyvNmr4cnT%252FFX%252BwFR%252FHRWQgbxIwohXTQOdJyh4oLZvIGrFa1s0Ee8Ts4X0rlPagNJCmbH%252F0bi4QS4JmOwJ4%252BXFuWlvHI%252FmN2BnqUWJJwJV%252BgbJs2bDc2ZwVdTclmfxr65hHxvdcFJ%252FbinEvhULK4N67eRPLWDuMYnzmPdIsbiEiCK2dVG%252BaiulJkyDQWAkGznXpMjP1dAEyF94fq4QcEMzQQaOfbMv8fKj4UiOvmrUJK%252BLSX0aTm21X5Q%253D%253D%7Campid%3APL_CLK%7Cclp%3A2332490&itmmeta=01M3VZA6AKQKRSGF1XH7869R49)|45.99 USD||
@@ -15,7 +17,9 @@
 |Part|Price|Additional Inputs|Notes|
 |---|---|---|---|
 |[Thrustmaster T.16000M FCS](https://eshop.thrustmaster.com/en_us/t-16000m-fcs.html)|79.99 USD|16 buttons, 8 way hatswitch, 1 throttle, twist axis |Convertible for left or right hand use
+|[Thrustmaster TCA Sidestick](https://www.amazon.com/dp/B0873QXDQT/?tag=sawexpress43-20&th=1)|89.99|| Left Handed Option according to [this blog](https://naliasevents.com/left-handed-joystick/)
 |[CH Flightstick Pro USB](https://www.chproducts.com/Flightstick-Pro-v13-d-723.html)|15-35 USD|4 buttons, 4 way hatswitch, 1 throttle|Ambidextrous, hard to find from official retailers, do not confuse with the Gameport Model. If you find the Gameport model, the inputs can be convered to DIY.
+|[Turtle Beach Velocity One](https://www.turtlebeach.com/products/velocity-one-flight-stick)|140 USD|27 buttons, 2 throttles|Ambidextrous, OLED Display, RGB
 
 
 **Toggle Switches**<br/>
@@ -36,7 +40,12 @@ Use Throttle from left or right joysticks
 
 **Right Handed Non-Centering Joystick**
 Any joystick that only uses one spring can be easily modded to 
-https://www.amazon.com/dp/B0000AW9RE?lv=shuf&channelId=500&plpRedirect=mhFallback
+
+|Part|Price|Additional Inputs|Notes|
+|---|---|---|---|
+|[Saitek ST290](https://www.amazon.com/dp/B0000AW9RE?lv=shuf&channelId=500&plpRedirect=mhFallback)|20-45 USD| |[Modding Information](https://forum.dcs.world/topic/39483-joystick-spring-removal-and-modding/)
+
+
 
 
 
