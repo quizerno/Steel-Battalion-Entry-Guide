@@ -39,7 +39,7 @@ Entries marked in bold are referenced by the guide.
 
 ## Using the Controller on PC and Other Games
  1. (Github) **[Shopcreeper's SteelBattalionMapper](https://github.com/Shopcreeper/SteelBattalionMapper)**
- 2. (Google Doc, and also archived in this directory) [[Rhobius’ Guide To The STEEK!]](https://docs.google.com/document/d/1TNEt_g_YkVw31bMz7lscZEsul9aSit-pv2i_M_ne2cQ/edit?tab=t.0) 
+ 2. (Google Doc, and also archived in t[his repository](https://github.com/quizerno/Steel-Battalion-Entry-Guide/tree/main/Archived%20Files)) [[Rhobius’ Guide To The STEEK!]](https://docs.google.com/document/d/1TNEt_g_YkVw31bMz7lscZEsul9aSit-pv2i_M_ne2cQ/edit?tab=t.0) 
  3. (Website Guide) [SantiagoSaldana's Hackaday Guide for a Teensy Adapter](https://hackaday.io/project/182810/instructions)
  4. (Github) The corresponding [Github Arduino Library](https://github.com/SantiagoSaldana/SBC) for SantiagoSaldana's above Guide
  5. (Github) [DMadison's Arduino Teensy Packages](https://github.com/dmadison/ArduinoXInput_Teensy) also used in the above guide
@@ -58,7 +58,7 @@ Entries marked in bold are referenced by the guide.
  18. (Github) [darkfall's plug-in to use Steel Battalion Controller in Unity3D](https://github.com/darkfall/SteelBattalionUnity)
  19. (Github) [SteelBattalion.NET
  dmanning's .NET Library for using the Steel Battalion Controller with Ustream and communication apps](https://github.com/dmanning23/SteelBattalion.NET)
- 20. [faha332's repurposing of some of the above projects](https://github.com/faha223/SteelBattalionController)
+ 20. (Github) [faha332's repurposing of some of the above projects](https://github.com/faha223/SteelBattalionController)
 
 
 
