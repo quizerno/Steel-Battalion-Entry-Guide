@@ -63,6 +63,8 @@ Deciding on your adapter board becomes a bit clearer. Your goal is now
   1. Create a matrix of 7x7 (49 keys) and map each input, either directly doing Steel Battalion Inputs or detecting each key of a keyboard layout
   2. Mapping 7-8 analog inputs
 
+In addition the 7x7 keyboard matrix actually gives 11 more keys than needed so you have the option of not relying on all the simplified inputs (the toggles, gears, or tuner). If you have more pins, then you might only need to use a 6x6 keyboard matrix.
+
 **Teensy 4.1**<br/>
 Teensy 4.1 has more than enough GPIO pins to handle all the Steel Battalion's inputs. It has 55 GPIO, 18 of which are analogue.
 
@@ -70,8 +72,8 @@ Teensy 4.1 has more than enough GPIO pins to handle all the Steel Battalion's in
 The earlier Teensy boards (1-3.6) cannot run ogx360_t4, but like the other microcontrollers they are also options for HID, they will typically have enough Digital and Analog Pins
 
 However:
-* When making an HID Joystick **I do not recommend using the teensyduino or QMK**  for configuration, This is because they force the Teensy into devices with Mouse+Keyboard+Joystick endpoints, making them much more difficult for the adapters to read without more configuration, you will have to remove the endpoints from the library manually. QMK reduces the endpoints to 2 (Keyboard and Joystick)
-* Keyboards made with QMK are an option however.
+* When making an HID Joystick with the teensy **I do not recommend using the teensyduino libraries**  for configuration, This is because it forces the Teensy into devices with Mouse+Keyboard+Joystick endpoints, making them much more difficult for the adapters to read without more configuration, you will have to remove the endpoints from the library manually if you decide to do this.
+*  When making an HID Joystick with the teensy **I do not recommend using the QMK firmware**  QMK has a joystick option which forces 2 endpoints (Keyboard and Joystick),  **QMK as pure keyboard** is fine however.
 
 
 **RP2040**<br/>
@@ -89,7 +91,12 @@ If a single arduino board lacks enough GPIO pins, your choices are:
 * Add another microcontroller and connect to the first via i2c
 * Use a multiplexer or shift register
 
+*  As with the teensy earlier. When making an HID Joystick with the Arduino **I do not recommend using the QMK firmware**  QMK has a joystick option but creates 2 endpoings (Keyboard and Joystick),  **QMK as pure keyboard** is fine however.
+
+
 You then have a choice between separating the blocks into 2 or more micro controllers and using a HUB to bring them together or consolidating into one micro controller.
+
+## Recommendations
 
 For the **GPIO Option** per [section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md), I recommend either a: 
 * Teensy 4.1 with og360_t4
@@ -99,22 +106,19 @@ For the **GPIO Option** per [section 4A](https://github.com/quizerno/Steel-Batta
 For the **HID Host Option** or **SBC Passthrough Host** I recommend 1 or 2 HID Arduinos with either Teensy 4.1 or RP2040 as the adapter board. 
 
 
-[QMK firmware](https://qmk.fm/) reduces the endpoints to 2 (Keyboard and Joystick) while MMJoy...
-
-  * The earlier Teensy boards if adapted with QMK or other Keyboard firmware are acceptable.
 
 
 
 ## HID Firmware
 
+
 **Joystick**<br/>
 * Arduino Joystick Libraries
 * [MMJoy](https://github.com/MMjoy)
-* 
 
+**Keyboard**<br/>
 * Arduino Keyboard Libraries
-* [QMK firmware](https://qmk.fm/) reduces the endpoints to 2 (Keyboard and Joystick) while MMJoy...
-
+* [QMK firmware](https://qmk.fm/)
 
 As a pr
 
