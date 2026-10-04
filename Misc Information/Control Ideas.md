@@ -16,4 +16,4 @@ Some of these are mentioned in the guide already,
 ## Modifiers
 - For those who only have 1 mouse or 1 joystick for weapon aim, creating a modifier that changes the axis so that it controls sight change instead
 - Mapping the scroll wheel so that it can alter rotation speed.
-- 
+
