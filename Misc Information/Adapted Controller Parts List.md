@@ -47,7 +47,7 @@ Any joystick that only uses one spring can be modded to be non centering
 |Part|Price|Additional Inputs|Notes|
 |---|---|---|---|
 |[Saitek ST290](https://www.amazon.com/dp/B0000AW9RE?lv=shuf&channelId=500&plpRedirect=mhFallback)|20-45 USD| |[Modding Information](https://forum.dcs.world/topic/39483-joystick-spring-removal-and-modding/)
-|[Gladiator NXT EVO ‘Space Combat Edition’ - Right Hand](https://vkbsimcontrollers.com/products/gladiator-nxt-evo-space-combat-edition-right-hand-us)|139.00 USD|Comes with tools to remove spring
+|[Gladiator NXT EVO ‘Space Combat Edition’ - Right Hand](https://vkbsimcontrollers.com/products/gladiator-nxt-evo-space-combat-edition-right-hand-us)|139.00 USD||Comes with tools to remove spring
 
 
 ## Custom Pedals
