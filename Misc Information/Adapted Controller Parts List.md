@@ -3,7 +3,7 @@ Parts you can plug into an adapter or PC to configure and use.
 
 ### Left Block
 
-**Gear Shifter**
+**Gear Shifter**<br/>
 If not using a digital shifter.
 |Part|Price|Notes|
 |---|---|---|
@@ -13,7 +13,7 @@ If not using a digital shifter.
 |[Logitech G Driving Force Shifter](https://www.amazon.com/dp/B00Z0UWV3O?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1)|44-59 USD|
 
 
-**Left-Handed Joystick**
+**Left-Handed Joystick**<br/>
 If not using secondary mouse.
 |Part|Price|Additional Inputs|Notes|
 |---|---|---|---|
@@ -31,24 +31,24 @@ While any of the push buttons from the joysticks will work. There are some USB J
 
 ## Middle Block
 
-**Buttons**
+**Buttons**<br/>
 Any generic keyboard will work.
 
-**Tuner Dial**
+**Tuner Dial**<br/>
 If not using a digital tuner.
 * Use Throttle from left or right joysticks, map the axis to each of the tuner positions.
 * For a [keyboard that has a volume knob](https://www.amazon.com/dp/B0DN1H5FV3?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1) you can map the volume knob to the tuner so that volume-up does tuner+ and volume-down does tuner-.
 
 ## Right Block
 
-**Right Handed Non-Centering Joystick**
+**Right Handed Non-Centering Joystick**<br/>
 Any joystick that only uses one spring can be modded to be non centering
 |Part|Price|Additional Inputs|Notes|
 |---|---|---|---|
 |[Saitek ST290](https://www.amazon.com/dp/B0000AW9RE?lv=shuf&channelId=500&plpRedirect=mhFallback)|20-45 USD| |[Modding Information](https://forum.dcs.world/topic/39483-joystick-spring-removal-and-modding/)
 
 
-### Custom Pedals
+## Custom Pedals
 See [Pedals Section](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md)
 
 
