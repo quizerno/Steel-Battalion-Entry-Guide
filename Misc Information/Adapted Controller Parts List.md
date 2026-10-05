@@ -19,8 +19,9 @@ If not using secondary mouse.
 |---|---|---|---|
 |[Thrustmaster T.16000M FCS](https://eshop.thrustmaster.com/en_us/t-16000m-fcs.html)|79.99 USD|16 buttons, 8 way hatswitch, 1 throttle, twist axis |Convertible for left or right hand use
 |[Thrustmaster TCA Sidestick](https://www.amazon.com/dp/B0873QXDQT/?tag=sawexpress43-20&th=1)|89.99|| Left Handed Option according to [this blog](https://naliasevents.com/left-handed-joystick/)
-|[CH Flightstick Pro USB](https://www.chproducts.com/Flightstick-Pro-v13-d-723.html)|15-35 USD|4 buttons, 4 way hatswitch, 1 throttle|Ambidextrous, hard to find from official retailers, do not confuse with the Gameport Model. If you find the Gameport model, the inputs can be convered to DIY.
+|[CH Flightstick Pro USB](https://www.chproducts.com/Flightstick-Pro-v13-d-723.html)|15-35 USD|4 buttons, 4 way hatswitch, 1 throttle|Ambidextrous, hard to find from official retailers, do not confuse with the Gameport model. If you find the Gameport model, the inputs can be easily converted to DIY with an arduino.
 |[Turtle Beach Velocity One](https://www.turtlebeach.com/products/velocity-one-flight-stick)|140 USD|27 buttons, 2 throttles|Ambidextrous, OLED Display, RGB
+|[URSA MINOR Airline Joystick Right Handed](https://winctrl.com/view/goods-details.html?id=559)|62 USD|16 buttons, 1 throttle, hatswitch|Adjustable
 
 
 **Toggle Switches**<br/>
@@ -36,8 +37,8 @@ Any generic keyboard will work.
 
 **Tuner Dial**<br/>
 If not using a digital tuner.
-* Use Throttle from left or right joysticks, map the axis to each of the tuner positions.
-* For a [keyboard that has a volume knob](https://www.amazon.com/dp/B0DN1H5FV3?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1) you can map the volume knob to the tuner so that volume-up does tuner+ and volume-down does tuner-.
+* Use one of the sliders or throttles from left or right joysticks, map the axis to each of the tuner positions.
+* For a [keyboard that has a volume knob](https://www.amazon.com/dp/B0DN1H5FV3?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1) you can map the volume knob to the tuner so that volume-up does tuner PLUS and volume-down does tuner MINUS.
 
 ## Right Block
 
@@ -46,6 +47,7 @@ Any joystick that only uses one spring can be modded to be non centering
 |Part|Price|Additional Inputs|Notes|
 |---|---|---|---|
 |[Saitek ST290](https://www.amazon.com/dp/B0000AW9RE?lv=shuf&channelId=500&plpRedirect=mhFallback)|20-45 USD| |[Modding Information](https://forum.dcs.world/topic/39483-joystick-spring-removal-and-modding/)
+|[Gladiator NXT EVO ‘Space Combat Edition’ - Right Hand](https://vkbsimcontrollers.com/products/gladiator-nxt-evo-space-combat-edition-right-hand-us)|139.00 USD|Comes with tools to remove spring
 
 
 ## Custom Pedals
