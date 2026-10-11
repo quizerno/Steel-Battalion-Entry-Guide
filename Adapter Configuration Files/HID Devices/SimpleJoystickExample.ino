@@ -1,5 +1,5 @@
 #include <Joystick.h>
-
+// Install this Library via the zip file https://github.com/MHeironimus/ArduinoJoystickLibrary
 // Create Joystick object with x and y axis, 8 buttons and 1 hat switch, and a throttle
 
 Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_JOYSTICK,
