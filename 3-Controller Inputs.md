@@ -148,7 +148,7 @@ One Push Button Encased in a safety cover. Used to escape from your VT when it i
 # PEDAL BLOCK
 <img width="665" height="458" alt="image" src="https://github.com/user-attachments/assets/c7a33850-3c73-4d05-a650-00eb5076e1d5" />
 
-Three analog pedals.
+Three analog pedals, spring loaded with 45 degrees of rotation.
 
 |Left Pedal|Middle Pedal|Right Pedal|
 |---|---|---|
