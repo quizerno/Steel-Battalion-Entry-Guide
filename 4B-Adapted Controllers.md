@@ -19,7 +19,8 @@ This path requires understanding how to parse USB devices, or adapting certain f
 
 Per [section 4A](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-Controller%20Adapters.md), the two firmware options for this are
 1. og360_t4.
-2. 
+2. SBCFirm2040-lite
+
 
 
 
