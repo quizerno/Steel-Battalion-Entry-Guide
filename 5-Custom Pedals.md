@@ -6,20 +6,19 @@ Creating or adapting pedals for:
 * Custom controller
 * Use with PC.
 
-##
-
-
 
 ## Original Controller Pedals
 
 <img width="975" height="592" alt="image" src="https://github.com/user-attachments/assets/61031888-86cc-48f7-a8e4-929d80e0cd4c" />
 
-The original pedals use three 10K Type B potentiometers. If you don’t understand this, it means that the game can detect different levels of pressure hence why it is analogue.
+**Wiring**
 
-**Specifications**
-* Three 10K Type B potentiometers, these have 3 terminals each.
+The original pedals use three 10K Type B potentiometers with **45 degrees of rotation.** 
+The degree of rotation will only matter if you need to replace a potentiometer in the original chassis.
+ 
+ They are wired as such: 
  * Input lines connected to the same 3.3 volt wire.
- * Ground line connected to the same ground wire.
+ * Ground lined connected to the same ground wire.
  * Output line connected to different return wires.
 
 **In-Game Function**
@@ -27,11 +26,19 @@ The original pedals use three 10K Type B potentiometers. If you don’t understa
 |---|---|---|
 | **Slide Step:** Despite using the potentiometer, only reads the signal digitally. The pressure does not matter. But it does read the length of time you hold down the pedal, longer press means longer slide.|**Break:** has several positions, but a full stop requires a full press.|**Accelerator:** has several positions. A half-press will not reach max speed. A full press will reach max speed. A full press of this pedal is necessary after becoming unbalanced.|
 
+
+
+
+
+
+
+
+
 ## Original Controller Replacement Custom Pedals<br/>
 This is where things might get confusing. 
 What You Need:
 * Three Pedals that use linear potentiometers or have had their signals converted to do such (see below)
-* A Male Mini 6DIN connector **with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the central control block.
+* A Male Mini 6DIN connector **with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
 * A circuit board or a way to splice cables together.
 
 
@@ -39,7 +46,7 @@ What You Need:
 
 ### Logitech Pedals
 **Adapter Type:** Input<br/>
-Logitech Pedal modules connect to their main unit viaa male DE-9 Connector.  <br/>
+Logitech Pedal modules connect to their main unit via a male DE-9 Connector.  <br/>
 The potentiometers are the same as the original pedals.  <br/>
 [Harcroft](https://x.com/OGX_Harcroft) sells an adaptor which converts the the DE9 connector to the Original Controller's Mini-Din6 by linking the lines.  <br/>
 
@@ -60,6 +67,10 @@ This adapter has worked with the following models: T3PA, T3PA-GT, T3PM, T-LCM<br
 ### Go-kart and Industrial Pedals
 Online, there are a couple of cheap options for pedals that are normally intended for non-gaming.<br/>
 These pedals, however, sometimes use Hall Effect sensors which are not linear. Again, Harcroft sells an adapter for this particular model, and has provided schematics if you wish to build it yourself.
+
+
+<img width="3280" height="3364" alt="image" src="https://github.com/user-attachments/assets/d98a4bc3-74e7-4d9b-a9a3-441520692bb8" />
+
 
 <img width="1146" height="489" alt="image" src="https://github.com/user-attachments/assets/41432c9e-959a-4608-a047-b896b9fe84c8" />
 
@@ -90,23 +101,6 @@ Consult the analog input sections of the these sections depending on your firmwa
 )
 * [OGXBOX-PAD GPIO
 ](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4A-III-OGXBOX-PAD.md#defining-your-inputs)
-
-
-
-
-
-
-
-
-
-
-<img width="3280" height="3364" alt="image" src="https://github.com/user-attachments/assets/d98a4bc3-74e7-4d9b-a9a3-441520692bb8" />
-
-
-
-
-
-
 
 
 
@@ -204,13 +198,5 @@ The wiring is exactly the same as the potentiometer pedals
 <img width="816" height="404" alt="image" src="https://github.com/user-attachments/assets/fc4a5eea-265b-486e-aa33-03c6e15ccb6e" />
 
 
-
-
-
-<img width="716" height="620" alt="image" src="https://github.com/user-attachments/assets/2877dfc7-cc57-432e-ae55-9bc90b2524b0" />
-Torsion Spring Pedal Mechanism
-
-<img width="752" height="441" alt="image" src="https://github.com/user-attachments/assets/920c7f72-2beb-47f2-a2c2-c93c393f4b9c" />
-Compression Spring Pedal Mechanism
 
 
