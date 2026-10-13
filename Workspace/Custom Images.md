@@ -9,3 +9,4 @@
 <img width="1262" height="371" alt="LAYOUT ALL LEFT" src="https://github.com/user-attachments/assets/0df22300-61a4-4ecf-8ad6-c4f34f93fae9" />
 <img width="1262" height="371" alt="LAYOUT ALL BLANK" src="https://github.com/user-attachments/assets/fcd00207-48cf-4627-98f9-9e22e6f64fa7" />
 <img width="1463" height="1131" alt="gamepad" src="https://github.com/user-attachments/assets/d27a3082-fa08-425d-9596-18ee8909e38a" />
+<img width="1926" height="1035" alt="fixed joystick copy" src="https://github.com/user-attachments/assets/2349da88-38be-4c3a-a4d3-b4daa83331e2" />
