@@ -2,7 +2,7 @@
 
 <img width="620" height="465" alt="image" src="https://github.com/user-attachments/assets/4960c102-b1b6-4ff9-9525-b2123274e2aa" />
 
-See also wiki [FAQ](https://steelbattalion.fandom.com/wiki/FAQ) and [Controller Differences](https://steelbattalion.fandom.com/wiki/Controller_Differences)
+See also these pages on the wiki [FAQ](https://steelbattalion.fandom.com/wiki/FAQ) and [Controller Differences](https://steelbattalion.fandom.com/wiki/Controller_Differences)
 
 
 ## Overview
@@ -10,25 +10,8 @@ The Steel Battalion Controller, also nicknamed the Mega Jockey 9000 and sometime
 There exist two variants, the first release GREEN button-LED controller (released in 2002) and the BLUE button-LED controller (released in 2004). 
 
 
-## Construction and Details
-<img width="600" height="451.5" alt="image" src="https://github.com/user-attachments/assets/c29d35a4-bb24-43db-adf2-58a97a777a5c" />
-
-
-* The Left-Middle-Right blocks are connected together by IDE cables, which then with brackets are secured with a 3mm hex wrench (61mm long, which can be secured underneath the middle block for safekeeping). 
-* The pedal block is connected by a modified PS/2 connector which connects to the middle block. From the middle block an Xbox cable connects to the Xbox,
-* Despite its large size, it is not particularly heavy. Weighing only about 17 pounds .
-* With the exception of the joystick buttons, every single button on the controller is lit by an LED.
-* The pieces from BLUE and GREEN controllers are compatible with each others, and the controller is not region locked.
-* Aside from the obvious visual change and different markings, the only mechanic difference between the BLUE and GREEN controllers is the construction of the Pedal Block.
-  * On the GREEN controller, the pedal block uses torsion springs. 
-  * On the BLUE controller, the pedal block uses compression springs
-
-
-## Inputs
-
-The controller itself has about 62 digital inputs and 8 analog inputs. For more details, see [section 3](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md)
-
 ## Dimensions
+
 [via ifixit](https://www.ifixit.com/Device/Steel_Battalion_Controller)<br />
 **Main Controller**<br />
 * **Length:** 32.65 in (88 cm)
@@ -44,17 +27,31 @@ The controller itself has about 62 digital inputs and 8 analog inputs. For more 
 
 
 
+## Inputs
+
+The controller itself has about 62 digital inputs and 8 analog inputs. See [section 3](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/3-Controller%20Inputs.md)
+
+## Construction and Details
+<img width="600" height="451.5" alt="image" src="https://github.com/user-attachments/assets/c29d35a4-bb24-43db-adf2-58a97a777a5c" />
+
+See [this gallery for more images both external and internal](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Archived%20Files/Controller%20Image%20Gallery.md)
+
+
+* The Left-Middle-Right blocks are connected together by IDE cables, which then with brackets are secured with a 3mm hex wrench (61mm long) which can be secured underneath the middle block for safekeeping. 
+* The pedal block is connected by a modified PS/2 connector which connects to the middle block. From the middle block an Xbox cable connects to the Xbox,
+* Despite its large size, it is not particularly heavy. Weighing only about 17 pounds .
+* With the exception of the joystick buttons, every single button on the controller is lit by an LED.
+* The pieces from BLUE and GREEN controllers are compatible with each others, and the controller is not region locked.
+* Aside from the obvious visual change and different markings, the only mechanic difference between the BLUE and GREEN controllers is the construction of the Pedal Block.
+  * On the GREEN controller, the pedal block uses torsion springs. 
+  * On the BLUE controller, the pedal block uses compression springs
+
+
 ## Longevity
 
 * The original GREEN controller pedals were notoriously prone to breaking.
 * The BLUE controller LEDs reportedly burn out easier, but do not affect functionality.
 * Both controllers are reported to have some issues where wires for the joystick inputs get pinched and need repair
-
-
-
-## Internals
-
-See [gallery.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Archived%20Files/Controller%20Image%20Gallery.md)
 
 
 ## Controller Maintenance
@@ -73,9 +70,6 @@ See [section 5](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/mai
  1. (Video) [N68DodgeBoy's Guide on Spring Replacement for BLUE PEDALS](https://www.youtube.com/watch?v=6TYqZhD9kCM)
  2. (Video) [N68DodgeBoy's Guide on Spring Replacement for GREEN PEDALS](https://www.youtube.com/watch?v=Zjc7WY2_tNw)
  3. (Video) [N68DodgeBoy's Guide on Installing Harcroft's Gear Lever Mod](https://www.youtube.com/watch?v=OAIkCWEfvhA)
-
-
-
 
 #### Mod Tutorials
 
