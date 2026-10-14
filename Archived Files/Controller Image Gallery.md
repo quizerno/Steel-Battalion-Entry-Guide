@@ -6,18 +6,6 @@
 <img width="600" height="451" alt="image" src="https://github.com/user-attachments/assets/c29d35a4-bb24-43db-adf2-58a97a777a5c" />
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/2ba3f5ae-28f2-4e37-a7dc-3c5315bd179d" />
 
-
-
-
-
-
-
-
-
-
-
-
-
 ### Left Block
 <img align="left" width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/693f9540-4a0f-451b-a5e2-97671cdc5d3f" />
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/a1b2a383-74bd-410a-9289-4cbe55d73df5" />
@@ -43,15 +31,22 @@
 <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/412adfcd-2754-494f-8606-4106f2df9b0c" />
 
 
-
 ### Torsion Spring Pedal Mechanism (Green Controller)
 <img width="716" height="620" alt="image" src="https://github.com/user-attachments/assets/2877dfc7-cc57-432e-ae55-9bc90b2524b0" />
-
 
 ### Compression Spring Pedal Mechanism (Blue Controller)
 <img width="752" height="441" alt="image" src="https://github.com/user-attachments/assets/920c7f72-2beb-47f2-a2c2-c93c393f4b9c" />
 
 
+
+## Prototypes
+
+<img width="1080" height="810" alt="image" src="https://github.com/user-attachments/assets/eb77893b-dacc-419d-a539-7d361593bb2d" />
+
+
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/7da0658e-7145-410a-9e11-7a7337630f73" />
+
+<img width="1041" height="800" alt="image" src="https://github.com/user-attachments/assets/bb3d903d-3f80-461b-b46b-f47a17cf01ec" />
 
 
 
