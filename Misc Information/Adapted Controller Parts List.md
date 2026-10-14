@@ -22,6 +22,7 @@ If not using secondary mouse.
 |[CH Flightstick Pro USB](https://www.chproducts.com/Flightstick-Pro-v13-d-723.html)|15-35 USD|4 buttons, 4 way hatswitch, 1 throttle|Ambidextrous, hard to find from official retailers, do not confuse with the Gameport model. If you find the Gameport model, the inputs can be easily converted to DIY with an arduino.
 |[Turtle Beach Velocity One](https://www.turtlebeach.com/products/velocity-one-flight-stick)|140 USD|27 buttons, 2 throttles|Ambidextrous, OLED Display, RGB
 |[URSA MINOR Airline Joystick Right Handed](https://winctrl.com/view/goods-details.html?id=559)|62 USD|16 buttons, 1 throttle, hatswitch|Adjustable
+|[Saitek Aviator Dual Throttle Joystick](https://www.amazon.com/dp/B000I62PEK?lv=shuf&channelId=500&plpRedirect=mhFallback)|20-62 USD||Ambidextrous, PC, PS3 and Xbox 360 models
 
 
 **Toggle Switches**<br/>
@@ -48,6 +49,7 @@ Any joystick that only uses one spring can be modded to be non centering
 |---|---|---|---|
 |[Saitek ST290](https://www.amazon.com/dp/B0000AW9RE?lv=shuf&channelId=500&plpRedirect=mhFallback)|20-45 USD| |[Modding Information](https://forum.dcs.world/topic/39483-joystick-spring-removal-and-modding/)
 |[Gladiator NXT EVO ‘Space Combat Edition’ - Right Hand](https://vkbsimcontrollers.com/products/gladiator-nxt-evo-space-combat-edition-right-hand-us)|139.00 USD||Comes with tools to remove spring
+| Logitech WingMan Force 3D|15-40 USD||Force Feedback, this model or a similar one was used on Prototypes of the Steel Battalion Controller.
 
 
 ## Custom Pedals
