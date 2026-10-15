@@ -1,6 +1,12 @@
 ## Adapted Controller Parts
 Parts you can plug into an adapter or PC to configure and use.
 
+
+
+### General
+
+
+
 ### Left Block
 
 **Gear Shifter**<br/>
@@ -14,43 +20,53 @@ If not using a digital shifter.
 
 
 **Left-Handed Joystick**<br/>
-If not using secondary mouse.
+
+Best if the joystick here has a hatstick or hatswitch for the sightchange, a button can be used for the recenter. 
 |Part|Price|Additional Inputs|Notes|
 |---|---|---|---|
 |[Thrustmaster T.16000M FCS](https://eshop.thrustmaster.com/en_us/t-16000m-fcs.html)|79.99 USD|16 buttons, 8 way hatswitch, 1 throttle, twist axis |Convertible for left or right hand use
 |[Thrustmaster TCA Sidestick](https://www.amazon.com/dp/B0873QXDQT/?tag=sawexpress43-20&th=1)|89.99|| Left Handed Option according to [this blog](https://naliasevents.com/left-handed-joystick/)
-|[CH Flightstick Pro USB](https://www.chproducts.com/Flightstick-Pro-v13-d-723.html)|15-35 USD|4 buttons, 4 way hatswitch, 1 throttle|Ambidextrous, hard to find from official retailers, do not confuse with the Gameport model. If you find the Gameport model, the inputs can be easily converted to DIY with an arduino.
+|[CH Flightstick Pro USB](https://www.chproducts.com/Flightstick-Pro-v13-d-723.html)|15-35 USD|4 buttons, 4 way hatswitch, 1 throttle|Ambidextrous, hard to find from official retailers, do not confuse with the Gameport model. If you find the Gameport model, the inputs can be easily converted USB with an arduino.
 |[Turtle Beach Velocity One](https://www.turtlebeach.com/products/velocity-one-flight-stick)|140 USD|27 buttons, 2 throttles|Ambidextrous, OLED Display, RGB
 |[URSA MINOR Airline Joystick Right Handed](https://winctrl.com/view/goods-details.html?id=559)|62 USD|16 buttons, 1 throttle, hatswitch|Adjustable
-|[Saitek Aviator Dual Throttle Joystick](https://www.amazon.com/dp/B000I62PEK?lv=shuf&channelId=500&plpRedirect=mhFallback)|20-62 USD||Ambidextrous, PC, PS3 and Xbox 360 models
+|[Saitek Aviator Dual Throttle Joystick](https://www.amazon.com/dp/B000I62PEK?lv=shuf&channelId=500&plpRedirect=mhFallback)|20-62 USD||Ambidextrous, PC, PS3 and Xbox 360 models, PC model has toggle switches
 
 
 **Toggle Switches**<br/>
-While any of the push buttons from the joysticks will work. There are some USB Joysticks by thrustmaster that use toggle switches, however they are quite expensive.
+Any of the push buttons from the joysticks will work as substitutes. 
+There are some USB Joysticks by thrustmaster that use toggle switches, however they are quite expensive.
 |Part|Price|Additional Inputs|Notes|
 |---|---|---|---|
 |[Thrustmaster HOTAS Warthog Dual Throttle](https://eshop.thrustmaster.com/en_us/hotas-warthog-dual-throttle.html)|$‌349.99|
 
 ## Middle Block
-
 **Buttons**<br/>
-Any generic keyboard will work.
+Any generic keyboard will work. If following my example:
+* Number keys 1-5 serve as COMM buttons (1x5)
+* Numpad 1-9 serve as function block (9x9)
+* Insert, Home, PageUp, Delete, End, PageDown serve as Maintenance and Weapon Control Keys (2x3)
 
 **Tuner Dial**<br/>
-If not using a digital tuner.
-* Use one of the sliders or throttles from left or right joysticks, map the axis to each of the tuner positions.
+If not using a digital tuner. You can do one of the following:
+* Use one of the sliders or throttles from left or right joysticks, map the axis positions to each of the tuner positions. Each positions would be the full output of the throttle divided by 16.
 * For a [keyboard that has a volume knob](https://www.amazon.com/dp/B0DN1H5FV3?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1) you can map the volume knob to the tuner so that volume-up does tuner PLUS and volume-down does tuner MINUS.
 
 ## Right Block
 
 **Right Handed Non-Centering Joystick**<br/>
-Any joystick that only uses one spring can be modded to be non centering
+Any joystick that only uses one spring can be modded to be non centering.
+Sub Weapon Fire bound to trigger, Main Weapon Fire and Lock-On bound to thumb buttons.
 |Part|Price|Additional Inputs|Notes|
 |---|---|---|---|
 |[Saitek ST290](https://www.amazon.com/dp/B0000AW9RE?lv=shuf&channelId=500&plpRedirect=mhFallback)|20-45 USD| |[Modding Information](https://forum.dcs.world/topic/39483-joystick-spring-removal-and-modding/)
 |[Gladiator NXT EVO ‘Space Combat Edition’ - Right Hand](https://vkbsimcontrollers.com/products/gladiator-nxt-evo-space-combat-edition-right-hand-us)|139.00 USD||Comes with tools to remove spring
 | Logitech WingMan Force 3D|15-40 USD||Force Feedback, this model or a similar one was used on Prototypes of the Steel Battalion Controller.
+| SideWinder 2 Force Feedback||||
 
+
+**Buttons**<br/>
+
+Monitor and Camera buttons can be bound to the joystick's remaining buttons or from other free keys on the keyboard.
 
 ## Custom Pedals
 See [Pedals Section](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md)

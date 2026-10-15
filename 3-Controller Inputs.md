@@ -22,12 +22,12 @@ A more detailed explanation of the controls can be found on the fan wiki, [here]
 
 
 
-### >ROTATION LEVER AND SIGHT CHANGE
+### >ROTATION LEVER AND SIGHT CHA **Buttons**<br/>NGE
 
 |Input|Function|Alternative Parts|
 |---|---|---|
-| Left-Right Joystick| Rotates VT left and right. | Left Handed Joystick with only one axis mapped or 2 buttons
-| Analog Hatstick|Operates the camera, clicking down on the stick recenters the camera | simple hatswitch or hatstick and one push button or 5 push buttons|
+| Left-Right Joystick (Recentering)| Rotates VT left and right. | Left Handed Joystick with only one axis mapped or 2 buttons
+| Analog Hatstick (Recentering)|Operates the camera, clicking down on the stick recenters the camera | simple hatswitch or hatstick and one push button or 5 push buttons|
 
 
 ### >TOGGLE SWITCHES:
@@ -116,10 +116,10 @@ Consists of 6 push buttons in a 2x3 pattern
 
 |Input|Function|Alternative Parts|
 |---|---|---|
-| X-Y Joystick| Aims weapons|Non-Recentering Joystick, Mouse with configuration
-| Trigger|Fires subweapon|Mouse buttons, Joystick Trigger
-| Primary Weapon| Fires primary weapon |Mouse buttons, Joystick buttons
-| Lock-On|Locks on to targeted enemy |Mouse buttons, Joystick buttons
+| X-Y Joystick (Non-Recentering)| Aims weapons|
+| Trigger|Fires subweapon|
+| Primary Weapon| 
+| Lock-On|
 
 **Alternative Parts:** A NON-recentering joystick with a trigger and 2 buttons. Mouse with three buttons.
 
@@ -178,7 +178,7 @@ When considering your remapped controller or custom controller, here is a simpli
 |---|---|---|
 | Full Recreation| NONE| 20 Buttons + 16 Position Rotary Tuner (36)
 | Simple Recreation|NONE|20 Buttons + 2 Button Digital Tuner (22)
-| Notes|| The tuner has 16 positions, but only has 5 channels that are read in game. 
+| Notes|| The tuner has 16 positions, but only has 5 channels that are read in game. However, there is a special code for LOC that requires all positions.
 
 |Right Block|Analogue Inputs|Digital Inputs|
 |---|---|---|

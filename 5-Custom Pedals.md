@@ -7,19 +7,20 @@ Creating or adapting pedals for:
 * Use with PC.
 
 
-## Original Controller Pedals
+## Specifications of the Original Controller Pedals
 
 <img width="975" height="592" alt="image" src="https://github.com/user-attachments/assets/61031888-86cc-48f7-a8e4-929d80e0cd4c" />
 
 **Wiring**
 
-The original pedals use three 10K Type B potentiometers with **45 degrees of rotation.** 
-The degree of rotation will only matter if you need to replace a potentiometer in the original chassis.
+The original pedals use three **10K Type B potentiometers** with **45 degrees of rotation.** 
  
  They are wired as such: 
  * Input lines connected to the same 3.3 volt wire.
  * Ground lined connected to the same ground wire.
  * Output line connected to different return wires.
+ 
+ The voltage is then passed into the middle controller block and read as an unsigned 16 bit integer (uint16_t) from 0 (0x0000) to 65,535 (0xFFFF). 
 
 **In-Game Function**
 |Left Pedal|Middle Pedal|Right Pedal|
@@ -28,21 +29,55 @@ The degree of rotation will only matter if you need to replace a potentiometer i
 
 
 
+## Options
+
+This is where things might get confusing, and are case scenario dependent.
+
+***Repairing the Original Pedals***<br/>
+Both the Green and Blue pedals are unfortunately prone to physical failure, which can be amended with 3D printing.
+Should any of the potentiometers fail, exact replacement ones are extremely rare but do exist.
 
 
+***Custom Pedals for the Original Controller***<br/>
+
+What You Need:
+
+* One of the Pedal Sets listed below and a corresponding adapter (listed below)
+
+or
+
+* Three Pedals that use linear potentiometers or have had their signals converted to do such (listed below)
+* A Male Mini 6DIN connector **with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
+* A circuit board or a way to splice cables together.
+
+
+***Custom Pedals for a Controller Adapter or PC***<br/>
+
+
+
+
+If looking to repair the original controller pedals
+
+
+The degree of rotation will only matter if you need to replace a potentiometer in the original chassis.
+
+
+
+## Pedals for the Original Controller
+
+
+
+
+## Pedals for an Adapted Controller or PC
 
 
 
 
 ## Original Controller Replacement Custom Pedals<br/>
-This is where things might get confusing. 
-What You Need:
-* Three Pedals that use linear potentiometers or have had their signals converted to do such (see below)
-* A Male Mini 6DIN connector **with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
-* A circuit board or a way to splice cables together.
 
 
-## Pre-Made Pedals
+
+## Pedal Sets
 
 ### Logitech Pedals
 **Adapter Type:** Input<br/>
@@ -64,7 +99,10 @@ This adapter has worked with the following models: T3PA, T3PA-GT, T3PM, T-LCM<br
 <img width="312.5" height="277.5" alt="image" src="https://github.com/user-attachments/assets/5b9c1aab-2553-40f9-9e73-a629fdfe66d1" />
 
 
-### Go-kart and Industrial Pedals
+## DIY Pedal Units
+
+
+Go-kart and Industrial Pedals
 Online, there are a couple of cheap options for pedals that are normally intended for non-gaming.<br/>
 These pedals, however, sometimes use Hall Effect sensors which are not linear. Again, Harcroft sells an adapter for this particular model, and has provided schematics if you wish to build it yourself.
 
