@@ -27,22 +27,23 @@ The original pedals use three **10K Type B potentiometers** with **45 degrees of
 |---|---|---|
 | **Slide Step:** Despite using the potentiometer, only reads the signal digitally. The pressure does not matter. But it does read the length of time you hold down the pedal, longer press means longer slide.|**Break:** has several positions, but a full stop requires a full press.|**Accelerator:** has several positions. A half-press will not reach max speed. A full press will reach max speed. A full press of this pedal is necessary after becoming unbalanced.|
 
+**Repairing the Original Pedals**<br/>
+Both the Green and Blue pedals are unfortunately prone to physical failure.
+Should any of the potentiometers fail, exact replacement ones (specifically the potentiometers with 45 degrees of rotation) are extremely rare but do exist (TOCOS RVQ28YSH 25F).
 
 
-## Options
+## Alternative Options
 
 This is where things might get confusing, and are case scenario dependent.
 
-***Repairing the Original Pedals***<br/>
-Both the Green and Blue pedals are unfortunately prone to physical failure, which can be amended with 3D printing.
-Should any of the potentiometers fail, exact replacement ones are extremely rare but do exist.
+
 
 
 ***Custom Pedals for the Original Controller***<br/>
 
 What You Need:
 
-* One of the Pedal Sets listed below and a corresponding adapter (listed below)
+* One of the Pedal Options listed 
 
 or
 
@@ -148,7 +149,7 @@ Consult the analog input sections of the these sections depending on your firmwa
 
 ### 3D Printing
 
-There are a multitude of 3D printable options available. These are perfectly fine options as long as you use the 10K Type B Linear potentiometers
+There are a multitude of 3D printable options available. These are perfectly fine options as long as you use the 10K Type B Linear potentiometers, these do not need to have the 45 degrees of rotation.
 
 * https://makerworld.com/en/models/1578870-sim-pedals#profileId-2657983
 * https://www.printables.com/model/770673-sim-racing-pedals-with-load-cell
