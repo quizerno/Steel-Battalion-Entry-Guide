@@ -1,3 +1,11 @@
+```
+git add .
+git commit
+git push
+git pull
+```
+
+
 # 3D. Custom Pedals
 **(Adapted or DIY Pedals)**
 
