@@ -1,7 +1,7 @@
 
 # 4A-I. ogx360_t4
 [Ogx360_t4](https://github.com/Ryzee119/ogx360_t4) by Ryzee19 is an open source software package for the Teensy 4.1 boards that allows you to use modern controllers with the original Xbox. 
-It is a port of Ryzee’s own project [ogx360](https://github.com/Ryzee119/ogx360), but far easier to put together.
+It is a port of Ryzee’s own project [ogx360](https://github.com/Ryzee119/ogx360), but far easier to put together. This has become the basis of the controller adapter projects
 
 This guide will be slightly out of order. First I will show you how to properly build for the teensy, then I will show you how to configure controls. After which you can build again.
 
@@ -11,7 +11,7 @@ This guide will be slightly out of order. First I will show you how to properly 
 
 The wiring on the teensy is pretty straight forward. Solder 5 pins to the USB header on the board and attach the cable. Alternatively solder a cable directly.
 
-**MAKE ABSOLUTELY SURE YOUR ORIENATION IS CORRECT OTHERWISE YOU RISK DAMAGING THE DEVICE CONNECTED TO THE HOST** 
+**MAKE ABSOLUTELY SURE YOUR ORIENTATION IS CORRECT OTHERWISE YOU RISK DAMAGING THE DEVICE CONNECTED TO THE HOST** 
 
 
 ## Firmware Building
