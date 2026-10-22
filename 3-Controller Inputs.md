@@ -18,12 +18,12 @@ A more detailed explanation of the controls can be found on the fan wiki, [here]
 ### >GEAR LEVER: 
 |Input|Function|Alternative Parts|
 |---|---|---|
-| Seven positions|Gear change from Reverse, Neutral, or Speeds 1-5 | The gear shifter can be substituted with two buttons for switching between the gears, creating a digital shifter. Some dials and throttles could potentially be remapped|
+| Seven positions|Gear change from Reverse, Neutral, or Speeds 1-5 | If not using a replacement shifter, the gear shifter can be substituted with two buttons for switching between the gears, creating a digital shifter. Some dials and throttles could potentially be remapped|
 
 
 
-### >ROTATION LEVER AND SIGHT CHA **Buttons**<br/>NGE
-
+### >ROTATION LEVER AND SIGHT CHANGE
+A Left Handed Joystick with a Analog Hatstick on top.
 |Input|Function|Alternative Parts|
 |---|---|---|
 | Left-Right Joystick (Recentering)| Rotates VT left and right. | Left Handed Joystick with only one axis mapped or 2 buttons
@@ -113,7 +113,7 @@ Consists of 6 push buttons in a 2x3 pattern
 
 
 ### >AIMING LEVER 
-
+A Right-Handed Joystick that does not recenter, has a trigger and 2 additional buttons.
 |Input|Function|Alternative Parts|
 |---|---|---|
 | X-Y Joystick (Non-Recentering)| Aims weapons|
