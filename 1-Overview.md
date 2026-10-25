@@ -34,7 +34,7 @@ This section describes hardware and software options for Xbox players to improve
 ## 7. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20Emulator.md) <br/>
 This section explains the options for playing Steel Battalion on PC via an Emulator and how to apply knowledge from the previous sections.
 
-## 8. Misc Information </br>
+## 8. [Misc Information](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/8-Misc%20Information.md) </br>
 This section is used as an archive for various information related to Steel Battalion. This includes guides on
 how to use the Original Controller on PC, suggestions for control set-ups, mods to the Original Controller and so-on.
 □
