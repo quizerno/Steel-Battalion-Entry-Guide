@@ -14,8 +14,9 @@
        * Other control ideas
   6. [Adapted Controller Parts](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Misc%20Information/Adapted%20Controller%20Parts%20List.md)
        * Links and Suggestions for USB plug in parts
-  7. [DIY Controller Parts](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-DIY%20Controllers.md)
+  7. [DIY Controller Parts](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Misc%20Information/DIY%20Controller%20Parts%20List.md)
        * Links and Suggestions for electronics and 3D printing
+  8. 
 
 ## Using the Steel Battalion Controller on PC
 
