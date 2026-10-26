@@ -52,7 +52,7 @@ If you need pedals and want to create your own pedals or need help adapting the 
 
 <img width="768" height="576" alt="20231025_231002" src="https://github.com/user-attachments/assets/13e4fa22-7629-4a2d-b51b-697041da6807" />
 
-QuantX's combination controller utilizing two Thrustmaster T16000s, Logitech G920 pedals, and a custom board.
+QuantX's combination controller utilizing two Thrustmaster T16000s, a third party Gear Shifter, Logitech G920 pedals, and a custom board as the middle block.
 
 <img width="652" height="870" alt="image" src="https://github.com/user-attachments/assets/08253b2d-0585-467e-956d-fb97184d3a9f" />
 
