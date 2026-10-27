@@ -52,7 +52,7 @@ When all toggles are shut off, it turns off your VT and breaks enemy lock on. So
 
 
 
-# MIDDLE BLOCK
+# CENTER BLOCK
 <img width="510" height="424" alt="image" src="https://github.com/user-attachments/assets/a4806aad-5e78-4bcf-991b-3a991fd4cd77" />
 
 ### >COMMUNICATION BUTTONS:
@@ -174,7 +174,7 @@ When considering your remapped controller or custom controller, here is a simpli
 | Notes|| Mapping all the toggles to 1 reduces the the digital inputs by 4
 
 
-|Middle Block|Analogue Inputs|Digital Inputs|
+|Center Block|Analogue Inputs|Digital Inputs|
 |---|---|---|
 | Full Recreation| NONE| 20 Buttons + 16 Position Rotary Tuner (36)
 | Simple Recreation|NONE|20 Buttons + 2 Button Digital Tuner (22)
