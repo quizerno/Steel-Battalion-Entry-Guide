@@ -38,6 +38,16 @@ This is where things might get confusing, and are case scenario dependent.
 
 
 
+|Pedal Set|Connector Type|Original Controller|PC or Controller Adapter|
+|---|---|---|---|
+|**Logitech**<br/>G27, G29, G920, G923, PRO|DB9 Connector|Adapter||
+|**Thrustmaster**||||
+|Logitech||||
+
+
+
+
+
 
 ***Custom Pedals for the Original Controller***<br/>
 
@@ -79,6 +89,8 @@ The degree of rotation will only matter if you need to replace a potentiometer i
 
 
 ## Pedal Sets
+
+
 
 ### Logitech Pedals
 **Adapter Type:** Input<br/>
