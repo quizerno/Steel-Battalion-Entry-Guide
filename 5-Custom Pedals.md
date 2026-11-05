@@ -38,11 +38,12 @@ This is where things might get confusing, and are case scenario dependent.
 
 
 
-|Pedal Set|Connector Type|Original Controller|PC or Controller Adapter|
+|Pedal Set Brand|Connector Type|Original Controller|PC or Controller Adapter|
 |---|---|---|---|
-|**Logitech**<br/>G27, G29, G920, G923, PRO|DB9 Connector|Adapter||
-|**Thrustmaster**||||
-|Logitech||||
+|**Logitech**<br/>G27, G29, G920, G923, PRO|DB9|Adapter||
+|**Thrustmaster**|RJ-12|||
+|**HORI**|RJ-9|||
+|**VKB**|RJ-45||VKB sets come with USB adapter|
 
 
 
