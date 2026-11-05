@@ -13,7 +13,7 @@ Creating or adapting pedals for:
 
 **Wiring**
 
-The original pedals use three **10K Type B potentiometers** with **45 degrees of rotation.** 
+The original pedals use three **10K Type B potentiometers** with **45 degrees of rotation.** Connected with a Mini-Din6 Cable
  
  They are wired as such: 
  * Input lines connected to the same 3.3 volt wire.
@@ -36,14 +36,17 @@ Should any of the potentiometers fail, exact replacement ones (specifically the 
 
 This is where things might get confusing, and are case scenario dependent.
 
+### Pedal Sets
+
+Pre-exsiting pedal sets typically are not sold as stand alone USB devices, they are sold as modules that connect to an existing USB device.
 
 
-|Pedal Set Brand|Connector Type|Original Controller|PC or Controller Adapter|
+|Brand|Connector Type|Original Controller Adapter|USB Adapter|
 |---|---|---|---|
-|**Logitech**<br/>G27, G29, G920, G923, PRO|DB9|Adapter||
-|**Thrustmaster**|RJ-12|||
-|**HORI**|RJ-9|||
-|**VKB**|RJ-45||VKB sets come with USB adapter|
+|**Logitech**<br/>G27, G29, G920, G923, PRO|DE-9|Harcroft Custom Adapter ([Schematic](https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff))|[USB Adapter](https://www.leobodnar.com/shop/index.php?main_page=product_info&products_id=187), [DIY Arduino Leonardo Tutorial](https://www.youtube.com/watch?v=6Pu1qknGjy4)|
+|**Thrustmaster**|RJ-12|Harcroft Custom Adapter (Schematic)|T.RJ12 USB Adapter|
+|**HORI**|RJ-9|None|None|
+|**VKB**|RJ-45|None|VKB sets come with USB adapter|
 
 
 
