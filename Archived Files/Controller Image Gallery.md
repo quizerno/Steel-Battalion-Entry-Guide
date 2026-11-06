@@ -51,8 +51,10 @@
 
 
 
+## Damage
 
-
+<img width="640" height="362" alt="image" src="https://github.com/user-attachments/assets/c979a250-d1f9-4b16-93ea-f39dc9aaba75" />
+Left Block Joystick Connector
 
 
 
