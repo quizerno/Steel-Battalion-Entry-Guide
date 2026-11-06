@@ -32,14 +32,30 @@ Both the Green and Blue pedals are unfortunately prone to physical failure.
 Should any of the potentiometers fail, exact replacement ones (specifically the potentiometers with 45 degrees of rotation) are extremely rare but do exist (TOCOS RVQ28YSH 25F).
 
 
-## Alternative Options
 
-This is where things might get confusing, and are case scenario dependent.
+
+## For the Original Controller 
+You will need:
+* Three Pedals that use linear potentiometers or have had their signals converted to do be linear. They must transmit 3.3 volts.
+* A Male Mini 6DIN connector **with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
+* A circuit board or a way to splice cables together.
+
+
+## For Custom Controller or PC
+You will need:
+* Three Pedals, however you can use two and use a modifier key or switch to third input.
+* If the pedals are not already USB devices, you will need microcontroller or adapter to convert them
+
+The Pedals would ideally use linear potentiometers, but the signal can be converted via the microcontroller or if connecting to PC it will not matter.
+If already using a microcontroller as an adapter, you can hook the pedal outputs to the analogue lines and use GPIO to read the inputs.
+
+
+## Options for Pedals 
 
 ### Pedal Sets
 
-Pre-exsiting pedal sets typically are not sold as stand alone USB devices, they are sold as modules that connect to an existing USB device.
-
+Pre-existing pedal sets typically are not sold as stand alone USB devices, they are sold as modules that connect to an existing USB device.
+Ergo, some require a USB adapter. 
 
 |Brand|Connector Type|Original Controller Adapter|USB Adapter|
 |---|---|---|---|
@@ -138,6 +154,11 @@ These pedals, however, sometimes use Hall Effect sensors which are not linear. A
 If you do not care about the analog precision. You have option of using digital pedal switches.
 
 
+**Replacement Pedals for the Original Controller**
+
+* Three Pedals that use linear potentiometers or have had their signals converted to do such (listed below)
+* A Male Mini 6DIN connector **with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
+* A circuit board or a way to splice cables together.
 
 
 ## Adapted Pedals<br/>
