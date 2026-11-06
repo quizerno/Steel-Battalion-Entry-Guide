@@ -51,7 +51,8 @@ See [this gallery for more images both external and internal](https://github.com
 
 * The original GREEN controller pedals were notoriously prone to breaking.
 * The BLUE controller LEDs reportedly burn out easier, but do not affect functionality.
-* Both controllers are reported to have some issues where wires for the joystick inputs get pinched and need repair
+* Both controllers are reported to have some issues where the joystick inputs begin failing either due to pinched wires or loose connections
+  * [Left Block Example](https://www.reddit.com/r/steelbattaliononline/comments/1h1piip/left_controller_block_issues/) with culprit being a [loose connector](https://github.com/user-attachments/assets/c979a250-d1f9-4b16-93ea-f39dc9aaba75).
 
 
 ## Controller Maintenance
@@ -67,13 +68,13 @@ TBD
 * The 45 Degree Linear Potentiometers are extremely rare.
 * See [section 5](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md) for details on the pedals.
 
-#### Tutorials
+### Guides
  1. (Video) [N68DodgeBoy's Guide on Spring Replacement for BLUE PEDALS](https://www.youtube.com/watch?v=6TYqZhD9kCM)
  2. (Video) [N68DodgeBoy's Guide on Spring Replacement for GREEN PEDALS](https://www.youtube.com/watch?v=Zjc7WY2_tNw)
- 3. (Video) [N68DodgeBoy's Guide on Installing Harcroft's Gear Lever Mod](https://www.youtube.com/watch?v=OAIkCWEfvhA)
+ 3. (Video) [N68DodgeBoy's Guide on Regreasing the Gear Lever](https://www.youtube.com/watch?v=Pyc20dphM1w&feature=youtu.be)
 
-#### Mod Tutorials
-
+## Controller Mods
  1. (Archived Website) [AlphA's Guide on Adjusting the Gear Lever Resistance](https://web.archive.org/web/20170409101223/http://www.bigmech.com/sb/sb_controller_mod/gearleaver.htm)
  2. (Archived Website) [AlphA's Guide on Button Cosmetics](http://www.bigmech.com/sb/sb_controller_mod/buttons.html)
  3. (Archived Website) [Alpha's Guide for Mega Mods Including Adding Rumble](https://web.archive.org/web/20170409123727/http://www.bigmech.com/sb/sb_controller_mod/disclaimer.html)
+ 4. [N68DodgeBoy's Guide on Installing Harcroft's Gear Lever Mod](https://www.youtube.com/watch?v=OAIkCWEfvhA)
