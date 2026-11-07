@@ -60,7 +60,7 @@ Ergo, some require a USB adapter.
 |Brand|Connector Type|Original Controller Adapter|USB Adapter|
 |---|---|---|---|
 |**Logitech**<br/>G27, G29, G920, G923, PRO|DE-9|Harcroft Custom Adapter ([Schematic](https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff))|[USB Adapter](https://www.leobodnar.com/shop/index.php?main_page=product_info&products_id=187), [DIY Arduino Leonardo Tutorial](https://www.youtube.com/watch?v=6Pu1qknGjy4)|
-|**Thrustmaster**|RJ-12|Harcroft Custom Adapter (Schematic)|T.RJ12 USB Adapter|
+|**Thrustmaster**<br/> T3PA, T3PA-GT, T3PM, T-LCM|RJ-12|Harcroft Custom Adapter (Schematic)|T.RJ12 USB Adapter|
 |**HORI**|RJ-9|None|None|
 |**VKB**|RJ-45|None|VKB sets come with USB adapter|
 
