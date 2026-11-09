@@ -1,13 +1,7 @@
 ## Adapted Controller Parts
 Parts you can plug into an adapter or PC to configure and use.
 
-
-
-### General
-
-
-
-### Left Block
+## Left Block
 
 **Gear Shifter**<br/>
 If not using a digital shifter.
