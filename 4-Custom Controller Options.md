@@ -1,7 +1,7 @@
 # 4. Custom Controller Options
 
 (**Playing on Emulator Without an Original Controller**)<br />
-If you plan on playing on emulator, you can any skip any part of this section that has to do with with the Controller Adapters, and go to the Emulator section ([section 7](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20Emulator.md)). If you want to build a custom controller, some of this knowledge will be helpful.
+If you plan on playing on PC via emulation, you can any skip any part of this section that has to do with with the Controller Adapters, and go to the PC section ([section 7](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20PC.md)). If you want to build a custom controller, some of this knowledge will be helpful.
 
 (**Playing on Xbox Without An Original Controller**)<br />
 If you want to play on Xbox or are curious about tinkering, read on.
