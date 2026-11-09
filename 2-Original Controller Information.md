@@ -58,13 +58,13 @@ See [this gallery for more images both external and internal](https://github.com
 ## Controller Maintenance
 See also, the [discord repository](https://docs.google.com/document/d/1x07HkZEguHi6axS-XynkkInpT5zI0LOTkv9B2SOCxHA/edit?tab=t.0)
 
-## Replacement Hardware and Lubricant
+### Replacement Hardware and Lubricant
 * Controller Block Bracket Screws: M4-0.7x8mm, 3mm hex head ([Amazon link](https://www.amazon.com/gp/product/B08GCGJJFH))
 * Underside Hex Wrench: 3mm head x ~61mm length ([Amazon link](https://www.amazon.com/dp/B07VKJGGJB))
 * Grease (for pedals / sticks / gear shift): Non-petroleum based white lithium grease (basically not a spray can, recommended product is Lucas Oil 10533)
 
 
-## Replacement Plastic
+### Replacement Plastic
 [Special Fred has taken it upon himself to create 3D printable versions of most of the controller's plastic pieces
 ](https://www.thingiverse.com/specialfred453/designs)
 
@@ -87,7 +87,7 @@ See also, the [discord repository](https://docs.google.com/document/d/1x07HkZEgu
  2. (Video) [N68DodgeBoy's Guide on Spring Replacement for GREEN PEDALS](https://www.youtube.com/watch?v=Zjc7WY2_tNw)
  3. (Video) [N68DodgeBoy's Guide on Regreasing the Gear Lever](https://www.youtube.com/watch?v=Pyc20dphM1w&feature=youtu.be)
 
-## Controller Mods
+### Controller Mods
  1. (Archived Website) [AlphA's Guide on Adjusting the Gear Lever Resistance](https://web.archive.org/web/20170409101223/http://www.bigmech.com/sb/sb_controller_mod/gearleaver.htm)
  2. (Archived Website) [AlphA's Guide on Button Cosmetics](http://www.bigmech.com/sb/sb_controller_mod/buttons.html)
  3. (Archived Website) [Alpha's Guide for Mega Mods Including Adding Rumble](https://web.archive.org/web/20170409123727/http://www.bigmech.com/sb/sb_controller_mod/disclaimer.html)
