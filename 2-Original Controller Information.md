@@ -49,7 +49,7 @@ See [this gallery for more images both external and internal](https://github.com
 
 ## Longevity
 
-* The original GREEN controller pedals were notoriously prone to breaking.
+* The plastic of the original GREEN controller pedals were notoriously prone to breaking.
 * The BLUE controller LEDs reportedly burn out easier, but do not affect functionality.
 * Both controllers are reported to have some issues where the joystick inputs begin failing either due to pinched wires or loose connections
   * [Left Block Example](https://www.reddit.com/r/steelbattaliononline/comments/1h1piip/left_controller_block_issues/) with culprit being a [loose connector](https://github.com/user-attachments/assets/c979a250-d1f9-4b16-93ea-f39dc9aaba75).
@@ -65,7 +65,7 @@ See [this gallery for more images both external and internal](https://github.com
 TBD
 
 ### Replacement Pedals
-* The 45 Degree Linear Potentiometers are extremely rare to buy but do exist (TOCOS RVQ28YSH 25F).
+* The 45 Degree Linear Potentiometers are extremely rare to purchase but do exist (see TOCOS RVQ28YSH 25F).
 * See [section 5](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md) for details on the pedals.
 
 ### Guides
