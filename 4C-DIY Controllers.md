@@ -74,6 +74,7 @@ The earlier Teensy boards (1-3.6) cannot run ogx360_t4, but like the other micro
 However:
 * When making an HID Joystick with the teensy **I do not recommend using the teensyduino libraries**  for configuration, This is because it forces the Teensy into devices with Mouse+Keyboard+Joystick endpoints, making them much more difficult for the adapters to read without more configuration, you will have to remove the endpoints from the library manually if you decide to do this.
 *  When making an HID Joystick with the teensy **I do not recommend using the QMK firmware**  QMK has a joystick option which forces 2 endpoints (Keyboard and Joystick),  **QMK as pure keyboard** is fine however.
+*  If you are not intending to use an adapter, and intending to connect directly to PC, either of the preceding options are fine.
 
 
 **RP2040**<br/>
