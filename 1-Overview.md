@@ -31,8 +31,8 @@ Guides on how how to adapt existing pedals for the original controller or contro
 ## 6. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/6-Improving%20Performance%20and%20Graphics%20on%20Xbox.md) <br/>
 This section describes hardware and software options for Xbox players to improve their gameplay experience
 
-## 7. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20Emulator.md) <br/>
-This section explains the options for playing Steel Battalion on PC via an Emulator and how to apply knowledge from the previous sections.
+## 7. [Playing on PC](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20PC.md) <br/>
+This section explains the options for playing Steel Battalion on PC via an Emulator/Compatibility Layer and how to apply knowledge from the previous sections.
 
 ## 8. [Misc Information](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/8-Misc%20Information.md) </br>
 This section is used as an archive for various information related to Steel Battalion. This includes guides on
