@@ -118,8 +118,8 @@ A Right-Handed Joystick that does not recenter, has a trigger and 2 additional b
 |---|---|---|
 | X-Y Joystick (Non-Recentering)| Aims weapons|
 | Trigger|Fires subweapon|
-| Primary Weapon| 
-| Lock-On|
+| Primary Weapon|Fires primary weapon 
+| Lock-On|Focuses primary weapon arm to target
 
 **Alternative Parts:** A NON-recentering joystick with a trigger and 2 buttons. Mouse with three buttons.
 
