@@ -1,4 +1,9 @@
-# 7. Playing on Emulator
+# 7. Playing on PC
+Options for playing on PC via Emulator or Compatibility Layer.
+
+**Emulators**<>
+
+**Compatibility Layer**
 
 
 ## Xemu
