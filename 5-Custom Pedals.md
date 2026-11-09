@@ -37,7 +37,7 @@ Should any of the potentiometers fail, exact replacement ones (specifically the 
 ## For the Original Controller 
 You will need:
 * Three Pedals that use linear potentiometers or have had their signals converted to do be linear. They must transmit 3.3 volts.
-* A Male Mini 6DIN connector **with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
+* A **Male Mini 6DIN connector with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
 * A circuit board or a way to splice cables together.
 
 
@@ -57,14 +57,31 @@ If already using a microcontroller as an adapter, you can hook the pedal outputs
 Pre-existing pedal sets typically are not sold as stand alone USB devices, they are sold as modules that connect to an existing USB device.
 Ergo, some require a USB adapter. 
 
-|Brand|Connector Type|Original Controller Adapter|USB Adapter|
+|Brand|Connector Type|Steel Battalion Controller Adapter|USB Adapter|
 |---|---|---|---|
-|**Logitech**<br/>G27, G29, G920, G923, PRO|DE-9|Harcroft Custom Adapter ([Schematic](https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff))|[USB Adapter](https://www.leobodnar.com/shop/index.php?main_page=product_info&products_id=187), [DIY Arduino Leonardo Tutorial](https://www.youtube.com/watch?v=6Pu1qknGjy4)|
+|**Logitech**<br/>G27, G29, G920, G923, PRO|DE-9|Harcroft Custom Adapter ([Schematic](https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff))|Yes, see options below|
 |**Thrustmaster**<br/> T3PA, T3PA-GT, T3PM, T-LCM|RJ-12|Harcroft Custom Adapter (Schematic)|T.RJ12 USB Adapter|
 |**HORI**|RJ-9|None|None|
 |**VKB**|RJ-45|None|VKB sets come with USB adapter|
 
 
+
+**Logitech Pedals**<br/>
+**Steel Battalion Adapter**<br/>
+Logitech pedals use linear potentiometers and therefore do not requires any active conversion. <br/>
+[Harcroft](https://x.com/OGX_Harcroft) sells an adaptor which converts the the DE9 connector to the Original Controller's Mini-Din6 by linking the lines.  <br/>
+
+If you would like to create your own, follow the schematic below.  <br/>
+* Mini-Din 6 male connector
+* DE9 female connector
+<img width="302.5" height="254.5" alt="image" src="https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff" />
+
+**USB Adapter**<br/>
+
+Leobodnar sells an adapter 
+There are a multitude of tutorials 
+
+[USB Adapter](https://www.leobodnar.com/shop/index.php?main_page=product_info&products_id=187), [DIY Arduino Leonardo Tutorial](https://www.youtube.com/watch?v=6Pu1qknGjy4)
 
 
 
@@ -78,7 +95,7 @@ What You Need:
 or
 
 * Three Pedals that use linear potentiometers or have had their signals converted to do such (listed below)
-* A Male Mini 6DIN connector **with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
+* A **Male Mini 6DIN connector with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
 * A circuit board or a way to splice cables together.
 
 
@@ -112,17 +129,6 @@ The degree of rotation will only matter if you need to replace a potentiometer i
 
 
 
-### Logitech Pedals
-**Adapter Type:** Input<br/>
-Logitech Pedal modules connect to their main unit via a male DE-9 Connector.  <br/>
-The potentiometers are the same as the original pedals.  <br/>
-[Harcroft](https://x.com/OGX_Harcroft) sells an adaptor which converts the the DE9 connector to the Original Controller's Mini-Din6 by linking the lines.  <br/>
-
-If you would like to create your own, follow the schematic below.  <br/>
-* Mini-Din 6 male connector
-* DE9 female connector
-
-<img width="302.5" height="254.5" alt="image" src="https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff" />
 
 ### Thrustmaster (Adapted)
 **Adapter Type:** Input<br/>
