@@ -56,13 +56,27 @@ See [this gallery for more images both external and internal](https://github.com
 
 
 ## Controller Maintenance
+See also, the [discord repository](https://docs.google.com/document/d/1x07HkZEguHi6axS-XynkkInpT5zI0LOTkv9B2SOCxHA/edit?tab=t.0)
 
-#### Replacement Plastic
+## Replacement Hardware and Lubricant
+* Controller Block Bracket Screws: M4-0.7x8mm, 3mm hex head ([Amazon link](https://www.amazon.com/gp/product/B08GCGJJFH))
+* Underside Hex Wrench: 3mm head x ~61mm length ([Amazon link](https://www.amazon.com/dp/B07VKJGGJB))
+* Grease (for pedals / sticks / gear shift): Non-petroleum based white lithium grease (basically not a spray can, recommended product is Lucas Oil 10533)
+
+
+## Replacement Plastic
 [Special Fred has taken it upon himself to create 3D printable versions of most of the controller's plastic pieces
 ](https://www.thingiverse.com/specialfred453/designs)
 
+  * [Controller Block Brackets](https://drive.google.com/file/d/15L8iFZQgFQ4VEK2P2GqDYO3qagx6gGqL/view?usp=sharing )
+  * [Ejection Cover](https://drive.google.com/file/d/1jez0jFi5w6abvGFKdNig58QFuhJYesmE/view?usp=sharing)
+  * [Tuner Dial](https://drive.google.com/file/d/14_0TkNyfoCQ1nSoCv0hhjkaAHzQPxmeb/view?usp=sharing)
+  * [Tuner Dial Light Pipe](https://drive.google.com/file/d/1x1kGud3UpjzDYSg6hKYG09BA4kJUC5c8/view?usp=sharing)
+
+
 ### Replacement Electronics
-TBD
+* Button LEDs: 3mm bullet led, forward voltage of 2.7v to 3.5v, brightness of ~ 3000mcd, view angle ~14°, w/ a clear body ([Amazon link](https://www.amazon.com/dp/B07QXR5MZB))
+* Harcroft Sells replacement Toggle Switch boards (using DSK1033 Phono Line LEVER Switches) and Gear Shifters
 
 ### Replacement Pedals
 * The 45 Degree Linear Potentiometers are extremely rare to purchase but do exist (see TOCOS RVQ28YSH 25F).
