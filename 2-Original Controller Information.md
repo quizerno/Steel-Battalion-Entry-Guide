@@ -65,7 +65,7 @@ See [this gallery for more images both external and internal](https://github.com
 TBD
 
 ### Replacement Pedals
-* The 45 Degree Linear Potentiometers are extremely rare.
+* The 45 Degree Linear Potentiometers are extremely rare to buy but do exist (TOCOS RVQ28YSH 25F).
 * See [section 5](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md) for details on the pedals.
 
 ### Guides
