@@ -3,11 +3,10 @@
 
 Creating or adapting pedals for:
 * The original controller
-* Custom controller
-* Use with PC.
+* Custom controller or for PC
 
 
-## Specifications of the Original Controller Pedals
+## Understanding the Original Controller Pedals
 
 <img width="975" height="592" alt="image" src="https://github.com/user-attachments/assets/61031888-86cc-48f7-a8e4-929d80e0cd4c" />
 
@@ -33,23 +32,6 @@ Should any of the potentiometers fail, exact replacement ones (specifically the 
 
 
 
-
-## For the Original Controller 
-You will need:
-* Three Pedals that use linear potentiometers or have had their signals converted to do be linear. They must transmit 3.3 volts.
-* A **Male Mini 6DIN connector with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
-* A circuit board or a way to splice cables together.
-
-
-## For Custom Controller or PC
-You will need:
-* Three Pedals, however you can use two and use a modifier key or switch to third input.
-* If the pedals are not already USB devices, you will need microcontroller or adapter to convert them
-
-The Pedals would ideally use linear potentiometers, but the signal can be converted via the microcontroller or if connecting to PC it will not matter.
-If already using a microcontroller as an adapter, you can hook the pedal outputs to the analogue lines and use GPIO to read the inputs.
-
-
 ## Options for Pedals 
 
 ### Pedal Sets
@@ -57,12 +39,21 @@ If already using a microcontroller as an adapter, you can hook the pedal outputs
 Pre-existing pedal sets typically are not sold as stand alone USB devices, they are sold as modules that connect to an existing USB device.
 Ergo, some require a USB adapter. 
 
-|Brand|Connector Type|Steel Battalion Controller Adapter|USB Adapter|
-|---|---|---|---|
-|**Logitech**<br/>G27, G29, G920, G923, PRO|DE-9|Harcroft Custom Adapter ([Schematic](https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff))|Yes, see options below|
-|**Thrustmaster**<br/> T3PA, T3PA-GT, T3PM, T-LCM|RJ-12|Harcroft Custom Adapter (Schematic)|T.RJ12 USB Adapter|
-|**HORI**|RJ-9|None|None|
-|**VKB**|RJ-45|None|VKB sets come with USB adapter|
+|Brand|Potentiometer|Connector Type|Steel Battalion Controller Adapter|USB Adapter|
+|---|---|---|---|---|
+|**Logitech**<br/>G27, G29, G920, G923, PRO|Linear|DE-9|Harcroft Custom Adapter ([Schematic](https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff))|Yes, see options below|
+|**Thrustmaster**<br/> T3PA, T3PA-GT, T3PM, T-LCM|Hall Effect|RJ-12|Harcroft Custom Adapter (Schematic)|T.RJ12 USB Adapter|
+|**HORI**|Linear|RJ-9|None|None|
+|**VKB**|MaRS sensor<br/> (Likely Hall Effect)|RJ-45|None|VKB sets come with USB adapter|
+|**Turtle Beach**<br/> VelocityOne Racing, VelocityOne Rudder|Hall Effect|USB-C to USB- A|None|N/A|
+|**CH**<br/> Pro Pedals|Linear|USB-A|None|N/A|
+
+### Individual Pedals
+
+
+### 3D Printed Pedals
+
+
 
 
 
@@ -282,3 +273,23 @@ The wiring is exactly the same as the potentiometer pedals
 
 
 
+
+
+
+
+
+
+## For the Original Controller 
+You will need:
+* Three Pedals that use linear potentiometers or have had their signals converted to do be linear. They must transmit 3.3 volts.
+* A **Male Mini 6DIN connector with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
+* A circuit board or a way to splice cables together.
+
+
+## For Custom Controller or PC
+You will need:
+* Three Pedals, however you can use two and use a modifier key or switch to third input.
+* If the pedals are not already USB devices, you will need microcontroller or adapter to convert them
+
+The Pedals would ideally use linear potentiometers, but the signal can be converted via the microcontroller or if connecting to PC it will not matter.
+If already using a microcontroller as an adapter, you can hook the pedal outputs to the analogue lines and use GPIO to read the inputs.
