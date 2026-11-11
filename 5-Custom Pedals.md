@@ -49,7 +49,7 @@ Ergo, some require a USB adapter.
 |**CH**<br/> Pro Pedals|Linear|USB-A|None|N/A|
 |**Mad Catz**<br/> M.2.X. PRO|Hall Effect|6P6C (RJ12) / 6P4C (RJ11) |None|N/A|
 |**Fanatec**<br/> Podium, CSL, ClubSport|Hall Effect|RJ-12|None|ClubSport USB Adapter|
-|**MOZA Racing**<br/> |Load Cell-Hall Effect|RJ-12|None|ClubSport USB Adapter|
+|**MOZA Racing**<br/> |Load Cell-Hall Effect|USB, RJ-12|None|Universal HUB Kit if not using direct connection|
 
 
 
