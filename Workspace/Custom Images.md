@@ -1,13 +1,13 @@
-|Element|Type|2D|Isometric|3D|Variants for VR|Notes|
-|---|---|---|---|---|---|---|
+|Element|Type|2D|Isometric|3D|Variants for VR|Notes|Finished|
+|---|---|---|---|---|---|---|---|
 |Button|Input|Yes|Yes|?|Pushed amd Resting Variants|
 |D-Pad|Input|Yes|Yes|?|Direction Variants|
 |Hatstick|Input|Yes|Yes|?|Direction Variants, Click-in variant|
 |Hatswitch|Input|Yes|Yes|?|Direction Variants|
 |Pedal|Input|Yes|Yes|?|Pushed, Half-Pushed amd Resting Variants|
 |Selector|Input|Yes|Yes|?|Variants Indicating different selection|
-|Shifter|Input|Yes|Yes|?|Position Variants|H Shifter and Straight Shifter
-|Slider|Input|Yes|Yes|?|Active and Resting Variants|Dial, Throttle, Knob
+|Shifter|Input|Yes|Yes|?|Position Variants|H Shifter and Straight Shifter|
+|Slider|Input|Yes|Yes|?|Active and Resting Variants|Dial, Throttle, Knob|
 |Stick|Input|Yes|Yes|?|Direction Variants, Maybe twist variant|
 |Toggle|Input|Yes|Yes|?|On and Off Variants|
 |Touchpad|Input|Yes|Yes|?|Active and Inactive Variants|
@@ -15,8 +15,8 @@
 |Wheel|Input|Yes|Yes|?|Direction Variants|
 
 
-|Element|Type|2D|Isometric|3D|Notes|
-|---|---|---|---|---|---|
+|Element|Type|2D|Isometric|3D|Notes|Finished|
+|---|---|---|---|---|---|---|
 |Simple Input|Logic|Yes|?|?||
 |X Axis|Logic|Yes|?|?||
 |Y Axis|Logic|Yes|?|?||
@@ -27,8 +27,8 @@
 
 
 
-|Element|Type|2D|Isometric|3D|Notes|
-|---|---|---|---|---|---|
+|Element|Type|2D|Isometric|3D|Notes|Finished|
+|---|---|---|---|---|---|---|
 |Steel Battalion Controller|Layout|Yes|?|?||
 |Joystick|Layout|Yes|YES|?||
 |Throttle|Layout|Yes|?|?||
