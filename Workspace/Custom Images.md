@@ -1,4 +1,4 @@
-|Element|Type|2D|Isometric|3D|Variants|Notes|
+|Element|Type|2D|Isometric|3D|Variants for VR|Notes|
 |---|---|---|---|---|---|---|
 |Button|Input|Yes|Yes|?|Pushed amd Resting Variants|
 |D-Pad|Input|Yes|Yes|?|Direction Variants|
