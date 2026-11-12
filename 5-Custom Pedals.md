@@ -84,6 +84,8 @@ Ergo, some require a USB adapter.
 |**Fanatec**<br/> Podium, CSL, ClubSport|Hall Effect|RJ-12|None|[ClubSport USB Adapter](https://www.fanatec.com/us/en/p/sim-racing-accessories/cs_usb/clubsport-usb-adapter)|2 or 3 Pedals
 |**MOZA Racing**<br/> |Load Cell-Hall Effect|USB, RJ-12|None|Universal HUB Kit if not using direct connection|2 or 3 Pedals
 |**APEX Sim Racing**<br/> |Load Cell|RJ-12|None|Comes with USB Control Box|2 or 3 Pedals
+|**Virpil**<br/> |Hall Effect|USB-A|None|N/A|2 Pedals
+|**WingWing**<br/> |Hall Effect|USB-A|None|N/A|2 Pedals
 
 
 
