@@ -1,18 +1,18 @@
-|Element|Type|2D|Isometric|3D|Notes|
+|Element|Type|2D|Isometric|3D|Variants|Notes|
 |---|---|---|---|---|---|
-|Button|Input|Yes|Yes|?||
-|D-Pad|Input|Yes|Yes|?||
-|Hatstick|Input|Yes|Yes|?||
-|Hatswitch|Input|Yes|Yes|?||
-|Pedal|Input|Yes|Yes|?||
-|Selector|Input|Yes|Yes|?||
+|Button|Input|Yes|Yes|?|Pushed amd Resting Variants|
+|D-Pad|Input|Yes|Yes|?|Direction Variants|
+|Hatstick|Input|Yes|Yes|?|Direction Variants, Click-in variant|
+|Hatswitch|Input|Yes|Yes|?|Direction Variants|
+|Pedal|Input|Yes|Yes|?|Pushed, Half-Pushed amd Resting Variants|
+|Selector|Input|Yes|Yes|?|Variants Indicating different selection|
 |Shifter|Input|Yes|Yes|?|H Shifter and Straight Shifter|
 |Slider|Input|Yes|Yes|?|Dial, Throttle, Knob|
-|Stick|Input|Yes|Yes|?||
-|Toggle|Input|Yes|Yes|?||
-|Touchpad|Input|Yes|Yes|?||
-|Trigger|Input|Yes|Yes|?||
-|Wheel|Input|Yes|Yes|?||
+|Stick|Input|Yes|Yes|?|Direction Variants, Maybe twist variant|
+|Toggle|Input|Yes|Yes|?|On and Off Variants|
+|Touchpad|Input|Yes|Yes|?|Active and Inactive Variants|
+|Trigger|Input|Yes|Yes|?|Pushed amd Resting Variants|
+|Wheel|Input|Yes|Yes|?|Direction Variants|
 
 
 |Element|Type|2D|Isometric|3D|Notes|
@@ -30,12 +30,12 @@
 |Element|Type|2D|Isometric|3D|Notes|
 |---|---|---|---|---|---|
 |Steel Battalion Controller|Layout|Yes|?|?||
-|Joystick|Layout|Yes|?|?||
+|Joystick|Layout|Yes|YES|?||
 |Throttle|Layout|Yes|?|?||
 |Gamepad|Layout|Yes|?|?||
 |Wheel|Layout|Yes|?|?||
 |Pedal Block|Layout|Yes|?|?||
-|Keyboard|Layout|Yes|?|?||
+|Keyboard|Layout|Yes|NO|?||
 
 
 
