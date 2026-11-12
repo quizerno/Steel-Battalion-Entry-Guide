@@ -1,5 +1,5 @@
 |Element|Type|2D|Isometric|3D|Variants|Notes|
-|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|
 |Button|Input|Yes|Yes|?|Pushed amd Resting Variants|
 |D-Pad|Input|Yes|Yes|?|Direction Variants|
 |Hatstick|Input|Yes|Yes|?|Direction Variants, Click-in variant|
