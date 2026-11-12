@@ -51,7 +51,7 @@ The Pedals would ideally use linear potentiometers, but the signal can be conver
 
 
 ### Linear vs Hall-Effect (Logarithmic) Potentiometers
-Gaming or Electric Pedals will generally use linear (angular, or more expensive load cells) potentiometers or logarithmic (hall-effect) potentiometers.
+Gaming or Electric Pedals will generally use linear (angular/rotary, or more expensive load cells) potentiometers or logarithmic (hall-effect) potentiometers.
 
 * If playing on PC and/or the pedals connect via USB, you do not need to worry about this distinction because the software will handle the values
 * As stated before if you need replacement pedals for the original controller, you will need linear potentiometers or you will need to convert the logarithmic signal to linear with an adapter.
@@ -74,9 +74,9 @@ Ergo, some require a USB adapter.
 
 |Brand|Potentiometer|Connector Type|Steel Battalion Controller Adapter|USB Adapter|Notes|
 |---|---|---|---|---|---|
-|**Logitech**<br/>G27, G29, G920, G923, PRO|Linear|DE-9|Harcroft Custom Adapter ([Schematic](https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff))|Yes, see options below|
+|**Logitech**<br/>G27, G29, G920, G923, PRO|Linear (Rotary)|DE-9|Harcroft Custom Adapter ([Schematic](https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff))|Yes, see options below|
 |**Thrustmaster**<br/> T3PA, T3PA-GT, T3PM, T-LCM|Hall Effect|RJ-12|Harcroft Custom Adapter (Schematic)|[T.RJ12 USB Adapter](https://www.amazon.com/Thrustmaster-J12-Adapter-Pedals-multi-USB-calibration/dp/B01F41W63S/ref=sr_1_5?channelId=500&clpRedir=Y&dib=eyJ2IjoiMSJ9.S_fUwRCGVUzF8QqwS8eacFp_S2x9LX8R18wX-xrnonuObh2QKgxfnj0GbAQEV2QahhkRSVeU6OXqOwT_qinRvRcUBVrPTvsyl0d2wEQd0VQHcZ5s_jgKAnmTFjDJPSNcXBxmYbyVxM0Fg9mKB-dea-Tt3rCOtOkQB3cBl3HccwiOYraauG_dbnRhz6hBIOV7JNfZrfQnFYOkP5_grq7jkb96ub_pIE8n__y0WVy5DvU.oAN50bsBr2S4G3SW5lqsJK3fidM9_hUNc-PLgzzrloc&dib_tag=se&keywords=logitech+pedal+adapter&plpRedirect=mhFallback&qid=1794432656&sr=8-5), T-LCM version has direct USB option|
-|**HORI**|Linear|RJ-9, Other(?)|None|None|Most Hori sets come with 2 pedals, but there are some with 3
+|**HORI**|Linear (Rotary)|RJ-9, Other(?)|None|None|Most Hori sets come with 2 pedals, but there are some with 3
 |**VKB**|MaRS sensor<br/> (Likely Hall Effect)|RJ-45|None|VKB sets come with USB adapter|2 pedals
 |**Turtle Beach**<br/> VelocityOne Racing, VelocityOne Rudder|Hall Effect|USB-C to USB- A|None|N/A|2 Pedals
 |**CH**<br/> Pro Pedals|Linear|USB-A|None|N/A|2 Pedals, Older Gameport Version exists, but [can be converted to USB](http://giovannimedici.wordpress.com/2020/10/11/ch-pro-pedals-gameport-to-usb-adapter/)
