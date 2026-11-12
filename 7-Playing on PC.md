@@ -1,10 +1,15 @@
 # 7. Playing on PC
 Options for playing on PC via Emulator or Compatibility Layer.
 
-**Emulators**<>
+**Xbox Emulators**
+* Xemu -
+* PenguinBox Xemu
+* Cxbx-Reloaded
+* [HakuX](https://github.com/rfandango/hakuX) - for Android
 
-**Compatibility Layer**
 
+**Xbox Compatibility Layers**
+* [Reduxibox Suite](https://github.com/Reduximus-Technologies/Reduxibox-Suite) - For Linux
 
 ## Xemu
 - **[Xemu Website](https://xemu.app/)**
@@ -38,7 +43,7 @@ Here are alternative forks of Xemu, most of them are based on the pre-existing u
 | Xemu with Vulkan Graphics (VK)| [Usb_passthrough_vk](https://github.com/faha223/xemu/tree/usb_passthrough_vk)|Steel Battalion|By SpecialFred: uses SDL3 for controls bindings
 | Xemu with OpenGL Graphics|[Usb_passthrough](https://github.com/faha223/xemu/tree/usb_passthrough)|Steel Battalion: Line of Contact|By SpecialFred: uses SDL2 for controls bindings, Input menu will display passthrough controller inputs
 | Xemu with Vulkan Graphics (VK) and QOL|[Xemu-SB-VK](https://github.com/quizerno/Xemu-SB-VK)|Steel Battalion|Fork of above build by Quizerno: options to disable hotkeys, rebinding keyboard from within the game (requires restart)
-| Xemu with Multiple Joystick Mapping|None, can be [downloaded here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Archived%20Files/FluffyStuff%20Xemu%20Build.7z) |Steel Battalion(?)|By FluffStuff: uses an older version of Xemu but allows joystick inputs. 
+| Xemu with Multiple Joystick Mapping|None, Windows build can be [downloaded here](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/Archived%20Files/FluffyStuff%20Xemu%20Build.7z) |Steel Battalion(?)|By FluffStuff: uses an older version of Xemu but allows joystick inputs. 
 
 
 ## Improving Steel Battalion Performance on XEMU
@@ -124,10 +129,6 @@ sudo apt-get install libepoxy-dev
 sudo apt-get install python3-sphinx
 
 sudo apt-get install python3-sphinx-rtd-theme
-
-
-
-
 
 #if needing to remove some dependencies
 
