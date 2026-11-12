@@ -1,3 +1,50 @@
+|Element|Type|2D|Isometric|3D|Notes|
+|---|---|---|---|---|---|
+|Button|Input|Yes|Yes|?||
+|D-Pad|Input|Yes|Yes|?||
+|Hatstick|Input|Yes|Yes|?||
+|Hatswitch|Input|Yes|Yes|?||
+|Pedal|Input|Yes|Yes|?||
+|Selector|Input|Yes|Yes|?||
+|Shifter|Input|Yes|Yes|?|H Shifter and Straight Shifter|
+|Slider|Input|Yes|Yes|?|Dial, Throttle, Knob|
+|Stick|Input|Yes|Yes|?||
+|Toggle|Input|Yes|Yes|?||
+|Touchpad|Input|Yes|Yes|?||
+|Trigger|Input|Yes|Yes|?||
+|Wheel|Input|Yes|Yes|?||
+
+
+|Element|Type|2D|Isometric|3D|Notes|
+|---|---|---|---|---|---|
+|Simple Input|Logic|Yes|?|?||
+|X Axis|Logic|Yes|?|?||
+|Y Axis|Logic|Yes|?|?||
+|XY Axis|Logic|Yes|?|?||
+|Z Axis|Logic|Yes|?|?||
+|Twist Axis|Logic|Yes|?|?||
+|Modifier|Logic|Yes|?|?||
+
+
+
+|Element|Type|2D|Isometric|3D|Notes|
+|---|---|---|---|---|---|
+|Steel Battalion Controller|Layout|Yes|?|?||
+|Joystick|Layout|Yes|?|?||
+|Throttle|Layout|Yes|?|?||
+|Gamepad|Layout|Yes|?|?||
+|Wheel|Layout|Yes|?|?||
+|Pedal Block|Layout|Yes|?|?||
+|Keyboard|Layout|Yes|?|?||
+
+
+
+
+
+
+
+
+
 
 <img width="2486" height="1996" alt="image" src="https://github.com/user-attachments/assets/948720f2-7a52-410b-b3f4-7fc2c57c3f61" />
 <img width="1125" height="1131" alt="icons" src="https://github.com/user-attachments/assets/dcfc09a8-6f56-4f50-97e1-8e7e3f0a4853" />
