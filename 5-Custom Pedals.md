@@ -79,7 +79,7 @@ Ergo, some require a USB adapter.
 |**HORI**|Linear (Rotary)|RJ-9, Other(?)|None|None|Most Hori sets come with 2 pedals, but there are some with 3
 |**VKB**|MaRS sensor<br/> (Likely Hall Effect)|RJ-45|None|VKB sets come with USB adapter|2 pedals
 |**Turtle Beach**<br/> VelocityOne Racing, VelocityOne Rudder|Hall Effect|USB-C to USB- A|None|N/A|2 Pedals
-|**CH**<br/> Pro Pedals|Linear|USB-A|None|N/A|2 Pedals, Older Gameport Version exists, but [can be converted to USB](http://giovannimedici.wordpress.com/2020/10/11/ch-pro-pedals-gameport-to-usb-adapter/)
+|**CH**<br/> Pro Pedals|Linear (Rotary)|USB-A|None|N/A|2 Pedals, Older Gameport Version exists, but [can be converted to USB](http://giovannimedici.wordpress.com/2020/10/11/ch-pro-pedals-gameport-to-usb-adapter/)
 |**Mad Catz**<br/> M.2.X. PRO|Hall Effect|6P6C (RJ12) / 6P4C (RJ11) |None|N/A|3 Pedals
 |**Fanatec**<br/> Podium, CSL, ClubSport|Hall Effect|RJ-12|None|[ClubSport USB Adapter](https://www.fanatec.com/us/en/p/sim-racing-accessories/cs_usb/clubsport-usb-adapter)|2 or 3 Pedals
 |**MOZA Racing**<br/> |Load Cell-Hall Effect|USB, RJ-12|None|Universal HUB Kit if not using direct connection|2 or 3 Pedals
