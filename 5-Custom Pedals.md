@@ -81,7 +81,7 @@ Here is a list of brands that sell pedal units, with known information.
 
 |Brand|Potentiometer|Connector Type|Steel Battalion Controller Adapter|USB Adapter|Notes|
 |---|---|---|---|---|---|
-|**Logitech**<br/>G27, G29, G920, G923, PRO|Linear (Rotary)|DE-9|Harcroft Custom Adapter ([Schematic](https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff))|Yes, see options below|
+|**Logitech**<br/>G27, G29, G920, G923, PRO|Linear (Rotary)|DE-9|Harcroft Custom Adapter ([Schematic](https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff))||
 |**Thrustmaster**<br/> T3PA, T3PA-GT, T3PM, T-LCM|Log (Hall Effect)|RJ-12|Harcroft Custom Adapter (Schematic)|[T.RJ12 USB Adapter](https://www.amazon.com/Thrustmaster-J12-Adapter-Pedals-multi-USB-calibration/dp/B01F41W63S/ref=sr_1_5?channelId=500&clpRedir=Y&dib=eyJ2IjoiMSJ9.S_fUwRCGVUzF8QqwS8eacFp_S2x9LX8R18wX-xrnonuObh2QKgxfnj0GbAQEV2QahhkRSVeU6OXqOwT_qinRvRcUBVrPTvsyl0d2wEQd0VQHcZ5s_jgKAnmTFjDJPSNcXBxmYbyVxM0Fg9mKB-dea-Tt3rCOtOkQB3cBl3HccwiOYraauG_dbnRhz6hBIOV7JNfZrfQnFYOkP5_grq7jkb96ub_pIE8n__y0WVy5DvU.oAN50bsBr2S4G3SW5lqsJK3fidM9_hUNc-PLgzzrloc&dib_tag=se&keywords=logitech+pedal+adapter&plpRedirect=mhFallback&qid=1794432656&sr=8-5), T-LCM version has direct USB option|
 |**HORI**|Linear (Rotary)|RJ-9, Other(?)|None|None|Most Hori sets come with 2 pedals, but there are some with 3
 |**VKB**|MaRS sensor<br/> (Likely Hall Effect)|RJ-45|None|VKB sets come with USB adapter|2 pedals
