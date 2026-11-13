@@ -35,63 +35,80 @@ Should any of the potentiometers fail, exact replacement ones (specifically the 
 ## Custom Pedal Requirements
 
 
-### For the Original Controller 
-You will need:
-* Three Pedals that use linear potentiometers or have had their signals converted to do be linear. They must transmit 3.3 volts.
-* A **Male Mini 6DIN connector with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
-* A circuit board or a way to splice cables together.
+#### The digital option
+If you do not care about the analog precision. You have option of using digital pedal switches, the wiring is the same as the regular pedals.
+This is a quick and cheap method for play, but it gives you far less control over the speed of the VT.
 
+### Linear vs Logarithmic Potentiometers
+Gaming or Electric Pedals will generally use one of two types of potentiometers
 
-### For Custom Controller or PC
-You will need:
-* Three Pedals, however you can use two and use a modifier key or switch to third input.
-* If the pedals are not already USB devices, you will need microcontroller or adapter to convert them
-
-The Pedals would ideally use linear potentiometers, but the signal can be converted via the microcontroller or if connecting to PC it will not matter.
-
-
-### Linear vs Hall-Effect (Logarithmic) Potentiometers
-Gaming or Electric Pedals will generally use linear (angular/rotary, or more expensive load cells) potentiometers or logarithmic (hall-effect) potentiometers.
-
-* If playing on PC and/or the pedals connect via USB, you do not need to worry about this distinction because the software will handle the values
-* As stated before if you need replacement pedals for the original controller, you will need linear potentiometers or you will need to convert the logarithmic signal to linear with an adapter.
-
-Adapters are discussed later on this page.
-
+* **Linear:** Angular/Rotary potentiometers, or more expensive Load Cells
+* **Logarithmic:** Hall-Effect sensors, or AMR sensors.
+* 
 The difference in the output is shown below.
 
 <img width="300" height="192" alt="image" src="https://github.com/user-attachments/assets/637909cc-485b-4b3e-9048-809a26f0ef72" />
 
 [Source](https://learnabout-electronics.org/Resistors/resistors_09a.php)
 
+* As stated before if you need replacement pedals for the original controller (or using GPIO), you will need linear potentiometers or you will need to convert the logarithmic signal to linear with an adapter.
+* If playing on PC and/or the pedals connect via USB, you do not need to worry about this distinction because the software and drivers will handle the values.
+
+Adapters are discussed later on this page.
+
+
+### For the Original Controller 
+You will need:
+* Three Pedals that use linear potentiometers or have had their signals converted to do be linear. They must transmit 3.3 volts.
+* A **Male Mini 6DIN connector with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
+* A circuit board or a way to splice cables together.
+See the wiring at the beginning of this page
+
+
+### For Custom Controller or PC
+You will need:
+* Three Pedals, however you can use two and use a modifier key or switch to third input.
+* While this should be obvious. If the pedals are not already USB devices, you will need microcontroller or adapter to convert them
+
+
 
 ## Options for Pedals 
 
 ### Pedal Sets
 
-Pre-existing pedal sets typically are not sold as stand alone USB devices, they are sold as modules that connect to an existing USB device.
-Ergo, some require a USB adapter. 
+Pre-existing pedal sets typically are not sold as stand alone USB devices, they are sold as modules that connect to an existing USB device but some will come with an adapter.
+Here is a list of brands that sell pedal units, with known information.
 
 |Brand|Potentiometer|Connector Type|Steel Battalion Controller Adapter|USB Adapter|Notes|
 |---|---|---|---|---|---|
 |**Logitech**<br/>G27, G29, G920, G923, PRO|Linear (Rotary)|DE-9|Harcroft Custom Adapter ([Schematic](https://github.com/user-attachments/assets/b740d8c6-5328-447d-a2ae-1e075b457dff))|Yes, see options below|
-|**Thrustmaster**<br/> T3PA, T3PA-GT, T3PM, T-LCM|Hall Effect|RJ-12|Harcroft Custom Adapter (Schematic)|[T.RJ12 USB Adapter](https://www.amazon.com/Thrustmaster-J12-Adapter-Pedals-multi-USB-calibration/dp/B01F41W63S/ref=sr_1_5?channelId=500&clpRedir=Y&dib=eyJ2IjoiMSJ9.S_fUwRCGVUzF8QqwS8eacFp_S2x9LX8R18wX-xrnonuObh2QKgxfnj0GbAQEV2QahhkRSVeU6OXqOwT_qinRvRcUBVrPTvsyl0d2wEQd0VQHcZ5s_jgKAnmTFjDJPSNcXBxmYbyVxM0Fg9mKB-dea-Tt3rCOtOkQB3cBl3HccwiOYraauG_dbnRhz6hBIOV7JNfZrfQnFYOkP5_grq7jkb96ub_pIE8n__y0WVy5DvU.oAN50bsBr2S4G3SW5lqsJK3fidM9_hUNc-PLgzzrloc&dib_tag=se&keywords=logitech+pedal+adapter&plpRedirect=mhFallback&qid=1794432656&sr=8-5), T-LCM version has direct USB option|
+|**Thrustmaster**<br/> T3PA, T3PA-GT, T3PM, T-LCM|Log (Hall Effect)|RJ-12|Harcroft Custom Adapter (Schematic)|[T.RJ12 USB Adapter](https://www.amazon.com/Thrustmaster-J12-Adapter-Pedals-multi-USB-calibration/dp/B01F41W63S/ref=sr_1_5?channelId=500&clpRedir=Y&dib=eyJ2IjoiMSJ9.S_fUwRCGVUzF8QqwS8eacFp_S2x9LX8R18wX-xrnonuObh2QKgxfnj0GbAQEV2QahhkRSVeU6OXqOwT_qinRvRcUBVrPTvsyl0d2wEQd0VQHcZ5s_jgKAnmTFjDJPSNcXBxmYbyVxM0Fg9mKB-dea-Tt3rCOtOkQB3cBl3HccwiOYraauG_dbnRhz6hBIOV7JNfZrfQnFYOkP5_grq7jkb96ub_pIE8n__y0WVy5DvU.oAN50bsBr2S4G3SW5lqsJK3fidM9_hUNc-PLgzzrloc&dib_tag=se&keywords=logitech+pedal+adapter&plpRedirect=mhFallback&qid=1794432656&sr=8-5), T-LCM version has direct USB option|
 |**HORI**|Linear (Rotary)|RJ-9, Other(?)|None|None|Most Hori sets come with 2 pedals, but there are some with 3
 |**VKB**|MaRS sensor<br/> (Likely Hall Effect)|RJ-45|None|VKB sets come with USB adapter|2 pedals
 |**Turtle Beach**<br/> VelocityOne Racing, VelocityOne Rudder|Hall Effect|USB-C to USB- A|None|N/A|2 Pedals
 |**CH**<br/> Pro Pedals|Linear (Rotary)|USB-A|None|N/A|2 Pedals, Older Gameport Version exists, but [can be converted to USB](http://giovannimedici.wordpress.com/2020/10/11/ch-pro-pedals-gameport-to-usb-adapter/)
-|**Mad Catz**<br/> M.2.X. PRO|Hall Effect|6P6C (RJ12) / 6P4C (RJ11) |None|N/A|3 Pedals
+|**Mad Catz**<br/> M.2.X. PRO|Log (Hall Effect)|6P6C (RJ12) / 6P4C (RJ11) |None|N/A|3 Pedals
 |**Fanatec**<br/> Podium, CSL, ClubSport|Hall Effect|RJ-12|None|[ClubSport USB Adapter](https://www.fanatec.com/us/en/p/sim-racing-accessories/cs_usb/clubsport-usb-adapter)|2 or 3 Pedals
 |**MOZA Racing**<br/> |Load Cell-Hall Effect|USB, RJ-12|None|Universal HUB Kit if not using direct connection|2 or 3 Pedals
 |**APEX Sim Racing**<br/> |Load Cell|RJ-12|None|Comes with USB Control Box|2 or 3 Pedals
-|**Virpil**<br/> |Hall Effect|USB-A|None|N/A|2 Pedals
-|**WingWing**<br/> |Hall Effect|USB-A|None|N/A|2 Pedals
+|**Virpil**<br/> |Log (Hall Effect)|USB-A|None|N/A|2 Pedals
+|**WingWing**<br/> |Log (Hall Effect)|USB-A|None|N/A|2 Pedals
 
 
+## DIY Pedal Units
+Go-kart and Industrial Pedals
+Online, there are a couple of cheap options for pedals that are normally intended for non-gaming.<br/>
+These pedals, however, sometimes use Hall Effect sensors which are not linear. Again, Harcroft sells an adapter for this particular model, and has provided schematics if you wish to build it yourself.
 
 
+<img width="3280" height="3364" alt="image" src="https://github.com/user-attachments/assets/d98a4bc3-74e7-4d9b-a9a3-441520692bb8" />
 
-### Individual Pedals
+
+<img width="1146" height="489" alt="image" src="https://github.com/user-attachments/assets/41432c9e-959a-4608-a047-b896b9fe84c8" />
+
+<img width="441.5" height="408" alt="image" src="https://github.com/user-attachments/assets/67a57e8d-1abc-4eb0-9616-f703e49e3347" />
+
+<img width="1121" height="404" alt="image" src="https://github.com/user-attachments/assets/23dd0a4c-8518-4844-96a4-aa73d9e6ab53" />
 
 
 ### 3D Printed Pedals
@@ -126,46 +143,10 @@ There are a multitude of tutorials
 
 
 
-***Custom Pedals for the Original Controller***<br/>
-
-What You Need:
-
-* One of the Pedal Options listed 
-
-or
-
-* Three Pedals that use linear potentiometers or have had their signals converted to do such (listed below)
-* A **Male Mini 6DIN connector with all 6 lines**, only 5 lines are used but a regular PS/2 Cable might not work if it omits two of the lines. This connects to the middle control block.
-* A circuit board or a way to splice cables together.
-
-
-***Custom Pedals for a Controller Adapter or PC***<br/>
 
 
 
 
-If looking to repair the original controller pedals
-
-
-The degree of rotation will only matter if you need to replace a potentiometer in the original chassis.
-
-
-
-## Pedals for the Original Controller
-
-
-
-
-## Pedals for an Adapted Controller or PC
-
-
-
-
-## Original Controller Replacement Custom Pedals<br/>
-
-
-
-## Pedal Sets
 
 
 
@@ -181,26 +162,7 @@ This adapter has worked with the following models: T3PA, T3PA-GT, T3PM, T-LCM<br
 
 
 
-## DIY Pedal Units
 
-
-Go-kart and Industrial Pedals
-Online, there are a couple of cheap options for pedals that are normally intended for non-gaming.<br/>
-These pedals, however, sometimes use Hall Effect sensors which are not linear. Again, Harcroft sells an adapter for this particular model, and has provided schematics if you wish to build it yourself.
-
-
-<img width="3280" height="3364" alt="image" src="https://github.com/user-attachments/assets/d98a4bc3-74e7-4d9b-a9a3-441520692bb8" />
-
-
-<img width="1146" height="489" alt="image" src="https://github.com/user-attachments/assets/41432c9e-959a-4608-a047-b896b9fe84c8" />
-
-<img width="441.5" height="408" alt="image" src="https://github.com/user-attachments/assets/67a57e8d-1abc-4eb0-9616-f703e49e3347" />
-
-<img width="1121" height="404" alt="image" src="https://github.com/user-attachments/assets/23dd0a4c-8518-4844-96a4-aa73d9e6ab53" />
-
-#### The digital option
-
-If you do not care about the analog precision. You have option of using digital pedal switches.
 
 
 **Replacement Pedals for the Original Controller**
