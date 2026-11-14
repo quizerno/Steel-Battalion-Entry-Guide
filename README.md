@@ -33,7 +33,7 @@ Introduction - Readme
       * C-[DIY Controllers](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/4C-DIY%20Controllers.md)
 5. [Custom Pedals](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md)<br /> 
 6. [Improving Performance and Graphics on Xbox](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/6-Improving%20Performance%20and%20Graphics%20on%20Xbox.md)<br />
-7. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20Emulator.md)<br />
+7. [Playing on Emulator](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/7-Playing%20on%20PC.md)<br />
 8. [Misc Information](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/8-Misc%20Information.md)<br />	  
 
 
