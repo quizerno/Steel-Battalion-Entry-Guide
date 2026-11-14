@@ -1,6 +1,6 @@
 |Element|Type|2D|Isometric|3D|Variants for VR|Notes|Finished|
 |---|---|---|---|---|---|---|---|
-|Button|Input|Yes|Yes|?|Pushed amd Resting Variants|
+|Button|Input|Yes|Yes|?|Pushed and Resting Variants|
 |D-Pad|Input|Yes|Yes|?|Direction Variants|
 |Hatstick|Input|Yes|Yes|?|Direction Variants, Click-in variant|
 |Hatswitch|Input|Yes|Yes|?|Direction Variants|
