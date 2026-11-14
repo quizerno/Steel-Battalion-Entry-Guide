@@ -4,14 +4,14 @@
 |D-Pad|Input|Yes|Yes|?|Direction Variants|
 |Hatstick|Input|Yes|Yes|?|Direction Variants, Click-in variant|
 |Hatswitch|Input|Yes|Yes|?|Direction Variants|
-|Pedal|Input|Yes|Yes|?|Pushed, Half-Pushed amd Resting Variants|
+|Pedal|Input|Yes|Yes|?|Pushed, Half-Pushed and Resting Variants|
 |Selector|Input|Yes|Yes|?|Variants Indicating different selection|
 |Shifter|Input|Yes|Yes|?|Position Variants|H Shifter and Straight Shifter|
 |Slider|Input|Yes|Yes|?|Active and Resting Variants|Dial, Throttle, Knob|
 |Stick|Input|Yes|Yes|?|Direction Variants, Maybe twist variant|
 |Toggle|Input|Yes|Yes|?|On and Off Variants|
 |Touchpad|Input|Yes|Yes|?|Active and Inactive Variants|
-|Trigger|Input|Yes|Yes|?|Pushed amd Resting Variants|
+|Trigger|Input|Yes|Yes|?|Pushed and Resting Variants|
 |Wheel|Input|Yes|Yes|?|Direction Variants|
 
 
