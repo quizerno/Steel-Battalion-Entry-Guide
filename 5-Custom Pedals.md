@@ -85,12 +85,12 @@ Here is a list of brands that sell pedal units, with known information.
 |**Thrustmaster**<br/> T3PA, T3PA-GT, T3PM, T-LCM|Log (Hall Effect)|RJ-12|Harcroft Custom Adapter (Schematic)|[T.RJ12 USB Adapter](https://www.amazon.com/Thrustmaster-J12-Adapter-Pedals-multi-USB-calibration/dp/B01F41W63S/ref=sr_1_5?channelId=500&clpRedir=Y&dib=eyJ2IjoiMSJ9.S_fUwRCGVUzF8QqwS8eacFp_S2x9LX8R18wX-xrnonuObh2QKgxfnj0GbAQEV2QahhkRSVeU6OXqOwT_qinRvRcUBVrPTvsyl0d2wEQd0VQHcZ5s_jgKAnmTFjDJPSNcXBxmYbyVxM0Fg9mKB-dea-Tt3rCOtOkQB3cBl3HccwiOYraauG_dbnRhz6hBIOV7JNfZrfQnFYOkP5_grq7jkb96ub_pIE8n__y0WVy5DvU.oAN50bsBr2S4G3SW5lqsJK3fidM9_hUNc-PLgzzrloc&dib_tag=se&keywords=logitech+pedal+adapter&plpRedirect=mhFallback&qid=1794432656&sr=8-5), T-LCM version has direct USB option|
 |**HORI**|Linear (Rotary)|RJ-9, Other(?)|None|None|Most Hori sets come with 2 pedals, but there are some with 3
 |**VKB**|MaRS sensor<br/> (Likely Hall Effect)|RJ-45|None|VKB sets come with USB adapter|2 pedals
-|**Turtle Beach**<br/> VelocityOne Racing, VelocityOne Rudder|Hall Effect|USB-C to USB- A|None|N/A|2 Pedals
+|**Turtle Beach**<br/> VelocityOne Racing, VelocityOne Rudder|Log (Hall Effect)|USB-C to USB- A|None|N/A|2 Pedals
 |**CH**<br/> Pro Pedals|Linear (Rotary)|USB-A|None|N/A|2 Pedals, Older Gameport Version exists, but [can be converted to USB](http://giovannimedici.wordpress.com/2020/10/11/ch-pro-pedals-gameport-to-usb-adapter/)
 |**Mad Catz**<br/> M.2.X. PRO|Log (Hall Effect)|6P6C (RJ12) / 6P4C (RJ11) |None|N/A|3 Pedals
-|**Fanatec**<br/> Podium, CSL, ClubSport|Hall Effect|RJ-12|None|[ClubSport USB Adapter](https://www.fanatec.com/us/en/p/sim-racing-accessories/cs_usb/clubsport-usb-adapter)|2 or 3 Pedals
-|**MOZA Racing**<br/> |Load Cell-Hall Effect|USB, RJ-12|None|Universal HUB Kit if not using direct connection|2 or 3 Pedals
-|**APEX Sim Racing**<br/> |Load Cell|RJ-12|None|Comes with USB Control Box|2 or 3 Pedals
+|**Fanatec**<br/> Podium, CSL, ClubSport|Log (Hall Effect)|RJ-12|None|[ClubSport USB Adapter](https://www.fanatec.com/us/en/p/sim-racing-accessories/cs_usb/clubsport-usb-adapter)|2 or 3 Pedals
+|**MOZA Racing**<br/> |Hybrid (Load Cell-Hall Effect)|USB, RJ-12|None|Universal HUB Kit if not using direct connection|2 or 3 Pedals
+|**APEX Sim Racing**<br/> |Linear (Load Cell)|RJ-12|None|Comes with USB Control Box|2 or 3 Pedals
 |**Virpil**<br/> |Log (Hall Effect)|USB-A|None|N/A|2 Pedals
 |**WingWing**<br/> |Log (Hall Effect)|USB-A|None|N/A|2 Pedals
 
