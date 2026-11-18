@@ -42,12 +42,12 @@
 
 ## UI
 * **Request:** need clear control option [WILL COME BACK TO THIS)
-* **Request:** for keyboard, need prebuilt configurations
+* **Request:** for keyboard, need prebuilt configurations (I will provide)
 * **Request:** need quick button assign option
 * **Request:** lines to inputs should be highlighted
 * **Bug:** highlighted inputs appearing upward when cursor is over them
 * **Request:** images for rig should be moveable
 * **Bug**  Rotation lever is showing as an X-Y axis, it should just show as an X axis
 * **Request:** Input selection should be segmented by Block and Digital/Analogue inputs
-* * **Request:** option to clear all assigned inputs
+* **Request:** option to clear all assigned inputs
 * **Request:** Input colors should be in rig display
