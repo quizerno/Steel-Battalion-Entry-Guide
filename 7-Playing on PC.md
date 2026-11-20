@@ -1,15 +1,18 @@
 # 7. Playing on PC
-Options for playing on PC via Emulator or Compatibility Layer.
+Options for playing on PC
 
 **Xbox Emulators**
-* Xemu -
-* PenguinBox Xemu
-* Cxbx-Reloaded
+* [Xemu ](https://xemu.app/)- Linux and Windows
+* [PenguinBox Xemu](https://github.com/PenguinVRLab/PenguinBox/releases) - Linux and Windows
+* [Cxbx-Reloaded](https://cxbx-reloaded.co.uk/) - Windows
+* [Xbased](https://github.com/crazyriddler/xbased) - Linux and Windows
 * [HakuX](https://github.com/rfandango/hakuX) - for Android
 
-
-**Xbox Compatibility Layers**
+**Compatibility Layers**
+* [Steelbound](https://github.com/Greevee-Lab/Steelbound) 
 * [Reduxibox Suite](https://github.com/Reduximus-Technologies/Reduxibox-Suite) - For Linux
+
+**
 
 ## Xemu
 - **[Xemu Website](https://xemu.app/)**
