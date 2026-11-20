@@ -99,7 +99,7 @@ Your choice of board and firmware should ultimately be dependent on your end goa
 
 **RP2040**
 * [HID Remapper](https://github.com/jfedor2/hid-remapper) - Keyboard remapper with some controller support, but does not have prebuilt configurations.
-* [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) - Similar to OGX mini, does have keyboard support, GPIO support, but does not have prebuilt configurations and web configurator does not support steel battalion, Steel Battalion is included in the libraries.
+* [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE) - Similar to OGX mini, does have keyboard support, GPIO support, but does not have prebuilt configurations and web configurator does not support Steel Battalion, however Steel Battalion is included in the libraries.
 * [Joypad-os](https://github.com/joypad-ai/joypad-os) - Steel Battalion not yet implemented.
 
 **Arduino or RP2040**
