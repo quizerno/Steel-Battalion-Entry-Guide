@@ -21,3 +21,5 @@
 ## Using the Steel Battalion Controller on PC
 
 Using the Steel Battalion Controller on PC used to require either a microcontroller or using windows signed mode. Now with custom drivers it can be used with a bit of finagling.
+
+https://github.com/faha223/XboxPeripheralLibusbTools/
