@@ -73,9 +73,9 @@ You will need:
 If you do not wish to use foot pedals or cannnot use foot pedals. 
 With a custom controller you have the option of rebinding leftover analog controls, with options such as:
 
-* **Left or Right Joystick:** Rebind the Left Z Axis Twist, Right Z Axis Twist, and/or Secondary Triggers.
-* **Left Joystick:** Since the Y axis on the left joystick is unused, Forward and Backward can be bound as separate axis
-* **Throttle:** Throttle Axis' Forward and Backward can be bound as separate axis
+* **Left or Right Joystick:** Rebind the Left Z Axis Twist, Right Z Axis Twist, and/or Secondary Analog Triggers.
+* **Left Joystick:** Since the Y axis on the left joystick is unused, Forward and Backward can be bound as separate axis.
+* **Throttle:** Throttle Axis' Forward and Backward can be bound as separate axis.
 
 
 ### Pedal Sets
