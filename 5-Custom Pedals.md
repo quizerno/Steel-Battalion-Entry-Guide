@@ -34,11 +34,6 @@ Should any of the potentiometers fail, exact replacement ones (specifically the 
 
 ## Custom Pedal Requirements
 
-
-#### The digital option
-If you do not care about the analog precision. You have option of using digital pedal switches or remapping buttons on a joystick, the wiring is the same as the regular pedals.
-This is a quick and cheap method for play, but it gives you far less control over the speed of the VT.
-
 ### Linear vs Logarithmic Potentiometers
 Gaming or Electric Pedals will generally use one of two types of potentiometers
 
@@ -74,6 +69,15 @@ You will need:
 
 ## Options for Pedals 
 
+### Rebinding Joystick Axes on a Custom Controller
+If you do not wish to use foot pedals or cannnot use foot pedals. 
+With a custom controller you have the option of rebinding leftover analog controls, with options such as:
+
+* **Left or Right Joystick:** Rebind the Left Z Axis Twist, Right Z Axis Twist, and/or Secondary Triggers.
+* **Left Joystick:** Since the Y axis on the left joystick is unused, Forward and Backward can be bound as separate axis
+* **Throttle:** Throttle Axis' Forward and Backward can be bound as separate axis
+
+
 ### Pedal Sets
 
 Pre-existing pedal sets typically are not sold as stand alone USB devices, they are sold as modules that connect to an existing USB device but some will come with an adapter.
@@ -95,7 +99,7 @@ Here is a list of brands that sell pedal units, with known information.
 |**WingWing**<br/> |Log (Hall Effect)|USB-A|None|N/A|2 Pedals
 
 
-## DIY Pedal Units
+### DIY Pedal Units
 Go-kart and Industrial Pedals
 Online, there are a couple of cheap options for pedals that are normally intended for non-gaming.<br/>
 These pedals, however, sometimes use Hall Effect sensors which are not linear. Again, Harcroft sells an adapter for this particular model, and has provided schematics if you wish to build it yourself.
@@ -118,6 +122,10 @@ There are a multitude of 3D printable options available. These are perfectly fin
 * https://www.printables.com/model/770673-sim-racing-pedals-with-load-cell
 * https://www.thingiverse.com/thing:4812405
 * https://www.youtube.com/watch?v=I4P86DJPXAc
+
+### The digital option
+If you do not care about the analog precision. You have option of using digital pedal switches or remapping buttons on a joystick, the wiring is the same as the regular pedals.
+This is a quick and cheap method for play, but it gives you far less control over the speed of the VT.
 
 
 
