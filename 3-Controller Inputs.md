@@ -154,7 +154,9 @@ Three analog pedals, spring loaded with 45 degrees of rotation.
 |---|---|---|
 | Slide Step: Does an evasive manuever<br>depending on the direction<br>of the rotation joystick. Jumps forward if no rotation, jumps backward if in reverse.|Break, slows down depending on the pressure.|Acceleration: moves forward/backward and speeds up depending on selected gear. |
 
-**Alternative Parts:** See [section on the pedals](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/5-Custom%20Pedals.md) for a full breakdown of what options you have.,
+**Alternative Parts:** 
+* Essentially 3 analogue inputs.
+* See [section on the pedals](https://github.com/quizerno/DIY-Steel-Battalion-Controller-Guide/blob/main/5-Custom%20Pedals.md) for a full breakdown of what options you have.,
 
 
 
