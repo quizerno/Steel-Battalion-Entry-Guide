@@ -36,7 +36,7 @@ Should any of the potentiometers fail, exact replacement ones (specifically the 
 
 
 #### The digital option
-If you do not care about the analog precision. You have option of using digital pedal switches, the wiring is the same as the regular pedals.
+If you do not care about the analog precision. You have option of using digital pedal switches or remapping buttons on a joystick, the wiring is the same as the regular pedals.
 This is a quick and cheap method for play, but it gives you far less control over the speed of the VT.
 
 ### Linear vs Logarithmic Potentiometers
@@ -44,7 +44,7 @@ Gaming or Electric Pedals will generally use one of two types of potentiometers
 
 * **Linear:** Angular/Rotary potentiometers, or more expensive Load Cells
 * **Logarithmic:** Hall-Effect sensors, or AMR sensors.
-* 
+
 The difference in the output is shown below.
 
 <img width="300" height="192" alt="image" src="https://github.com/user-attachments/assets/637909cc-485b-4b3e-9048-809a26f0ef72" />
