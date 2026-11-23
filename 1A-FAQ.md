@@ -72,8 +72,11 @@ But since we have extensive documentation, it should not be considered impossibl
 No. They can be created with 2 digital inputs each.
 
 **Are pedals necessary?** <br/>
-Not strictly necessary. If you don't find pedals comfortable, you can bind them to other analog buttons.
-If using the original controller you will need to add something in place of those inputs.
+
+If using the original controller you will need to add something in place of those inputs. They do not necessarily need to be pedals, just 3 analogue inputs.
+
+If custom controller, they are not strictly necessary. If you don't find pedals comfortable, you can bind the pedal inputs to other analog inputs.
+
 
 
 ## Other Questions
