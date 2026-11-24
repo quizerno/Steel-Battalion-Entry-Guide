@@ -50,7 +50,9 @@ If not using a digital tuner. You can do one of the following:
 
 **Right Handed Non-Centering Joystick**<br/>
 Non-Centering is not an absolute requirement for the right joystick, but does reflect the original controller better.
+
 Any joystick that only uses one spring can be easily modded to be non centering.
+
 Sub Weapon Fire bound to trigger, Main Weapon Fire and Lock-On bound to thumb buttons.
 |Part|Price|Additional Inputs|Notes|
 |---|---|---|---|
