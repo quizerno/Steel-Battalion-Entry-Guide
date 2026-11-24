@@ -46,6 +46,14 @@ If not using a digital tuner. You can do one of the following:
 * Use one of the sliders or throttles from left or right joysticks, map the axis positions to each of the tuner positions. Each positions would be the full output of the throttle divided by 16.
 * For a [keyboard that has a volume knob](https://www.amazon.com/dp/B0DN1H5FV3?lv=shuf&channelId=500&plpRedirect=mhFallback&th=1) you can map the volume knob to the tuner so that volume-up does tuner PLUS and volume-down does tuner MINUS.
 
+**Websites for Configuring or Visualizing Keyboard Layouts**<br/>
+* [keyboard-layout-editor](https://www.keyboard-layout-editor.com/#/)
+* [Keyboard Layout Creator](https://keyboard-layout-creator.com/)
+* [Keyboard-Tools](https://editor.keyboard-tools.xyz/)
+* [Keyboard Layout Builder & Detector](https://keyboard.madtyping.com/)
+* [QMK Configurator](https://config.qmk.fm)
+* [Keyboard Simulator](https://keyboardsimulator.xyz/)
+
 ## Right Block
 
 **Right Handed Non-Centering Joystick**<br/>
