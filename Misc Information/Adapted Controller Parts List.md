@@ -68,5 +68,14 @@ Monitor and Camera buttons can be bound to the joystick's remaining buttons or f
 See [Pedals Section](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/5-Custom%20Pedals.md)
 
 
+## 3D Printable Joystick Options
 
-
+* [TheSimNet](https://cults3d.com/en/users/TheSimNet/3d-models)
+* [Akaki](https://www.thingiverse.com/thing:4576634)
+  * [Jordankkoyman's remix of the above](https://github.com/jordankooyman/3D-Printed-DIY-Joystick)
+  * 
+* [Adam_Si](https://makerworld.com/en/models/576583-diy-joystick-parametric#profileId-2707654)
+* [Adam Freeman](https://www.myminifactory.com/object/3d-print-digital-arcade-flightstick-3-the-raptor-stl-version-222262)
+* [LazyLime](https://cults3d.com/en/3d-model/gadget/lazylime-s-joystick)\
+* [TheRaelNoisyBoi](https://github.com/TheRaelNoisyBoi/DIY-HOTAS-Ecosystem) (DIY HOTAS Ecosystem)
+* [XDr4g0nX](https://www.thingiverse.com/thing:1810592) (Throttle)
