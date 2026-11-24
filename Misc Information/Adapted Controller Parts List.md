@@ -49,7 +49,7 @@ If not using a digital tuner. You can do one of the following:
 **Websites for Configuring or Visualizing Keyboard Layouts**<br/>
 * [keyboard-layout-editor](https://www.keyboard-layout-editor.com/#/)
 * [Keyboard Layout Creator](https://keyboard-layout-creator.com/)
-* [Keyboard-Tools](https://editor.keyboard-tools.xyz/)
+* [Keyboard-Tools](https://keyboard-tools.xyz/)
 * [Keyboard Layout Builder & Detector](https://keyboard.madtyping.com/)
 * [QMK Configurator](https://config.qmk.fm)
 * [Keyboard Simulator](https://keyboardsimulator.xyz/)
