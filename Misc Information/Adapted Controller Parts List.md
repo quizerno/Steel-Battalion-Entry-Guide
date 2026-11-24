@@ -24,6 +24,7 @@ Best if the joystick here has a hatstick or hatswitch for the sightchange, a but
 |[Turtle Beach Velocity One](https://www.turtlebeach.com/products/velocity-one-flight-stick)|140 USD|27 buttons, 2 throttles|Ambidextrous, OLED Display, RGB
 |[URSA MINOR Airline Joystick Right Handed](https://winctrl.com/view/goods-details.html?id=559)|62 USD|16 buttons, 1 throttle, hatswitch|Adjustable
 |[Saitek Aviator Dual Throttle Joystick](https://www.amazon.com/dp/B000I62PEK?lv=shuf&channelId=500&plpRedirect=mhFallback)|20-62 USD||Ambidextrous, PC, PS3 and Xbox 360 models, PC model has toggle switches
+|[Gladiator NXT EVO ‘Space Combat Edition’ - Left Hand (US)](https://vkbsimcontrollers.com/products/gladiator-nxt-evo-space-combat-edition-left-hand-us)|139.00|
 
 
 **Toggle Switches**<br/>
