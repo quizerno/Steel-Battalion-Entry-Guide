@@ -96,14 +96,15 @@ Yes
 
 ## Terminology
 Just to make sure things are clear.<br />
-**Original Controller and pedals:** Refers to the Steel Battalion Controller and its pedals
+**Original Controller and pedals:** Refers to the Steel Battalion Controller and its pedals <br />
 **Custom Controller:** Refers to any controller that is not the original Steel Battalion controller<br />
 **Custom Pedals:** Refers to any pedals that are not the original Steel Battalion pedals<br />
 **Controller Adapter:** Microcontroller used to spoof Steel Battalion inputs<br />
 **Adapter Board:** The physical hardware, microcontroller, of the Controller Adapter<br />
-**Pedal SBC Adapter:** A board that converts the signals of pedals for use with Steel Batalion, NOT JUST A MICROCONTROLLER<br />
-**Pedal USB Adapter:** A board that converts pedals to USB
-**Adapted Controller:** A pre-existing controller that has is connected by USB and has it's inputs read by an adapter<br />
+**HID Device:** USB Devices <br />
+**Pedal SBC Adapter:** A board that converts the signals of pedals for use with Steel Batalion, **Logitech Adapter** , **Thrustmaster Adapter** (and it's related **Hall Effect Adapter**)<br />
+**Pedal USB Adapter:** A board that converts pedals to USB. <br />
+**Adapted Controller:** A pre-existing controller that has is connected by USB and has it's inputs read by an adapter. <br />
 **DIY Controller:** A controller made from scratch and not pre-existing parts.<br />
 **DIY Pedals:** Pedals made from scratch. <br />
 **Input:** Joystick, Button, Switch, Pedal.<br />
