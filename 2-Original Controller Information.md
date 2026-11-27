@@ -1,7 +1,7 @@
 # 2. Original Controller Information
 
 <img width="620" height="465" alt="image" src="https://github.com/user-attachments/assets/4960c102-b1b6-4ff9-9525-b2123274e2aa" />
-****
+
 See also these pages on the wiki [FAQ](https://steelbattalion.fandom.com/wiki/FAQ) and [Controller Differences](https://steelbattalion.fandom.com/wiki/Controller_Differences)
 
 
