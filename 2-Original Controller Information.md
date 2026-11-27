@@ -1,7 +1,7 @@
 # 2. Original Controller Information
 
 <img width="620" height="465" alt="image" src="https://github.com/user-attachments/assets/4960c102-b1b6-4ff9-9525-b2123274e2aa" />
-
+****
 See also these pages on the wiki [FAQ](https://steelbattalion.fandom.com/wiki/FAQ) and [Controller Differences](https://steelbattalion.fandom.com/wiki/Controller_Differences)
 
 
@@ -9,8 +9,9 @@ See also these pages on the wiki [FAQ](https://steelbattalion.fandom.com/wiki/FA
 The Steel Battalion Controller, also nicknamed the Mega Jockey 9000 and sometimes the VT Controller, is a large four piece videogame controller built solely for the puporse of playing (you guessed it) Steel Battalion.
 There exist two variants, the first release GREEN button-LED controller (released in 2002) and the BLUE button-LED controller (released in 2004). 
 
+* **Product ID:** D000
+* **Vendor ID:** 0A7B
 
-## Dimensions
 
 [via ifixit](https://www.ifixit.com/Device/Steel_Battalion_Controller)<br />
 **Main Controller**<br />
