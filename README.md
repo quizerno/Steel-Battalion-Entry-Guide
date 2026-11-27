@@ -21,6 +21,8 @@ This guide should not be considered definitive. There are many things that need 
 
 My goal with this guide is to make a series of easy to understand tutorials that even someone without knowledge of github can use. However since the topic of this guide is inherently very confusing, it therefore requires a lot of information that does not necessarily have a linear order. Proceed to the [Overview.](https://github.com/quizerno/Steel-Battalion-Entry-Guide/blob/main/1-Overview.md)
 
+**During the time of this guide's writing (2026)**. There were several strides made in the emulation department, therefore if you have a good PC you can play Steel Battalion with regular USB controls
+
 # Table of Contents
 Introduction - Readme
 
