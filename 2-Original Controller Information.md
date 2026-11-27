@@ -12,7 +12,7 @@ There exist two variants, the first release GREEN button-LED controller (release
 * **Product ID:** D000
 * **Vendor ID:** 0A7B
 
-
+## Dimensions
 [via ifixit](https://www.ifixit.com/Device/Steel_Battalion_Controller)<br />
 **Main Controller**<br />
 * **Length:** 32.65 in (88 cm)
@@ -25,7 +25,6 @@ There exist two variants, the first release GREEN button-LED controller (release
 * **Pedal Height:** 8.25 in (21 cm)
 
 <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/28f43c9a-d5ca-48b0-ae92-e34873a119f7" />
-
 
 
 ## Inputs
