@@ -43,7 +43,7 @@ You need to build your own pedals or adapt existing pedals with an adapter. Go d
 
 **How much does a Steel Battalion Controller usually cost?** <br/>
 Between 160 USD to 250 USD, if importing from Japan it can be even more expensive due to shipping costs and import fees.
-While the the original Steel Battalion Controller is quite expensive and a collector's item. It should be noted that you could consider spending that money on another high end controller and still play the game.
+While the the original Steel Battalion Controller is quite expensive and a collector's item, it should be noted that you could consider spending that money on another high end controller and still play the game.
 
 **Is Steel Battalion worth it?** <br/>
 That will depend on your interest in simulation games. If you're into them, Steel Battalion is worth trying at least once.
@@ -53,7 +53,7 @@ Either way you will have to spend quite a bit.
 
 **Can you give me a rough bill of sale?** <br/>
 
-For **Xbox Play**, if not buying the original controller I would expect at least 100 to 150 USD.
+For **Xbox Play**, if not buying the original controller I would expect at least 100 to 150 USD. If buying the original controller, expect to pay at least 200 dollars or more.
 
 For **Emulator Play**, provided your PC can run it, it would only be the cost of whichever controller you choose.
 
@@ -87,18 +87,23 @@ No, this has been tested by N68dodgeboy. Even if you were able to link the contr
 No, neither of these consoles have mod options. In theory it would be possible to put an emulator on those consoles but they have ram limitations which make it impossible for now.
 
 **Can I use the SB controller on PC for the Emulator and/or other games?** <br/>
-Yes, there are a couple methods to do this. See my section on using the Controller on PC 
+Yes, there are a couple methods to do this. See the Misc Info section.
+
+**Does PC include Mac and Linux in addition to Windows?** <br/>
+Yes
+
 
 
 ## Terminology
 Just to make sure things are clear.<br />
+**Original Controller and pedals:** Refers to the Steel Battalion Controller and its pedals
 **Custom Controller:** Refers to any controller that is not the original Steel Battalion controller<br />
 **Custom Pedals:** Refers to any pedals that are not the original Steel Battalion pedals<br />
-**Controller Adapter:** Microcontroller used to do Steel Battalion inputs<br />
+**Controller Adapter:** Microcontroller used to spoof Steel Battalion inputs<br />
 **Adapter Board:** The physical hardware, microcontroller, of the Controller Adapter<br />
-**Pedal Input Adapter Board:** A board that converts the signals of pedals for use with Steel Baatalion, NOT A MICROCONTROLLER<br />
+**Pedal SBC Adapter:** A board that converts the signals of pedals for use with Steel Batalion, NOT JUST A MICROCONTROLLER<br />
+**Pedal USB Adapter:** A board that converts pedals to USB
 **Adapted Controller:** A pre-existing controller that has is connected by USB and has it's inputs read by an adapter<br />
-**Adapted Pedals:** A pre-existing set of pedals that has is connected by USB and has it's inputs read by an adapter<br />
-**DIY Controller:** A controller made from scratch.<br />
+**DIY Controller:** A controller made from scratch and not pre-existing parts.<br />
 **DIY Pedals:** Pedals made from scratch. <br />
 **Input:** Joystick, Button, Switch, Pedal.<br />
