@@ -72,7 +72,6 @@ But since we have extensive documentation, it should not be considered impossibl
 No. They can be created with 2 digital inputs each.
 
 **Are pedals necessary?** <br/>
-
 If using the original controller you will need to add something in place of those inputs. They do not necessarily need to be pedals, just 3 analogue inputs.
 
 If custom controller, they are not strictly necessary. If you don't find pedals comfortable, you can bind the pedal inputs to other analog inputs.
@@ -101,10 +100,11 @@ Just to make sure things are clear.<br />
 **Custom Pedals:** Refers to any pedals that are not the original Steel Battalion pedals<br />
 **Controller Adapter:** Microcontroller used to spoof Steel Battalion inputs<br />
 **Adapter Board:** The physical hardware, microcontroller, of the Controller Adapter<br />
-**HID Device:** USB Devices <br />
+**HID Device:** USB Devices, pre-made Controllers <br />
+**Pedal Sets:** Pre-made pedals
 **Pedal SBC Adapter:** A board that converts the signals of pedals for use with Steel Batalion, **Logitech Adapter** , **Thrustmaster Adapter** (and it's related **Hall Effect Adapter**)<br />
 **Pedal USB Adapter:** A board that converts pedals to USB. <br />
-**Adapted Controller:** A pre-existing controller that has is connected by USB and has it's inputs read by an adapter. <br />
+**Adapted Controller:** A pre-existing controller (HID Device) that is connected by USB and has it's inputs read by an adapter. <br />
 **DIY Controller:** A controller made from scratch and not pre-existing parts.<br />
-**DIY Pedals:** Pedals made from scratch. <br />
+**DIY Pedals:** Pedal sets made from scratch. <br />
 **Input:** Joystick, Button, Switch, Pedal.<br />
